@@ -5,7 +5,6 @@ let currentFilter = 'all';
 let visibleQs = [];
 
 async function inicializarCuestionario() {
-  // Lista de archivos JSON por categoría dentro de la carpeta data/
   const archivos = [
     'data/cardiaco.json',
     'data/respiratorio.json',
@@ -15,22 +14,21 @@ async function inicializarCuestionario() {
   ];
 
   try {
-    // Ejecutamos todas las descargas en paralelo para mayor eficiencia
-    const respuestas = await Promise.all(archivos.map(url => fetch(url)));
-    
-    // Validamos que todas las respuestas sean correctas antes de procesar
-    const datosFinales = await Promise.all(respuestas.map(res => {
-      if (!res.ok) throw new Error(`No se pudo cargar: ${res.url}`);
-      return res.json();
-    }));
+    const respuestas = await Promise.all(archivos.map(url => 
+      fetch(url).then(res => res.ok ? res.json() : { preguntas: [] }) // Si falla, devuelve vacío
+      .catch(() => ({ preguntas: [] })) // Captura errores de red
+    ));
 
-    // Fusionamos los arrays de "preguntas" de cada archivo en la variable global
-    // Se asume que cada JSON tiene una estructura: { "preguntas": [...] }
-    QUESTIONS = datosFinales.flatMap(datos => datos.preguntas);
+    // Filtrar y fusionar solo los que tengan datos
+    QUESTIONS = respuestas.flatMap(datos => datos.preguntas || []);
     
+    if (QUESTIONS.length === 0) {
+      console.warn("No se cargaron preguntas. Revisa que los archivos JSON existan y tengan el formato correcto.");
+    }
+
     renderAll();
   } catch (error) {
-    console.error("Error al cargar la base de preguntas fraccionada:", error);
+    console.error("Error crítico en la inicialización:", error);
   }
 }
 
