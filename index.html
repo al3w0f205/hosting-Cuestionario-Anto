@@ -3,131 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedQuest Pro v2 · Entrenamiento Clínico</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>StudyHub · Plataforma de Entrenamiento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #06080c;
+            --surface: #0f121a;
+            --card: #141923;
+            --border: #1e2633;
+            --text: #e8edf5;
+            --muted: #62728e;
+            --blue: #3b9eff;
+            --green: #00e5a0;
+            --purple: #a855f7;
+            --cyan: #22d3ee;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg); color: var(--text);
+            font-family: 'DM Sans', sans-serif;
+            min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden;
+        }
+        .glow-bg {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background:
+                radial-gradient(circle at 15% 25%, rgba(59,158,255,0.05) 0%, transparent 45%),
+                radial-gradient(circle at 85% 75%, rgba(168,85,247,0.05) 0%, transparent 45%);
+            pointer-events: none; z-index: -1;
+        }
+        header {
+            padding: 28px 60px; border-bottom: 1px solid var(--border);
+            display: flex; align-items: center; justify-content: space-between;
+            background: rgba(6,8,12,0.7); backdrop-filter: blur(12px);
+            position: sticky; top: 0; z-index: 100;
+        }
+        .brand { display: flex; flex-direction: column; gap: 3px; }
+        .brand-tag { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); letter-spacing: 4px; }
+        .brand-name { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800; letter-spacing: -1px; }
+        .brand-name span { color: var(--blue); }
+        .version-pill { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); border: 1px solid var(--border); padding: 6px 14px; border-radius: 20px; }
+        main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 40px; }
+        .hero { text-align: center; margin-bottom: 70px; }
+        .hero-label { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 20px; display: inline-block; }
+        .hero-title { font-family: 'Syne', sans-serif; font-size: clamp(42px, 6vw, 70px); font-weight: 800; letter-spacing: -3px; line-height: 1; margin-bottom: 22px; }
+        .hero-title em { font-style: normal; color: var(--muted); }
+        .hero-sub { color: var(--muted); font-size: 15px; font-weight: 300; line-height: 1.8; max-width: 480px; margin: 0 auto; }
+        .modules-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 980px; width: 100%; }
+        .module-card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 28px; padding: 48px;
+            text-decoration: none; color: inherit;
+            transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+            display: block; position: relative; overflow: hidden;
+        }
+        .module-card::after {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+            opacity: 0; transition: opacity 0.35s;
+        }
+        .module-card.med::after { background: linear-gradient(90deg, transparent, var(--blue), var(--green), transparent); }
+        .module-card.ing::after { background: linear-gradient(90deg, transparent, var(--purple), var(--cyan), transparent); }
+        .module-card:hover { transform: translateY(-8px); }
+        .module-card:hover::after { opacity: 1; }
+        .module-card.med:hover { border-color: rgba(59,158,255,0.35); box-shadow: 0 30px 70px rgba(59,158,255,0.07); }
+        .module-card.ing:hover { border-color: rgba(168,85,247,0.35); box-shadow: 0 30px 70px rgba(168,85,247,0.07); }
+        .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 28px; }
+        .card-icon-wrap { width: 56px; height: 56px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 26px; }
+        .med .card-icon-wrap { background: rgba(59,158,255,0.08); border: 1px solid rgba(59,158,255,0.15); }
+        .ing .card-icon-wrap { background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.15); }
+        .card-arrow { font-family: 'DM Mono', monospace; font-size: 18px; opacity: 0; transform: translateX(-8px); transition: all 0.3s; }
+        .med .card-arrow { color: var(--blue); }
+        .ing .card-arrow { color: var(--purple); }
+        .module-card:hover .card-arrow { opacity: 1; transform: translateX(0); }
+        .card-module-tag { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 10px; display: block; }
+        .med .card-module-tag { color: var(--blue); }
+        .ing .card-module-tag { color: var(--purple); }
+        .card-title { font-family: 'Syne', sans-serif; font-size: 34px; font-weight: 800; letter-spacing: -1.5px; margin-bottom: 14px; }
+        .card-desc { color: var(--muted); font-size: 14px; line-height: 1.75; font-weight: 300; margin-bottom: 30px; }
+        .card-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+        .chip { font-family: 'DM Mono', monospace; font-size: 10px; padding: 5px 12px; border-radius: 20px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); color: var(--muted); }
+        .card-cta { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 1.5px; display: inline-flex; align-items: center; gap: 8px; }
+        .med .card-cta { color: var(--blue); }
+        .ing .card-cta { color: var(--purple); }
+        .card-stats { display: flex; gap: 28px; margin-top: 6px; padding-top: 28px; border-top: 1px solid var(--border); }
+        .stat-item { display: flex; flex-direction: column; gap: 3px; }
+        .stat-val { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 800; }
+        .med .stat-val { color: var(--green); }
+        .ing .stat-val { color: var(--cyan); }
+        .stat-lbl { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted); letter-spacing: 1px; }
+        footer { padding: 24px 60px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .footer-text { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 1px; }
+        @media (max-width: 768px) {
+            .modules-grid { grid-template-columns: 1fr; }
+            header { padding: 20px 24px; }
+            main { padding: 40px 20px; }
+            .module-card { padding: 30px; }
+            footer { flex-direction: column; gap: 10px; text-align: center; padding: 20px; }
+        }
+    </style>
 </head>
 <body>
-
 <div class="glow-bg"></div>
-
-<button class="exit-zen-btn" onclick="toggleFocusMode()">
-    <span>ESC</span> · SALIR DEL MODO ENFOQUE
-</button>
-
-<header class="navbar" id="navbar">
-    <div class="nav-container">
-        <div class="nav-brand">
-            <span class="brand-tag">UDLA · MEDICINA</span>
-            <h1 class="brand-title">CARDIO<span>&</span>RESP</h1>
-        </div>
-        
-        <div class="nav-stats">
-            <div class="timer-display" id="timerDisplay" style="display: none;">0:00</div>
-            <div class="stat-pill">
-                <span class="pill-label">PUNTAJE</span>
-                <span class="pill-value" id="scoreDisplay">0</span>
-            </div>
-            <div class="nav-progress">
-                <div class="progress-info">
-                    <span id="progressNum">0</span>/<span id="totalNum">0</span>
-                </div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar-fill" id="progressBar"></div>
-                </div>
-            </div>
-        </div>
+<header>
+    <div class="brand">
+        <span class="brand-tag">PLATAFORMA EDUCATIVA</span>
+        <span class="brand-name">STUDY<span>HUB</span></span>
     </div>
+    <span class="version-pill">v2.0</span>
 </header>
-
-<main class="content-wrapper">
-    <aside class="control-panel" id="sidebar">
-        <div class="panel-section">
-            <h3 class="section-title">DOMINIO POR ÁREA</h3>
-            <div id="masteryIndex" class="mastery-container"></div>
-        </div>
-
-        <details class="panel-section" open>
-            <summary class="section-title">CATEGORÍAS <span class="toggle-icon">▼</span></summary>
-            <div class="filter-grid" style="margin-top: 15px;">
-                <button class="filter-btn active" onclick="filterCat('all', this)">Todas</button>
-                <button class="filter-btn" onclick="filterCat('cardiaco', this)">Cardíaco</button>
-                <button class="filter-btn" onclick="filterCat('respiratorio', this)">Respiratorio</button>
-                <button class="filter-btn" onclick="filterCat('calculo', this)">Cálculos</button>
-                <button class="filter-btn" onclick="filterCat('radiologia', this)">Radiología</button>
-                <button class="filter-btn" onclick="filterCat('ekg', this)">EKG</button>
+<main>
+    <div class="hero">
+        <span class="hero-label">Selecciona un módulo</span>
+        <h1 class="hero-title">Entrena.<br><em>Practica.</em> Domina.</h1>
+        <p class="hero-sub">Quizzes adaptativos, analítica de rendimiento por área, modo simulacro y visor de código integrado con GitHub.</p>
+    </div>
+    <div class="modules-grid">
+        <a href="./medicina/" class="module-card med">
+            <div class="card-top">
+                <div class="card-icon-wrap">🫀</div>
+                <span class="card-arrow">→</span>
             </div>
-        </details>
-
-        <details class="panel-section" open>
-            <summary class="section-title">HERRAMIENTAS <span class="toggle-icon">▼</span></summary>
-            <div class="action-list" style="margin-top: 15px;">
-                <label class="tool-switch">
-                    <input type="checkbox" id="examModeToggle" onchange="toggleExamMode()">
-                    <span class="slider"></span>
-                    <span class="tool-label">Modo Simulacro</span>
-                </label>
-                
-                <div style="display: flex; flex-direction: column; gap: 8px;">
-                    <label class="tool-switch">
-                        <input type="checkbox" id="timerToggle" onchange="toggleTimerMode()">
-                        <span class="slider"></span>
-                        <span class="tool-label">Presión de Tiempo</span>
-                    </label>
-                    <div id="timerConfig" style="display: none; padding-left: 46px; margin-bottom: 5px;">
-                        <label style="font-size: 11px; color: var(--muted); display: block; margin-bottom: 6px;">Segundos por pregunta</label>
-                        <input type="number" id="customTimeInput" value="45" min="5" max="300" style="width: 100%; background: rgba(255,255,255,0.02); border: 1px solid var(--border); color: var(--text); padding: 10px; border-radius: 10px; font-family: 'DM Mono', monospace; font-size: 13px;" onchange="updateTimerValue(); restart();">
-                    </div>
-                </div>
-
-                <button class="action-btn" onclick="toggleFocusMode()">
-                    <i>👁️</i> Modo Enfoque (Zen)
-                </button>
-                
-                <button class="action-btn" onclick="manualShuffle()">
-                    <i>🔀</i> Mezclar Todo
-                </button>
-                
-                <button class="action-btn review" id="reviewBtn" onclick="reviewErrors(this)" style="display: none;">
-                    <i>⚠️</i> Errores (<span id="errorCount">0</span>)
-                </button>
+            <span class="card-module-tag">UDLA · Medicina</span>
+            <h2 class="card-title">Cardio &amp; Resp</h2>
+            <p class="card-desc">Entrenamiento clínico con casos reales de cardiología, respiratorio, electrocardiografía, radiología de tórax y cálculos médicos.</p>
+            <div class="card-chips">
+                <span class="chip">Cardíaco</span>
+                <span class="chip">Respiratorio</span>
+                <span class="chip">EKG</span>
+                <span class="chip">Radiología</span>
+                <span class="chip">Cálculos</span>
             </div>
-        </details>
-    </aside>
-
-    <section class="quiz-area">
-        <div id="questionsContainer"></div>
-
-        <button id="finishBtn" class="btn-primary" onclick="showSummary()" style="display: none; margin: 40px auto; width: 100%;">FINALIZAR SESIÓN</button>
-
-        <div class="summary" id="summary">
-            <div class="summary-header">
-                <span class="summary-emoji" id="summaryIcon">🏆</span>
-                <h2 id="summaryTitle">Análisis Completado</h2>
-                <div class="diagnostic-report" id="diagnosticReport"></div>
+            <div class="card-cta">ENTRAR AL MÓDULO →</div>
+            <div class="card-stats">
+                <div class="stat-item"><span class="stat-val">5</span><span class="stat-lbl">ÁREAS</span></div>
+                <div class="stat-item"><span class="stat-val">Quiz</span><span class="stat-lbl">MODO</span></div>
+                <div class="stat-item"><span class="stat-val">Zen</span><span class="stat-lbl">ENFOQUE</span></div>
             </div>
-            <div class="summary-grid">
-                <div class="result-card">
-                    <span class="res-val" id="statCorrect">0</span>
-                    <span class="res-lab">CORRECTAS</span>
-                </div>
-                <div class="result-card error">
-                    <span class="res-val" id="statWrong">0</span>
-                    <span class="res-lab">ERRORES</span>
-                </div>
-                <div class="result-card accent">
-                    <span class="res-val" id="statPct">0%</span>
-                    <span class="res-lab">PRECISIÓN</span>
-                </div>
+        </a>
+        <a href="./ingenieria/" class="module-card ing">
+            <div class="card-top">
+                <div class="card-icon-wrap">⚙️</div>
+                <span class="card-arrow">→</span>
             </div>
-            <div class="summary-actions">
-                <button class="btn-primary" onclick="restart()">NUEVA SESIÓN</button>
-                <button class="btn-secondary" onclick="exportSession()">EXPORTAR ANALÍTICA</button>
+            <span class="card-module-tag">UDLA · Ing. Software</span>
+            <h2 class="card-title">DevQuest</h2>
+            <p class="card-desc">Quizzes de ingeniería de software con algoritmos, estructuras de datos, redes y patrones, más visor de código integrado con GitHub.</p>
+            <div class="card-chips">
+                <span class="chip">Algoritmos</span>
+                <span class="chip">Estructuras</span>
+                <span class="chip">Redes</span>
+                <span class="chip">BD</span>
+                <span class="chip">Patrones</span>
+                <span class="chip">GitHub</span>
             </div>
-        </div>
-    </section>
+            <div class="card-cta">ENTRAR AL MÓDULO →</div>
+            <div class="card-stats">
+                <div class="stat-item"><span class="stat-val">5</span><span class="stat-lbl">ÁREAS</span></div>
+                <div class="stat-item"><span class="stat-val">Quiz</span><span class="stat-lbl">MODO</span></div>
+                <div class="stat-item"><span class="stat-val">Code</span><span class="stat-lbl">VIEWER</span></div>
+            </div>
+        </a>
+    </div>
 </main>
-
-<script src="script.js"></script>
+<footer>
+    <span class="footer-text">STUDYHUB · PLATAFORMA EDUCATIVA PERSONAL</span>
+    <span class="footer-text">UDLA · 2025</span>
+</footer>
 </body>
 </html>
