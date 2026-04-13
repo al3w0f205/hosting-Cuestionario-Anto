@@ -1,0 +1,2548 @@
+{
+  "preguntas": [
+    {
+      "cat": "calculo",
+      "q": "Un paciente presenta una presión arterial de 120/90 mmHg. ¿Cuál es su presión de pulso o presión diferencial?",
+      "opts": ["210 mmHg", "30 mmHg", "105 mmHg", "40 mmHg"],
+      "ans": 1,
+      "just": "La presión de pulso se define como la diferencia entre la presión sistólica junto con la diastólica; por consiguiente, 120 - 90 resulta en 30 mmHg.",
+      "hint": "PAS - PAD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media (PAM) de un individuo con una presión de 110/80 mmHg.",
+      "opts": ["95 mmHg", "90 mmHg", "100 mmHg", "85.5 mmHg"],
+      "ans": 1,
+      "just": "Se aplica la fórmula PAM = PAD + 1/3 (PAS - PAD); por lo tanto, 80 + 1/3(30) es igual a 90 mmHg.",
+      "hint": "Suma un tercio de la diferencial a la diastólica."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un vaso sanguíneo reduce su radio a la mitad, ¿cuántas veces aumenta su resistencia al flujo según la ley de Poiseuille?",
+      "opts": ["2 veces", "4 veces", "8 veces", "16 veces"],
+      "ans": 3,
+      "just": "La resistencia es inversamente proporcional a la cuarta potencia del radio; consecuentemente, (1/2)^4 implica un aumento de 16 veces.",
+      "hint": "Eleva el cambio del radio a la cuarta potencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene un volumen telediastólico (VTD) de 140 ml y un volumen telesistólico (VTS) de 60 ml. ¿Cuál es su volumen latido (VS)?",
+      "opts": ["200 ml", "80 ml", "100 ml", "50 ml"],
+      "ans": 1,
+      "just": "El volumen sistólico se obtiene restando el volumen que queda tras la contracción del volumen total previo a la sístole; por ende, 140 - 60 es igual a 80 ml.",
+      "hint": "VTD - VTS."
+    },
+    {
+      "cat": "calculo",
+      "q": "¿Cuál es la fracción de eyección (FE) de un corazón con VTD de 120 ml y VS de 72 ml?",
+      "opts": ["50%", "60%", "70%", "40%"],
+      "ans": 1,
+      "just": "La FE se calcula como (VS / VTD) x 100; por consiguiente, (72 / 120) resulta en un 60%, lo cual se considera normal.",
+      "hint": "Porcentaje del volumen total que es expulsado."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco (GC) de un sujeto con un volumen sistólico de 70 ml y una frecuencia cardíaca de 75 lpm.",
+      "opts": ["5250 ml/min", "4900 ml/min", "6000 ml/min", "3500 ml/min"],
+      "ans": 0,
+      "just": "El gasto cardíaco es el producto del volumen expulsado en cada latido por la frecuencia; asimismo, 70 x 75 da como resultado 5.25 L/min.",
+      "hint": "VS x FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "En un EKG con ritmo regular, se cuentan 3 cuadros grandes entre dos ondas R sucesivas. ¿Cuál es la frecuencia cardíaca?",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 2,
+      "just": "Utilizando el método de los 300, se divide esta constante para el número de cuadros grandes; por lo tanto, 300 / 3 es igual a 100 lpm.",
+      "hint": "300 / N° cuadros grandes."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si en un trazado se observan 20 cuadros pequeños en el intervalo R-R, la frecuencia cardíaca exacta es:",
+      "opts": ["100 lpm", "75 lpm", "60 lpm", "50 lpm"],
+      "ans": 1,
+      "just": "A una velocidad de 25 mm/s, se divide 1500 para el número de cuadros pequeños; consecuentemente, 1500 / 20 resulta en 75 lpm.",
+      "hint": "1500 / N° cuadros pequeños."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen minuto respiratorio de un paciente con un volumen corriente de 500 ml y una frecuencia respiratoria de 12 rpm.",
+      "opts": ["4 L/min", "6 L/min", "8 L/min", "10 L/min"],
+      "ans": 1,
+      "just": "La ventilación minuto es el producto del aire movilizado por la frecuencia de ciclos; por ende, 500 ml x 12 da un total de 6000 ml/min.",
+      "hint": "VC x FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un individuo tiene un volumen corriente de 500 ml, un espacio muerto anatómico de 150 ml y una FR de 10 rpm. ¿Cuál es su ventilación alveolar?",
+      "opts": ["5000 ml/min", "3500 ml/min", "1500 ml/min", "4500 ml/min"],
+      "ans": 1,
+      "just": "La ventilación alveolar descuenta el aire que no realiza intercambio; por tanto, (500 - 150) x 10 resulta en 3500 ml/min.",
+      "hint": "(VC - Vd) x FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Según el principio de Fick, si el consumo de O2 es 250 ml/min, el contenido arterial de O2 es 200 ml/L y el venoso es 150 ml/L, el gasto cardíaco es:",
+      "opts": ["2 L/min", "5 L/min", "10 L/min", "4 L/min"],
+      "ans": 1,
+      "just": "GC = Consumo O2 / (Ca - Cv); consecuentemente, 250 / (200 - 150) es igual a 5 L/min.",
+      "hint": "Divide el consumo para la diferencia arteriovenosa."
+    },
+    {
+      "cat": "calculo",
+      "q": "¿Cuál es la capacitancia (distensibilidad) de un vaso sanguíneo que aumenta su volumen en 100 ml cuando la presión se eleva 10 mmHg?",
+      "opts": ["1000 ml/mmHg", "10 ml/mmHg", "1 ml/mmHg", "0.1 ml/mmHg"],
+      "ans": 1,
+      "just": "La capacitancia se define como el cambio de volumen por unidad de presión; asimismo, 100 / 10 es igual a 10 ml/mmHg.",
+      "hint": "C = ΔV / ΔP."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la velocidad de flujo (v) en una arteria con un área de sección transversal de 2 cm² y un flujo (Q) de 10 cm³/s.",
+      "opts": ["20 cm/s", "5 cm/s", "2 cm/s", "10 cm/s"],
+      "ans": 1,
+      "just": "La velocidad es inversamente proporcional al área para un flujo constante; por consiguiente, v = Q / A, lo que da 5 cm/s.",
+      "hint": "v = Q / A."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente con PA de 150/90 mmHg presenta una PAM de:",
+      "opts": ["120 mmHg", "110 mmHg", "100 mmHg", "130 mmHg"],
+      "ans": 1,
+      "just": "PAM = 90 + 1/3 (60); por lo tanto, la presión de perfusión promedio es de 110 mmHg.",
+      "hint": "Utiliza la fórmula de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el número de Reynolds calculado para un flujo sanguíneo es de 3500, ¿qué tipo de flujo se predice?",
+      "opts": ["Laminar puro", "Turbulento", "Transicional silencioso", "Ausente"],
+      "ans": 1,
+      "just": "Valores por encima de 2000 indican una probabilidad elevada de turbulencia; además, un valor de 3500 asegura la presencia de soplos o ruidos.",
+      "hint": "Re > 2000 es la clave."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva inspiratoria (VRI) si la Capacidad Inspiratoria (CI) es 3000 ml y el Volumen Corriente (VC) es 500 ml.",
+      "opts": ["3500 ml", "2500 ml", "1500 ml", "2000 ml"],
+      "ans": 1,
+      "just": "La CI es la suma del VC junto con el VRI; por ende, restando el corriente de la capacidad total se obtiene la reserva de 2500 ml.",
+      "hint": "VRI = CI - VC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una Capacidad Vital (CV) de 4500 ml, un VRI de 2500 ml y un VRE de 1500 ml. ¿Cuál es su Volumen Corriente?",
+      "opts": ["500 ml", "1000 ml", "2000 ml", "1500 ml"],
+      "ans": 0,
+      "just": "Puesto que la CV = VRI + VC + VRE, el VC es la diferencia restante; por consiguiente, 4500 - (2500 + 1500) es igual a 500 ml.",
+      "hint": "Resta las reservas de la capacidad vital."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la Capacidad Residual Funcional (CRF) si el Volumen Residual (VR) es 1200 ml y el VRE es 1100 ml.",
+      "opts": ["100 ml", "2300 ml", "1200 ml", "2500 ml"],
+      "ans": 1,
+      "just": "La CRF representa el equilibrio tras una espiración normal; asimismo, es la suma del aire que puede expulsarse forzadamente con el aire que nunca sale.",
+      "hint": "VR + VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "En un análisis de flujo, si la diferencia de presión (ΔP) se duplica y la resistencia (R) se mantiene constante, el flujo (Q):",
+      "opts": ["Se reduce a la mitad", "Se cuadruplica", "Se duplica", "No cambia"],
+      "ans": 2,
+      "just": "Según la ley de Ohm para fluidos, el flujo es directamente proporcional al gradiente de presión; por tanto, el cambio es lineal.",
+      "hint": "Q = ΔP / R."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es 100 lpm, ¿cuál es la duración total de un ciclo cardíaco?",
+      "opts": ["1 segundo", "0.6 segundos", "0.8 segundos", "1.2 segundos"],
+      "ans": 1,
+      "just": "Se divide el tiempo de un minuto (60 s) para el número de latidos; consecuentemente, 60/100 da un ciclo de 0.6 segundos.",
+      "hint": "60 / FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente hipertenso tiene una PA de 160/100 mmHg. Su presión arterial media es:",
+      "opts": ["130 mmHg", "120 mmHg", "110 mmHg", "140 mmHg"],
+      "ans": 1,
+      "just": "PAM = 100 + 1/3 (60) = 120 mmHg; por consiguiente, refleja una sobrecarga tensional crónica.",
+      "hint": "PAD + 1/3 diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia total de dos vasos en serie si R1 = 5 y R2 = 10 unidades.",
+      "opts": ["3.3 unidades", "15 unidades", "50 unidades", "7.5 unidades"],
+      "ans": 1,
+      "just": "En un sistema en serie, las resistencias se suman de forma directa; por tanto, la carga total es 15.",
+      "hint": "R total = R1 + R2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia total de dos vasos en paralelo si R1 = 4 y R2 = 4 unidades.",
+      "opts": ["8 unidades", "2 unidades", "16 unidades", "4 unidades"],
+      "ans": 1,
+      "just": "La resistencia total en paralelo es menor que cualquiera de las individuales; por ende, 1/Rt = 1/4 + 1/4, lo que resulta en Rt = 2.",
+      "hint": "1/Rt = Σ 1/Rn."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el radio de una arteriola aumenta al doble (vasodilatación), el flujo sanguíneo aumenta:",
+      "opts": ["2 veces", "4 veces", "8 veces", "16 veces"],
+      "ans": 3,
+      "just": "El flujo es proporcional a la cuarta potencia del radio; consecuentemente, 2^4 resulta en un incremento masivo de 16 veces el flujo original.",
+      "hint": "Ley de Poiseuille aplicada al flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un deportista tiene un VS de 100 ml y un GC de 5 L/min. ¿Cuál es su frecuencia cardíaca?",
+      "opts": ["50 lpm", "60 lpm", "70 lpm", "100 lpm"],
+      "ans": 0,
+      "just": "Se despeja la FC de la fórmula del gasto; por consiguiente, 5000 ml / 100 ml es igual a 50 latidos por minuto.",
+      "hint": "GC / VS."
+    },
+    {
+      "cat": "calculo",
+      "q": "En el cálculo de cumplimiento pulmonar, si un cambio de presión de 5 cm H2O genera un cambio de volumen de 1000 ml, la compliance es:",
+      "opts": ["200 ml/cm H2O", "5000 ml/cm H2O", "0.005 ml/cm H2O", "50 ml/cm H2O"],
+      "ans": 0,
+      "just": "Compliance = ΔV / ΔP; asimismo, 1000 / 5 resulta en una distensibilidad de 200 ml por cada cm de agua.",
+      "hint": "Volumen dividido para presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión parcial de oxígeno (PO2) en aire seco a nivel del mar (Presión barométrica = 760 mmHg, FiO2 = 0.21).",
+      "opts": ["100 mmHg", "160 mmHg", "150 mmHg", "210 mmHg"],
+      "ans": 1,
+      "just": "Según la ley de Dalton, PO2 = 760 x 0.21; por tanto, el valor resultante es aproximadamente 159.6 mmHg.",
+      "hint": "Presión total x fracción del gas."
+    },
+    {
+      "cat": "calculo",
+      "q": "¿Cuál es la PO2 del aire humidificado en la tráquea? (PB = 760, PH2O = 47, FiO2 = 0.21).",
+      "opts": ["160 mmHg", "149 mmHg", "100 mmHg", "155 mmHg"],
+      "ans": 1,
+      "just": "Se debe restar la presión del vapor de agua antes del cálculo; por consiguiente, (760 - 47) x 0.21 es igual a 149.7 mmHg.",
+      "hint": "(PB - 47) x 0.21."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la PAO2 (alveolar) si FiO2 = 0.21, PB = 760, PACO2 = 40 y R = 0.8.",
+      "opts": ["150 mmHg", "100 mmHg", "140 mmHg", "90 mmHg"],
+      "ans": 1,
+      "just": "Aplicando la ecuación del gas alveolar: 149 - (40 / 0.8) resulta en 149 - 50 = 99 mmHg.",
+      "hint": "PIO2 - (PACO2 / R)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una PaO2 de 90 mmHg y una PAO2 calculada de 100 mmHg. ¿Cuál es su gradiente alvéolo-arterial?",
+      "opts": ["190 mmHg", "10 mmHg", "1.1 mmHg", "0.9 mmHg"],
+      "ans": 1,
+      "just": "El gradiente A-a es la diferencia directa entre las presiones del alvéolo y la arteria; asimismo, un valor de 10 es normal para un adulto joven.",
+      "hint": "PAO2 - PaO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es de 150 lpm, ¿cuántos milímetros separan a dos ondas R en el papel del EKG?",
+      "opts": ["15 mm", "10 mm", "20 mm", "5 mm"],
+      "ans": 1,
+      "just": "Utilizando la constante 1500; por lo tanto, 1500 / 150 es igual a 10 mm (10 cuadros pequeños).",
+      "hint": "1500 / FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un latido se produce cada 0.4 segundos. La frecuencia cardíaca es:",
+      "opts": ["100 lpm", "150 lpm", "120 lpm", "60 lpm"],
+      "ans": 1,
+      "just": "Se divide 60 segundos para la duración del ciclo; consecuentemente, 60 / 0.4 resulta en 150 latidos por minuto.",
+      "hint": "60 / duración del ciclo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el área de sección transversal de la aorta si el flujo es 5 L/min y la velocidad es 20 cm/s.",
+      "opts": ["4.16 cm²", "2.5 cm²", "10 cm²", "1 cm²"],
+      "ans": 0,
+      "just": "Primero convertimos 5 L/min a 83.3 cm³/s; posteriormente, dividimos 83.3 / 20 resultando en 4.16 cm².",
+      "hint": "Q / v (ajustando unidades)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la viscosidad de la sangre aumenta al doble, ¿qué ocurre con la resistencia vascular?",
+      "opts": ["Disminuye a la mitad", "Se duplica", "Aumenta 16 veces", "No cambia"],
+      "ans": 1,
+      "just": "La resistencia es directamente proporcional a la viscosidad según Poiseuille; por consiguiente, el cambio es proporcional.",
+      "hint": "Relación lineal con η."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene un VTD de 150 ml y una FE del 50%. ¿Cuál es su VTS?",
+      "opts": ["75 ml", "100 ml", "50 ml", "125 ml"],
+      "ans": 0,
+      "just": "La FE del 50% implica que se expulsa la mitad; asimismo, la otra mitad (75 ml) permanece en el ventrículo.",
+      "hint": "VTD - (VTD x FE)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el contenido arterial de O2 si Hb = 15 g/dL y la saturación es 100% (ignorar O2 disuelto).",
+      "opts": ["15 ml/dL", "20.1 ml/dL", "13.4 ml/dL", "25 ml/dL"],
+      "ans": 1,
+      "just": "Cada gramo de Hb transporta 1.34 ml de O2; por tanto, 15 x 1.34 resulta en 20.1 ml de oxígeno por cada 100 ml de sangre.",
+      "hint": "1.34 x Hb."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el consumo de O2 de un órgano es 20 ml/min y el flujo sanguíneo es 200 ml/min, ¿cuál es la extracción arteriovenosa?",
+      "opts": ["10 ml/100ml", "20 ml/100ml", "5 ml/100ml", "40 ml/100ml"],
+      "ans": 0,
+      "just": "La diferencia (a-v) = Consumo / Flujo; consecuentemente, 20 / 0.2 L resulta en 100 ml/L o 10 ml/dL.",
+      "hint": "Consumo / Flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la velocidad de conducción si un impulso recorre 10 cm en 0.05 segundos.",
+      "opts": ["2 m/s", "0.5 m/s", "20 m/s", "5 m/s"],
+      "ans": 0,
+      "just": "Velocidad = distancia / tiempo; por tanto, 10 cm / 0.05 s es igual a 200 cm/s, que equivale a 2 m/s.",
+      "hint": "d / t."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un ventrículo genera una presión de 120 mmHg con un radio de 3 cm y un espesor de 1 cm. Calcule la tensión parietal (Laplace simplificada).",
+      "opts": ["360 unidades", "180 unidades", "40 unidades", "120 unidades"],
+      "ans": 1,
+      "just": "Tensión = (P x r) / (2 x espesor); por consiguiente, (120 x 3) / 2 es igual a 180.",
+      "hint": "Pr / 2h."
+    },
+    {
+      "cat": "calculo",
+      "q": "En el pulmón, si el espesor de la membrana respiratoria se duplica por edema, la difusión de gases:",
+      "opts": ["Se duplica", "Se reduce a la mitad", "No cambia", "Aumenta 4 veces"],
+      "ans": 1,
+      "just": "Según la ley de Fick, la difusión es inversamente proporcional al grosor; por tanto, a mayor distancia, menor intercambio.",
+      "hint": "Relación inversa con el grosor."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la PAM para un registro de 140/80 mmHg.",
+      "opts": ["100 mmHg", "110 mmHg", "90 mmHg", "120 mmHg"],
+      "ans": 0,
+      "just": "La presión diferencial es 60; asimismo, 80 + 20 es igual a 100 mmHg.",
+      "hint": "Diastólica + un tercio de la diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el radio de un capilar es de 5 micras y la velocidad es 0.05 cm/s, ¿cuánto tarda un eritrocito en recorrer 1 mm?",
+      "opts": ["2 segundos", "0.2 segundos", "5 segundos", "10 segundos"],
+      "ans": 0,
+      "just": "Tiempo = distancia / velocidad; consecuentemente, 0.1 cm / 0.05 cm/s es igual a 2 segundos.",
+      "hint": "d / v."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una capacidad pulmonar total de 6000 ml y una capacidad vital de 4800 ml. ¿Cuál es su volumen residual?",
+      "opts": ["1200 ml", "1000 ml", "800 ml", "1500 ml"],
+      "ans": 0,
+      "just": "El VR es el aire que no puede movilizarse; por tanto, es la diferencia entre el total y el aire útil.",
+      "hint": "CPT - CV."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación minuto si VC = 450 ml y FR = 20 rpm.",
+      "opts": ["9 L/min", "4.5 L/min", "900 ml/min", "10 L/min"],
+      "ans": 0,
+      "just": "450 x 20 es igual a 9000 ml/min; consecuentemente, el volumen minuto es de 9 litros.",
+      "hint": "Multiplicación directa."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca aumenta de 60 a 120 lpm, el tiempo disponible para el llenado diastólico:",
+      "opts": ["Se duplica", "Se reduce a la mitad o más", "No cambia", "Aumenta ligeramente"],
+      "ans": 1,
+      "just": "La taquicardia acorta principalmente la diástole; por consiguiente, el tiempo de llenado disminuye drásticamente.",
+      "hint": "La diástole es la fase más afectada por el tiempo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la FE si VTD = 100 ml y VTS = 40 ml.",
+      "opts": ["40%", "60%", "50%", "140%"],
+      "ans": 1,
+      "just": "VS = 60 ml; asimismo, 60/100 es igual al 60%.",
+      "hint": "VS / VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una presión de pulso de 60 mmHg y una diastólica de 70 mmHg. Su presión sistólica es:",
+      "opts": ["130 mmHg", "110 mmHg", "100 mmHg", "120 mmHg"],
+      "ans": 0,
+      "just": "La sistólica es la suma de la diastólica más la diferencial; por tanto, 70 + 60 es igual a 130 mmHg.",
+      "hint": "PAD + PP."
+    },
+    {
+      "cat": "calculo",
+      "q": "¿Qué flujo sanguíneo tiene un vaso con ΔP de 20 mmHg y R de 2 unidades?",
+      "opts": ["40 ml/min", "10 ml/min", "22 ml/min", "5 ml/min"],
+      "ans": 1,
+      "just": "Según la ley de Ohm (Q = ΔP / R); por consiguiente, 20 / 2 es igual a 10.",
+      "hint": "División de presión para resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la constante de tiempo (τ) de un sistema con compliance de 2 y resistencia de 3.",
+      "opts": ["1.5", "6", "5", "0.66"],
+      "ans": 1,
+      "just": "La constante de tiempo es el producto de la resistencia por la capacitancia; consecuentemente, 2 x 3 es igual a 6.",
+      "hint": "R x C."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el gasto cardíaco es 6 L/min y la superficie corporal es 2 m², ¿cuál es el índice cardíaco?",
+      "opts": ["12 L/min/m²", "3 L/min/m²", "4 L/min/m²", "8 L/min/m²"],
+      "ans": 1,
+      "just": "El índice cardíaco normaliza el flujo según el tamaño del paciente; por tanto, 6 / 2 resulta en 3.",
+      "hint": "GC / Área de superficie."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un individuo respira 15 veces por minuto con un volumen corriente de 600 ml. Su ventilación minuto es:",
+      "opts": ["900 ml/min", "9000 ml/min", "615 ml/min", "40 L/min"],
+      "ans": 1,
+      "just": "Multiplicando ambos valores obtenemos 9 litros por minuto; asimismo, es una ventilación superior a la basal.",
+      "hint": "VC x FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de aire en el espacio muerto si VC = 500 ml y la ventilación alveolar es de 4200 ml/min con FR = 12 rpm.",
+      "opts": ["150 ml", "100 ml", "200 ml", "50 ml"],
+      "ans": 0,
+      "just": "Dividimos 4200 / 12 = 350 ml de aire eficaz; consecuentemente, 500 - 350 nos da un espacio muerto de 150 ml.",
+      "hint": "VC - (VA/FR)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es 300 lpm, ¿cuántos cuadros grandes hay entre latidos?",
+      "opts": ["1", "2", "3", "5"],
+      "ans": 0,
+      "just": "300 / 300 es igual a 1; por consiguiente, hay un latido en cada línea gruesa del papel.",
+      "hint": "Frecuencia extrema."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia periférica total (RPT) si PAM = 95 mmHg, Presión de aurícula derecha = 5 mmHg y GC = 5 L/min.",
+      "opts": ["18 unidades", "20 unidades", "450 unidades", "100 unidades"],
+      "ans": 0,
+      "just": "R = (PAM - PAD) / GC; consecuentemente, (95 - 5) / 5 es igual a 18 unidades periféricas.",
+      "hint": "Gradiente de presión / GC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un corazón bombea 5 litros por minuto. ¿Cuánto tiempo tarda en bombear 100 litros?",
+      "opts": ["10 minutos", "20 minutos", "50 minutos", "5 minutos"],
+      "ans": 1,
+      "just": "Dividimos el volumen total para la tasa de flujo; por tanto, 100 / 5 resulta en 20 minutos.",
+      "hint": "Volumen / GC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene una anemia con Hb de 7.5 g/dL (la mitad de lo normal), su contenido de O2 arterial será de aproximadamente:",
+      "opts": ["20 ml/dL", "10 ml/dL", "5 ml/dL", "15 ml/dL"],
+      "ans": 1,
+      "just": "Puesto que el O2 unido a Hb es el 98% del total, reducir la Hb a la mitad reduce la capacidad de transporte en la misma proporción.",
+      "hint": "Dependencia lineal de la Hb."
+    },
+    {
+      "cat": "calculo",
+      "q": "En el pulmón, si el radio de un alvéolo disminuye a la mitad sin cambio en el surfactante, la presión necesaria para mantenerlo abierto (Laplace):",
+      "opts": ["No cambia", "Disminuye a la mitad", "Se duplica", "Aumenta 4 veces"],
+      "ans": 2,
+      "just": "P = 2T / r; por consiguiente, si el denominador se reduce a la mitad, la presión requerida se duplica.",
+      "hint": "Relación inversa con el radio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar si VC = 0.5 L, Vd = 0.15 L y FR = 15 rpm.",
+      "opts": ["7.5 L/min", "5.25 L/min", "2.25 L/min", "10 L/min"],
+      "ans": 1,
+      "just": "(0.5 - 0.15) x 15 es igual a 0.35 x 15, lo que resulta en 5.25 litros por minuto.",
+      "hint": "(VC - Vd) x FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un EKG muestra una frecuencia de 60 lpm, ¿cuántos cuadros pequeños hay en el intervalo R-R?",
+      "opts": ["15", "20", "25", "30"],
+      "ans": 2,
+      "just": "Dividimos 1500 / 60; consecuentemente, hay exactamente 25 cuadros pequeños entre latidos.",
+      "hint": "1500 / FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen sistólico de un ventrículo con radio de 4 cm que se acorta hasta un radio de 3 cm (asuma forma esférica: V = 4/3 π r³).",
+      "opts": ["154 ml", "268 ml", "114 ml", "50 ml"],
+      "ans": 2,
+      "just": "V inicial ≈ 268 ml; V final ≈ 114 ml; por tanto, el volumen expulsado es la diferencia de 154 ml aproximadamente.",
+      "hint": "V telediastólico - V telesistólico."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una capacidad inspiratoria de 2.5 L y una capacidad vital de 4.0 L. ¿Cuál es su volumen de reserva espiratoria?",
+      "opts": ["1.5 L", "6.5 L", "1.0 L", "2.0 L"],
+      "ans": 0,
+      "just": "CV = CI + VRE; por consiguiente, 4.0 - 2.5 resulta en 1.5 litros de reserva espiratoria.",
+      "hint": "CV - CI."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la presión en la aorta es 100 mmHg y en la vena cava es 0 mmHg, con un flujo de 5 L/min, la resistencia sistémica es:",
+      "opts": ["20 unidades", "500 unidades", "0.05 unidades", "10 unidades"],
+      "ans": 0,
+      "just": "R = ΔP / Q; asimismo, 100 / 5 es igual a 20 unidades.",
+      "hint": "División de gradiente para flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si un ciclo cardiaco completo dura 0.75 segundos.",
+      "opts": ["60 lpm", "75 lpm", "80 lpm", "100 lpm"],
+      "ans": 2,
+      "just": "60 / 0.75 resulta en una frecuencia de 80 latidos por minuto.",
+      "hint": "60 / tiempo del ciclo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un eritrocito tarda 0.75 s en cruzar un capilar pulmonar. Si el equilibrio del O2 ocurre en 0.25 s, ¿qué reserva de tiempo tiene?",
+      "opts": ["0.25 s", "0.50 s", "1.0 s", "0.10 s"],
+      "ans": 1,
+      "just": "El tiempo sobrante tras alcanzar el equilibrio es de 0.50 segundos; asimismo, esto protege al paciente durante el ejercicio.",
+      "hint": "Tiempo total - tiempo de equilibrio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la FE de un paciente con VTS de 40 ml y VS de 60 ml.",
+      "opts": ["60%", "40%", "150%", "66%"],
+      "ans": 0,
+      "just": "Primero hallamos el VTD = 40 + 60 = 100 ml; consecuentemente, 60 / 100 es igual al 60%.",
+      "hint": "VS / (VS + VTS)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la presión arterial diastólica es 90 mmHg y la presión de pulso es 60 mmHg, ¿cuál es la PAM?",
+      "opts": ["110 mmHg", "150 mmHg", "120 mmHg", "100 mmHg"],
+      "ans": 0,
+      "just": "PAM = 90 + 1/3 (60) = 90 + 20 = 110 mmHg.",
+      "hint": "Fórmula estándar de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene un volumen residual de 1 litro y una capacidad residual funcional de 2.5 litros. ¿Cuál es su VRE?",
+      "opts": ["3.5 L", "1.5 L", "1.0 L", "0.5 L"],
+      "ans": 1,
+      "just": "VRE = CRF - VR; por consiguiente, 2.5 - 1.0 resulta en 1.5 litros.",
+      "hint": "CRF - VR."
+    },
+    {
+      "cat": "calculo",
+      "q": "¿Cuál es el volumen minuto si se mueven 0.4 L en cada respiración y se respira cada 3 segundos?",
+      "opts": ["4 L/min", "8 L/min", "12 L/min", "6 L/min"],
+      "ans": 1,
+      "just": "Frecuencia = 60/3 = 20 rpm; asimismo, 0.4 x 20 es igual a 8 litros por minuto.",
+      "hint": "Halla primero la frecuencia respiratoria."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el diámetro de un vaso aumenta un 10%, el flujo sanguíneo aumenta aproximadamente un:",
+      "opts": ["10%", "20%", "46%", "100%"],
+      "ans": 2,
+      "just": "Flujo ∝ r^4; por tanto, (1.1)^4 es aproximadamente 1.46, lo que implica un incremento del 46%.",
+      "hint": "1.1 a la cuarta potencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el VS si GC = 6 L/min y el pulso es 100 lpm.",
+      "opts": ["60 ml", "600 ml", "100 ml", "50 ml"],
+      "ans": 0,
+      "just": "6000 ml / 100 latidos da un volumen de 60 ml por latido.",
+      "hint": "GC / FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente pesa 70 kg. ¿Cuál es su espacio muerto anatómico estimado según la regla general (2 ml/kg)?",
+      "opts": ["70 ml", "140 ml", "210 ml", "150 ml"],
+      "ans": 1,
+      "just": "Se estima multiplicando el peso por 2; consecuentemente, el volumen es de 140 ml.",
+      "hint": "2 x peso corporal."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión sistólica si la PAM es 100 y la diastólica es 80 mmHg.",
+      "opts": ["120 mmHg", "140 mmHg", "160 mmHg", "110 mmHg"],
+      "ans": 1,
+      "just": "100 = 80 + 1/3 (dif); Dif = 60; por tanto, 80 + 60 es igual a 140 mmHg.",
+      "hint": "Despeja de la fórmula de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es 50 lpm, el intervalo R-R mide:",
+      "opts": ["6 cuadros grandes", "5 cuadros grandes", "4 cuadros grandes", "10 cuadros grandes"],
+      "ans": 0,
+      "just": "300 / 50 es igual a 6 cuadros grandes en el papel del EKG.",
+      "hint": "300 / FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un vaso tiene un radio de 1 cm y otro de 2 cm. Si el flujo es igual en ambos, ¿cuál es la relación de velocidades?",
+      "opts": ["1:2", "1:4", "4:1", "1:1"],
+      "ans": 2,
+      "just": "La velocidad es inversamente proporcional al cuadrado del radio; consecuentemente, el vaso más estrecho tiene 4 veces más velocidad.",
+      "hint": "v ∝ 1/r²."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la FE de un paciente con VTD = 150 ml y VS = 90 ml.",
+      "opts": ["60%", "40%", "90%", "50%"],
+      "ans": 0,
+      "just": "90 / 150 resulta en una fracción del 60%.",
+      "hint": "VS / VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "En una espirometría, el FEV1 es 3L y la FVC es 4L. El índice de Tiffeneau es:",
+      "opts": ["75%", "80%", "70%", "100%"],
+      "ans": 0,
+      "just": "Se divide el volumen del primer segundo para el total; asimismo, 3/4 es igual al 75%.",
+      "hint": "FEV1 / FVC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una distensibilidad venosa 20 veces mayor que la arterial. Si se añaden 500 ml al sistema venoso, la presión sube 1 mmHg. ¿Cuánto subiría en el arterial?",
+      "opts": ["1 mmHg", "20 mmHg", "0.05 mmHg", "10 mmHg"],
+      "ans": 1,
+      "just": "Debido a la baja compliance arterial, el mismo volumen genera 20 veces más presión.",
+      "hint": "Relación inversa con la compliance."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el contenido venoso de O2 si Hb = 15 g/dL y la saturación venosa es 75%.",
+      "opts": ["15 ml/dL", "10 ml/dL", "20 ml/dL", "5 ml/dL"],
+      "ans": 0,
+      "just": "15 x 1.34 x 0.75 es igual a 15.07 ml/dL aproximadamente.",
+      "hint": "Hb x 1.34 x Sat."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia respiratoria es 30 rpm, el tiempo de cada ciclo es:",
+      "opts": ["1 segundo", "2 segundos", "3 segundos", "0.5 segundos"],
+      "ans": 1,
+      "just": "60 / 30 resulta en un ciclo cada 2 segundos.",
+      "hint": "60 / FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una capacidad inspiratoria de 3.5 L y una capacidad residual funcional de 2.5 L. Su capacidad pulmonar total es:",
+      "opts": ["6 L", "1 L", "5 L", "4 L"],
+      "ans": 0,
+      "just": "La suma de CI junto con CRF abarca todos los volúmenes del pulmón.",
+      "hint": "Suma ambas capacidades."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la tensión parietal es 100 y el radio es 2 con espesor de 1, la presión interna es:",
+      "opts": ["50", "100", "200", "400"],
+      "ans": 1,
+      "just": "P = 2Th / r; por consiguiente, (2 x 100 x 1) / 2 es igual a 100.",
+      "hint": "Despeja de Laplace."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un ventrículo derecho tiene un VS de 70 ml. ¿Cuál debe ser el VS del izquierdo en estado estacionario?",
+      "opts": ["70 ml", "140 ml", "35 ml", "100 ml"],
+      "ans": 0,
+      "just": "Para evitar congestión, ambos ventrículos deben manejar el mismo flujo promedio a largo plazo.",
+      "hint": "Igualdad de gastos cardíacos."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la RPT si el GC es de 6 L/min y el gradiente de presión es de 120 mmHg.",
+      "opts": ["20 unidades", "720 unidades", "0.05 unidades", "12 unidades"],
+      "ans": 0,
+      "just": "120 / 6 es igual a 20 unidades de resistencia.",
+      "hint": "ΔP / GC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el volumen telediastólico es de 100 ml y la FE es del 70%, el volumen telesistólico es de:",
+      "opts": ["70 ml", "30 ml", "170 ml", "50 ml"],
+      "ans": 1,
+      "just": "Se expulsan 70 ml; por consiguiente, quedan 30 ml en la cámara.",
+      "hint": "Lo que queda tras la eyección."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar por segundo si VA = 4.2 L/min.",
+      "opts": ["70 ml/s", "420 ml/s", "7 ml/s", "100 ml/s"],
+      "ans": 0,
+      "just": "4200 ml / 60 s resulta en 70 mililitros por segundo.",
+      "hint": "Divide para 60."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la velocidad de la sangre es 10 cm/s y el área es 5 cm², el flujo es:",
+      "opts": ["2 ml/s", "50 ml/s", "15 ml/s", "0.5 ml/s"],
+      "ans": 1,
+      "just": "Q = v x A; por tanto, 10 x 5 es igual a 50 cm³/s.",
+      "hint": "Multiplicación de velocidad por área."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un EKG tiene 15 cuadros pequeños entre R y R. La frecuencia cardíaca es:",
+      "opts": ["100 lpm", "150 lpm", "75 lpm", "60 lpm"],
+      "ans": 0,
+      "just": "1500 / 15 es igual a 100 latidos por minuto.",
+      "hint": "1500 / cuadros pequeños."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión de pulso para una PA de 180/120 mmHg.",
+      "opts": ["300 mmHg", "60 mmHg", "150 mmHg", "90 mmHg"],
+      "ans": 1,
+      "just": "180 - 120 resulta en una diferencial de 60 mmHg.",
+      "hint": "Resta sistólica de diastólica."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la compliance de un pulmón es de 0.2 L/cm H2O, ¿cuánto volumen entra con una presión de 5 cm H2O?",
+      "opts": ["1 L", "0.04 L", "5.2 L", "2.5 L"],
+      "ans": 0,
+      "just": "ΔV = C x ΔP; consecuentemente, 0.2 x 5 es igual a 1 litro.",
+      "hint": "Compliance por presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una FR de 20 rpm y un tiempo inspiratorio de 1 segundo. ¿Cuánto dura su espiración?",
+      "opts": ["1 segundo", "2 segundos", "3 segundos", "0.5 segundos"],
+      "ans": 1,
+      "just": "Cada ciclo dura 3 s (60/20); asimismo, si la inspiración es 1 s, la espiración ocupa los 2 s restantes.",
+      "hint": "Tiempo total - Tiempo inspiratorio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la PAM si PAS = 120 y PAD = 90 mmHg.",
+      "opts": ["100 mmHg", "105 mmHg", "110 mmHg", "115 mmHg"],
+      "ans": 0,
+      "just": "90 + 1/3 (30) es igual a 100 mmHg.",
+      "hint": "Fórmula clásica de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el gasto cardíaco se duplica y la RPT se reduce a la mitad, la PAM:",
+      "opts": ["Se duplica", "Se reduce a la mitad", "No cambia", "Se cuadruplica"],
+      "ans": 2,
+      "just": "P = Q x R; consecuentemente, 2 x 0.5 es igual a 1, manteniendo la presión constante.",
+      "hint": "Efecto compensatorio flujo-resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un ventrículo expulsa 70 ml de los 110 ml que contenía. Su FE es:",
+      "opts": ["63.6%", "70%", "40%", "50%"],
+      "ans": 0,
+      "just": "70 / 110 resulta en una fracción del 63.6% aproximadamente.",
+      "hint": "VS / VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión diferencial si la sistólica es 120 y la PAM es 93.3 mmHg.",
+      "opts": ["40 mmHg", "30 mmHg", "20 mmHg", "50 mmHg"],
+      "ans": 0,
+      "just": "PAM = PAD + 1/3 dif; tras despejar, se halla que la diferencial es de 40 mmHg (PA 120/80).",
+      "hint": "Relación entre PAM y sistólica."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene 30 cuadros pequeños entre R y R, ¿cuál es su frecuencia?",
+      "opts": ["60 lpm", "50 lpm", "40 lpm", "75 lpm"],
+      "ans": 1,
+      "just": "1500 / 30 resulta en 50 pulsaciones por minuto.",
+      "hint": "Cálculo en bradicardia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva espiratoria si CV = 4.8 L, VC = 0.5 L y VRI = 3.0 L.",
+      "opts": ["1.3 L", "0.8 L", "1.5 L", "0.5 L"],
+      "ans": 0,
+      "just": "4.8 - (0.5 + 3.0) es igual a 1.3 litros.",
+      "hint": "Suma lo que conoces y resta del total movible."
+    },
+    {
+      "cat": "calculo",
+      "q": "En el sistema circulatorio, la mayor caída de presión ocurre en las arteriolas porque:",
+      "opts": ["Son muy largas", "Tienen la mayor resistencia individual", "Tienen el mayor flujo", "Tienen la mayor compliance"],
+      "ans": 1,
+      "just": "ΔP = Q x R; puesto que la resistencia arteriolar es máxima, la pérdida tensional es la más alta del circuito.",
+      "hint": "Sitio de control de la RPT."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el flujo sanguíneo total si la RPT es 20 y el gradiente de presión es 100 mmHg.",
+      "opts": ["2000 ml/min", "5 L/min", "10 L/min", "500 ml/min"],
+      "ans": 1,
+      "just": "Q = 100 / 20 resulta en 5 litros por minuto.",
+      "hint": "Gradiente / Resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene un VR de 1.5 L y una CPT de 7.5 L, ¿cuál es su capacidad vital?",
+      "opts": ["9 L", "6 L", "5 L", "4 L"],
+      "ans": 1,
+      "just": "7.5 - 1.5 resulta en una capacidad vital de 6 litros.",
+      "hint": "Total - Residual."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la FE si VTS = 50 ml y VTD = 150 ml.",
+      "opts": ["33.3%", "66.6%", "50%", "100%"],
+      "ans": 1,
+      "just": "VS = 100 ml; por consiguiente, 100 / 150 es igual al 66.6%.",
+      "hint": "(VTD-VTS) / VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es de 60 lpm, el intervalo R-R es de:",
+      "opts": ["1 segundo", "0.8 segundos", "1.2 segundos", "0.5 segundos"],
+      "ans": 0,
+      "just": "60 / 60 es igual a 1 segundo por cada latido.",
+      "hint": "Tiempo por latido."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una PaCO2 de 80 mmHg. Su ventilación alveolar respecto a lo normal (40 mmHg) ha sido:",
+      "opts": ["Duplicada", "Reducida a la mitad", "No ha cambiado", "Cuadruplicada"],
+      "ans": 1,
+      "just": "La PCO2 es inversamente proporcional a la ventilación alveolar; por tanto, el doble de gas indica la mitad de eliminación.",
+      "hint": "Relación inversa PCO2-VA."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media si PAS = 130 y PAD = 70 mmHg.",
+      "opts": ["100 mmHg", "90 mmHg", "85 mmHg", "110 mmHg"],
+      "ans": 1,
+      "just": "70 + 1/3 (60) es igual a 90 mmHg.",
+      "hint": "Diastólica + un tercio diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el radio de una vía aérea se reduce a la mitad por broncoconstricción, la resistencia al aire aumenta:",
+      "opts": ["2 veces", "4 veces", "16 veces", "8 veces"],
+      "ans": 2,
+      "just": "Aplica la misma ley de Poiseuille que en vasos sanguíneos; por consiguiente, el flujo se dificulta 16 veces.",
+      "hint": "Relación r a la cuarta."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un sujeto tiene un VC de 500 ml y una FR de 12 rpm. Si su espacio muerto anatómico aumenta a 250 ml por enfermedad, su VA:",
+      "opts": ["No cambia", "Disminuye de 4200 a 3000 ml/min", "Aumenta", "Se reduce a cero"],
+      "ans": 1,
+      "just": "VA original = 4200; VA nueva = (500 - 250) x 12 = 3000 ml/min.",
+      "hint": "Calcula VA con el nuevo espacio muerto."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva inspiratoria si CPT = 6 L, VR = 1.5 L, VRE = 1.5 L y VC = 0.5 L.",
+      "opts": ["2.5 L", "3 L", "3.5 L", "4 L"],
+      "ans": 0,
+      "just": "6 - (1.5 + 1.5 + 0.5) resulta en 2.5 litros.",
+      "hint": "Resta todos los componentes del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el GC es 5 L/min y la RPT es 15, la PAM es aproximadamente:",
+      "opts": ["75 mmHg", "100 mmHg", "60 mmHg", "90 mmHg"],
+      "ans": 0,
+      "just": "P = Q x R; consecuentemente, 5 x 15 es igual a 75 mmHg.",
+      "hint": "Multiplicación de flujo y resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una FE del 80% y un VTD de 50 ml. Su VS es:",
+      "opts": ["40 ml", "10 ml", "30 ml", "20 ml"],
+      "ans": 0,
+      "just": "0.8 x 50 es igual a 40 ml de volumen latido.",
+      "hint": "Halla el 80% del telediastólico."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si se cuentan 4 cuadros grandes en el intervalo R-R, la frecuencia cardíaca es:",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "50 lpm"],
+      "ans": 1,
+      "just": "300 / 4 es igual a 75 latidos por minuto.",
+      "hint": "Regla de los 300."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el VS si el VTS es 70 ml y la FE es 30% (falla cardíaca severa).",
+      "opts": ["30 ml", "100 ml", "21 ml", "49 ml"],
+      "ans": 0,
+      "just": "Si el 30% es el VS, el 70% restante es el VTS; por tanto, hallamos el total (70 / 0.7 = 100) y calculamos el 30% de 100.",
+      "hint": "Determina primero el VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "En el principio de Fick, si GC = 6 L/min y la diferencia (a-v) de O2 es 50 ml/L, el consumo de O2 es:",
+      "opts": ["300 ml/min", "12 ml/min", "30 ml/min", "150 ml/min"],
+      "ans": 0,
+      "just": "Consumo = GC x (Ca - Cv); asimismo, 6 x 50 resulta en 300 ml de oxígeno por minuto.",
+      "hint": "Multiplica el gasto por la extracción."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia total de tres vasos sanguíneos dispuestos en serie si sus resistencias individuales son de 4, 6 y 10 unidades respectivamente.",
+      "opts": ["2 unidades", "20 unidades", "1.9 unidades", "10 unidades"],
+      "ans": 1,
+      "just": "En un sistema dispuesto en serie la resistencia total equivale a la suma aritmética de las resistencias individuales por consiguiente el cálculo resulta en la adición de 4 mas 6 mas 10 unidades.",
+      "hint": "Suma directamente los valores de R."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la resistencia total de un sistema con dos vasos en paralelo cuyas resistencias son de 6 unidades cada uno.",
+      "opts": ["12 unidades", "3 unidades", "1 unidad", "6 unidades"],
+      "ans": 1,
+      "just": "Para resistencias iguales en paralelo la resistencia total se halla dividiendo el valor individual para el número de vasos asimismo se puede aplicar la fórmula del inverso de la suma de los inversos.",
+      "hint": "1 dividido para la suma de 1 entre R."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la viscosidad de la sangre aumenta al triple debido a una policitemia grave el cambio en la resistencia vascular será de:",
+      "opts": ["Disminución al tercio", "Aumento al triple", "Aumento nueve veces", "No cambia"],
+      "ans": 1,
+      "just": "Según la ecuación de Poiseuille la resistencia es directamente proporcional a la viscosidad del fluido por tanto un incremento de tres veces en la viscosidad produce un aumento equivalente en la resistencia.",
+      "hint": "La relación con la viscosidad es lineal."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el número de Reynolds si la densidad es 1 la velocidad es 50 el diámetro es 2 y la viscosidad es 0.04.",
+      "opts": ["250", "2500", "5000", "1250"],
+      "ans": 1,
+      "just": "El número de Reynolds se obtiene mediante el producto de la densidad por la velocidad por el diámetro dividido para la viscosidad consecuentemente el resultado de 2500 sugiere un flujo con alta probabilidad de turbulencia.",
+      "hint": "Re igual a densidad por velocidad por diámetro entre viscosidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la velocidad del flujo sanguíneo en un vaso con un área de sección transversal de 5 cm cuadrados y un flujo de 100 ml por segundo.",
+      "opts": ["500 cm por s", "20 cm por s", "0.05 cm por s", "10 cm por s"],
+      "ans": 1,
+      "just": "La velocidad es inversamente proporcional al área según la relación flujo es igual a velocidad por área por lo tanto al dividir 100 para 5 se obtiene una velocidad de 20 centímetros por segundo.",
+      "hint": "Velocidad igual a flujo entre área."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente presenta un volumen sistólico de 80 ml y un gasto cardíaco de 6.4 litros por minuto calcule su frecuencia cardíaca.",
+      "opts": ["60 lpm", "80 lpm", "100 lpm", "120 lpm"],
+      "ans": 1,
+      "just": "Puesto que el gasto cardíaco es el producto de la frecuencia por el volumen latido se debe dividir el flujo total convertido a mililitros entre el volumen sistólico resultando en 80 latidos por minuto.",
+      "hint": "Gasto cardíaco entre volumen sistólico."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media para un registro de 130 de sistólica y 70 de diastólica.",
+      "opts": ["100 mmHg", "90 mmHg", "85 mmHg", "110 mmHg"],
+      "ans": 1,
+      "just": "La PAM se estima sumando la presión diastólica a un tercio de la presión diferencial por lo tanto 70 mas el tercio de 60 resulta en 90 milímetros de mercurio.",
+      "hint": "PAD mas un tercio de la resta."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un ventrículo posee un radio de 4 cm y genera una presión de 100 mmHg calcule la tensión en la pared asumiendo una forma esférica simplificada.",
+      "opts": ["400 unidades", "200 unidades", "100 unidades", "800 unidades"],
+      "ans": 1,
+      "just": "De acuerdo con la ley de Laplace la tensión es proporcional al producto de la presión por el radio dividido para dos veces el espesor si el espesor es unitario la tensión resulta en 200 unidades.",
+      "hint": "Presión por radio entre dos."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la capacitancia de una vena que almacena 500 ml extras con un cambio de presión de solo 2 mmHg.",
+      "opts": ["1000 ml por mmHg", "250 ml por mmHg", "100 ml por mmHg", "500 ml por mmHg"],
+      "ans": 1,
+      "just": "La capacitancia o distensibilidad describe el cambio de volumen por cada unidad de presión aplicada por consiguiente 500 dividido para 2 otorga un valor de 250 mililitros por milímetro de mercurio.",
+      "hint": "Delta de volumen entre delta de presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "En un trazado de EKG se cuentan 25 cuadros pequeños entre dos complejos QRS sucesivos determine la frecuencia cardíaca.",
+      "opts": ["100 lpm", "75 lpm", "60 lpm", "50 lpm"],
+      "ans": 2,
+      "just": "Considerando que el papel corre a 25 milímetros por segundo existen 1500 cuadros pequeños en un minuto por tanto al dividir 1500 para 25 se obtiene una frecuencia de 60 latidos por minuto.",
+      "hint": "1500 entre número de cuadros pequeños."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de aire en el espacio muerto fisiológico si la PaCO2 es 40 la PeCO2 es 30 y el volumen corriente es 500 ml.",
+      "opts": ["100 ml", "125 ml", "150 ml", "200 ml"],
+      "ans": 1,
+      "just": "Utilizando la ecuación de Bohr el espacio muerto es el producto del volumen corriente por la diferencia de presiones de CO2 dividida para la presión arterial por consiguiente 500 por 0.25 resulta en 125 mililitros.",
+      "hint": "VC por la resta de presiones entre PaCO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la ventilación alveolar si el sujeto respira 15 veces por minuto con un volumen corriente de 600 ml y un espacio muerto de 150 ml.",
+      "opts": ["9000 ml por min", "6750 ml por min", "4500 ml por min", "2250 ml por min"],
+      "ans": 1,
+      "just": "La ventilación alveolar se calcula restando el espacio muerto del volumen corriente para luego multiplicar el resultado por la frecuencia respiratoria lo cual arroja un valor de 6.75 litros por minuto.",
+      "hint": "Frecuencia por la resta del VC y Vd."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la compliance pulmonar si tras inspirar 0.5 litros la presión intrapleural cambia de menos 5 a menos 8 cm de H2O.",
+      "opts": ["0.1 L por cm H2O", "0.166 L por cm H2O", "3 L por cm H2O", "0.5 L por cm H2O"],
+      "ans": 1,
+      "just": "La compliance representa el cambio de volumen dividido para el cambio de presión transpulmonar puesto que el cambio de presión fue de 3 unidades el resultado es 0.5 dividido para 3.",
+      "hint": "Volumen entre cambio de presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente posee una capacidad vital de 4 L y una capacidad inspiratoria de 2.8 L determine su volumen de reserva espiratoria.",
+      "opts": ["6.8 L", "1.2 L", "2 L", "0.8 L"],
+      "ans": 1,
+      "just": "La capacidad vital es la suma de la capacidad inspiratoria junto con el volumen de reserva espiratoria por tanto la diferencia entre 4 y 2.8 nos brinda el valor de la reserva de aire exhalable.",
+      "hint": "Resta CI de la CV."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el contenido de oxígeno en sangre arterial si la hemoglobina es 10 g por dL y la saturación es del 100 por ciento despreciando el O2 disuelto.",
+      "opts": ["20.1 ml por dL", "13.4 ml por dL", "15 ml por dL", "10 ml por dL"],
+      "ans": 1,
+      "just": "Cada gramo de hemoglobina puede transportar hasta 1.34 mililitros de oxígeno bajo condiciones de saturación total por consiguiente el producto de 10 por 1.34 resulta en 13.4 mililitros de oxígeno por decilitro.",
+      "hint": "Hemoglobina por constante de transporte."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el índice cardíaco de un paciente con una superficie corporal de 1.5 metros cuadrados y un gasto cardíaco de 4.5 litros por minuto.",
+      "opts": ["6.75 L por min por m2", "3 L por min por m2", "0.33 L por min por m2", "4 L por min por m2"],
+      "ans": 1,
+      "just": "El índice cardíaco normaliza el flujo de sangre según la extensión del individuo dividiendo el gasto cardíaco total para el área de superficie corporal resultando en un valor fisiológico de 3 unidades.",
+      "hint": "Gasto cardíaco dividido para superficie."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la presión en la aurícula derecha es 0 y en la aorta es 100 con un gasto cardíaco de 5 litros por minuto calcule la resistencia periférica total.",
+      "opts": ["500 unidades", "20 unidades", "0.05 unidades", "100 unidades"],
+      "ans": 1,
+      "just": "La resistencia periférica total se obtiene mediante la ley de Ohm dividiendo el gradiente de presión sistémico para el flujo total por tanto 100 entre 5 resulta en 20 unidades de resistencia.",
+      "hint": "Diferencia de presión entre gasto cardíaco."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una frecuencia de 120 lpm determine la duración exacta del ciclo cardíaco en segundos.",
+      "opts": ["2 segundos", "0.5 segundos", "0.8 segundos", "1 segundo"],
+      "ans": 1,
+      "just": "La duración de un ciclo cardíaco es la inversa de la frecuencia expresada en segundos por minuto por consiguiente al dividir 60 para 120 se obtiene un ciclo de medio segundo de duración.",
+      "hint": "60 dividido para la frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la fracción de eyección si el volumen sistólico es 50 ml y el volumen telesistólico es 50 ml.",
+      "opts": ["100 por ciento", "50 por ciento", "25 por ciento", "75 por ciento"],
+      "ans": 1,
+      "just": "Primero se establece el volumen telediastólico sumando el sistólico al telesistólico lo que da 100 mililitros asimismo al dividir el volumen expulsado para el total se obtiene una fracción del 50 por ciento.",
+      "hint": "VS entre la suma de VS y VTS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión de distensión alveolar (Laplace) para un alvéolo con tensión superficial de 20 dinas por cm y un radio de 0.01 cm.",
+      "opts": ["4000 unidades", "4 unidades", "40 unidades", "0.4 unidades"],
+      "ans": 0,
+      "just": "Según la ley de Laplace para una esfera la presión es igual a dos veces la tensión dividida para el radio por tanto el cálculo resulta en 40 dividido para 0.01 lo cual arroja 4000 unidades de presión.",
+      "hint": "Dos por tensión entre radio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente respira aire seco a una presión barométrica de 500 mmHg determine la presión parcial de oxígeno inspirado.",
+      "opts": ["159 mmHg", "105 mmHg", "210 mmHg", "100 mmHg"],
+      "ans": 1,
+      "just": "La presión parcial de un gas se halla multiplicando la presión total por la fracción del gas en la mezcla puesto que el oxígeno ocupa el 21 por ciento el resultado es el producto de 500 por 0.21.",
+      "hint": "Presión barométrica por FiO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el flujo sanguíneo a través de un órgano si su gradiente de presión es de 20 mmHg y su resistencia es de 4 unidades.",
+      "opts": ["80 ml por min", "5 ml por min", "0.2 ml por min", "10 ml por min"],
+      "ans": 1,
+      "just": "De acuerdo con los principios de hemodinámica el flujo equivale al gradiente de presión dividido para la resistencia por consiguiente el flujo neto es de 5 unidades de volumen por tiempo.",
+      "hint": "Presión entre resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la fracción de eyección de un paciente cuyo VTD es 150 ml y su VTS es 90 ml.",
+      "opts": ["60 por ciento", "40 por ciento", "50 por ciento", "30 por ciento"],
+      "ans": 1,
+      "just": "El volumen sistólico es de 60 mililitros al ser la diferencia entre el llenado y el residuo por tanto la fracción se obtiene dividiendo 60 para 150 resultando en un 40 por ciento de eficiencia.",
+      "hint": "Resta volúmenes y divide para el total inicial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva espiratoria si la capacidad residual funcional es de 2.2 L y el volumen residual es de 1.2 L.",
+      "opts": ["3.4 L", "1.0 L", "0.8 L", "1.2 L"],
+      "ans": 1,
+      "just": "La capacidad residual funcional engloba todo el aire presente tras la espiración pasiva incluyendo el residuo inamovible por ende la reserva espiratoria es la diferencia entre ambos valores.",
+      "hint": "CRF menos volumen residual."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un vaso tiene una resistencia de 16 unidades y su radio se duplica cuál será su nueva resistencia.",
+      "opts": ["8 unidades", "1 unidad", "4 unidades", "2 unidades"],
+      "ans": 1,
+      "just": "Al duplicarse el radio la resistencia disminuye dieciséis veces debido a la ley de la cuarta potencia por consiguiente 16 dividido para 16 resulta en una resistencia unitaria.",
+      "hint": "Divide el valor original para 16."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca en un EKG que muestra 1.5 cuadros grandes en el intervalo R-R.",
+      "opts": ["150 lpm", "200 lpm", "300 lpm", "100 lpm"],
+      "ans": 1,
+      "just": "Dividiendo la constante de 300 para el número de cuadros grandes obtenemos el ritmo cardíaco por tanto 300 entre 1.5 resulta en una taquicardia de 200 latidos por minuto.",
+      "hint": "300 entre 1.5."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación minuto de un paciente con volumen corriente de 400 ml y frecuencia de 20 rpm.",
+      "opts": ["8000 ml por min", "4000 ml por min", "12000 ml por min", "6000 ml por min"],
+      "ans": 0,
+      "just": "La ventilación minuto total es el producto simple del aire desplazado en cada ciclo por la cantidad de ciclos realizados en sesenta segundos resultando en 8 litros de aire por minuto.",
+      "hint": "Multiplicación de VC por frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el gasto cardíaco es de 5 L por min y el consumo de oxígeno es de 250 ml por min determine la diferencia arteriovenosa de oxígeno.",
+      "opts": ["50 ml por L", "5 ml por L", "25 ml por L", "100 ml por L"],
+      "ans": 0,
+      "just": "Según el principio de Fick la extracción de oxígeno es igual al consumo dividido para el flujo sanguíneo por tanto 250 entre 5 resulta en 50 mililitros de oxígeno extraídos por cada litro.",
+      "hint": "Consumo entre gasto cardíaco."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la compliance de un vaso si un aumento de presión de 5 mmHg provoca un cambio de volumen de 15 ml.",
+      "opts": ["75 ml por mmHg", "3 ml por mmHg", "0.33 ml por mmHg", "5 ml por mmHg"],
+      "ans": 1,
+      "just": "La compliance se define como la pendiente de la curva volumen presión en un punto dado por consiguiente al dividir 15 para 5 se obtiene una distensibilidad de 3 unidades.",
+      "hint": "Volumen entre presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión sistólica si la diastólica es de 85 y la presión de pulso es de 45 mmHg.",
+      "opts": ["120 mmHg", "130 mmHg", "110 mmHg", "140 mmHg"],
+      "ans": 1,
+      "just": "La presión máxima alcanzada en la arteria es la suma de la presión basal diastólica mas el incremento generado por la eyección sistólica resultando en 130 milímetros de mercurio.",
+      "hint": "Suma los dos valores proporcionados."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen telesistólico si el volumen telediastólico es de 130 ml y el volumen sistólico es de 70 ml.",
+      "opts": ["200 ml", "60 ml", "70 ml", "50 ml"],
+      "ans": 1,
+      "just": "El volumen remanente tras la sístole se calcula sustrayendo el aire expulsado del volumen total inicial por tanto 130 menos 70 arroja un residuo de 60 mililitros.",
+      "hint": "VTD menos VS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es 75 lpm y el volumen sistólico es 70 ml calcule el gasto cardíaco en litros por minuto.",
+      "opts": ["4.9 L por min", "5.25 L por min", "6.0 L por min", "5.0 L por min"],
+      "ans": 1,
+      "just": "El volumen de sangre bombeado por el corazón en un minuto se halla mediante el producto de sus componentes fundamentales resultando en 5250 mililitros o 5.25 litros.",
+      "hint": "Producto de frecuencia y volumen latido."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión alveolar de oxígeno si la PIO2 es 150 la PaCO2 es 40 y el cociente respiratorio es 1.0.",
+      "opts": ["110 mmHg", "100 mmHg", "140 mmHg", "90 mmHg"],
+      "ans": 0,
+      "just": "Bajo un cociente respiratorio unitario la cantidad de oxígeno que sale del alvéolo iguala a la de CO2 que entra por tanto 150 menos 40 resulta en una PAO2 de 110 milímetros de mercurio.",
+      "hint": "PIO2 menos PaCO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el área de sección transversal total de los capilares si el flujo es 5 L por min y la velocidad es 0.03 cm por s.",
+      "opts": ["2777 cm cuadrados", "166 cm cuadrados", "27777 cm cuadrados", "3000 cm cuadrados"],
+      "ans": 2,
+      "just": "Para hallar el área total se divide el flujo total convertido a centímetros cúbicos por segundo entre la velocidad capilar resultando en una superficie inmensa de casi 28000 centímetros cuadrados.",
+      "hint": "Flujo entre velocidad ajustando unidades."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una capacidad pulmonar total de 6 L y una capacidad vital de 4.5 L determine su volumen residual.",
+      "opts": ["1.5 L", "1.0 L", "0.5 L", "2.0 L"],
+      "ans": 0,
+      "just": "El volumen residual es el aire que no puede ser expulsado ni siquiera con esfuerzo máximo coincidiendo con la diferencia entre la capacidad total y la movible.",
+      "hint": "Resta la vital de la total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la diferencia de presión necesaria para mantener un flujo de 10 ml por s en un vaso con resistencia de 5 unidades.",
+      "opts": ["2 mmHg", "50 mmHg", "15 mmHg", "0.5 mmHg"],
+      "ans": 1,
+      "just": "Según la ley de Ohm el gradiente de presión es el producto del flujo por la resistencia encontrada por consiguiente se requieren 50 milímetros de mercurio de presión impulsora.",
+      "hint": "Flujo por resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la duración de la sístole si el ciclo cardíaco dura 0.8 segundos y la diástole ocupa dos tercios del mismo.",
+      "opts": ["0.27 s", "0.4 s", "0.53 s", "0.3 s"],
+      "ans": 0,
+      "just": "Si la diástole representa dos tercios del tiempo total la sístole debe ocupar el tercio restante por tanto un tercio de 0.8 resulta en aproximadamente 0.27 segundos.",
+      "hint": "Toma un tercio del ciclo total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia respiratoria si la ventilación minuto es 6 L por min y el volumen corriente es 500 ml.",
+      "opts": ["10 rpm", "12 rpm", "15 rpm", "20 rpm"],
+      "ans": 1,
+      "just": "La frecuencia se obtiene dividiendo el volumen total movilizado en un minuto entre el aire desplazado por cada respiración lo que resulta en 12 ciclos por minuto.",
+      "hint": "Volumen minuto entre volumen corriente."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un individuo posee una hemoglobina de 15 g por dL calcule la capacidad de transporte de oxígeno de su sangre.",
+      "opts": ["15 ml O2 por dL", "20.1 ml O2 por dL", "1.34 ml O2 por dL", "30 ml O2 por dL"],
+      "ans": 1,
+      "just": "La capacidad máxima teórica se halla multiplicando la concentración de hemoglobina por su constante de unión al oxígeno resultando en poco mas de 20 mililitros por decilitro.",
+      "hint": "15 por 1.34."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen latido de un corazón con un gasto cardíaco de 5 litros por minuto y una frecuencia de 100 lpm.",
+      "opts": ["500 ml", "50 ml", "100 ml", "20 ml"],
+      "ans": 1,
+      "just": "El volumen sistólico o latido es la fracción del gasto cardíaco correspondiente a una sola pulsación por tanto al dividir 5000 para 100 se obtienen 50 mililitros.",
+      "hint": "Divide el gasto para la frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la compliance toracopulmonar total si la compliance pulmonar es 0.2 y la de la caja torácica es 0.2 L por cm H2O.",
+      "opts": ["0.4 L por cm H2O", "0.1 L por cm H2O", "0.2 L por cm H2O", "1 L por cm H2O"],
+      "ans": 1,
+      "just": "Dado que el pulmón junto con la pared torácica están dispuestos en serie sus elastancias se suman o sus compliances se calculan mediante la suma de inversos resultando en 0.1 unidades.",
+      "hint": "Suma de inversos de la compliance."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la presión intrapleural es de menos 5 y la alveolar es de 0 cuál es la presión transpulmonar.",
+      "opts": ["Menos 5", "Mas 5", "0", "Menos 10"],
+      "ans": 1,
+      "just": "La presión transpulmonar se define como la diferencia entre la presión interna alveolar y la presión externa pleural por consiguiente 0 menos menos 5 resulta en una presión positiva de 5.",
+      "hint": "Alveolar menos pleural."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si en una tira de EKG la distancia R-R es de 4 cuadros grandes.",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 1,
+      "just": "Dividiendo la referencia de 300 para los 4 cuadros grandes observados se halla una frecuencia rítmica y normal de 75 pulsaciones por minuto.",
+      "hint": "300 entre 4."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el área de sección transversal de un vaso si la velocidad es de 10 cm por s y el flujo es de 50 ml por s.",
+      "opts": ["5 cm cuadrados", "500 cm cuadrados", "0.2 cm cuadrados", "10 cm cuadrados"],
+      "ans": 0,
+      "just": "El área se despeja de la fórmula de continuidad dividiendo el flujo total para la velocidad del fluido por tanto 50 entre 10 resulta en una sección de 5 unidades cuadradas.",
+      "hint": "Flujo entre velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una capacidad inspiratoria de 3.0 L y un volumen corriente de 0.5 L determine su volumen de reserva inspiratoria.",
+      "opts": ["3.5 L", "2.5 L", "1.5 L", "2.0 L"],
+      "ans": 1,
+      "just": "La capacidad inspiratoria representa la suma del aire movilizado normalmente junto con el volumen extra que se puede inhalar por ende la reserva es de 2.5 litros.",
+      "hint": "CI menos volumen corriente."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia de un vaso si al duplicar la presión el flujo solo aumenta un 25 por ciento (de 100 a 125).",
+      "opts": ["Invariable", "Aumenta 1.6 veces", "Disminuye a la mitad", "Aumenta 4 veces"],
+      "ans": 1,
+      "just": "Si la presión aumenta el doble pero el flujo no lo hace en la misma medida significa que la resistencia ha aumentado significativamente para contrarrestar el cambio de presión.",
+      "hint": "Analiza la relación Q igual a Delta P entre R."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen de reserva espiratoria si la capacidad vital es de 5 L el VC es de 0.5 L y el VRI es de 3 L.",
+      "opts": ["1.5 L", "1.0 L", "2.5 L", "0.5 L"],
+      "ans": 0,
+      "just": "Sustrayendo el volumen corriente y la reserva inspiratoria de la capacidad vital total se obtiene el componente espiratorio restante que es de 1.5 litros.",
+      "hint": "CV menos la suma de VC y VRI."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco si el volumen telediastólico es 120 el telesistólico es 50 y la frecuencia es 70.",
+      "opts": ["8.4 L por min", "4.9 L por min", "5.0 L por min", "3.5 L por min"],
+      "ans": 1,
+      "just": "Primero se halla el volumen sistólico de 70 mililitros para luego multiplicarlo por la frecuencia cardíaca resultando en un gasto de 4900 mililitros por minuto.",
+      "hint": "Halla primero el VS y luego multiplica por FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene una PaCO2 de 60 mmHg determine el estado de su ventilación alveolar respecto a lo normal (40 mmHg).",
+      "opts": ["Hiperventilación", "Hipoventilación al 66 por ciento de lo normal", "Normal", "Ventilación duplicada"],
+      "ans": 1,
+      "just": "La presión de CO2 es inversamente proporcional a la ventilación alveolar por consiguiente un aumento del 50 por ciento en el gas indica una reducción proporcional en la eliminación pulmonar.",
+      "hint": "Más CO2 implica menos ventilación."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión de pulso si la PAM es 100 y la presión sistólica es 120.",
+      "opts": ["20 mmHg", "30 mmHg", "60 mmHg", "40 mmHg"],
+      "ans": 1,
+      "just": "Utilizando la fórmula de la PAM se deduce que la diferencial debe ser de 30 milímetros para que un tercio de ella sumada a la diastólica resulte en 100.",
+      "hint": "Resta sistólica menos diastólica tras hallarla."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si un ciclo cardíaco dura exactamente 1.2 segundos.",
+      "opts": ["50 lpm", "60 lpm", "75 lpm", "100 lpm"],
+      "ans": 0,
+      "just": "Se divide el total de sesenta segundos entre el tiempo que consume cada latido individual por tanto 60 entre 1.2 arroja una frecuencia de 50 latidos.",
+      "hint": "60 entre 1.2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar de un perro que respira 20 veces por minuto con VC de 200 ml y espacio muerto de 50 ml.",
+      "opts": ["4000 ml por min", "3000 ml por min", "1000 ml por min", "5000 ml por min"],
+      "ans": 1,
+      "just": "La ventilación efectiva se obtiene multiplicando la frecuencia por el aire que realmente llega a los alvéolos resultando en 3 litros por minuto.",
+      "hint": "20 por la diferencia de 200 y 50."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la PaO2 es de 100 mmHg calcule la cantidad de oxígeno disuelto en plasma por cada decilitro.",
+      "opts": ["0.3 ml por dL", "3 ml por dL", "0.003 ml por dL", "1.34 ml por dL"],
+      "ans": 0,
+      "just": "El oxígeno disuelto sigue la ley de Henry con un coeficiente de 0.003 mililitros por cada milímetro de mercurio por decilitro por tanto 100 por 0.003 es igual a 0.3.",
+      "hint": "Presión por 0.003."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la resistencia de un vaso si el flujo disminuye a la cuarta parte tras reducir la presión a la mitad.",
+      "opts": ["Se duplica", "Se reduce a la mitad", "No cambia", "Aumenta 4 veces"],
+      "ans": 0,
+      "just": "Si el flujo cae mas de lo que cayó la presión significa que la resistencia aumentó por consiguiente el cambio indica que la resistencia ahora es el doble de la inicial.",
+      "hint": "Analiza R igual a Delta P entre Q."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la fracción de eyección si el VTD es 100 ml y el VTS es 30 ml.",
+      "opts": ["30 por ciento", "70 por ciento", "50 por ciento", "130 por ciento"],
+      "ans": 1,
+      "just": "El corazón ha expulsado 70 mililitros de los 100 que tenía originalmente por tanto posee una fracción de eyección del 70 por ciento.",
+      "hint": "Diferencia entre volúmenes respecto al total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen corriente si la capacidad inspiratoria es de 2.5 L y el VRI es de 2.1 L.",
+      "opts": ["0.4 L", "4.6 L", "0.5 L", "1.0 L"],
+      "ans": 0,
+      "just": "El aire movilizado en reposo es el componente basal de la capacidad inspiratoria por consiguiente 2.5 menos 2.1 resulta en 400 mililitros de volumen corriente.",
+      "hint": "CI menos VRI."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si hay 30 cuadros pequeños en el intervalo R-R.",
+      "opts": ["50 lpm", "60 lpm", "40 lpm", "30 lpm"],
+      "ans": 0,
+      "just": "Considerando la escala temporal del papel de registro se divide 1500 para la cantidad de milímetros entre latidos resultando en 50 pulsaciones por minuto.",
+      "hint": "1500 entre 30."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la compliance pulmonar es de 0.2 L por cm H2O y la presión transpulmonar es de 10 cm H2O cuál es el volumen insuflado.",
+      "opts": ["2 L", "0.02 L", "50 L", "1 L"],
+      "ans": 0,
+      "just": "El volumen es el producto de la distensibilidad por la presión aplicada por tanto 0.2 por 10 resulta en una expansión de 2 litros de aire.",
+      "hint": "Compliance por presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión diferencial de un paciente con PAM de 93 mmHg y diastólica de 80 mmHg.",
+      "opts": ["13 mmHg", "39 mmHg", "26 mmHg", "40 mmHg"],
+      "ans": 1,
+      "just": "Puesto que la PAM supera a la diastólica en un tercio de la diferencial la resta de 93 menos 80 debe multiplicarse por tres para hallar el valor total de 39.",
+      "hint": "Multiplica la diferencia con la PAM por 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva inspiratoria si la CPT es 7 L la CRF es 3 L y el VC es 0.5 L.",
+      "opts": ["3.5 L", "4 L", "2.5 L", "3 L"],
+      "ans": 0,
+      "just": "Restando la capacidad residual funcional y el volumen corriente del volumen total pulmonar se halla el espacio ocupado por la reserva inspiratoria.",
+      "hint": "CPT menos la suma de CRF y VC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el gasto cardíaco aumenta un 20 por ciento y la resistencia disminuye un 20 por ciento qué ocurre con la PAM.",
+      "opts": ["Aumenta un 4 por ciento", "Disminuye un 4 por ciento", "No cambia", "Aumenta un 40 por ciento"],
+      "ans": 1,
+      "just": "El producto de 1.2 por 0.8 resulta en 0.96 por consiguiente la presión arterial media experimenta una leve disminución del 4 por ciento respecto al valor original.",
+      "hint": "Multiplica los factores de cambio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen latido si el gasto cardíaco es 6 L por min y se producen 12 latidos en 10 segundos.",
+      "opts": ["83 ml", "50 ml", "100 ml", "72 ml"],
+      "ans": 0,
+      "just": "Primero se halla la frecuencia de 72 latidos por minuto para luego dividir el gasto total entre dicha frecuencia resultando en aproximadamente 83 mililitros.",
+      "hint": "Halla primero la frecuencia cardíaca anual."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión alveolar de nitrógeno si la presión barométrica es 760 la PH2O es 47 la PAO2 es 100 y la PACO2 es 40.",
+      "opts": ["573 mmHg", "600 mmHg", "500 mmHg", "400 mmHg"],
+      "ans": 0,
+      "just": "Se restan las presiones de todos los demás componentes de la presión total húmeda del alvéolo por tanto 713 menos 140 resulta en 573 milímetros de mercurio.",
+      "hint": "713 menos la suma de O2 y CO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un eritrocito se mueve a 0.1 cm por s en un capilar de 1 mm de longitud determine su tiempo de tránsito.",
+      "opts": ["1 segundo", "10 segundos", "0.1 segundos", "2 segundos"],
+      "ans": 0,
+      "just": "El tiempo es la razón entre la distancia recorrida junto con la velocidad del desplazamiento por consiguiente 0.1 cm dividido para 0.1 cm por segundo resulta en un segundo.",
+      "hint": "Longitud entre velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen de reserva espiratoria si la capacidad vital es 4 L la capacidad inspiratoria es 3 L.",
+      "opts": ["1 L", "7 L", "0.5 L", "1.5 L"],
+      "ans": 0,
+      "just": "La diferencia entre el volumen máximo exhalable tras inspiración profunda y la capacidad de inhalación basal otorga el valor de la reserva espiratoria.",
+      "hint": "CV menos CI."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si hay 6 cuadros grandes en el intervalo R-R.",
+      "opts": ["50 lpm", "60 lpm", "40 lpm", "100 lpm"],
+      "ans": 0,
+      "just": "Dividiendo la referencia cronológica de 300 para los 6 bloques observados en el papel milimetrado se obtiene una frecuencia de 50 pulsaciones.",
+      "hint": "300 entre 6."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la resistencia de un vaso es 81 unidades y el radio aumenta al triple determine la nueva resistencia.",
+      "opts": ["27 unidades", "1 unidad", "3 unidades", "9 unidades"],
+      "ans": 1,
+      "just": "Al triplicar el radio la resistencia cae ochenta y una veces debido a la ley de Poiseuille por tanto 81 dividido para 81 resulta en una unidad.",
+      "hint": "Divide para 3 elevado a la cuarta."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen sistólico si el volumen telediastólico es 150 ml y la fracción de eyección es 0.6.",
+      "opts": ["90 ml", "60 ml", "100 ml", "150 ml"],
+      "ans": 0,
+      "just": "El volumen de eyección es el producto de la fracción por el contenido total previo a la contracción resultando en 90 mililitros de sangre expulsada.",
+      "hint": "Multiplica VTD por la fracción."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar si la ventilación minuto es 7.5 L por min la frecuencia es 15 y el espacio muerto es 150 ml.",
+      "opts": ["5.25 L por min", "6.0 L por min", "4.5 L por min", "7.0 L por min"],
+      "ans": 0,
+      "just": "Primero se halla el volumen corriente de 500 mililitros para luego restar el espacio muerto y multiplicar por la frecuencia resultando en 5.25 litros.",
+      "hint": "Halla el VC y resta el espacio muerto."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la tensión parietal aumenta el doble y el espesor se duplica qué ocurre con la presión interna según Laplace.",
+      "opts": ["Se cuadruplica", "No cambia", "Disminuye a la mitad", "Se duplica"],
+      "ans": 1,
+      "just": "Dado que el aumento de tensión se compensa exactamente con el incremento del espesor muscular la presión interna se mantiene constante.",
+      "hint": "Analiza la fórmula P igual a 2Th entre r."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si se observan 10 cuadros pequeños entre latidos.",
+      "opts": ["150 lpm", "100 lpm", "75 lpm", "60 lpm"],
+      "ans": 0,
+      "just": "Siguiendo la metodología del flujograma se divide la constante 1500 entre el número de milímetros resultando en una taquicardia extrema de 150 latidos.",
+      "hint": "1500 entre 10."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen telesistólico si el VTD es 120 ml y la FE es del 75 por ciento.",
+      "opts": ["90 ml", "30 ml", "60 ml", "40 ml"],
+      "ans": 1,
+      "just": "Si el 75 por ciento se expulsa entonces el 25 por ciento permanece en el ventrículo por tanto un cuarto de 120 es igual a 30 mililitros.",
+      "hint": "Halla el 25 por ciento del VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión diferencial si la PAM es 110 mmHg y la diastólica es 90 mmHg.",
+      "opts": ["20 mmHg", "60 mmHg", "40 mmHg", "30 mmHg"],
+      "ans": 1,
+      "just": "La diferencia entre la media junto con la diastólica es de 20 unidades lo cual representa solo un tercio del valor total de la presión de pulso por tanto el valor real es 60.",
+      "hint": "Multiplica el exceso de PAM por 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen minuto si se respira cada 5 segundos con un volumen corriente de 0.6 L.",
+      "opts": ["7.2 L por min", "6 L por min", "3 L por min", "12 L por min"],
+      "ans": 0,
+      "just": "Una respiración cada cinco segundos implica doce ciclos por minuto por consiguiente el producto de 12 por 0.6 arroja una ventilación de 7.2 litros.",
+      "hint": "Frecuencia de 12 por volumen."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el gasto cardíaco es de 4 L por min y el índice cardíaco es de 2 L por min por m2 cuál es la superficie corporal.",
+      "opts": ["2 metros cuadrados", "8 metros cuadrados", "0.5 metros cuadrados", "4 metros cuadrados"],
+      "ans": 0,
+      "just": "Se despeja el área dividiendo el flujo total para el índice normalizado resultando en una superficie de dos unidades cuadradas.",
+      "hint": "Gasto cardíaco entre índice."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la resistencia de tres vasos iguales de 9 unidades cada uno si se colocan en paralelo.",
+      "opts": ["27 unidades", "3 unidades", "1 unidad", "9 unidades"],
+      "ans": 1,
+      "just": "La resistencia equivalente en un sistema paralelo con elementos idénticos es el valor de uno de ellos dividido para la cantidad de conductos existentes.",
+      "hint": "Divide para 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la constante de tiempo si la resistencia es 4 y la compliance es 0.5.",
+      "opts": ["2", "8", "4.5", "0.125"],
+      "ans": 0,
+      "just": "El tiempo necesario para el llenado o vaciado depende del producto de la facilidad de expansión por la dificultad del flujo resultando en 2 unidades de tiempo.",
+      "hint": "Producto de R y C."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el volumen telediastólico se duplica y el volumen telesistólico permanece igual qué ocurre con la FE.",
+      "opts": ["No cambia", "Aumenta", "Disminuye", "Se reduce a la mitad"],
+      "ans": 1,
+      "just": "Al aumentar el llenado sin aumentar el residuo la cantidad de sangre expulsada crece proporcionalmente mas que el total por tanto la eficiencia mejora.",
+      "hint": "El numerador crece mas que el denominador."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el flujo si la velocidad es 20 y el radio es 1 (asuma área como Pi por r al cuadrado con Pi igual a 3).",
+      "opts": ["60 ml por s", "20 ml por s", "120 ml por s", "40 ml por s"],
+      "ans": 0,
+      "just": "Primero se calcula el área circular de 3 unidades para luego multiplicarla por la velocidad del desplazamiento resultando en un flujo de 60 unidades de volumen.",
+      "hint": "Velocidad por área circular."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si hay 20 cuadros pequeños entre R y R.",
+      "opts": ["75 lpm", "100 lpm", "60 lpm", "150 lpm"],
+      "ans": 0,
+      "just": "Utilizando la relación de velocidad del papel de registro se divide la constante 1500 entre los 20 milímetros medidos obteniendo 75 latidos.",
+      "hint": "1500 entre 20."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión sistólica de un paciente con PA 110/70.",
+      "opts": ["110 mmHg", "70 mmHg", "40 mmHg", "180 mmHg"],
+      "ans": 0,
+      "just": "En la nomenclatura estándar de la presión arterial el primer valor registrado siempre representa la presión máxima generada durante la eyección ventricular.",
+      "hint": "Es el valor mas alto."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la capacidad vital si el VRI es 2.5 el VC es 0.5 y el VRE es 1.5.",
+      "opts": ["4.5 L", "3.0 L", "5.0 L", "2.0 L"],
+      "ans": 0,
+      "just": "La capacidad vital es la sumatoria de todos los volúmenes de aire que pueden ser movilizados voluntariamente por el individuo resultando en 4.5 litros.",
+      "hint": "Suma las tres reservas movibles."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene una PaCO2 de 20 mmHg determine su estado ventilatorio.",
+      "opts": ["Hipoventilación", "Hiperventilación al doble de lo normal", "Normal", "Apnea"],
+      "ans": 1,
+      "just": "Puesto que la presión de CO2 cayó a la mitad de su valor fisiológico normal se deduce que la ventilación alveolar ha sido duplicada efectivamente.",
+      "hint": "Relación inversa CO2 y ventilación."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen residual si la CPT es 6 L la capacidad inspiratoria es 3 L y el VRE es 1.5 L.",
+      "opts": ["1.5 L", "1.0 L", "0.5 L", "4.5 L"],
+      "ans": 0,
+      "just": "Sustrayendo los componentes de la capacidad vital de la capacidad pulmonar total se halla el aire que siempre queda atrapado en el parénquima.",
+      "hint": "CPT menos la suma de CI y VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco según Fick si el consumo de O2 es 300 la Ca es 190 y la Cv es 140 ml por L.",
+      "opts": ["6 L por min", "4.2 L por min", "5.0 L por min", "1.5 L por min"],
+      "ans": 0,
+      "just": "Dividiendo el consumo total para la diferencia de contenido de oxígeno en los vasos principales se obtiene un flujo de seis unidades de volumen por minuto.",
+      "hint": "300 entre 50."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la viscosidad de la sangre disminuye a la mitad cuál es el cambio en el flujo para una presión constante.",
+      "opts": ["Se reduce a la mitad", "Se duplica", "No cambia", "Aumenta 16 veces"],
+      "ans": 1,
+      "just": "Debido a que el flujo es inversamente proporcional a la viscosidad un fluido menos espeso circulará con el doble de facilidad bajo la misma presión.",
+      "hint": "Relación inversa viscosidad flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la FE si el VTD es 140 y el VS es 70.",
+      "opts": ["50 por ciento", "70 por ciento", "140 por ciento", "30 por ciento"],
+      "ans": 0,
+      "just": "La mitad exacta del volumen contenido en el ventrículo ha sido expulsada durante la sístole por lo tanto la eficiencia mecánica es del 50 por ciento.",
+      "hint": "VS es la mitad del VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la compliance de la pared torácica si un cambio de 10 cm H2O de presión desplaza 1 L de aire.",
+      "opts": ["0.1 L por cm H2O", "10 L por cm H2O", "1 L por cm H2O", "0.5 L por cm H2O"],
+      "ans": 0,
+      "just": "Se divide el volumen movilizado para la presión requerida para vencer la elasticidad de los tejidos resultando en una compliance unitaria de 0.1.",
+      "hint": "1 entre 10."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca es 40 lpm determine cuántos cuadros grandes hay entre latidos.",
+      "opts": ["7.5", "5", "10", "4"],
+      "ans": 0,
+      "just": "Utilizando la constante de conversión temporal del papel se divide 300 para el número de pulsaciones resultando en un espacio de 7.5 bloques grandes.",
+      "hint": "300 entre 40."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen telesistólico si el VS es 80 ml y la FE es de 0.8.",
+      "opts": ["20 ml", "100 ml", "160 ml", "64 ml"],
+      "ans": 0,
+      "just": "Si el 80 por ciento equivale a 80 mililitros el total es 100 por consiguiente el residuo del 20 por ciento restante es de 20 mililitros.",
+      "hint": "Calcula el VTD y resta el VS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media si la sistólica es 140 y la diastólica es 110 mmHg.",
+      "opts": ["120 mmHg", "125 mmHg", "130 mmHg", "115 mmHg"],
+      "ans": 0,
+      "just": "Sumanos a la presión de reposo un tercio del incremento generado por el latido resultando en 110 mas 10 lo que arroja 120 milímetros de mercurio.",
+      "hint": "110 mas un tercio de 30."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el gasto cardíaco mediante el principio de Fick si un paciente consume 300 ml de oxígeno por minuto y presenta un contenido arterial de 190 ml por litro frente a un contenido venoso de 140 ml por litro.",
+      "opts": ["4 L por min", "6 L por min", "5.5 L por min", "7 L por min"],
+      "ans": 1,
+      "just": "La aplicación del principio de Fick requiere dividir el consumo total de oxígeno para la diferencia arteriovenosa de su contenido; por consiguiente, al dividir 300 para 50 se obtiene un flujo sanguíneo sistémico de 6 litros por minuto.",
+      "hint": "Consumo entre diferencia de contenidos."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia periférica total si la presión arterial media es de 95 mmHg la presión de la aurícula derecha es de 5 mmHg y el gasto cardíaco es de 5 L por min.",
+      "opts": ["20 unidades", "18 unidades", "15 unidades", "22 unidades"],
+      "ans": 1,
+      "just": "La resistencia se halla dividiendo el gradiente de presión total para el flujo; asimismo, la resta de 95 menos 5 resulta en 90 que al dividirse para 5 arroja una resistencia de 18 unidades vasculares.",
+      "hint": "Gradiente de presión entre flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un vaso sanguíneo reduce su radio a la mitad por acción de un fármaco vasoconstrictor determine cuánto aumenta su resistencia al flujo.",
+      "opts": ["2 veces", "4 veces", "8 veces", "16 veces"],
+      "ans": 3,
+      "just": "De acuerdo con la ley de Poiseuille, la resistencia es inversamente proporcional a la cuarta potencia del radio; por lo tanto, al reducirse el radio a la mitad, la carga resistiva se incrementa dieciséis veces.",
+      "hint": "Aplica la cuarta potencia al cambio de radio."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene una frecuencia cardíaca de 50 latidos por minuto. ¿Cuál es la duración total del ciclo cardíaco en segundos?",
+      "opts": ["0.8 s", "1.0 s", "1.2 s", "1.5 s"],
+      "ans": 2,
+      "just": "La duración de un ciclo cardíaco se calcula dividiendo el tiempo de un minuto expresado en segundos para la frecuencia; consecuentemente, 60 dividido para 50 resulta en un intervalo de 1.2 segundos.",
+      "hint": "Sesenta entre frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la fracción de eyección de un individuo con un volumen telediastólico de 150 ml y un volumen telesistólico de 60 ml.",
+      "opts": ["40 por ciento", "60 por ciento", "50 por ciento", "70 por ciento"],
+      "ans": 1,
+      "just": "Primero se halla el volumen sistólico restando el volumen residual del total inicial; posteriormente, se divide el resultado de 90 para 150 obteniendo una eficiencia del 60 por ciento.",
+      "hint": "Volumen latido entre volumen telediastólico."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media de un paciente que registra una tensión de 140 por 80 milímetros de mercurio.",
+      "opts": ["90 mmHg", "100 mmHg", "110 mmHg", "95 mmHg"],
+      "ans": 1,
+      "just": "La presión de perfusión promedio se estima sumando la diastólica a un tercio de la presión diferencial; por ende, 80 mas 20 resulta en 100 milímetros de mercurio.",
+      "hint": "Diastólica mas un tercio de la diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si en un electrocardiograma se observan 10 cuadros pequeños en el intervalo R a R determine la frecuencia cardíaca exacta.",
+      "opts": ["100 lpm", "150 lpm", "75 lpm", "300 lpm"],
+      "ans": 1,
+      "just": "Considerando que un minuto contiene 1500 milímetros de papel, la frecuencia se obtiene dividiendo dicha constante para el número de cuadritos; por consiguiente, 1500 para 10 resulta en una taquicardia de 150.",
+      "hint": "1500 entre número de cuadros pequeños."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la ventilación alveolar de un paciente con un volumen corriente de 500 ml un espacio muerto anatómico de 150 ml y una frecuencia de 12 respiraciones por minuto.",
+      "opts": ["6000 ml por min", "4200 ml por min", "5000 ml por min", "3500 ml por min"],
+      "ans": 1,
+      "just": "La ventilación alveolar descuenta el aire que no participa en el intercambio gaseoso; puesto que (500 menos 150) multiplicado por 12 es igual a 4200, ese es el flujo de aire eficaz.",
+      "hint": "Frecuencia por la diferencia del VC y el espacio muerto."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la compliance pulmonar si un cambio de presión transpulmonar de 5 cm H2O genera un cambio de volumen de 1 litro.",
+      "opts": ["50 ml por cm H2O", "200 ml por cm H2O", "0.2 L por cm H2O", "100 ml por cm H2O"],
+      "ans": 2,
+      "just": "La distensibilidad se define como el cambio de volumen por unidad de presión aplicada; por tanto, al dividir 1 litro para 5 se obtiene una compliance de 0.2 litros por cada centímetro de agua.",
+      "hint": "Delta de volumen entre delta de presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el contenido de oxígeno en la sangre arterial si la hemoglobina es de 15 g por dL y la saturación es del 100 por ciento omitiendo el O2 disuelto.",
+      "opts": ["15 ml por dL", "20.1 ml por dL", "13.4 ml por dL", "25 ml por dL"],
+      "ans": 1,
+      "just": "Bajo saturación completa, cada gramo de hemoglobina transporta 1.34 mililitros de oxígeno; además, el producto de 15 por 1.34 resulta en un contenido total de 20.1 mililitros.",
+      "hint": "Multiplica la hemoglobina por 1.34."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene una presión arterial sistólica de 150 mmHg y una presión de pulso de 60 mmHg calcule su presión arterial diastólica.",
+      "opts": ["100 mmHg", "90 mmHg", "80 mmHg", "110 mmHg"],
+      "ans": 1,
+      "just": "La presión diferencial representa el incremento sobre la diastólica alcanzado durante la sístole; asimismo, al restar la diferencial de la sistólica se halla el valor basal de 90 milímetros de mercurio.",
+      "hint": "PAS menos presión de pulso."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si en una tira de EKG la distancia entre dos complejos QRS es de 6 cuadros grandes.",
+      "opts": ["60 lpm", "50 lpm", "40 lpm", "75 lpm"],
+      "ans": 1,
+      "just": "Aplicando el método rápido para ritmos regulares, se divide la constante 300 para la cantidad de cuadros de 5 milímetros; por consiguiente, 300 entre 6 resulta en una bradicardia de 50 latidos.",
+      "hint": "300 dividido para el número de cuadros grandes."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva espiratoria si la capacidad vital es de 4.8 L la capacidad inspiratoria es de 3.3 L.",
+      "opts": ["1.5 L", "1.2 L", "1.0 L", "2.0 L"],
+      "ans": 0,
+      "just": "La capacidad vital es la sumatoria de todos los volúmenes movilizables del pulmón; puesto que la inspiratoria ya incluye el volumen corriente y la reserva inspiratoria, la diferencia de 1.5 corresponde a la reserva exhalable.",
+      "hint": "Resta la inspiratoria de la vital."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la velocidad del flujo sanguíneo en una zona donde el área de sección transversal es de 2 cm cuadrados y el flujo es de 20 ml por segundo.",
+      "opts": ["40 cm por s", "10 cm por s", "5 cm por s", "20 cm por s"],
+      "ans": 1,
+      "just": "La velocidad del desplazamiento de la sangre es inversamente proporcional al área disponible para el flujo; por tanto, al dividir 20 para 2 se obtiene una velocidad lineal de 10 centímetros por segundo.",
+      "hint": "Flujo dividido para área."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la tensión parietal en un ventrículo con radio de 3 cm que genera una presión de 120 mmHg con un espesor de pared de 1 cm según Laplace simplificada.",
+      "opts": ["360 unidades", "180 unidades", "120 unidades", "240 unidades"],
+      "ans": 1,
+      "just": "La tensión en la pared se halla multiplicando la presión por el radio para luego dividirlo entre dos veces el grosor; consecuentemente, 360 dividido para 2 arroja un valor de 180 unidades.",
+      "hint": "Pr entre 2h."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el área de superficie corporal de un paciente si su gasto cardíaco es de 6 litros por minuto y su índice cardíaco es de 3 litros por minuto por metro cuadrado.",
+      "opts": ["1.5 m2", "2.0 m2", "1.8 m2", "2.5 m2"],
+      "ans": 1,
+      "just": "El índice cardíaco se define como el flujo total normalizado por el tamaño del individuo; asimismo, al despejar el área dividiendo 6 para 3 se obtiene una superficie de 2 metros cuadrados.",
+      "hint": "Gasto cardíaco entre índice cardíaco."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente respira aire húmedo en la tráquea con una FiO2 de 0.21 y una presión barométrica de 760 mmHg determine la presión parcial de oxígeno inspirado.",
+      "opts": ["160 mmHg", "149 mmHg", "155 mmHg", "100 mmHg"],
+      "ans": 1,
+      "just": "Antes de calcular la presión parcial del gas se debe sustraer la presión del vapor de agua que es de 47 unidades; por consiguiente, el 21 por ciento de 713 resulta en aproximadamente 149.7 milímetros.",
+      "hint": "Fracción por la resta de PB menos 47."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen telesistólico si el volumen telediastólico es de 120 ml y la fracción de eyección es del 70 por ciento.",
+      "opts": ["84 ml", "36 ml", "50 ml", "40 ml"],
+      "ans": 1,
+      "just": "La eyección corresponde al 70 por ciento del contenido inicial lo que equivale a 84 mililitros; por tanto, el remanente en la cámara tras la sístole es la diferencia de 36 mililitros.",
+      "hint": "Resta el volumen eyectado del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el espacio muerto fisiológico si el volumen corriente es de 600 ml la PaCO2 es de 40 y la PeCO2 es de 20 mmHg.",
+      "opts": ["150 ml", "300 ml", "200 ml", "400 ml"],
+      "ans": 1,
+      "just": "Utilizando la fórmula de Bohr, la fracción del aire que no realiza intercambio es igual a la diferencia de presiones dividida para la arterial; puesto que 20 entre 40 es el 50 por ciento, el espacio muerto es de 300 mililitros.",
+      "hint": "VC por la relación de caída del CO2."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco si un ciclo cardíaco completo dura 0.6 segundos y el volumen sistólico es de 70 ml.",
+      "opts": ["4.2 L por min", "7.0 L por min", "6.0 L por min", "5.0 L por min"],
+      "ans": 1,
+      "just": "Un ciclo de 0.6 segundos implica una frecuencia de 100 latidos por minuto; además, el flujo total se obtiene multiplicando dicha frecuencia por el volumen latido resultando en 7 litros por minuto.",
+      "hint": "Halla la frecuencia primero y luego multiplica por VS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si el número de Reynolds es de 1500 determine el tipo de flujo sanguíneo esperado.",
+      "opts": ["Turbulento", "Laminar", "Transicional ruidoso", "Ausente"],
+      "ans": 1,
+      "just": "Valores por debajo de 2000 se asocian con un flujo ordenado y silencioso sin remolinos; por consiguiente, el movimiento de la sangre bajo este parámetro se define como laminar.",
+      "hint": "Parámetro crítico bajo los 2000."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la capacitancia de una arteria si un cambio de volumen de 10 ml genera un aumento de presión de 50 mmHg.",
+      "opts": ["5 ml por mmHg", "0.2 ml por mmHg", "2 ml por mmHg", "0.5 ml por mmHg"],
+      "ans": 1,
+      "just": "La distensibilidad vascular es la razón entre el volumen ganado junto con la presión necesaria para ello; consecuentemente, 10 dividido para 50 resulta en un valor de 0.2 mililitros por unidad de presión.",
+      "hint": "Volumen entre presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia equivalente de tres vasos de 3 unidades cada uno dispuestos en paralelo.",
+      "opts": ["9 unidades", "1 unidad", "3 unidades", "1.5 unidades"],
+      "ans": 1,
+      "just": "En un circuito en paralelo con resistencias idénticas la carga total es igual al valor de una de ellas dividido para el número total de conductos; por tanto, 3 entre 3 es igual a una unidad.",
+      "hint": "Divide el valor individual para tres."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen minuto respiratorio si se inspiran 0.6 litros con una frecuencia de 15 veces por minuto.",
+      "opts": ["6 L por min", "9 L por min", "7.5 L por min", "12 L por min"],
+      "ans": 1,
+      "just": "La ventilación total es el producto del volumen de aire movilizado en cada ciclo por la cantidad de ciclos en sesenta segundos; asimismo, 0.6 por 15 arroja un total de 9 litros.",
+      "hint": "Producto de VC y FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión alveolar de oxígeno si la PIO2 es de 150 la PaCO2 es de 40 y el cociente respiratorio es de 0.8.",
+      "opts": ["110 mmHg", "100 mmHg", "120 mmHg", "90 mmHg"],
+      "ans": 1,
+      "just": "Según la ecuación del gas alveolar, se resta la presión de CO2 ajustada por el cociente de la presión de oxígeno inspirado; por consiguiente, 150 menos 50 resulta en 100 milímetros de mercurio.",
+      "hint": "PIO2 menos la división de PaCO2 entre 0.8."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente tiene una hemoglobina de 10 g por dL y una saturación del 70 por ciento determine el oxígeno unido a hemoglobina.",
+      "opts": ["7 ml por dL", "9.38 ml por dL", "13.4 ml por dL", "10 ml por dL"],
+      "ans": 1,
+      "just": "El contenido se halla multiplicando la concentración de hemoglobina por su constante de carga y por la fracción saturada; por lo tanto, el producto de 10 por 1.34 por 0.7 resulta en 9.38 mililitros.",
+      "hint": "Hb por 1.34 por saturación decimal."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si en el trazado de EKG hay exactamente 2 cuadros grandes entre las ondas R.",
+      "opts": ["100 lpm", "150 lpm", "200 lpm", "300 lpm"],
+      "ans": 1,
+      "just": "Utilizando la referencia cronológica de 300 para el papel milimetrado, se divide dicha cifra para el número de bloques de cinco milímetros; por ende, 300 entre 2 arroja un resultado de 150 latidos.",
+      "hint": "Regla de los 300."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen sistólico si el gasto cardíaco es de 4.8 L por min y la frecuencia cardíaca es de 60 lpm.",
+      "opts": ["48 ml", "80 ml", "60 ml", "100 ml"],
+      "ans": 1,
+      "just": "El volumen eyectado en cada latido se obtiene dividiendo el flujo total de un minuto convertido a mililitros entre el número de pulsaciones; consecuentemente, 4800 para 60 es igual a 80 mililitros.",
+      "hint": "Gasto cardíaco entre frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión de pulso si la presión arterial sistólica es de 135 mmHg y la presión arterial media es de 95 mmHg.",
+      "opts": ["40 mmHg", "60 mmHg", "30 mmHg", "20 mmHg"],
+      "ans": 1,
+      "just": "Partiendo de la fórmula de la PAM, se deduce que la diferencia entre sistólica junto con diastólica debe ser de 60 para que un tercio de ella (20) sumada a la diastólica (75) resulte en 95.",
+      "hint": "Despeja de la fórmula de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen residual si la capacidad pulmonar total es de 7 L y la capacidad vital es de 5.5 L.",
+      "opts": ["1.2 L", "1.5 L", "2.0 L", "0.5 L"],
+      "ans": 1,
+      "just": "El aire que siempre permanece atrapado en el parénquima pulmonar es la diferencia entre el volumen total y el máximo volumen movilizable; por tanto, 7 menos 5.5 arroja un residuo de 1.5 litros.",
+      "hint": "CPT menos CV."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia respiratoria es de 20 rpm determine la duración promedio de un ciclo respiratorio completo.",
+      "opts": ["2 segundos", "3 segundos", "4 segundos", "5 segundos"],
+      "ans": 1,
+      "just": "Dividiendo el tiempo total de un minuto para el número de ciclos completados se obtiene el periodo de cada uno; asimismo, 60 entre 20 resulta en una duración de 3 segundos por respiración.",
+      "hint": "Sesenta entre frecuencia respiratoria."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión sistólica de un paciente con presión diastólica de 90 mmHg y presión arterial media de 110 mmHg.",
+      "opts": ["130 mmHg", "150 mmHg", "140 mmHg", "120 mmHg"],
+      "ans": 1,
+      "just": "Puesto que la media supera a la diastólica en un tercio de la diferencial, la resta de 20 unidades indica que la presión de pulso total es de 60; por consiguiente, 90 mas 60 es igual a 150.",
+      "hint": "Suma tres veces la diferencia de PAM y PAD a la PAD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia vascular pulmonar si la presión de la arteria pulmonar es de 15 mmHg la presión de la aurícula izquierda es de 5 mmHg y el flujo es de 5 L por min.",
+      "opts": ["5 unidades", "2 unidades", "10 unidades", "1 unidad"],
+      "ans": 1,
+      "just": "Se aplica la ley de Ohm dividiendo el gradiente de presión del circuito menor para el gasto cardíaco; por tanto, 10 dividido para 5 resulta en una resistencia de 2 unidades pulmonares.",
+      "hint": "Diferencia de presiones entre flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la fracción de eyección si el volumen latido es de 70 ml y el volumen residual tras la sístole es de 30 ml.",
+      "opts": ["30 por ciento", "70 por ciento", "50 por ciento", "40 por ciento"],
+      "ans": 1,
+      "just": "El volumen telediastólico total era de 100 mililitros al sumar lo expulsado junto con lo remanente; consecuentemente, 70 dividido para 100 otorga una fracción del 70 por ciento.",
+      "hint": "VS dividido para la suma de VS y VTS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un paciente respira 10 veces por minuto con un volumen corriente de 0.8 L calcule su ventilación minuto.",
+      "opts": ["4 L por min", "8 L por min", "10 L por min", "6 L por min"],
+      "ans": 1,
+      "just": "La movilización total de aire en sesenta segundos es el producto del volumen de cada ciclo por la frecuencia de los mismos; por consiguiente, 0.8 por 10 resulta en 8 litros de aire.",
+      "hint": "VC por FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gradiente alvéolo arterial si la PAO2 es de 100 mmHg y la PaO2 es de 95 mmHg.",
+      "opts": ["195 mmHg", "5 mmHg", "1.05 mmHg", "0.95 mmHg"],
+      "ans": 1,
+      "just": "El gradiente se define como la resta directa entre la presión parcial de oxígeno en el aire alveolar frente a la de la sangre arterial; por tanto, la diferencia resultante es de 5 milímetros.",
+      "hint": "Resta simple de presiones."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen de reserva inspiratoria si la capacidad vital es de 5 L el volumen corriente es de 0.5 L y la reserva espiratoria es de 1.5 L.",
+      "opts": ["3.5 L", "3.0 L", "2.5 L", "4.0 L"],
+      "ans": 1,
+      "just": "Sustrayendo los componentes conocidos de la capacidad vital total se halla el volumen de reserva inspirado; asimismo, 5 menos 2 resulta en una capacidad de reserva de 3 litros.",
+      "hint": "CV menos la suma de VC y VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si en el EKG se cuentan 20 cuadros pequeños entre picos de la onda R.",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 1,
+      "just": "Considerando que el papel registra 1500 milímetros por minuto, se divide dicha cifra para el intervalo medido en cuadritos; por ende, 1500 entre 20 es igual a 75 pulsaciones.",
+      "hint": "1500 dividido para el número de cuadritos."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el flujo sanguíneo si el gradiente de presión es de 100 mmHg y la resistencia total es de 20 unidades.",
+      "opts": ["2000 ml por min", "5 L por min", "10 L por min", "0.2 L por min"],
+      "ans": 1,
+      "just": "De acuerdo con los principios físicos de la hemodinámica, el flujo es la razón entre la presión impulsora junto con la resistencia del conducto; por lo tanto, el resultado es de 5 unidades de flujo.",
+      "hint": "Presión entre resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de aire eficaz o ventilación alveolar por respiración si el VC es de 500 ml y el espacio muerto es de 150 ml.",
+      "opts": ["650 ml", "350 ml", "500 ml", "150 ml"],
+      "ans": 1,
+      "just": "Representa la fracción del aire inspirado que realmente alcanza las zonas de intercambio gaseoso; por consiguiente, se restan los 150 mililitros del espacio muerto anatómico resultando en 350.",
+      "hint": "VC menos espacio muerto."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la frecuencia cardíaca sube de 60 a 120 lpm determine qué ocurre con la duración del ciclo cardíaco.",
+      "opts": ["Se duplica", "Se reduce a la mitad", "No cambia", "Aumenta un 20 por ciento"],
+      "ans": 1,
+      "just": "Puesto que la duración del ciclo es inversamente proporcional a la frecuencia, duplicar el número de latidos implica que cada uno debe durar exactamente la mitad del tiempo previo.",
+      "hint": "Relación inversa tiempo frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la compliance de un pulmón que se expande 0.6 litros con un cambio de presión de 3 cm H2O.",
+      "opts": ["1.8 L por cm H2O", "0.2 L por cm H2O", "0.5 L por cm H2O", "5 L por cm H2O"],
+      "ans": 1,
+      "just": "La facilidad de expansión se mide mediante la razón entre el volumen ganado junto con el esfuerzo de presión realizado; consecuentemente, 0.6 dividido para 3 resulta en 0.2 unidades.",
+      "hint": "Volumen entre presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia de un vaso sanguíneo si el flujo es de 5 L por min y el gradiente de presión es de 10 mmHg (circulación pulmonar).",
+      "opts": ["50 unidades", "2 unidades", "0.5 unidades", "20 unidades"],
+      "ans": 1,
+      "just": "Dividiendo la diferencia de presiones para el gasto cardíaco obtenemos la carga resistiva del circuito; por tanto, 10 entre 5 arroja una resistencia de 2 unidades.",
+      "hint": "Presión entre flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si el intervalo entre latidos es de exactamente 0.5 segundos.",
+      "opts": ["60 lpm", "120 lpm", "100 lpm", "150 lpm"],
+      "ans": 1,
+      "just": "Para hallar el número de pulsaciones en un minuto se divide sesenta segundos para el tiempo que ocupa cada ciclo individual; por consiguiente, 60 entre 0.5 es igual a 120.",
+      "hint": "Sesenta entre tiempo del ciclo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la fracción de eyección si el volumen sistólico es de 80 ml y el telediastólico es de 160 ml.",
+      "opts": ["40 por ciento", "50 por ciento", "60 por ciento", "80 por ciento"],
+      "ans": 1,
+      "just": "La eficiencia de bombeo se halla determinando qué porcentaje del volumen total previo a la contracción fue expulsado; puesto que 80 es la mitad de 160, el resultado es 50 por ciento.",
+      "hint": "VS dividido para VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión arterial media si la diastólica es de 60 y la sistólica es de 120 mmHg.",
+      "opts": ["90 mmHg", "80 mmHg", "100 mmHg", "70 mmHg"],
+      "ans": 1,
+      "just": "Se suma a la presión basal un tercio de la fuerza pulsátil generada; por tanto, 60 mas un tercio de 60 resulta en una presión de perfusión de 80 milímetros.",
+      "hint": "Fórmula estándar de la PAM."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la capacidad vital si la inspiratoria es de 3 L y la reserva espiratoria es de 1.5 L.",
+      "opts": ["4.5 L", "1.5 L", "6.0 L", "2.0 L"],
+      "ans": 0,
+      "just": "La suma de la capacidad de inhalación máxima junto con la capacidad de exhalación forzada abarca todo el aire movible voluntariamente; asimismo, 3 mas 1.5 es igual a 4.5 litros.",
+      "hint": "Suma CI y VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen residual si la capacidad pulmonar total es de 6 L y la capacidad residual funcional es de 2.5 L habiendo un VRE de 1.5 L.",
+      "opts": ["3.5 L", "1.0 L", "1.5 L", "2.0 L"],
+      "ans": 1,
+      "just": "Puesto que la capacidad residual funcional es la suma del residuo junto con la reserva espiratoria, al restar 1.5 de 2.5 se halla el aire inamovible de 1 litro.",
+      "hint": "CRF menos reserva espiratoria."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar por minuto si el volumen corriente es de 0.5 L el espacio muerto es de 0.15 L y la frecuencia es de 10 rpm.",
+      "opts": ["5.0 L por min", "3.5 L por min", "1.5 L por min", "6.5 L por min"],
+      "ans": 1,
+      "just": "La ventilación eficaz se obtiene multiplicando la frecuencia por la diferencia de aire que llega a los alvéolos; por consiguiente, 10 por 0.35 resulta en 3.5 litros por minuto.",
+      "hint": "FR por (VC menos Vd)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un eritrocito atraviesa un capilar de 1 mm de largo a una velocidad de 2 mm por s determine el tiempo de tránsito.",
+      "opts": ["2 segundos", "0.5 segundos", "1 segundo", "0.2 segundos"],
+      "ans": 1,
+      "just": "El tiempo empleado se calcula mediante la razón de la distancia recorrida junto con la rapidez del movimiento; por tanto, 1 dividido para 2 arroja medio segundo de duración.",
+      "hint": "Distancia entre velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen telesistólico si el volumen sistólico es de 60 ml y la fracción de eyección es del 40 por ciento.",
+      "opts": ["150 ml", "90 ml", "100 ml", "40 ml"],
+      "ans": 1,
+      "just": "Si 60 mililitros representan el 40 por ciento del total, el volumen telediastólico es de 150 mililitros; por consiguiente, al restar lo expulsado queda un residuo de 90.",
+      "hint": "Halla el VTD y resta el VS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión diferencial si la presión arterial sistólica es de 120 y la media es de 100 mmHg.",
+      "opts": ["20 mmHg", "60 mmHg", "40 mmHg", "30 mmHg"],
+      "ans": 1,
+      "just": "Utilizando los términos de la PAM, la diferencia entre la media junto con la diastólica es de 10 unidades lo cual implica una diferencial total de 60 para que su tercio sea 20.",
+      "hint": "Relación entre PAM y sistólica."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay exactamente 15 cuadritos pequeños entre dos ondas R.",
+      "opts": ["60 lpm", "100 lpm", "150 lpm", "75 lpm"],
+      "ans": 1,
+      "just": "Dividiendo la constante de milímetros por minuto de 1500 para la distancia observada se obtiene el ritmo del paciente; por tanto, 1500 entre 15 es igual a 100 latidos.",
+      "hint": "1500 entre 15."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el flujo sanguíneo si el área es de 1 cm cuadrado y la velocidad es de 50 cm por segundo.",
+      "opts": ["0.02 ml por s", "50 ml por s", "100 ml por s", "25 ml por s"],
+      "ans": 1,
+      "just": "El volumen desplazado por unidad de tiempo es el producto directo de la sección transversal junto con la rapidez lineal; consecuentemente, 1 por 50 resulta en 50 mililitros por segundo.",
+      "hint": "Área por velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen corriente si la capacidad vital es de 4.5 L la reserva inspiratoria es de 2.5 L y la reserva espiratoria es de 1.5 L.",
+      "opts": ["1.0 L", "0.5 L", "1.5 L", "0.8 L"],
+      "ans": 1,
+      "just": "Restando las dos capacidades de reserva del volumen máximo movilizable se halla la respiración basal del sujeto; por consiguiente, 4.5 menos 4 arroja un volumen de 500 mililitros.",
+      "hint": "CV menos la suma de VRI y VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión alveolar de nitrógeno si la presión total húmeda es de 713 mmHg y la suma de O2 y CO2 es de 140 mmHg.",
+      "opts": ["573 mmHg", "600 mmHg", "500 mmHg", "400 mmHg"],
+      "ans": 0,
+      "just": "De acuerdo con la ley de Dalton, la presión restante tras descontar el oxígeno junto con el dióxido de carbono pertenece al gas inerte; por ende, 713 menos 140 es igual a 573.",
+      "hint": "Resta simple de la presión total húmeda."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si un ciclo cardíaco completo dura 0.8 segundos.",
+      "opts": ["60 lpm", "75 lpm", "80 lpm", "100 lpm"],
+      "ans": 1,
+      "just": "Dividiendo el minuto completo expresado en segundos para el tiempo de un solo latido se halla la frecuencia; asimismo, 60 dividido para 0.8 resulta en 75 latidos.",
+      "hint": "Sesenta entre el tiempo del ciclo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco si el volumen telediastólico es de 100 ml el telesistólico es de 40 ml y la frecuencia es de 70 lpm.",
+      "opts": ["7.0 L por min", "4.2 L por min", "2.8 L por min", "5.0 L por min"],
+      "ans": 1,
+      "just": "Primero se establece el volumen latido de 60 mililitros mediante la resta de volúmenes; posteriormente, se multiplica por 70 resultando en 4200 mililitros por minuto.",
+      "hint": "Multiplica la diferencia de VTD y VTS por la frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el oxígeno disuelto en plasma si la PaO2 es de 40 mmHg (sangre venosa).",
+      "opts": ["0.12 ml por dL", "0.4 ml por dL", "1.2 ml por dL", "0.003 ml por dL"],
+      "ans": 0,
+      "just": "Multiplicando la presión parcial por el coeficiente de solubilidad de 0.003 se obtiene la cantidad física de gas disuelto; por consiguiente, el resultado es de 0.12 mililitros por decilitro.",
+      "hint": "Presión parcial por 0.003."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia periférica total si la presión sistólica es 120 la diastólica es 80 y el gasto cardíaco es 4.6 L por min.",
+      "opts": ["10 unidades", "20 unidades", "30 unidades", "15 unidades"],
+      "ans": 1,
+      "just": "Primero se halla la PAM que es de aproximadamente 93.3 milímetros; asimismo, al dividir dicha presión para el flujo de 4.6 se obtienen 20 unidades de resistencia.",
+      "hint": "Halla la PAM y divide para el flujo."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la fracción de eyección si el volumen expulsado es de 60 ml y el volumen total inicial era de 120 ml.",
+      "opts": ["40 por ciento", "50 por ciento", "60 por ciento", "30 por ciento"],
+      "ans": 1,
+      "just": "Puesto que se ha movilizado exactamente la mitad del contenido ventricular hacia la periferia, la eficiencia mecánica de la bomba es del 50 por ciento.",
+      "hint": "La mitad del volumen."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva inspiratoria si la CPT es de 6.0 L el VR es de 1.5 L el VRE es de 1.5 L y el VC es de 0.5 L.",
+      "opts": ["3.5 L", "2.5 L", "1.0 L", "3.0 L"],
+      "ans": 1,
+      "just": "Sustrayendo todos los componentes conocidos del volumen total pulmonar se halla la capacidad de reserva inhalatoria; por lo tanto, 6 menos 3.5 resulta en 2.5 litros.",
+      "hint": "Resta todo del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay exactamente 5 cuadros grandes en el intervalo R a R.",
+      "opts": ["100 lpm", "75 lpm", "60 lpm", "50 lpm"],
+      "ans": 2,
+      "just": "Dividiendo la referencia cronológica de 300 para el número de bloques de cinco milímetros se obtiene el ritmo del registro; por ende, 300 entre 5 arroja 60 latidos.",
+      "hint": "300 entre 5."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen sistólico si el ventrículo se llena hasta los 110 ml y tras la contracción quedan 40 ml.",
+      "opts": ["150 ml", "70 ml", "40 ml", "110 ml"],
+      "ans": 1,
+      "just": "El volumen latido es la diferencia neta de sangre expulsada de la cámara cardíaca; por consiguiente, 110 menos 40 resulta en 70 mililitros.",
+      "hint": "VTD menos VTS."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión alveolar de oxígeno si la PIO2 es de 150 la PaCO2 es de 80 y el cociente respiratorio es de 1.0.",
+      "opts": ["110 mmHg", "70 mmHg", "80 mmHg", "150 mmHg"],
+      "ans": 1,
+      "just": "Bajo un intercambio unitario, por cada molécula de CO2 que entra sale una de oxígeno; por tanto, al restar 80 de 150 se obtiene una PAO2 de 70 milímetros.",
+      "hint": "Resta simple en cociente unitario."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia de un vaso si al triplicar la presión impulsora el flujo se mantiene constante.",
+      "opts": ["No cambia", "Aumenta al triple", "Se reduce al tercio", "Se duplica"],
+      "ans": 1,
+      "just": "Si el flujo no responde al incremento de presión es debido a que la carga resistiva ha aumentado en la misma proporción; consecuentemente, la resistencia ahora es el triple.",
+      "hint": "Relación lineal presión resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el área de sección transversal si el flujo es de 100 ml por s y la velocidad es de 20 cm por s.",
+      "opts": ["500 cm2", "5 cm2", "2000 cm2", "20 cm2"],
+      "ans": 1,
+      "just": "La extensión del conducto se halla dividiendo el flujo total para la rapidez lineal del fluido; por consiguiente, 100 para 20 arroja una sección de 5 unidades cuadradas.",
+      "hint": "Flujo entre velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia respiratoria si la ventilación alveolar es de 3.5 L por min el VC es de 0.5 L y el espacio muerto es de 0.15 L.",
+      "opts": ["7 rpm", "10 rpm", "12 rpm", "15 rpm"],
+      "ans": 1,
+      "just": "Dividiendo el flujo alveolar total para el aire eficaz por ciclo (0.35) se obtiene la frecuencia; asimismo, 3.5 para 0.35 resulta en 10 ciclos por minuto.",
+      "hint": "VA dividido para (VC menos Vd)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen minuto si se realizan 20 respiraciones con un volumen de 0.45 L cada una.",
+      "opts": ["9 L por min", "4.5 L por min", "9.5 L por min", "20 L por min"],
+      "ans": 0,
+      "just": "La movilización total de gas en sesenta segundos es el producto de la frecuencia por el desplazamiento unitario; por tanto, 20 por 0.45 resulta en 9 litros de aire.",
+      "hint": "FR por VC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión sistólica si la diastólica es de 70 y la presión de pulso es de 40 mmHg.",
+      "opts": ["100 mmHg", "110 mmHg", "120 mmHg", "80 mmHg"],
+      "ans": 1,
+      "just": "La tensión máxima arterial es la sumatoria de la presión basal junto con el diferencial generado por el latido; consecuentemente, 70 mas 40 arroja 110 milímetros.",
+      "hint": "Suma simple de presiones."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la constante de tiempo si la resistencia es de 2 unidades y la compliance es de 4 unidades.",
+      "opts": ["0.5", "8", "6", "2"],
+      "ans": 1,
+      "just": "El tiempo característico para el llenado de un sistema elástico depende del producto de su facilidad de expansión por su resistencia al flujo; por ende, 2 por 4 es igual a 8.",
+      "hint": "Resistencia por compliance."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la fracción de eyección si el volumen telediastólico es de 100 ml y el telesistólico es de 50 ml.",
+      "opts": ["30 por ciento", "50 por ciento", "70 por ciento", "100 por ciento"],
+      "ans": 1,
+      "just": "Puesto que se ha expulsado exactamente la mitad del aire contenido originalmente en la cámara, la eficiencia de la eyección se sitúa en el 50 por ciento.",
+      "hint": "La mitad del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen sistólico si el gasto cardíaco es de 6 litros por minuto y el ciclo cardíaco dura 0.6 segundos.",
+      "opts": ["60 ml", "100 ml", "66 ml", "50 ml"],
+      "ans": 1,
+      "just": "Un ciclo de 0.6 segundos implica 100 latidos por minuto; además, dividiendo los 6000 mililitros totales para 100 se obtiene un volumen latido de 100 mililitros.",
+      "hint": "Halla la frecuencia y divide el gasto cardíaco."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media si PAS es 130 y PAD es 100 mmHg.",
+      "opts": ["115 mmHg", "110 mmHg", "120 mmHg", "105 mmHg"],
+      "ans": 1,
+      "just": "Se añade a la presión de reposo un tercio de la fuerza del pulso; por consiguiente, 100 mas el tercio de 30 resulta en 110 milímetros de mercurio.",
+      "hint": "PAD mas un tercio de la diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay 25 milímetros entre dos ondas R en el EKG.",
+      "opts": ["100 lpm", "75 lpm", "60 lpm", "50 lpm"],
+      "ans": 2,
+      "just": "Considerando que el papel corre a 25 milímetros por segundo, una distancia de 25 milímetros equivale exactamente a un latido por segundo o 60 por minuto.",
+      "hint": "1500 entre 25."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen telesistólico si el VTD es de 80 ml y la fracción de eyección es del 75 por ciento.",
+      "opts": ["60 ml", "20 ml", "40 ml", "30 ml"],
+      "ans": 1,
+      "just": "Si el 75 por ciento se expulsa entonces solo el 25 por ciento permanece en el ventrículo; por tanto, un cuarto de 80 resulta en un residuo de 20 mililitros.",
+      "hint": "Halla el 25 por ciento del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la capacidad residual funcional si el volumen residual es de 1.2 L y el de reserva espiratoria es de 0.8 L.",
+      "opts": ["2.0 L", "0.4 L", "1.5 L", "2.2 L"],
+      "ans": 0,
+      "just": "La suma de todo el aire presente en los pulmones al finalizar una espiración normal constituye el punto de equilibrio elástico; asimismo, 1.2 mas 0.8 es igual a 2 litros.",
+      "hint": "Suma VR y VRE."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar si VC es 0.6 L Vd es 0.1 L y la frecuencia es de 10 rpm.",
+      "opts": ["6 L por min", "5 L por min", "4 L por min", "7 L por min"],
+      "ans": 1,
+      "just": "La fracción efectiva por ciclo es de medio litro; además, multiplicando por diez ciclos se obtiene una ventilación alveolar total de 5 litros por minuto.",
+      "hint": "Frecuencia por la resta del VC y Vd."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si la viscosidad se reduce a la mitad determine qué ocurre con la resistencia vascular.",
+      "opts": ["Se duplica", "Se reduce a la mitad", "No cambia", "Aumenta 16 veces"],
+      "ans": 1,
+      "just": "Debido a la relación de proporcionalidad directa en la ley de Poiseuille, cualquier descenso en la densidad del fluido facilita el flujo reduciendo la carga resistiva a la mitad.",
+      "hint": "Relación lineal directa."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco según Fick si el consumo es de 200 la arterial es de 200 y la venosa es de 150 ml por L.",
+      "opts": ["1 L por min", "4 L por min", "5 L por min", "2 L por min"],
+      "ans": 1,
+      "just": "La extracción de oxígeno por cada litro de sangre es de 50 mililitros; por tanto, al dividir el consumo total de 200 para 50 se obtienen 4 unidades de flujo.",
+      "hint": "Dividir el consumo para la resta de contenidos."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión diferencial si la sistólica es de 160 y la PAM es de 110 mmHg.",
+      "opts": ["50 mmHg", "75 mmHg", "25 mmHg", "100 mmHg"],
+      "ans": 1,
+      "just": "Puesto que la PAM supera a la diastólica en un tercio de la diferencial, tras despejar se halla que la resta de 160 menos 85 resulta en una presión de pulso de 75.",
+      "hint": "Halla primero la diastólica."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la frecuencia cardíaca si hay 3 cuadros grandes entre dos ondas R.",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 2,
+      "just": "Dividiendo la referencia temporal de 300 para el número de bloques de cinco milímetros se obtiene el ritmo del paciente; consecuentemente, el resultado es de 100 latidos.",
+      "hint": "300 entre 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la resistencia total de un sistema con dos vasos en paralelo de 4 y 12 unidades respectivamente.",
+      "opts": ["16 unidades", "3 unidades", "8 unidades", "4 unidades"],
+      "ans": 1,
+      "just": "Utilizando la fórmula para el cálculo de resistencias en paralelo se halla que el producto dividido para la suma resulta en 48 para 16 lo que arroja 3 unidades finales.",
+      "hint": "Producto entre suma."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación minuto de un paciente con un volumen corriente de 0.5 L y una frecuencia de 12 rpm.",
+      "opts": ["4.2 L por min", "6.0 L por min", "5.0 L por min", "7.0 L por min"],
+      "ans": 1,
+      "just": "El volumen movilizado íntegramente en sesenta segundos es el producto del aire por ciclo junto con el número de ciclos; por tanto, el total es de 6 litros de aire.",
+      "hint": "Multiplicación de VC por FR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen sistólico si el volumen telediastólico es de 140 ml y la FE es del 50 por ciento.",
+      "opts": ["40 ml", "70 ml", "90 ml", "50 ml"],
+      "ans": 1,
+      "just": "Puesto que la mitad exacta de la capacidad ventricular ha sido expulsada durante la sístole, el volumen latido corresponde a 70 mililitros.",
+      "hint": "La mitad del total inicial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión alveolar de oxígeno en cociente respiratorio unitario si PIO2 es 150 y PaCO2 es 30.",
+      "opts": ["120 mmHg", "180 mmHg", "100 mmHg", "110 mmHg"],
+      "ans": 0,
+      "just": "Bajo condiciones de intercambio equitativo de gases la presión de oxígeno cae exactamente en la misma medida que sube la de dióxido de carbono resultando en 120 milímetros.",
+      "hint": "150 menos 30."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen residual si la CPT es de 6.5 L y la capacidad vital es de 5.2 L.",
+      "opts": ["1.0 L", "1.3 L", "1.5 L", "0.8 L"],
+      "ans": 1,
+      "just": "El aire que permanece en el tórax tras un esfuerzo espiratorio máximo es la diferencia entre el total pulmonar junto con el aire útil; por consiguiente, el residuo es de 1.3 litros.",
+      "hint": "Resta la vital de la total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el flujo sanguíneo total si la RPT es de 15 unidades y el gradiente de presión es de 90 mmHg.",
+      "opts": ["1350 ml por min", "6 L por min", "10 L por min", "5 L por min"],
+      "ans": 1,
+      "just": "De acuerdo con la relación de Ohm aplicada a la circulación, el flujo equivale al gradiente impulsivo dividido para la resistencia encontrada; por tanto, el resultado es de 6 unidades.",
+      "hint": "Presión entre resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la duración de un ciclo cardíaco si la frecuencia es de 150 lpm.",
+      "opts": ["0.2 s", "0.4 s", "0.6 s", "0.8 s"],
+      "ans": 1,
+      "just": "Dividiendo el total de un minuto para el número de pulsaciones se obtiene el tiempo de cada latido individual; asimismo, 60 entre 150 arroja un periodo de 0.4 segundos.",
+      "hint": "Sesenta entre frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la compliance de la pared torácica si tras inspirar 1 L la presión aumenta de 0 a 10 cm H2O.",
+      "opts": ["10 L por cm H2O", "0.1 L por cm H2O", "1 L por cm H2O", "0.5 L por cm H2O"],
+      "ans": 1,
+      "just": "La distensibilidad se mide como el incremento de volumen dividido para la fuerza tensional requerida; por lo tanto, 1 para 10 arroja un valor de 0.1 unidades.",
+      "hint": "Volumen entre presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si el intervalo R a R mide exactamente 1 cuadro grande.",
+      "opts": ["60 lpm", "150 lpm", "300 lpm", "100 lpm"],
+      "ans": 2,
+      "just": "Puesto que cada cuadro grande representa una quinta parte de un segundo, un latido en cada uno implica 300 latidos en sesenta segundos totales.",
+      "hint": "300 entre 1."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen telesistólico si el VS es de 60 ml y el VTD es de 100 ml.",
+      "opts": ["160 ml", "40 ml", "50 ml", "30 ml"],
+      "ans": 1,
+      "just": "El residuo de sangre en la cámara es la diferencia entre lo que había originalmente junto con lo que fue expulsado; consecuentemente, quedan 40 mililitros de volumen.",
+      "hint": "Resta el VS del VTD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el índice cardíaco de un individuo de 2 metros cuadrados con gasto de 4 L por min.",
+      "opts": ["8 L por min por m2", "2 L por min por m2", "4 L por min por m2", "6 L por min por m2"],
+      "ans": 1,
+      "just": "Dividiendo el flujo total de un minuto para el área total de superficie corporal se obtiene el flujo normalizado resultando en 2 unidades métricas.",
+      "hint": "Gasto cardíaco entre área."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión diferencial si la sistólica es de 130 y la diastólica es de 85 mmHg.",
+      "opts": ["215 mmHg", "45 mmHg", "35 mmHg", "60 mmHg"],
+      "ans": 1,
+      "just": "La amplitud del pulso tensional es la resta aritmética de los dos valores registrados en el ciclo arterial; por consiguiente, la diferencia es de 45 milímetros.",
+      "hint": "PAS menos PAD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la ventilación alveolar si respira 12 veces con VC de 0.5 L y espacio muerto de 0.15 L.",
+      "opts": ["6.0 L por min", "4.2 L por min", "5.0 L por min", "3.5 L por min"],
+      "ans": 1,
+      "just": "La fracción que participa en el intercambio gaseoso por ciclo es de 0.35 litros; asimismo, al multiplicarla por doce ciclos se obtienen 4.2 litros de aire eficaz.",
+      "hint": "Frecuencia por (VC menos Vd)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el área de sección transversal si el flujo es de 10 ml por s y la velocidad es de 5 cm por s.",
+      "opts": ["50 cm2", "2 cm2", "0.5 cm2", "10 cm2"],
+      "ans": 1,
+      "just": "Despejando el parámetro geométrico de la fórmula de continuidad dividimos el flujo para la rapidez lineal resultando en una sección de 2 unidades cuadradas.",
+      "hint": "Flujo entre velocidad."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la resistencia equivalente de dos vasos en serie de 5 y 15 unidades.",
+      "opts": ["20 unidades", "3.75 unidades", "10 unidades", "75 unidades"],
+      "ans": 0,
+      "just": "En una disposición secuencial las cargas se oponen de forma aditiva al paso del fluido; por consiguiente, el valor total asciende a 20 unidades.",
+      "hint": "Suma directa de R."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la fracción de eyección si el volumen telediastólico es 120 y el volumen latido es 60.",
+      "opts": ["40 por ciento", "50 por ciento", "60 por ciento", "70 por ciento"],
+      "ans": 1,
+      "just": "Dado que se ha expulsado exactamente la mitad del contenido inicial del ventrículo la eficiencia del bombeo se califica con un 50 por ciento.",
+      "hint": "La mitad del volumen."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay exactamente 3 cuadros grandes en el intervalo R a R.",
+      "opts": ["60 lpm", "100 lpm", "150 lpm", "75 lpm"],
+      "ans": 1,
+      "just": "Dividiendo la referencia cronológica de 300 para los tres bloques de cinco milímetros observados se halla el ritmo del corazón resultando en 100 latidos.",
+      "hint": "300 entre 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen corriente si la capacidad inspiratoria es de 3.5 L y el VRI es de 3.0 L.",
+      "opts": ["0.5 L", "6.5 L", "1.0 L", "0.8 L"],
+      "ans": 0,
+      "just": "El volumen desplazado en reposo es el componente fundamental de la capacidad inhalatoria; por lo tanto, 3.5 menos 3 arroja un volumen de medio litro.",
+      "hint": "CI menos VRI."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión arterial media si la diastólica es de 90 y la sistólica es de 150 mmHg.",
+      "opts": ["120 mmHg", "110 mmHg", "130 mmHg", "100 mmHg"],
+      "ans": 1,
+      "just": "Se suma a la presión basal un tercio de la fuerza pulsátil de 60 unidades; consecuentemente, 90 mas 20 resulta en una presión de 110 milímetros.",
+      "hint": "PAD mas un tercio de la diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el gasto cardíaco si el ciclo dura 1 segundo y el volumen sistólico es de 80 ml.",
+      "opts": ["4.8 L por min", "4.8 L por min", "8.0 L por min", "6.0 L por min"],
+      "ans": 1,
+      "just": "Un ciclo de un segundo implica una frecuencia de 60 latidos; asimismo, multiplicando por el volumen latido se obtiene un flujo de 4.8 litros por minuto.",
+      "hint": "VS por frecuencia hallada."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la capacidad vital si el VRI es de 2.0 el VC es de 0.5 y el VRE es de 1.0 L.",
+      "opts": ["3.5 L", "2.5 L", "4.5 L", "2.0 L"],
+      "ans": 0,
+      "just": "La sumatoria de todos los volúmenes de aire que pueden ser movilizados voluntariamente bajo máximo esfuerzo resulta en un total de 3.5 litros.",
+      "hint": "Suma de las tres reservas movibles."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la resistencia total de tres vasos de 9 unidades cada uno en paralelo.",
+      "opts": ["27 unidades", "3 unidades", "1 unidad", "18 unidades"],
+      "ans": 1,
+      "just": "Para conductos idénticos en paralelo la carga equivalente es el valor de uno de ellos dividido para la cantidad de ramificaciones existentes; por ende, 9 entre 3 es igual a 3.",
+      "hint": "Divide para 3."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay exactamente 10 cuadritos pequeños en el EKG.",
+      "opts": ["100 lpm", "150 lpm", "75 lpm", "60 lpm"],
+      "ans": 1,
+      "just": "Considerando la escala de 1500 milímetros por minuto de papel, dividimos dicha cifra para la distancia de 10 milímetros resultando en 150 pulsaciones.",
+      "hint": "1500 entre 10."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen residual si la CPT es 7.5 L y la capacidad vital es 6.0 L.",
+      "opts": ["1.5 L", "1.0 L", "0.5 L", "2.0 L"],
+      "ans": 0,
+      "just": "El aire inexpulsable del parénquima pulmonar es la diferencia entre el total y el aire útil movilizado; por tanto, el residuo es de 1.5 litros.",
+      "hint": "CPT menos CV."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la presión diferencial si la sistólica es de 145 y la diastólica es de 95 mmHg.",
+      "opts": ["240 mmHg", "50 mmHg", "40 mmHg", "60 mmHg"],
+      "ans": 1,
+      "just": "La amplitud tensional generada por el latido cardíaco es la resta aritmética de los registros extremos; por consiguiente, la diferencia es de 50 milímetros.",
+      "hint": "PAS menos PAD."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la ventilación alveolar si FR es 15 rpm VC es 0.6 L y espacio muerto es 0.2 L.",
+      "opts": ["9.0 L por min", "6.0 L por min", "7.0 L por min", "4.0 L por min"],
+      "ans": 1,
+      "just": "La fracción del aire inspirado por ciclo que realiza intercambio es de 0.4 litros; asimismo, al multiplicarla por quince ciclos resulta en 6 litros de aire eficaz.",
+      "hint": "Frecuencia por la resta de volúmenes."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la fracción de eyección si el volumen latido es 50 ml y el total inicial era 150 ml.",
+      "opts": ["33.3 por ciento", "33.3 por ciento", "50 por ciento", "66.6 por ciento"],
+      "ans": 1,
+      "just": "Dividiendo el volumen expulsado para el contenido ventricular previo a la sístole se halla la eficiencia de la bomba resultando en un tercio o 33.3 por ciento.",
+      "hint": "Un tercio del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media si la sistólica es 125 y la diastólica es 95 mmHg.",
+      "opts": ["110 mmHg", "105 mmHg", "100 mmHg", "115 mmHg"],
+      "ans": 1,
+      "just": "Añadimos un tercio de la fuerza pulsátil de 30 unidades a la presión de reposo; por tanto, 95 mas 10 arroja una presión de 105 milímetros.",
+      "hint": "PAD mas un tercio de la resta."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine la frecuencia cardíaca si hay exactamente 4 cuadros grandes entre latidos.",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "50 lpm"],
+      "ans": 1,
+      "just": "Dividiendo la constante cronológica de 300 para los cuatro bloques de cinco milímetros medidos se obtiene el ritmo del corazón resultando en 75 latidos.",
+      "hint": "300 entre 4."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el volumen de reserva espiratoria si la CRF es 3.0 L y el volumen residual es 1.2 L.",
+      "opts": ["4.2 L", "1.8 L", "1.5 L", "1.0 L"],
+      "ans": 1,
+      "just": "La capacidad de equilibrio elástico pulmonar engloba el residuo junto con el volumen exhalable extra; por consiguiente, al sustraer 1.2 de 3.0 se halla la reserva de 1.8.",
+      "hint": "CRF menos VR."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el flujo sanguíneo si el gradiente es 120 mmHg y la RPT es 24 unidades.",
+      "opts": ["5 L por min", "5 L por min", "2880 ml por min", "4 L por min"],
+      "ans": 1,
+      "just": "De acuerdo con los principios hemodinámicos fundamentales el flujo equivale a la razón entre la presión junto con la resistencia; por tanto, el resultado es de 5 unidades.",
+      "hint": "Presión entre resistencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la duración de un ciclo cardíaco si la frecuencia es de 75 lpm.",
+      "opts": ["0.6 s", "0.8 s", "1.0 s", "0.5 s"],
+      "ans": 1,
+      "just": "Dividiendo sesenta segundos para el número de pulsaciones registradas se obtiene el periodo de tiempo de cada latido individual; asimismo, el resultado es de 0.8 segundos.",
+      "hint": "Sesenta entre frecuencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "Determine el volumen telesistólico si el VTD es 140 ml y la FE es del 60 por ciento.",
+      "opts": ["84 ml", "56 ml", "100 ml", "70 ml"],
+      "ans": 1,
+      "just": "El 60 por ciento de eyección equivale a 84 mililitros; por consiguiente, el residuo que permanece en el ventrículo tras la contracción es la diferencia de 56 mililitros.",
+      "hint": "Resta el 60 por ciento del total."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la presión arterial media si PAS es 100 y PAD es 70 mmHg.",
+      "opts": ["85 mmHg", "80 mmHg", "90 mmHg", "75 mmHg"],
+      "ans": 1,
+      "just": "Se suma a la presión diastólica un tercio de la amplitud del pulso de 30 unidades; por tanto, 70 mas 10 resulta en una presión de perfusión de 80 milímetros.",
+      "hint": "PAD mas un tercio de la diferencial."
+    }
+  ]
+}

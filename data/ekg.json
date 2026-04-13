@@ -1,0 +1,2340 @@
+{
+  "preguntas": [
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la velocidad estándar del papel en un registro electrocardiográfico convencional?",
+      "opts": ["10 mm/s", "25 mm/s", "50 mm/s", "100 mm/s"],
+      "ans": 1,
+      "just": "La velocidad de 25 mm/s permite que cada milímetro horizontal represente 0.04 segundos; por consiguiente, facilita el cálculo preciso de los intervalos.",
+      "hint": "Es el estándar internacional para adultos."
+    },
+    {
+      "cat": "ekg",
+      "q": "En la calibración estándar de voltaje, 1 mV se representa mediante una deflexión vertical de:",
+      "opts": ["5 mm", "10 mm", "15 mm", "20 mm"],
+      "ans": 1,
+      "just": "Un cuadro grande vertical equivale a 0.5 mV; por lo tanto, dos cuadros grandes (10 mm) representan el milivoltio de referencia.",
+      "hint": "Es el símbolo rectangular al inicio del EKG."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué representa fisiológicamente la onda P en el electrocardiograma?",
+      "opts": ["Repolarización auricular", "Despolarización auricular", "Despolarización ventricular", "Retraso del nodo AV"],
+      "ans": 1,
+      "just": "La onda P es el registro eléctrico del inicio de la activación de las aurículas; además, suele ser positiva en la mayoría de las derivaciones.",
+      "hint": "Ocurre antes de la contracción de las cámaras superiores."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo PR se mide desde el inicio de la onda P hasta:",
+      "opts": ["El final de la onda P", "El inicio del complejo QRS", "El final del complejo QRS", "El inicio de la onda T"],
+      "ans": 1,
+      "just": "Incluye la despolarización auricular junto con el retraso fisiológico en el nodo AV; asimismo, su duración normal es de 0.12 a 0.20 segundos.",
+      "hint": "Refleja el tiempo de conducción auriculoventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué fenómeno eléctrico ventricular queda oculto por el complejo QRS?",
+      "opts": ["Despolarización septal", "Repolarización auricular", "Repolarización ventricular", "Sístole mecánica"],
+      "ans": 1,
+      "just": "La magnitud eléctrica de la activación ventricular es muy superior; consecuentemente, la repolarización auricular no es visible en el trazado normal.",
+      "hint": "Es la recuperación de las aurículas."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo QRS representa la despolarización de los ventrículos y su duración normal no debe exceder los:",
+      "opts": ["0.08 segundos", "0.12 segundos", "0.20 segundos", "0.04 segundos"],
+      "ans": 1,
+      "just": "Un QRS ancho sugiere un retraso en la conducción intraventricular; por tanto, valores mayores a 120 ms indican bloqueos de rama.",
+      "hint": "Son tres cuadraditos pequeños."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué representa la onda T en un electrocardiograma normal?",
+      "opts": ["Despolarización ventricular", "Repolarización ventricular", "Despolarización auricular", "Relajación isovolumétrica"],
+      "ans": 1,
+      "just": "Es el registro de la recuperación eléctrica de los ventrículos; además, suele ser asimétrica con una rama ascendente más lenta.",
+      "hint": "Ocurre durante la fase 3 del potencial de acción cardiaco."
+    },
+    {
+      "cat": "ekg",
+      "q": "Para calcular la frecuencia cardíaca en un ritmo regular, se divide 300 para:",
+      "opts": ["El número de cuadros pequeños entre R-R", "El número de cuadros grandes entre R-R", "El intervalo PR", "La duración del QRS"],
+      "ans": 1,
+      "just": "Cada cuadro grande representa 0.2 segundos; por consiguiente, cinco cuadros grandes completan un minuto si se dividen entre la constante 300.",
+      "hint": "Método rápido para ritmos estables."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación se considera la 'mirada directa' a la cara inferior del corazón junto con DIII y aVF?",
+      "opts": ["DI", "DII", "aVL", "V1"],
+      "ans": 1,
+      "just": "DII registra la diferencia de potencial entre el brazo derecho y la pierna izquierda; asimismo, es la derivación ideal para ver ondas P.",
+      "hint": "Forma parte del triángulo de Einthoven."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico normal del corazón en el plano frontal se sitúa habitualmente entre:",
+      "opts": ["-30° y +90°", "0° y +120°", "-90° y -180°", "+90° y +180°"],
+      "ans": 0,
+      "just": "Refleja la dirección predominante de la despolarización ventricular; no obstante, puede variar ligeramente según la constitución física.",
+      "hint": "Apunta hacia abajo y a la izquierda."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la derivación precordial que se coloca en el cuarto espacio intercostal, borde esternal derecho?",
+      "opts": ["V1", "V2", "V4", "V6"],
+      "ans": 0,
+      "just": "V1 es fundamental para evaluar el ventrículo derecho; por otro lado, es clave para identificar bloqueos de rama derecha.",
+      "hint": "Es el primer electrodo de la serie precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un intervalo PR constante mayor a 200 ms (0.20 s) define fisiopatológicamente un:",
+      "opts": ["BAV de segundo grado", "BAV de primer grado", "Bloqueo de rama", "Síndrome de WPW"],
+      "ans": 1,
+      "just": "Indica un retraso excesivo en la conducción a través del nodo AV; sin embargo, todas las ondas P logran conducir a los ventrículos.",
+      "hint": "Solo hay alargamiento, no interrupción del latido."
+    },
+    {
+      "cat": "ekg",
+      "q": "La presencia de ondas P picudas y altas (mayores a 2.5 mm) en DII sugiere:",
+      "opts": ["Crecimiento de aurícula izquierda", "Crecimiento de aurícula derecha", "Hipertrofia ventricular", "Isquemia apical"],
+      "ans": 1,
+      "just": "Se denomina 'P pulmonale'; además, refleja la sobrecarga de presión o volumen de las cavidades derechas.",
+      "hint": "Relacionado con patología pulmonar crónica."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué cambio en el segmento ST es característico de una lesión miocárdica transmural aguda?",
+      "opts": ["Infradesnivel", "Supradesnivel (elevación)", "Acortamiento", "Inversión de la onda T"],
+      "ans": 1,
+      "just": "La elevación del ST indica una oclusión arterial coronaria completa; consecuentemente, requiere una intervención urgente de reperfusión.",
+      "hint": "Es el signo clásico del infarto agudo."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el sistema hexaxial, la derivación aVR se sitúa a un ángulo de:",
+      "opts": ["-30°", "-150°", "+90°", "+180°"],
+      "ans": 1,
+      "just": "Explora el corazón desde el hombro derecho; por tanto, todas las ondas normales (P, QRS, T) suelen ser negativas en esta derivación.",
+      "hint": "Mira al corazón desde el lado opuesto al ápex."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V6 se coloca en el quinto espacio intercostal a nivel de:",
+      "opts": ["Línea medioclavicular", "Línea axilar anterior", "Línea axilar media", "Borde esternal"],
+      "ans": 2,
+      "just": "Junto con V5, observa la cara lateral baja del ventrículo izquierdo; asimismo, suele mostrar ondas R altas.",
+      "hint": "Es la posición más lateral de las precordiales."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo se define como 'sinusal' si la onda P es negativa exclusivamente en:",
+      "opts": ["DII", "aVR", "aVF", "V5"],
+      "ans": 1,
+      "just": "Debido a que la activación auricular viaja hacia abajo y a la izquierda, se aleja del hombro derecho; por ende, aVR siempre es negativa.",
+      "hint": "Derivación 'espejo' del sistema."
+    },
+    {
+      "cat": "ekg",
+      "q": "El punto J en el electrocardiograma representa:",
+      "opts": ["El inicio de la onda P", "La unión entre el final del QRS y el inicio del segmento ST", "El pico de la onda R", "El final de la onda T"],
+      "ans": 1,
+      "just": "Es el punto de referencia para medir desniveles del ST; además, su elevación puede ser fisiológica en la repolarización precoz.",
+      "hint": "Punto de inflexión tras la despolarización ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué ion es el principal responsable de la fase 0 del potencial de acción ventricular (despolarización rápida)?",
+      "opts": ["Potasio", "Sodio", "Calcio", "Cloro"],
+      "ans": 1,
+      "just": "La apertura de canales rápidos de sodio permite la entrada masiva de carga positiva; consecuentemente, se genera el complejo QRS.",
+      "hint": "Su entrada es súbita y masiva."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo QT corregido (QTc) es fundamental para evaluar el riesgo de arritmias; su valor normal máximo en hombres es de:",
+      "opts": ["350 ms", "440 ms", "500 ms", "400 ms"],
+      "ans": 1,
+      "just": "Un QT prolongado predispone a la torsión de puntas; por lo tanto, se debe ajustar siempre según la frecuencia cardíaca mediante la fórmula de Bazett.",
+      "hint": "Refleja la sístole eléctrica total."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVL explora la cara lateral alta del corazón y se sitúa a:",
+      "opts": ["-30°", "0°", "+60°", "-90°"],
+      "ans": 0,
+      "just": "Forma parte de las derivaciones monopolares de los miembros; asimismo, es perpendicular a la derivación DII.",
+      "hint": "Apunta hacia el brazo izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué alteración electrolítica produce típicamente ondas T picudas y simétricas?",
+      "opts": ["Hipocalcemia", "Hiperpotasemia", "Hipopotasemia", "Hipernatremia"],
+      "ans": 1,
+      "just": "El aumento del potasio extracelular acelera la repolarización; consecuentemente, las ondas T se vuelven estrechas y altas.",
+      "hint": "Signo precoz de toxicidad por potasio."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama derecha (BRD), la morfología característica en V1 es:",
+      "opts": ["rS profunda", "rsR' (orejas de conejo)", "QS ancho", "Onda R única"],
+      "ans": 1,
+      "just": "Refleja la despolarización tardía del ventrículo derecho; por consiguiente, se observa una segunda deflexión positiva en las derivaciones derechas.",
+      "hint": "Imagen clásica de doble pico positivo."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda Q patológica se define habitualmente por tener una duración mayor a:",
+      "opts": ["0.02 s", "0.04 s", "0.08 s", "0.10 s"],
+      "ans": 1,
+      "just": "Representa tejido miocárdico inerte o cicatrizal; además, su profundidad suele ser mayor al 25% de la onda R subsiguiente.",
+      "hint": "Indica necrosis antigua."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué par de derivaciones son perpendiculares entre sí en el sistema de Einthoven/Hexaxial?",
+      "opts": ["DI y aVF", "DII y aVL", "DIII y aVR", "Todas las anteriores"],
+      "ans": 3,
+      "just": "El conocimiento de estas perpendicularidades permite localizar el eje eléctrico con solo observar la derivación más isodifásica.",
+      "hint": "Forman ángulos de 90° entre sus vectores."
+    },
+    {
+      "cat": "ekg",
+      "q": "El retraso fisiológico del impulso en el nodo AV es esencial para:",
+      "opts": ["Acelerar la sístole", "Permitir el llenado ventricular", "Bloquear el potasio", "Generar la onda T"],
+      "ans": 1,
+      "just": "Asegura que la contracción auricular termine antes de que comience la ventricular; por tanto, optimiza el volumen sistólico.",
+      "hint": "Ocurre durante el segmento PR."
+    },
+    {
+      "cat": "ekg",
+      "q": "En una fibrilación auricular, la característica principal del ritmo es:",
+      "opts": ["Intervalos R-R constantes", "Ausencia de ondas P y R-R irregular", "Ondas P en dientes de sierra", "Frecuencia menor a 40 lpm"],
+      "ans": 1,
+      "just": "La actividad auricular es caótica y desorganizada; consecuentemente, no hay una despolarización auricular coordinada visible.",
+      "hint": "Ritmo 'irregularmente irregular'."
+    },
+    {
+      "cat": "ekg",
+      "q": "El centro de un trazado electrocardiográfico donde no hay actividad eléctrica se denomina:",
+      "opts": ["Línea isoeléctrica", "Segmento QRS", "Intervalo QT", "Punto de corte"],
+      "ans": 0,
+      "just": "Es la línea basal de referencia; asimismo, cualquier desviación por encima o debajo indica cambios en el potencial de membrana.",
+      "hint": "Es la línea 'plana'."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V4 se localiza en la intersección del quinto espacio intercostal y la:",
+      "opts": ["Línea axilar anterior", "Línea medioclavicular", "Línea paraesternal", "Línea media esternal"],
+      "ans": 1,
+      "just": "Se sitúa sobre el ápex anatómico del corazón; por ende, es una derivación crucial para evaluar la cara anterior.",
+      "hint": "Lugar habitual del choque de punta."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda P mellada (en forma de M) y ancha en DII suele indicar:",
+      "opts": ["Crecimiento auricular derecho", "Crecimiento auricular izquierdo", "Bloqueo AV", "Hipopotasemia"],
+      "ans": 1,
+      "just": "Se conoce como 'P mitrale'; además, refleja el retraso en la activación de la aurícula izquierda distendida.",
+      "hint": "Onda con dos jorobas."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el potencial de acción cardiaco, la fase 2 o 'meseta' depende principalmente de la entrada de:",
+      "opts": ["Sodio", "Calcio", "Magnesio", "Fosfato"],
+      "ans": 1,
+      "just": "La entrada de calcio a través de canales tipo L equilibra la salida de potasio; por consiguiente, prolonga el periodo refractario.",
+      "hint": "Crucial para la contracción muscular."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un eje desviado a la izquierda (ej. -45°) puede ser causado por:",
+      "opts": ["Hipertrofia ventricular derecha", "Hemibloqueo anterior izquierdo", "Enfisema pulmonar", "Embolia pulmonar"],
+      "ans": 1,
+      "just": "Al bloquearse el fascículo anterior, el vector de despolarización se dirige hacia arriba y a la izquierda.",
+      "hint": "Causa común de eje más allá de -30°."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DIII se obtiene comparando los electrodos de:",
+      "opts": ["Brazo derecho y pierna izquierda", "Brazo izquierdo y pierna izquierda", "Brazo derecho y brazo izquierdo", "Ambas piernas"],
+      "ans": 1,
+      "just": "Según Einthoven, registra la actividad eléctrica entre el lado izquierdo superior e inferior del torso.",
+      "hint": "Lado izquierdo del triángulo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo de McGinn-White (S1Q3T3) es un hallazgo clásico de:",
+      "opts": ["Infarto anterior", "Tromboembolismo pulmonar", "Pericarditis", "Miodocarditis"],
+      "ans": 1,
+      "just": "Refleja una sobrecarga aguda del ventrículo derecho; no obstante, su sensibilidad es baja en la práctica clínica.",
+      "hint": "Signo de cor pulmonale agudo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué nombre recibe la onda pequeña que a veces sigue a la onda T y puede indicar hipopotasemia?",
+      "opts": ["Onda P'", "Onda U", "Onda Delta", "Onda Épsilon"],
+      "ans": 1,
+      "just": "Se cree que representa la repolarización de los músculos papilares o fibras de Purkinje; asimismo, se hace prominente cuando el potasio está bajo.",
+      "hint": "Sexta onda del ciclo."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el síndrome de Wolff-Parkinson-White, el acortamiento del PR se debe a:",
+      "opts": ["Conducción rápida en el nodo AV", "Presencia de una vía accesoria (Haz de Kent)", "Aumento del tono simpático", "Uso de digitálicos"],
+      "ans": 1,
+      "just": "El impulso se salta el retraso fisiológico del nodo AV; por consiguiente, el ventrículo se activa prematuramente (onda delta).",
+      "hint": "Preexcitación ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase de repolarización rápida final (fase 3) del potencial de acción se asocia con:",
+      "opts": ["Entrada de sodio", "Salida masiva de potasio", "Entrada de cloro", "Salida de calcio"],
+      "ans": 1,
+      "just": "Al cerrarse los canales de calcio y abrirse los de potasio, la célula recupera su negatividad interna; por tanto, termina la sístole eléctrica.",
+      "hint": "Salida del principal catión intracelular."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V1 muestra habitualmente una deflexión predominantemente negativa porque:",
+      "opts": ["El corazón está al revés", "El vector mayor del QRS se aleja hacia la izquierda y atrás", "No hay electrodos en la espalda", "La aurícula derecha es muy grande"],
+      "ans": 1,
+      "just": "La masa del ventrículo izquierdo domina el vector final; consecuentemente, este se aleja de la posición anterior derecha de V1.",
+      "hint": "Relación entre la posición del electrodo y la masa ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un BAV de segundo grado Mobitz I (Wenckebach) se caracteriza por:",
+      "opts": ["PR constante con ondas P bloqueadas súbitamente", "Alargamiento progresivo del PR hasta que una P no conduce", "Disociación total A-V", "PR muy corto"],
+      "ans": 1,
+      "just": "Es un fenómeno de fatiga del nodo AV; asimismo, el ciclo se repite tras la pausa del latido bloqueado.",
+      "hint": "PR que crece y crece hasta que falla."
+    },
+    {
+      "cat": "ekg",
+      "q": "La zona del EKG que debe ser estrictamente isoeléctrica para descartar isquemia es el:",
+      "opts": ["Segmento PR", "Segmento ST", "Intervalo TP", "Segmento QT"],
+      "ans": 1,
+      "just": "Representa el silencio eléctrico entre la despolarización y repolarización; por ende, cualquier desnivel sugiere patología coronaria.",
+      "hint": "Línea entre el QRS y la T."
+    },
+    {
+      "cat": "ekg",
+      "q": "Para determinar si el ritmo es regular, se debe observar que la distancia entre:",
+      "opts": ["P y R sea igual", "R y R sea constante", "Q y S sea corta", "T y P sea larga"],
+      "ans": 1,
+      "just": "La constancia en los intervalos R-R indica que el marcapasos emite impulsos a una frecuencia estable.",
+      "hint": "Medición entre picos del QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVF tiene su electrodo positivo en:",
+      "opts": ["Brazo izquierdo", "Brazo derecho", "Pierna izquierda", "Hombro derecho"],
+      "ans": 2,
+      "just": "El vector apunta directamente hacia abajo (90°); por consiguiente, es fundamental para identificar la cara inferior.",
+      "hint": "F de 'Foot' (pie)."
+    },
+    {
+      "cat": "ekg",
+      "q": "En una hipertrofia ventricular izquierda (HVI), el índice de Sokolow-Lyon se calcula sumando:",
+      "opts": ["S en V1 + R en V5/V6", "R en V1 + S en V5", "P en DII + Q en aVL", "R en DI + S en DIII"],
+      "ans": 0,
+      "just": "Valores superiores a 35 mm sugieren un aumento patológico de la masa del ventrículo izquierdo.",
+      "hint": "Suma de voltajes precordiales."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué nombre recibe el marcapasos ectópico que genera complejos QRS anchos y sin onda P previa?",
+      "opts": ["Latido sinusal", "Extrasístole ventricular", "Escape auricular", "Fibrilación auricular"],
+      "ans": 1,
+      "just": "Se origina directamente en el miocardio ventricular; por lo tanto, la conducción no usa el sistema especializado y es más lenta.",
+      "hint": "Latido 'adelantado' y deforme."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico a +120° se considera una desviación hacia la:",
+      "opts": ["Izquierda", "Derecha", "Superior", "Indeterminada"],
+      "ans": 1,
+      "just": "Es frecuente en casos de hipertrofia ventricular derecha o bloqueos fasciculares posteriores; además, es normal en niños.",
+      "hint": "Más allá de +90°."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivaciones observan la cara anterior del corazón?",
+      "opts": ["V1, V2", "V3, V4", "V5, V6", "DI, aVL"],
+      "ans": 1,
+      "just": "V3 y V4 se sitúan directamente sobre el tabique y la pared anterior del ventrículo izquierdo.",
+      "hint": "Electrodos centrales del pecho."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda de activación septal suele producir una pequeña onda negativa inicial en V5-V6 llamada:",
+      "opts": ["Onda S", "Onda q fisiológica", "Onda R'", "Onda delta"],
+      "ans": 1,
+      "just": "Debido a que el tabique se despolariza de izquierda a derecha, el vector inicial se aleja de las derivaciones izquierdas.",
+      "hint": "Pequeña muesca negativa normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un paciente con una frecuencia de 150 lpm y ondas P en 'dientes de sierra' presenta:",
+      "opts": ["Fibrilación auricular", "Flutter (aleteo) auricular", "Taquicardia sinusal", "Bloqueo AV completo"],
+      "ans": 1,
+      "just": "Es un circuito de reentrada en la aurícula derecha; además, suele presentar una conducción ventricular regular (ej. 2:1).",
+      "hint": "Ondas F mayúsculas muy regulares."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase 4 del potencial de acción de las células del nodo SA se caracteriza por:",
+      "opts": ["Potencial de reposo estable", "Despolarización diastólica espontánea", "Repolarización rápida", "Meseta prolongada"],
+      "ans": 1,
+      "just": "Permite que el corazón sea un órgano automático; por consiguiente, el potencial sube lentamente hasta alcanzar el umbral.",
+      "hint": "Responsable del automatismo cardiaco."
+    },
+    {
+      "cat": "ekg",
+      "q": "En un electrocardiograma de 12 derivaciones, ¿cuántos electrodos se colocan físicamente en el paciente?",
+      "opts": ["12", "10", "6", "4"],
+      "ans": 1,
+      "just": "Se utilizan 4 electrodos en los miembros y 6 en el tórax; no obstante, el equipo combina sus señales para generar las 12 vistas.",
+      "hint": "Menos cables que derivaciones."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V2 se sitúa en el cuarto espacio intercostal, borde esternal:",
+      "opts": ["Derecho", "Izquierdo", "Superior", "Inferior"],
+      "ans": 1,
+      "just": "Junto con V1, se encarga de vigilar la actividad del ventrículo derecho y el tabique.",
+      "hint": "Simétrica a V1 respecto al esternón."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un infradesnivel del segmento ST (mayor a 0.5 mm) en múltiples derivaciones sugiere:",
+      "opts": ["Isquemia subendocárdica", "Infarto transmural", "Repolarización precoz", "Pericarditis aguda"],
+      "ans": 0,
+      "just": "Indica un compromiso del flujo sanguíneo que no afecta todo el espesor de la pared; además, puede ser un signo de angina inestable.",
+      "hint": "El ST 'cae' por debajo de la línea de base."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué efecto tiene la hipocalcemia sobre el intervalo QT?",
+      "opts": ["Lo acorta", "Lo prolonga", "No tiene efecto", "Elimina la onda U"],
+      "ans": 1,
+      "just": "La falta de calcio retrasa la fase de meseta del potencial de acción; consecuentemente, se alarga la duración total de la sístole eléctrica.",
+      "hint": "El QT varía inversamente con el nivel de calcio."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el BAV de tercer grado (completo), la relación entre aurículas y ventrículos es:",
+      "opts": ["1:1", "PR que se alarga", "Disociación auriculoventricular total", "Siempre 2:1"],
+      "ans": 2,
+      "just": "Ningún impulso auricular llega a los ventrículos; por tanto, cada cámara late a su propio ritmo independiente.",
+      "hint": "Las ondas P y los QRS no tienen ninguna relación."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DI registra la diferencia de potencial entre:",
+      "opts": ["Brazo izquierdo (+) y brazo derecho (-)", "Brazo derecho (+) y brazo izquierdo (-)", "Brazo izquierdo (+) y pierna izquierda (-)", "Pierna izquierda (+) y brazo derecho (-)"],
+      "ans": 0,
+      "just": "Es la derivación horizontal del plano frontal (0°); además, observa el corazón desde el lado izquierdo.",
+      "hint": "Une los dos hombros/brazos."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda R es siempre la primera deflexión:",
+      "opts": ["Negativa del QRS", "Positiva del QRS", "Después de la T", "Del EKG"],
+      "ans": 1,
+      "just": "Cualquier deflexión positiva en el complejo ventricular se denomina R; asimismo, si hay una segunda deflexión positiva se llama R'.",
+      "hint": "Pico principal hacia arriba."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V5 observa fundamentalmente la cara:",
+      "opts": ["Septal", "Anterior", "Lateral baja", "Inferior"],
+      "ans": 2,
+      "just": "Junto con V6, registra la actividad del ventrículo izquierdo lateral; por ende, suele tener las ondas R más altas.",
+      "hint": "Situada en el quinto espacio intercostal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un eje eléctrico de -60° es característico de:",
+      "opts": ["Hemibloqueo posterior", "Hemibloqueo anterior izquierdo", "Corazón vertical", "Embarazo"],
+      "ans": 1,
+      "just": "El desvío extremo a la izquierda es el criterio diagnóstico principal de este trastorno de conducción fascicular.",
+      "hint": "Desviación patológica hacia arriba."
+    },
+    {
+      "cat": "ekg",
+      "q": "La amplitud de una onda en el EKG se mide en milímetros y representa el:",
+      "opts": ["Tiempo", "Voltaje", "Flujo", "Resistencia"],
+      "ans": 1,
+      "just": "La magnitud vertical es proporcional a la cantidad de tejido despolarizado; por tanto, las hipertrofias aumentan la amplitud.",
+      "hint": "Eje vertical del papel milimetrado."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo QRS es predominantemente positivo en las derivaciones:",
+      "opts": ["Derechas (V1, V2)", "Izquierdas (V5, V6, DI, aVL)", "aVR", "Superiores"],
+      "ans": 1,
+      "just": "Debido a que el vector de despolarización se dirige hacia la izquierda; consecuentemente, se acerca a estos electrodos.",
+      "hint": "Vistas laterales del ventrículo izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el infarto de cara inferior, las derivaciones afectadas son:",
+      "opts": ["DI, aVL, V5", "DII, DIII, aVF", "V1, V2, V3", "aVR, V1"],
+      "ans": 1,
+      "just": "Estas tres derivaciones comparten el mismo ángulo de visión hacia la base diafragmática del corazón.",
+      "hint": "Mirada desde los pies."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué centro cardiaco se localiza en el piso de la aurícula derecha, cerca del seno coronario?",
+      "opts": ["Nodo SA", "Nodo AV", "Haz de His", "Fibras de Purkinje"],
+      "ans": 1,
+      "just": "Recibe el impulso de las aurículas y genera el retraso necesario para la función de bomba.",
+      "hint": "Ubicado en el Triángulo de Koch."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda S se define como cualquier deflexión negativa que:",
+      "opts": ["Preceda a la R", "Siga a la onda R", "Sea mayor a 5 mm", "Ocurra antes de la P"],
+      "ans": 1,
+      "just": "Si el complejo comienza con una onda negativa, se llama Q; no obstante, si la negatividad aparece tras una positiva, es una S.",
+      "hint": "Parte negativa final del QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "La constante 1500 se utiliza para calcular la frecuencia cardíaca contando:",
+      "opts": ["Cuadros grandes", "Cuadros pequeños", "Ondas P", "Segundos"],
+      "ans": 1,
+      "just": "Cada cuadradito es 1/1500 de minuto; por lo tanto, es el método más exacto para frecuencias altas o registros precisos.",
+      "hint": "1500 mm equivalen a un minuto de papel."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un intervalo PR menor a 0.12 segundos sugiere:",
+      "opts": ["Bloqueo AV", "Vía accesoria o preexcitación", "Hiperpotasemia", "Efecto vagal"],
+      "ans": 1,
+      "just": "Indica que el impulso ha llegado a los ventrículos más rápido de lo normal; por consiguiente, se ha evitado el nodo AV.",
+      "hint": "El impulso 'corre' demasiado rápido."
+    },
+    {
+      "cat": "ekg",
+      "q": "En la pericarditis aguda, el cambio del ST suele ser:",
+      "opts": ["Localizado e infradesnivelado", "Difuso, cóncavo y con supradesnivel", "Solo en V1-V2", "Ausente"],
+      "ans": 1,
+      "just": "Afecta a casi todas las derivaciones (excepto aVR); además, se acompaña frecuentemente de un descenso del segmento PR.",
+      "hint": "Elevación en 'forma de hamaca'."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVR es útil para identificar:",
+      "opts": ["Isquemia lateral", "Colocación errónea de cables o dextrocardia", "Hipertrofia izquierda", "Bloqueo de rama izquierda"],
+      "ans": 1,
+      "just": "Si en aVR la onda P y el QRS son positivos en una persona normal, es muy probable que los cables de los brazos estén invertidos.",
+      "hint": "Debe ser el 'negativo' de la mayoría de trazados."
+    },
+    {
+      "cat": "ekg",
+      "q": "La despolarización del tabique interventricular se produce normalmente de:",
+      "opts": ["Derecha a izquierda", "Izquierda a derecha", "Ápice a base", "Atrás hacia adelante"],
+      "ans": 1,
+      "just": "Depende de la rama izquierda del haz de His; asimismo, es el primer evento de la despolarización ventricular.",
+      "hint": "Origen de la pequeña onda q en V6."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo AV de segundo grado Mobitz II se asocia con un alto riesgo de progresar a:",
+      "opts": ["Ritmo sinusal", "Bloqueo completo (tercer grado)", "Bradicardia sinusal", "Fibrilación auricular"],
+      "ans": 1,
+      "just": "Es una patología infracisiana (debajo del nodo AV); consecuentemente, suele requerir el implante de un marcapasos definitivo.",
+      "hint": "Bloqueo súbito e impredecible."
+    },
+    {
+      "cat": "ekg",
+      "q": "La muesca de Osborne (onda J) es un signo electrocardiográfico de:",
+      "opts": ["Hipertermia", "Hipotermia", "Hipercalcemia", "Hipopotasemia"],
+      "ans": 1,
+      "just": "Aparece como una deflexión positiva al final del QRS; además, su amplitud es proporcional a la gravedad del enfriamiento corporal.",
+      "hint": "Ocurre en accidentes por frío."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V3 se sitúa a medio camino entre:",
+      "opts": ["V1 y V2", "V2 y V4", "V4 y V5", "V1 y V4"],
+      "ans": 1,
+      "just": "No tiene una referencia ósea propia; por consiguiente, depende de la correcta ubicación de los electrodos adyacentes.",
+      "hint": "Posición intermedia frontal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda R alta en V1 (R > S) puede indicar:",
+      "opts": ["Hipertrofia ventricular derecha", "Hipertrofia ventricular izquierda", "Normalidad absoluta", "Bloqueo de rama izquierda"],
+      "ans": 0,
+      "just": "Sugiere que el vector principal se dirige hacia adelante y a la derecha debido al aumento de masa del VD.",
+      "hint": "Lo opuesto a lo normal en V1."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación es la mejor para medir el intervalo PR?",
+      "opts": ["DII o V1", "aVL", "V6", "DIII"],
+      "ans": 0,
+      "just": "DII muestra la onda P más clara y V1 permite ver mejor el inicio de la activación auricular.",
+      "hint": "Vistas con mayor amplitud de la onda P."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo QRS isodifásico en una derivación indica que el eje es:",
+      "opts": ["Paralelo a ella", "Perpendicular a ella", "Inverso a ella", "Cero"],
+      "ans": 1,
+      "just": "Significa que la suma de fuerzas positivas y negativas es igual; por tanto, el vector cruza la derivación a 90°.",
+      "hint": "Concepto clave para el cálculo rápido del eje."
+    },
+    {
+      "cat": "ekg",
+      "q": "La isquemia miocárdica suele manifestarse inicialmente como cambios en:",
+      "opts": ["La onda P", "La onda T", "El complejo QRS", "El intervalo PR"],
+      "ans": 1,
+      "just": "La repolarización es el proceso más sensible a la falta de oxígeno; consecuentemente, se observan ondas T picudas o invertidas.",
+      "hint": "Alteración de la 'recuperación' celular."
+    },
+    {
+      "cat": "ekg",
+      "q": "El 'triángulo de Einthoven' es una representación de las derivaciones:",
+      "opts": ["Precordiales", "Bipolares de los miembros", "Monopolares aumentadas", "Posteriores"],
+      "ans": 1,
+      "just": "Incluye DI, DII y DIII; además, establece que DI + DIII = DII según la ley de voltajes.",
+      "hint": "Base de la electrocardiografía moderna."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda Delta es patognomónica del síndrome de:",
+      "opts": ["Brugada", "Wolff-Parkinson-White", "QT largo", "Ebstein"],
+      "ans": 1,
+      "just": "Es una pendiente lenta al inicio del QRS que ensancha el complejo; asimismo, indica que el ventrículo se está activando por una vía anómala.",
+      "hint": "Empastamiento inicial del QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V5 se coloca en la línea axilar anterior al mismo nivel que:",
+      "opts": ["V2", "V4", "V6", "El ombligo"],
+      "ans": 1,
+      "just": "V4, V5 y V6 se colocan horizontalmente siguiendo el quinto espacio intercostal.",
+      "hint": "A la misma altura que el ápice."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo irregular con ausencia de ondas P y complejos QRS estrechos es:",
+      "opts": ["Taquicardia ventricular", "Fibrilación auricular", "Bloqueo completo", "Bradicardia sinusal"],
+      "ans": 1,
+      "just": "Es la arritmia sostenida más frecuente; además, aumenta significativamente el riesgo de embolismo sistémico.",
+      "hint": "Línea de base temblorosa."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda T invertida y profunda en derivaciones precordiales (V1-V4) puede indicar:",
+      "opts": ["Infarto inferior", "Isquemia anterior", "Hipercalcemia", "Bloqueo AV"],
+      "ans": 1,
+      "just": "Refleja una alteración de la repolarización en la pared frontal del ventrículo izquierdo.",
+      "hint": "Ondas T negativas."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación observa el corazón desde el hombro izquierdo?",
+      "opts": ["aVR", "aVL", "aVF", "DI"],
+      "ans": 1,
+      "just": "Situada a -30°, es fundamental para detectar desvíos del eje hacia la izquierda.",
+      "hint": "L de 'Left' (izquierda)."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo R-R en un ritmo regular mide 4 cuadros grandes. La frecuencia cardíaca es:",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 1,
+      "just": "300 dividido entre 4 es igual a 75; por consiguiente, el paciente tiene una frecuencia dentro del rango normal.",
+      "hint": "Cálculo matemático simple."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama izquierda (BRI), la onda R en V6 suele ser:",
+      "opts": ["Pequeña y estrecha", "Ancha y mellada (en torre)", "Negativa", "Ausente"],
+      "ans": 1,
+      "just": "Toda la despolarización ventricular se realiza a través de la rama derecha; consecuentemente, el vector se dirige masivamente a la izquierda con retraso.",
+      "hint": "Morfología similar a una 'M' en derivaciones laterales."
+    },
+    {
+      "cat": "ekg",
+      "q": "La presencia de una onda P después de cada complejo QRS se llama conducción:",
+      "opts": ["Normal", "Retrógrada", "Aberrante", "Disociada"],
+      "ans": 1,
+      "just": "Ocurre cuando el impulso nace en la unión AV o ventrículos y viaja hacia las aurículas; además, la P suele ser negativa en DII.",
+      "hint": "El cableado funciona al revés."
+    },
+    {
+      "cat": "ekg",
+      "q": "El segmento ST deprimido en forma de cubeta (digital) sugiere:",
+      "opts": ["Infarto agudo", "Efecto de la digoxina", "Hipotermia", "Bloqueo de rama"],
+      "ans": 1,
+      "just": "Es un cambio esperado en pacientes que toman este fármaco; no obstante, no implica necesariamente toxicidad.",
+      "hint": "Forma de cuchara o valle."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación es estrictamente vertical en el sistema hexaxial (+90°)?",
+      "opts": ["DI", "aVF", "DII", "aVL"],
+      "ans": 1,
+      "just": "Apunta hacia los pies; por consiguiente, es la referencia central de la cara inferior.",
+      "hint": "Es perpendicular a la derivación DI."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase 1 del potencial de acción cardiaco representa:",
+      "opts": ["Meseta", "Repolarización inicial rápida", "Hiperpolarización", "Umbral"],
+      "ans": 1,
+      "just": "Se debe a la inactivación de los canales de sodio junto con la apertura breve de canales de potasio.",
+      "hint": "Pequeña caída tras el pico de despolarización."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el EKG, el tiempo se mide en el eje:",
+      "opts": ["Vertical", "Horizontal", "Inclinado", "No se mide"],
+      "ans": 1,
+      "just": "Cada cuadro pequeño equivale a 40 milisegundos a la velocidad estándar de 25 mm/s.",
+      "hint": "Eje X del registro."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un complejo QRS negativo en DI y positivo en aVF indica un eje en el cuadrante:",
+      "opts": ["Normal", "Derecho", "Izquierdo", "Superior"],
+      "ans": 1,
+      "just": "El vector se aleja del brazo izquierdo y se acerca a los pies; consecuentemente, el eje está entre +90° y +180°.",
+      "hint": "Desviación a la derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda Épsilon es un hallazgo característico de la:",
+      "opts": ["Miopatía hipertrófica", "Displasia arritmogénica del ventrículo derecho", "Pericarditis", "Estenosis aórtica"],
+      "ans": 1,
+      "just": "Es una pequeña deflexión al final del QRS en V1-V2; asimismo, refleja áreas de conducción lenta en el ventrículo derecho.",
+      "hint": "Muesca post-despolarización ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "La taquicardia sinusal se define por una frecuencia mayor a:",
+      "opts": ["60 lpm", "100 lpm", "150 lpm", "200 lpm"],
+      "ans": 1,
+      "just": "El nodo SA descarga a una velocidad superior a la basal; además, mantiene la secuencia normal P-QRS-T.",
+      "hint": "Corazón rápido pero ordenado."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo QT incluye:",
+      "opts": ["Solo el QRS", "Solo la onda T", "QRS, segmento ST y onda T", "Onda P y QRS"],
+      "ans": 2,
+      "just": "Representa la totalidad de los eventos eléctricos ventriculares (despolarización y repolarización).",
+      "hint": "Desde el inicio del QRS hasta el fin de la T."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación observa el corazón desde la axila izquierda?",
+      "opts": ["V4", "V6", "V1", "aVR"],
+      "ans": 1,
+      "just": "Es la derivación más lateral del tórax; por consiguiente, es fundamental para ver la cara lateral del ventrículo izquierdo.",
+      "hint": "Situada en la línea axilar media."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un eje a -90° es perpendicular a la derivación:",
+      "opts": ["aVF", "DI", "DII", "DIII"],
+      "ans": 1,
+      "just": "Puesto que DI está a 0°, cualquier vector vertical (ya sea +90° o -90°) es perpendicular a ella.",
+      "hint": "Relación entre el eje horizontal y el vertical."
+    },
+    {
+      "cat": "ekg",
+      "q": "La bradicardia sinusal es normal en:",
+      "opts": ["Atletas de alto rendimiento", "Pacientes con infarto anterior", "Fiebre", "Hipertiroidismo"],
+      "ans": 0,
+      "just": "Debido al alto tono vagal, el nodo SA late más lento de lo habitual en reposo; no obstante, el gasto cardíaco es adecuado.",
+      "hint": "Corazón muy eficiente y entrenado."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V2 se coloca a la misma altura que V1 pero en el:",
+      "opts": ["Tercer espacio intercostal", "Borde esternal izquierdo", "Quinto espacio", "Línea medioclavicular"],
+      "ans": 1,
+      "just": "Ambas vigilan el tabique interventricular; además, son las derivaciones con mayor negatividad del QRS.",
+      "hint": "Lado opuesto al esternón de V1."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el EKG, la elevación de la onda U se asocia con:",
+      "opts": ["Hiperpotasemia", "Hipopotasemia", "Hipercalcemia", "Bradicardia sinusal pura"],
+      "ans": 1,
+      "just": "Al descender el potasio, la repolarización tardía se hace evidente; por tanto, aparece una onda extra tras la T.",
+      "hint": "Bajos niveles del catión K+."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué nombre recibe el punto donde termina la despolarización ventricular?",
+      "opts": ["Punto J", "Onda R", "Complejo S", "Segmento PR"],
+      "ans": 0,
+      "just": "Marca el inicio del segmento ST; asimismo, es el sitio donde el QRS se une a la línea basal.",
+      "hint": "Unión crítica para evaluar el ST."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo irregular con complejos QRS de diferente morfología sugiere:",
+      "opts": ["Fibrilación auricular", "Extrasístoles ventriculares polimórficas", "Ritmo sinusal normal", "Bloqueo de primer grado"],
+      "ans": 1,
+      "just": "Indica que existen múltiples focos ectópicos en los ventrículos; consecuentemente, implica un mayor riesgo de arritmias letales.",
+      "hint": "Varios orígenes de latidos anómalos."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivaciones del plano horizontal exploran específicamente el tabique interventricular?",
+      "opts": ["V1 y V2", "V3 y V4", "V5 y V6", "DI y aVL"],
+      "ans": 0,
+      "just": "Las derivaciones precordiales V1 junto con V2 se sitúan a ambos lados del esternón; por consiguiente, registran la actividad eléctrica del septum además de la pared libre del ventrículo derecho.",
+      "hint": "Son las primeras derivaciones de la serie precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el contexto de la activación ventricular, las derivaciones V3 y V4 se encargan de observar la cara:",
+      "opts": ["Septal", "Anterior", "Lateral", "Inferior"],
+      "ans": 1,
+      "just": "Se ubican sobre el ventrículo izquierdo anterior; asimismo, reflejan cambios isquémicos relacionados con la arteria descendente anterior.",
+      "hint": "Electrodos situados hacia el centro del tórax izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué grupo de derivaciones registra la actividad eléctrica de la pared lateral baja del ventrículo izquierdo?",
+      "opts": ["V1-V2", "DII-DIII", "V5-V6", "aVR"],
+      "ans": 2,
+      "just": "V5 además de V6 se localizan en la línea axilar; por tanto, son fundamentales para detectar hipertrofias o infartos laterales.",
+      "hint": "Derivaciones más laterales del plano horizontal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Las derivaciones bipolares de los miembros, según la ley de Einthoven, establecen la relación matemática:",
+      "opts": ["DI + DII = DIII", "DI + DIII = DII", "DII + DIII = DI", "aVR + aVL = aVF"],
+      "ans": 1,
+      "just": "La suma del potencial en DI junto con DIII iguala al potencial en DII; consecuentemente, esta propiedad permite verificar la integridad del registro.",
+      "hint": "Base matemática del triángulo de Einthoven."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la utilidad clínica primordial de la derivación V4R en la sospecha de infarto?",
+      "opts": ["Detectar isquemia septal", "Evaluar el ventrículo derecho", "Ver la cara posterior", "Calcular el eje auricular"],
+      "ans": 1,
+      "just": "El infarto de ventrículo derecho requiere un manejo hídrico específico; por ende, se colocan electrodos en el hemitórax derecho para confirmarlo.",
+      "hint": "Espejo de V4 en el lado derecho."
+    },
+    {
+      "cat": "ekg",
+      "q": "Para el diagnóstico de infarto posterior agudo, ¿qué derivaciones adicionales se deben solicitar habitualmente?",
+      "opts": ["V3R y V4R", "V7, V8 y V9", "aVR y aVL", "DII y DIII"],
+      "ans": 1,
+      "just": "Estas derivaciones se colocan en la región infraescapular; asimismo, permiten visualizar la zona dorsal del ventrículo izquierdo que no cubren las 12 derivaciones estándar.",
+      "hint": "Exploración de la espalda."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un crecimiento de la aurícula izquierda se manifiesta típicamente en la onda P mediante:",
+      "opts": ["Aumento de voltaje", "Aumento de duración superior a 0.11 segundos", "Negatividad en DII", "Ausencia de la onda"],
+      "ans": 1,
+      "just": "La mayor masa auricular retarda la despolarización total; por tanto, la onda P se ensancha además de presentar una muesca central.",
+      "hint": "Se denomina P mitrale."
+    },
+    {
+      "cat": "ekg",
+      "q": "La denominada 'P pulmonale' refleja un crecimiento de la aurícula derecha y se caracteriza por:",
+      "opts": ["Onda P ancha", "Onda P picuda con voltaje superior a 2.5 mm", "Onda P invertida en V5", "Onda P plana"],
+      "ans": 1,
+      "just": "Ocurre frecuentemente en patologías pulmonares crónicas; asimismo, el vector se dirige con mayor intensidad hacia las derivaciones inferiores.",
+      "hint": "Punto máximo de amplitud en DII."
+    },
+    {
+      "cat": "ekg",
+      "q": "La interpretación de una onda P bifásica en la derivación V1 permite evaluar:",
+      "opts": ["Ambas aurículas por separado", "Solo el ventrículo derecho", "La frecuencia cardíaca", "El bloqueo de rama"],
+      "ans": 0,
+      "just": "La porción inicial positiva representa la aurícula derecha; no obstante, la porción terminal negativa refleja la actividad de la aurícula izquierda.",
+      "hint": "Onda con dos fases o componentes."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué representa el intervalo PR en términos de fisiología de la conducción?",
+      "opts": ["Sístole ventricular", "Tiempo de conducción aurículoventricular total", "Fase de meseta", "Repolarización septal"],
+      "ans": 1,
+      "just": "Abarca desde el inicio de la activación auricular hasta el comienzo de la ventricular; además, incluye el retraso esencial en el nodo AV.",
+      "hint": "P a inicio de QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "El segmento PR, a diferencia del intervalo PR, se define como:",
+      "opts": ["Inicio de P a fin de P", "Final de la onda P al inicio del QRS", "Inicio de P a inicio de R", "Final de QRS a inicio de T"],
+      "ans": 1,
+      "just": "Corresponde al tiempo de retraso puro en el nodo AV; por consiguiente, es una línea isoeléctrica donde no hay cambio de voltaje observable.",
+      "hint": "Línea entre el fin de la onda P y el complejo."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda Q se considera patológica si cumple con el criterio de:",
+      "opts": ["Ser mayor a 0.04 s de duración", "Ser positiva", "Seguir a una onda R", "Tener bajo voltaje"],
+      "ans": 0,
+      "just": "Representa la ausencia de actividad eléctrica por necrosis; asimismo, su profundidad suele superar el 25% de la onda R siguiente.",
+      "hint": "Signo de cicatriz miocárdica."
+    },
+    {
+      "cat": "ekg",
+      "q": "El fenómeno de progresión normal de la onda R en las derivaciones precordiales implica que:",
+      "opts": ["El voltaje disminuye de V1 a V6", "La onda R aumenta gradualmente de tamaño", "V1 es siempre positiva", "V6 es siempre negativa"],
+      "ans": 1,
+      "just": "A medida que el electrodo se acerca a la masa del ventrículo izquierdo, la deflexión positiva se vuelve mayor; consecuentemente, V4 suele ser la zona de transición.",
+      "hint": "Crecimiento paulatino del pico positivo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué indica una onda S profunda en las derivaciones V1 y V2?",
+      "opts": ["Hipertrofia del ventrículo derecho", "Predominio de fuerzas del ventrículo izquierdo", "Bloqueo de rama derecha", "Taquicardia sinusal"],
+      "ans": 1,
+      "just": "Puesto que el ventrículo izquierdo es posterior, el vector de despolarización se aleja de V1; por tanto, genera una gran negatividad.",
+      "hint": "Fuerza que se aleja del electrodo derecho."
+    },
+    {
+      "cat": "ekg",
+      "q": "La elevación cóncava del segmento ST en la mayoría de las derivaciones es sugerente de:",
+      "opts": ["Infarto transmural", "Pericarditis aguda", "Hipocalcemia", "Hipopotasemia"],
+      "ans": 1,
+      "just": "Es un hallazgo difuso que no respeta territorios coronarios; además, suele acompañarse de depresión del segmento PR.",
+      "hint": "Elevación en 'hamaca'."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cómo se distingue una onda T de isquemia miocárdica de una variante normal?",
+      "opts": ["Es asimétrica", "Es simétrica y puntiaguda", "Es muy pequeña", "Es bifásica siempre"],
+      "ans": 1,
+      "just": "La isquemia altera la repolarización de forma uniforme; por consiguiente, la onda T se vuelve especular o invertida simétricamente.",
+      "hint": "Onda con ramas iguales."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo QT corregido mediante la fórmula de Bazett sirve para:",
+      "opts": ["Aumentar el voltaje", "Ajustar la duración según la frecuencia cardíaca", "Ver la onda P", "Contar los cuadraditos"],
+      "ans": 1,
+      "just": "La sístole eléctrica se acorta al aumentar el pulso; por lo tanto, es necesario normalizar el valor para identificar riesgos de arritmia.",
+      "hint": "Normalización del QT."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué estructura eléctrica constituye la referencia central del corazón en el sistema de derivaciones aumentadas?",
+      "opts": ["Nodo SA", "Terminal central de Wilson", "Ápex ventricular", "Aurícula derecha"],
+      "ans": 1,
+      "just": "Se forma conectando los electrodos de los miembros; asimismo, actúa como un punto de potencial cero relativo para las derivaciones unipolares.",
+      "hint": "V de Wilson."
+    },
+    {
+      "cat": "ekg",
+      "q": "La calibración habitual del EKG indica que un cuadro grande en sentido horizontal equivale a:",
+      "opts": ["0.04 segundos", "0.20 segundos", "1.0 segundos", "0.10 segundos"],
+      "ans": 1,
+      "just": "Contiene cinco cuadros pequeños de 0.04 segundos cada uno; por ende, permite mediciones rápidas de los intervalos cardíacos.",
+      "hint": "Cinco milímetros de papel."
+    },
+    {
+      "cat": "ekg",
+      "q": "Si se aumenta la velocidad del papel a 50 mm/s, ¿qué ocurre con el trazado?",
+      "opts": ["Las ondas se ven más altas", "El trazado se estira horizontalmente", "La frecuencia cardíaca se duplica", "El voltaje disminuye"],
+      "ans": 1,
+      "just": "Se utiliza para analizar mejor las arritmias rápidas; no obstante, duplica el espacio que ocupa cada latido en el papel.",
+      "hint": "Efecto sobre el eje del tiempo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El método de los 'trillizos' (300, 150, 100...) para calcular la frecuencia se basa en:",
+      "opts": ["Cuadros pequeños", "Cuadros grandes", "Ondas T", "Intervalos PR"],
+      "ans": 1,
+      "just": "Consiste en dividir 60 segundos por el múltiplo del tiempo del cuadro grande (0.2 s); consecuentemente, es el método más veloz en ritmos regulares.",
+      "hint": "Uso de líneas gruesas del papel."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué requisito debe cumplir la onda P en la derivación DII para confirmar un ritmo sinusal?",
+      "opts": ["Ser negativa", "Ser positiva", "Ser bifásica", "Estar ausente"],
+      "ans": 1,
+      "just": "Puesto que el nodo SA activa la aurícula de arriba hacia abajo, el vector se acerca al electrodo positivo de DII; por tanto, la deflexión es hacia arriba.",
+      "hint": "Criterio de polaridad auricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "La arritmia sinusal respiratoria se define como una variación del ritmo relacionada con:",
+      "opts": ["Fiebre", "Ciclos de inspiración y espiración", "Isquemia", "Bloqueos"],
+      "ans": 1,
+      "just": "La frecuencia aumenta durante la inspiración por inhibición vagal; asimismo, disminuye durante la espiración, siendo un hallazgo fisiológico.",
+      "hint": "Cambio rítmico normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un extraestímulo que nace en la aurícula antes del siguiente latido sinusal se denomina:",
+      "opts": ["Extrasístole ventricular", "Extrasístole auricular", "Bloqueo AV", "Escotadura"],
+      "ans": 1,
+      "just": "Presenta una onda P de morfología distinta; además, suele ir seguido de una pausa compensatoria incompleta.",
+      "hint": "Latido prematuro superior."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la característica principal de una extrasístole ventricular en el trazado?",
+      "opts": ["QRS estrecho", "QRS ancho y deforme", "Presencia de onda P previa", "Frecuencia regular"],
+      "ans": 1,
+      "just": "El impulso nace en el miocardio ventricular; por consiguiente, la conducción es lenta además de no utilizar el sistema especializado de Purkinje.",
+      "hint": "Latido aberrante sin onda P."
+    },
+    {
+      "cat": "ekg",
+      "q": "La pausa compensatoria completa es típica de:",
+      "opts": ["Extrasístoles auriculares", "Extrasístoles ventriculares", "Ritmo sinusal", "Flutter"],
+      "ans": 1,
+      "just": "El latido ectópico no resetea el nodo sinusal; por lo tanto, el siguiente latido aparece exactamente cuando le correspondía según el ritmo base.",
+      "hint": "Intervalo doble entre latidos normales."
+    },
+    {
+      "cat": "ekg",
+      "q": "Se denomina bigeminismo ventricular cuando el patrón se repite como:",
+      "opts": ["Dos normales y uno extra", "Un latido normal seguido de una extrasístole", "Tres extrasístoles juntas", "Ausencia de latidos"],
+      "ans": 1,
+      "just": "Es una forma de alritmia donde se alterna un latido sinusal con uno ectópico; asimismo, puede ser signo de toxicidad o cardiopatía.",
+      "hint": "Ritmo en parejas."
+    },
+    {
+      "cat": "ekg",
+      "q": "La taquicardia ventricular no sostenida se define como una racha de tres o más latidos ventriculares que duran:",
+      "opts": ["Más de 1 minuto", "Menos de 30 segundos", "Solo 2 latidos", "Toda la vida"],
+      "ans": 1,
+      "just": "Representa un riesgo potencial de arritmia letal; además, se diferencia de la sostenida por su duración temporal limitada.",
+      "hint": "Racha breve de QRS anchos."
+    },
+    {
+      "cat": "ekg",
+      "q": "En la fibrilación auricular, la frecuencia de las ondas auriculares (f) suele oscilar entre:",
+      "opts": ["60-100", "150-250", "350-600", "20-40"],
+      "ans": 2,
+      "just": "La actividad auricular es caótica además de desorganizada; consecuentemente, no produce una contracción efectiva de las cámaras.",
+      "hint": "Frecuencia extremadamente alta."
+    },
+    {
+      "cat": "ekg",
+      "q": "La respuesta ventricular en la fibrilación auricular se caracteriza por ser:",
+      "opts": ["Rítmica", "Irregularmente irregular", "Lenta siempre", "Ausente"],
+      "ans": 1,
+      "just": "El nodo AV filtra los impulsos de forma aleatoria; por tanto, los intervalos R-R son totalmente desiguales en el trazado.",
+      "hint": "Pulso caótico."
+    },
+    {
+      "cat": "ekg",
+      "q": "El flutter auricular se diferencia de la fibrilación por presentar un mecanismo de:",
+      "opts": ["Micro-reentrada", "Macro-reentrada organizada", "Necrosis", "Potasio bajo"],
+      "ans": 1,
+      "just": "El impulso recorre un circuito fijo en la aurícula derecha; por ende, genera ondas F mayúsculas muy regulares.",
+      "hint": "Dientes de sierra."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo de escape de la unión auriculoventricular presenta una frecuencia de:",
+      "opts": ["60-100 lpm", "40-60 lpm", "20-40 lpm", "100-150 lpm"],
+      "ans": 1,
+      "just": "Actúa como marcapasos de rescate cuando el nodo sinusal falla; asimismo, suele presentar complejos QRS estrechos.",
+      "hint": "Ritmo de seguridad intermedio."
+    },
+    {
+      "cat": "ekg",
+      "q": "En un ritmo de la unión, la onda P puede aparecer:",
+      "opts": ["Solo antes del QRS", "Antes, durante o después del QRS", "Solo después de la T", "Nunca aparece"],
+      "ans": 1,
+      "just": "Depende de la velocidad de conducción retrógrada hacia las aurículas; por consiguiente, su posición varía respecto a la despolarización ventricular.",
+      "hint": "Activación simultánea o secuencial inversa."
+    },
+    {
+      "cat": "ekg",
+      "q": "El ritmo idioventricular es un ritmo de escape generado en los ventrículos con frecuencia de:",
+      "opts": ["70 lpm", "20-40 lpm", "80-100 lpm", "60-80 lpm"],
+      "ans": 1,
+      "just": "Es el último recurso del corazón para mantener el gasto cardíaco; además, se asocia con complejos QRS muy anchos.",
+      "hint": "Ritmo de escape más lento."
+    },
+    {
+      "cat": "ekg",
+      "q": "La asistolia se define electrocardiográficamente como:",
+      "opts": ["Ritmo rápido", "Ausencia total de actividad eléctrica (línea plana)", "Ondas P sin QRS", "QRS ancho"],
+      "ans": 1,
+      "just": "Indica el cese de la función de los marcapasos; por tanto, requiere maniobras de reanimación inmediatas.",
+      "hint": "Silencio eléctrico absoluto."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo AV de primer grado se caracteriza por un intervalo PR prolongado que es:",
+      "opts": ["Variable", "Constante", "Menor a 0.12 s", "Ausente"],
+      "ans": 1,
+      "just": "Cada impulso sinusal llega a los ventrículos pero con retraso; asimismo, no se pierde ningún latido.",
+      "hint": "Retraso fijo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El fenómeno de Wenckebach (Mobitz I) muestra un PR que:",
+      "opts": ["Se acorta", "Se alarga progresivamente hasta que una P no conduce", "Es siempre igual", "Desaparece"],
+      "ans": 1,
+      "just": "Es un bloqueo de segundo grado benigno; por consiguiente, suele localizarse a nivel del nodo AV.",
+      "hint": "Fatiga creciente de la conducción."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo AV de segundo grado Mobitz II implica un alto riesgo porque:",
+      "opts": ["El PR es corto", "Las ondas P se bloquean súbitamente sin aviso", "Es normal en atletas", "Desaparece con ejercicio"],
+      "ans": 1,
+      "just": "Indica una lesión severa en el sistema de His-Purkinje; por lo tanto, frecuentemente evoluciona a bloqueo completo.",
+      "hint": "Bloqueo inesperado con PR fijo."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un bloqueo AV de segundo grado con relación 2:1 presenta el desafío de:",
+      "opts": ["No ver las ondas P", "Diferenciar entre Mobitz I y Mobitz II", "Calcular el eje", "Ver la onda U"],
+      "ans": 1,
+      "just": "Al no haber dos PR seguidos para comparar, el diagnóstico requiere observar tiras largas o maniobras vagales.",
+      "hint": "Una P conduce, la siguiente no."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo AV de tercer grado, el hallazgo patognomónico es:",
+      "opts": ["PR largo", "Disociación auriculoventricular total", "QRS estrecho siempre", "Ondas T invertidas"],
+      "ans": 1,
+      "just": "Las aurículas además de los ventrículos laten a ritmos independientes; por ende, no existe relación entre ondas P y QRS.",
+      "hint": "Divorcio eléctrico."
+    },
+    {
+      "cat": "ekg",
+      "q": "La morfología de rsR' en la derivación V1 es típica del:",
+      "opts": ["Bloqueo de rama izquierda", "Bloqueo de rama derecha", "Infarto anterior", "Ritmo sinusal"],
+      "ans": 1,
+      "just": "Refleja la activación tardía del ventrículo derecho; asimismo, se acompaña de una onda S empastada en las derivaciones laterales.",
+      "hint": "Orejas de conejo derechas."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué cambio se observa en V6 durante un bloqueo de rama derecha?",
+      "opts": ["Onda R ancha", "Onda S ancha y profunda (empastada)", "Onda Q profunda", "Ausencia de S"],
+      "ans": 1,
+      "just": "El vector de despolarización final se dirige a la derecha; consecuentemente, se aleja de V6 generando una onda S persistente.",
+      "hint": "Retraso de la fuerza final."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo de rama izquierda se caracteriza en V1 por presentar:",
+      "opts": ["Onda R alta", "Complejo QS o rS profundo y ancho", "Ondas P picudas", "Voltaje normal"],
+      "ans": 1,
+      "just": "La despolarización septal se invierte; por tanto, el vector se aleja totalmente de las derivaciones derechas desde el inicio.",
+      "hint": "Gran negatividad derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama izquierda (BRI), las derivaciones I, aVL y V6 muestran:",
+      "opts": ["Ondas Q profundas", "Ondas R anchas, melladas y sin onda Q", "Ondas S gigantes", "Trazado normal"],
+      "ans": 1,
+      "just": "La ausencia de onda q septal es obligatoria para el diagnóstico; además, el QRS debe medir más de 0.12 segundos.",
+      "hint": "Melladura en torre lateral."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un hemibloqueo anterior izquierdo (HAI) produce una desviación del eje hacia:",
+      "opts": ["La derecha (+120°)", "La izquierda extrema (-45° o más)", "El centro", "Abajo"],
+      "ans": 1,
+      "just": "El fascículo anterior se interrumpe; consecuentemente, el ventrículo izquierdo se activa de abajo hacia arriba.",
+      "hint": "Eje más allá de -30°."
+    },
+    {
+      "cat": "ekg",
+      "q": "El hemibloqueo posterior izquierdo se sospecha cuando el eje está a la derecha y se descarta:",
+      "opts": ["Embarazo", "Hipertrofia ventricular derecha", "Infarto lateral", "Asma"],
+      "ans": 1,
+      "just": "Es un diagnóstico de exclusión; por consiguiente, solo se confirma si no hay otra causa de desviación axial derecha.",
+      "hint": "Eje > +90° sin falla pulmonar."
+    },
+    {
+      "cat": "ekg",
+      "q": "Se denomina bloqueo bifascicular a la combinación de:",
+      "opts": ["BAV I y BAV II", "Bloqueo de rama derecha y un hemibloqueo izquierdo", "Bloqueo de ambas ramas", "Extrasístoles y bradicardia"],
+      "ans": 1,
+      "just": "Indica que dos de las tres vías principales de conducción están dañadas; por tanto, aumenta el riesgo de bloqueo completo.",
+      "hint": "BRD +HAI o HPI."
+    },
+    {
+      "cat": "ekg",
+      "q": "El índice de Cornell para hipertrofia ventricular izquierda utiliza la suma de:",
+      "opts": ["S en V1 + R en V5", "R en aVL + S en V3", "P en DII + Q en V1", "R en DI + R en DIII"],
+      "ans": 1,
+      "just": "Es más sensible que el Sokolow en ciertos pacientes; asimismo, los valores de corte varían según el sexo.",
+      "hint": "Suma de voltaje unipolar y precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué hallazgo en V1 sugiere hipertrofia del ventrículo derecho?",
+      "opts": ["Onda S profunda", "Onda R mayor a 7 mm o R mayor que S", "Onda T invertida", "QRS estrecho"],
+      "ans": 1,
+      "just": "El aumento de masa derecha atrae el vector de despolarización hacia adelante; consecuentemente, V1 se vuelve predominantemente positivo.",
+      "hint": "Inversión de la relación R/S normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "La desviación del eje a la derecha es común en pacientes con:",
+      "opts": ["Obesidad", "EPOC o cor pulmonale", "Embarazo", "LVH"],
+      "ans": 1,
+      "just": "La sobrecarga de las cavidades derechas desplaza el vector eléctrico; además, se asocia con corazones verticalizados.",
+      "hint": "Relacionado con patología pulmonar."
+    },
+    {
+      "cat": "ekg",
+      "q": "La hipertrofia ventricular izquierda suele desplazar el eje hacia:",
+      "opts": ["La derecha", "La izquierda", "Atrás", "Ningún lado"],
+      "ans": 1,
+      "just": "La mayor masa del ventrículo izquierdo domina las fuerzas eléctricas; por ende, el vector se inclina hacia arriba.",
+      "hint": "Hacia el lado de la masa aumentada."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué diferencia la isquemia subendocárdica de la subepicárdica en la onda T?",
+      "opts": ["No hay diferencia", "La subendocárdica da T altas y la subepicárdica T invertidas", "El voltaje", "La duración"],
+      "ans": 1,
+      "just": "La isquemia altera la dirección de la repolarización; asimismo, la onda T refleja el área de miocardio comprometida.",
+      "hint": "Efecto sobre la polaridad de la T."
+    },
+    {
+      "cat": "ekg",
+      "q": "La corriente de lesión, manifestada por cambios en el segmento ST, indica un daño de tipo:",
+      "opts": ["Crónico", "Agudo y potencialmente reversible", "Permanente (necrosis)", "Fisiológico"],
+      "ans": 1,
+      "just": "Es la fase intermedia entre la isquemia junto con el infarto; por tanto, requiere atención inmediata para salvar tejido.",
+      "hint": "Fase de 'injuria'."
+    },
+    {
+      "cat": "ekg",
+      "q": "La aparición de ondas Q en el EKG es el signo de:",
+      "opts": ["Isquemia", "Necrosis miocárdica", "Arritmia", "Potasio alto"],
+      "ans": 1,
+      "just": "Indica que el tejido ha muerto además de ser reemplazado por fibrosis; consecuentemente, es un signo de infarto antiguo.",
+      "hint": "Huella del infarto."
+    },
+    {
+      "cat": "ekg",
+      "q": "Se denominan cambios recíprocos o 'en espejo' a la aparición de:",
+      "opts": ["ST elevado en todas las derivaciones", "Infradesnivel del ST en derivaciones opuestas al infarto", "Ondas U", "Taquicardia"],
+      "ans": 1,
+      "just": "El vector de lesión se aleja de las caras no afectadas; por ende, produce una imagen inversa en las derivaciones contrarias.",
+      "hint": "Imagen negativa compensatoria."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un infarto que afecta las derivaciones V1 a V4 se localiza en la pared:",
+      "opts": ["Inferior", "Anterior", "Lateral", "Posterior"],
+      "ans": 1,
+      "just": "Compromete el tabique junto con la cara anterior; asimismo, la arteria responsable suele ser la descendente anterior.",
+      "hint": "Cara frontal del VI."
+    },
+    {
+      "cat": "ekg",
+      "q": "El infarto septal puro suele limitarse a las derivaciones:",
+      "opts": ["V5-V6", "V1-V2", "DI-aVL", "DII-DIII"],
+      "ans": 1,
+      "just": "Estas derivaciones están situadas directamente sobre el tabique; por tanto, son las primeras en mostrar cambios.",
+      "hint": "Primeras precordiales."
+    },
+    {
+      "cat": "ekg",
+      "q": "La afectación de las derivaciones I, aVL, V5 y V6 indica un infarto de cara:",
+      "opts": ["Septal", "Lateral", "Inferior", "Derecha"],
+      "ans": 1,
+      "just": "Representa el territorio de la arteria circunfleja; además, se divide en lateral alta y lateral baja.",
+      "hint": "Lado izquierdo del corazón."
+    },
+    {
+      "cat": "ekg",
+      "q": "El infarto inferior se identifica por cambios en DII, DIII y aVF; su arteria culpable suele ser:",
+      "opts": ["Descendente anterior", "Coronaria derecha", "Mamaria", "Carótida"],
+      "ans": 1,
+      "just": "La coronaria derecha irriga la cara diafragmática en la mayoría de personas; consecuentemente, su oclusión genera estos cambios.",
+      "hint": "Dominancia derecha frecuente."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el infarto posterior, se observa de forma indirecta en V1-V2:",
+      "opts": ["ST elevado", "Ondas R altas y depresión del ST", "QRS estrecho", "Inversión de P"],
+      "ans": 1,
+      "just": "Es la imagen especular del daño dorsal; por lo tanto, lo que sería una Q y ST elevado atrás, se ve como R y ST deprimido adelante.",
+      "hint": "Imagen en espejo anterior."
+    },
+    {
+      "cat": "ekg",
+      "q": "El infarto del ventrículo derecho se confirma mediante elevación del ST en:",
+      "opts": ["V5", "V4R", "aVL", "DI"],
+      "ans": 1,
+      "just": "Es una extensión frecuente de los infartos inferiores; asimismo, su diagnóstico cambia radicalmente el tratamiento inicial.",
+      "hint": "Derivación derecha adicional."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué hallazgo electrocardiográfico es característico de la repolarización precoz?",
+      "opts": ["Depresión del PR", "Muesca o 'hook' al final del QRS con ST elevado", "Onda Q", "Bloqueo AV"],
+      "ans": 1,
+      "just": "Suele ser un hallazgo benigno en jóvenes deportistas; no obstante, debe diferenciarse cuidadosamente de la isquemia.",
+      "hint": "Anzuelo en el punto J."
+    },
+    {
+      "cat": "ekg",
+      "q": "La cubeta digitálica es un signo de impregnación por digoxina que consiste en:",
+      "opts": ["Elevación del ST", "Depresión cóncava del segmento ST", "Ondas T gigantes", "Prolongación del QT"],
+      "ans": 1,
+      "just": "El fármaco acorta la fase de meseta; consecuentemente, el ST adquiere una forma característica de cuchara.",
+      "hint": "Efecto farmacológico típico."
+    },
+    {
+      "cat": "ekg",
+      "q": "La hiperpotasemia extrema puede causar que el trazado evolucione hacia:",
+      "opts": ["Ondas P gigantes", "Complejos QRS muy anchos y ondas T en tienda de campaña", "Taquicardia sinusal", "QT corto"],
+      "ans": 1,
+      "just": "El potasio elevado deprime la conducción miocárdica; por tanto, puede culminar en un ritmo sinusoide previo al paro.",
+      "hint": "Ensanchamiento total del registro."
+    },
+    {
+      "cat": "ekg",
+      "q": "La hipopotastemia se asocia con la aparición de ondas U y:",
+      "opts": ["Aplanamiento de la onda T", "Elevación del ST", "QT corto", "Ondas P picudas"],
+      "ans": 0,
+      "just": "El bajo potasio retrasa la repolarización ventricular final; asimismo, aumenta la excitabilidad celular.",
+      "hint": "T plana más onda extra."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué efecto tiene la hipercalcemia sobre el intervalo QT?",
+      "opts": ["Lo prolonga", "Lo acorta", "No influye", "Lo duplica"],
+      "ans": 1,
+      "just": "El exceso de calcio acelera la fase 2 del potencial de acción; consecuentemente, la duración total de la sístole eléctrica disminuye.",
+      "hint": "Relación inversa con el calcio."
+    },
+    {
+      "cat": "ekg",
+      "q": "La hipocalcemia prolonga el intervalo QT a expensas de:",
+      "opts": ["El complejo QRS", "El segmento ST", "La onda P", "La onda U"],
+      "ans": 1,
+      "just": "El calcio bajo retarda la salida de potasio en la fase de meseta; por consiguiente, el segmento ST se alarga de forma notable.",
+      "hint": "Fase 2 del potencial de acción lenta."
+    },
+    {
+      "cat": "ekg",
+      "q": "El patrón S1Q3T3 es una sugerencia electrocardiográfica de:",
+      "opts": ["Infarto lateral", "Tromboembolismo pulmonar (TEP)", "Bloqueo de rama izquierda", "Hipercalcemia"],
+      "ans": 1,
+      "just": "Indica sobrecarga aguda del ventrículo derecho; no obstante, solo está presente en una minoría de los casos de TEP.",
+      "hint": "Signo de McGinn-White."
+    },
+    {
+      "cat": "ekg",
+      "q": "El fenómeno de Ashman se explica por:",
+      "opts": ["Un circuito de reentrada", "Cambios en la refractariedad tras ciclos largos", "Potasio bajo", "Isquemia apical"],
+      "ans": 1,
+      "just": "Un latido que sigue a un intervalo largo tiene un periodo refractario mayor; por tanto, puede conducirse con aberrancia si es prematuro.",
+      "hint": "Conducción aberrante funcional."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda Delta se produce debido a:",
+      "opts": ["Retraso en el nodo AV", "Conducción a través de un haz accesorio", "Necrosis septal", "Digitalización"],
+      "ans": 1,
+      "just": "El impulso se salta el nodo AV activando el ventrículo antes de tiempo; consecuentemente, se genera un empastamiento inicial del QRS.",
+      "hint": "Preexcitación ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "El síndrome de Wolff-Parkinson-White se define por la tríada:",
+      "opts": ["PR largo, QRS estrecho, T negativa", "PR corto, onda Delta y QRS ancho", "PR normal, onda U, ST elevado", "P invertida, QRS normal, T plana"],
+      "ans": 1,
+      "just": "Es el modelo clásico de preexcitación; asimismo, predispone a taquicardias por reentrada auriculoventricular.",
+      "hint": "Efecto del Haz de Kent."
+    },
+    {
+      "cat": "ekg",
+      "q": "La taquicardia paroxística supraventricular suele iniciarse por:",
+      "opts": ["Un infarto", "Una extrasístole que encuentra una vía en periodo refractario", "Ejercicio", "Sueño"],
+      "ans": 1,
+      "just": "Se establece un circuito de reentrada en el nodo AV o vía accesoria; por lo tanto, el ritmo es muy rápido además de regular.",
+      "hint": "Mecanismo de reentrada nodal."
+    },
+    {
+      "cat": "ekg",
+      "q": "La reentrada es el mecanismo responsable de la mayoría de las:",
+      "opts": ["Bradicardias", "Taquicardias clínicas", "Bloqueos", "Ondas U"],
+      "ans": 1,
+      "just": "Requiere dos vías con diferentes velocidades de conducción además de periodos refractarios distintos.",
+      "hint": "Círculo vicioso eléctrico."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué caracteriza a la taquicardia por reentrada del nodo AV (TRNAV)?",
+      "opts": ["QRS muy ancho", "Ondas P que caen simultáneamente con el QRS (ocultas)", "Frecuencia de 40 lpm", "Ondas Delta"],
+      "ans": 1,
+      "just": "La activación de aurículas además de ventrículos es casi al mismo tiempo; consecuentemente, la onda P no suele verse o es retrógrada inmediata.",
+      "hint": "Taquicardia supraventricular común."
+    },
+    {
+      "cat": "ekg",
+      "q": "La 'Torsade de Pointes' es una taquicardia ventricular polimórfica asociada a:",
+      "opts": ["QT corto", "Prolongación del intervalo QT", "Ritmo sinusal", "Bloqueo de rama derecha"],
+      "ans": 1,
+      "just": "Los complejos parecen girar sobre la línea isoeléctrica; además, es una emergencia que puede derivar en fibrilación ventricular.",
+      "hint": "Torsión de puntas."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fibrilación ventricular se visualiza en el EKG como:",
+      "opts": ["QRS rítmicos", "Ondas caóticas sin complejos QRS identificables", "Dientes de sierra", "Línea isoeléctrica pura"],
+      "ans": 1,
+      "just": "Indica ausencia de bombeo cardíaco; por consiguiente, equivale a la muerte clínica si no se desfibrila de inmediato.",
+      "hint": "Caos eléctrico total."
+    },
+    {
+      "cat": "ekg",
+      "q": "La actividad eléctrica sin pulso (AESP) se define como:",
+      "opts": ["Línea plana", "Trazado eléctrico organizado pero sin gasto cardíaco mecánico", "Fibrilación", "Flutter"],
+      "ans": 1,
+      "just": "El corazón mantiene actividad eléctrica; no obstante, el miocardio no es capaz de generar una contracción efectiva.",
+      "hint": "Disociación electromecánica."
+    },
+    {
+      "cat": "ekg",
+      "q": "El artefacto por temblor muscular se diferencia de una arritmia porque:",
+      "opts": ["Es muy regular", "Desaparece al relajar al paciente y no afecta el ritmo base", "Cambia el eje", "Eleva el ST"],
+      "ans": 1,
+      "just": "Se observa como una línea de base vibrante; asimismo, se pueden identificar los complejos QRS normales en medio del ruido.",
+      "hint": "Interferencia externa."
+    },
+    {
+      "cat": "ekg",
+      "q": "La deriva de la línea de base en el EKG suele deberse a:",
+      "opts": ["Infarto", "Mala preparación de la piel o movimiento respiratorio", "Potasio alto", "Bloqueo"],
+      "ans": 1,
+      "just": "Los electrodos pierden contacto estable; consecuentemente, el trazado sube además de bajar erráticamente.",
+      "hint": "Balanceo del registro."
+    },
+    {
+      "cat": "ekg",
+      "q": "Las derivaciones unipolares de los miembros (aVR, aVL, aVF) fueron desarrolladas por:",
+      "opts": ["Einthoven", "Goldberger", "Wilson", "Lewis"],
+      "ans": 1,
+      "just": "Aumentan el voltaje de las derivaciones de Wilson; por tanto, permiten una mejor visualización de los vectores del plano frontal.",
+      "hint": "Derivaciones aumentadas (aV)."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación unipolar que observa el corazón desde la axila izquierda es:",
+      "opts": ["V4", "V5", "V6", "aVL"],
+      "ans": 2,
+      "just": "Se sitúa en la línea axilar media; además, es la derivación más alejada hacia la izquierda en el tórax.",
+      "hint": "Sexta derivación precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico a -90° indica que el vector de despolarización es perpendicular a:",
+      "opts": ["aVF", "DI", "DII", "aVL"],
+      "ans": 1,
+      "just": "DI se encuentra a 0°; por consiguiente, un vector estrictamente vertical no tiene proyección sobre el eje horizontal.",
+      "hint": "Relación entre horizontal y vertical."
+    },
+    {
+      "cat": "ekg",
+      "q": "La denominada 'zona de transición' del complejo QRS en las precordiales es donde:",
+      "opts": ["La onda R desaparece", "La onda R y la onda S tienen igual voltaje", "V1 es positivo", "V6 es negativo"],
+      "ans": 1,
+      "just": "Normalmente ocurre entre V3 además de V4; asimismo, un desplazamiento indica rotaciones del corazón o hipertrofias.",
+      "hint": "Complejo isodifásico precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un paciente con un intervalo R-R de 3 cuadros grandes tiene una frecuencia de:",
+      "opts": ["60 lpm", "100 lpm", "150 lpm", "75 lpm"],
+      "ans": 1,
+      "just": "Se divide 300 entre 3; consecuentemente, el ritmo es de 100 latidos por minuto.",
+      "hint": "300 / N cuadros grandes."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama izquierda, el vector inicial del tabique se dirige de:",
+      "opts": ["Izquierda a derecha", "Derecha a izquierda", "Ápice a base", "Base a ápice"],
+      "ans": 1,
+      "just": "Se invierte la secuencia fisiológica; por tanto, desaparecen las ondas q en las derivaciones laterales.",
+      "hint": "Inversión del primer vector septal."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué ion es el principal responsable de la fase de meseta (fase 2) del potencial cardiaco?",
+      "opts": ["Sodio", "Calcio", "Magnesio", "Cloro"],
+      "ans": 1,
+      "just": "La entrada de calcio a través de canales tipo L equilibra la salida de potasio; asimismo, prolonga la duración del segmento ST.",
+      "hint": "Entrada lenta de cationes."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase 3 del potencial de acción, que genera la onda T, depende de:",
+      "opts": ["Entrada de sodio", "Salida masiva de potasio", "Entrada de calcio", "Bomba Na/K"],
+      "ans": 1,
+      "just": "La célula recupera su potencial de reposo negativo; consecuentemente, termina la sístole eléctrica ventricular.",
+      "hint": "Repolarización rápida."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico en el cuadrante superior derecho (-90° a -180°) se denomina:",
+      "opts": ["Eje normal", "Desviación extrema o 'tierra de nadie'", "Eje izquierdo", "Eje derecho"],
+      "ans": 1,
+      "just": "Se asocia con cardiopatías congénitas graves o errores en la colocación de cables; además, es un hallazgo raro.",
+      "hint": "Cuadrante opuesto al normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda R superior a 25 mm en la derivación V5 sugiere:",
+      "opts": ["Bloqueo AV", "Hipertrofia ventricular izquierda", "Infarto inferior", "Normalidad"],
+      "ans": 1,
+      "just": "Refleja un aumento del voltaje debido a la mayor masa muscular del ventrículo izquierdo; por consiguiente, es un criterio de Sokolow positivo.",
+      "hint": "Voltaje aumentado en el lado izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El signo de Wellens se identifica por ondas T en V2-V3 y sugiere estenosis de la arteria:",
+      "opts": ["Coronaria derecha", "Descendente anterior", "Circunfleja", "Vena cava"],
+      "ans": 1,
+      "just": "Es un signo de isquemia crítica preinfarto; consecuentemente, requiere coronariografía urgente a pesar de que el paciente esté asintomático.",
+      "hint": "Ondas T invertidas o bifásicas anteriores."
+    },
+    {
+      "cat": "ekg",
+      "q": "La elevación del punto J mayor a 1 mm en dos derivaciones contiguas define:",
+      "opts": ["Isquemia", "Injuria o lesión subepicárdica", "Necrosis", "Arritmia"],
+      "ans": 1,
+      "just": "Marca el inicio de la fase aguda del infarto; por tanto, es el criterio para activar la terapia de reperfusión.",
+      "hint": "Supradesnivel del ST."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un intervalo PR inferior a 0.12 segundos con QRS normal sugiere:",
+      "opts": ["Síndrome de Brugada", "Síndrome de Lown-Ganong-Levine o vía accesoria", "Bloqueo de rama", "Efecto vagal"],
+      "ans": 1,
+      "just": "El impulso se salta el nodo AV o este es muy pequeño; asimismo, la despolarización ventricular comienza antes de lo esperado.",
+      "hint": "Conducción acelerada."
+    },
+    {
+      "cat": "ekg",
+      "q": "La alternancia eléctrica (cambios de voltaje del QRS latido a latido) es un signo de:",
+      "opts": ["Infarto", "Derrame pericárdico masivo o taponamiento", "Potasio bajo", "Fiebre"],
+      "ans": 1,
+      "just": "El corazón se balancea dentro del saco pericárdico lleno de líquido; consecuentemente, la distancia a los electrodos varía continuamente.",
+      "hint": "Corazón oscilante."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el sistema hexaxial, la derivación perpendicular a DIII (+120°) es:",
+      "opts": ["DI", "aVL", "aVR", "aVF"],
+      "ans": 2,
+      "just": "DIII está a +120° además de que aVR se sitúa a -150°; por consiguiente, sus vectores forman un ángulo de 90 grados.",
+      "hint": "Perpendicularidad a +120°."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda U se visualiza mejor en las derivaciones:",
+      "opts": ["DII y DIII", "V2 y V3", "aVR", "V6"],
+      "ans": 1,
+      "just": "Son las derivaciones más cercanas al miocardio medio; asimismo, su presencia es normal si su amplitud es mínima.",
+      "hint": "Precordiales medias."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un bloqueo de rama derecha incompleto se define por un QRS con duración entre:",
+      "opts": ["0.08 y 0.10 s", "0.10 y 0.12 s", "Más de 0.12 s", "Menos de 0.08 s"],
+      "ans": 1,
+      "just": "Presenta la morfología rSR' pero el tiempo de conducción no es lo suficientemente lento para el criterio de bloqueo completo.",
+      "hint": "Retraso leve de la conducción derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué fase del potencial de acción cardiaco es la responsable de la onda T en el electrocardiograma?",
+      "opts": ["Fase 0", "Fase 2", "Fase 3", "Fase 4"],
+      "ans": 2,
+      "just": "La fase 3 representa la repolarización ventricular rápida debida a la salida masiva de potasio; consecuentemente, se traduce en el registro de la onda T.",
+      "hint": "Es el momento de recuperación eléctrica."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el contexto de la activación ventricular, ¿qué representa el inicio del complejo QRS?",
+      "opts": ["Despolarización auricular", "Despolarización del tabique interventricular", "Cierre de la válvula mitral", "Repolarización septal"],
+      "ans": 1,
+      "just": "El tabique es la primera parte de los ventrículos en activarse, ocurriendo habitualmente de izquierda a derecha; por tanto, genera la onda q inicial.",
+      "hint": "Primer evento de la despolarización de las cámaras inferiores."
+    },
+    {
+      "cat": "ekg",
+      "q": "Según el flujograma de la UIDE, un ritmo se considera 'bradicardia' cuando la frecuencia es menor a:",
+      "opts": ["40 lpm", "50 lpm", "60 lpm", "70 lpm"],
+      "ans": 2,
+      "just": "Se define bradicardia sinusal cuando el nodo SA descarga a una velocidad inferior a los 60 latidos por minuto; asimismo, se debe verificar que sea un ritmo organizado.",
+      "hint": "Límite inferior del rango normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo PR refleja el tiempo que tarda el impulso en viajar desde el nodo SA hasta:",
+      "opts": ["El nodo AV únicamente", "Las aurículas", "El inicio de la despolarización ventricular", "El final de la onda T"],
+      "ans": 2,
+      "just": "Este intervalo incluye la activación de las aurículas junto con el retraso fisiológico en el nodo AV; por consiguiente, permite evaluar la integridad de la conducción A-V.",
+      "hint": "Desde el comienzo de la P hasta el inicio de la R o Q."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la duración normal del complejo QRS en un adulto según los criterios estándar?",
+      "opts": ["Menor a 0.08 s", "Entre 0.08 y 0.12 s", "Mayor a 0.20 s", "Exactamente 0.04 s"],
+      "ans": 1,
+      "just": "Un QRS estrecho indica que el impulso viaja normalmente por el sistema de His-Purkinje; no obstante, si supera los 0.12 s, se considera un bloqueo de rama.",
+      "hint": "Tres cuadraditos pequeños."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVR es útil para descartar la inversión de los electrodos de los miembros porque:",
+      "opts": ["Siempre es positiva", "Suele ser predominantemente negativa en un corazón normal", "Mide el voltaje de la pierna", "Detecta isquemia inferior"],
+      "ans": 1,
+      "just": "Debido a que el vector de despolarización se aleja del brazo derecho, las ondas P, QRS y T deben ser negativas; por tanto, una positividad sugiere error técnico.",
+      "hint": "Es la derivación 'espejo' del corazón."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el síndrome de preexcitación (WPW), la onda delta se caracteriza por:",
+      "opts": ["Un descenso brusco del QRS", "Un empastamiento inicial en la rama ascendente del QRS", "Una onda P gigante", "Un QT prolongado"],
+      "ans": 1,
+      "just": "El impulso utiliza una vía accesoria que se salta el nodo AV; consecuentemente, comienza a despolarizar el ventrículo antes de tiempo.",
+      "hint": "Signo de que el impulso 'corre' por fuera del sistema normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación observa la cara lateral alta del ventrículo izquierdo?",
+      "opts": ["DII", "aVL", "V1", "aVF"],
+      "ans": 1,
+      "just": "aVL se sitúa a -30° en el plano frontal; asimismo, explora el territorio irrigado frecuentemente por la arteria circunfleja.",
+      "hint": "L de Left (Izquierda)."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un bloqueo AV de segundo grado Mobitz II se diferencia del Mobitz I porque:",
+      "opts": ["El PR se acorta", "El PR permanece constante antes de que una onda P se bloquee", "No hay ondas P", "El QRS es siempre estrecho"],
+      "ans": 1,
+      "just": "Es una patología más grave que suele localizarse por debajo del nodo AV; por consiguiente, tiene mayor riesgo de progresar a bloqueo completo.",
+      "hint": "No hay aviso previo al fallo de conducción."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico desviado a la derecha (+120° a +180°) es un hallazgo común en:",
+      "opts": ["Hipertrofia ventricular izquierda", "Hipertrofia ventricular derecha", "Embarazo", "Obesidad"],
+      "ans": 1,
+      "just": "La mayor masa del ventrículo derecho atrae el vector eléctrico hacia su lado; además, se asocia con patologías pulmonares como el EPOC.",
+      "hint": "Hacia el lado de la mayor carga de trabajo derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase de meseta (fase 2) del potencial de acción cardiaco corresponde en el EKG al:",
+      "opts": ["Intervalo PR", "Segmento ST", "Complejo QRS", "Onda U"],
+      "ans": 1,
+      "just": "Durante esta fase las corrientes de entrada de calcio y salida de potasio se equilibran; por tanto, no hay cambio de voltaje neto, resultando en una línea plana.",
+      "hint": "Silencio eléctrico tras la despolarización."
+    },
+    {
+      "cat": "ekg",
+      "q": "En una hiperpotasemia moderada, el primer cambio observado en el EKG suele ser:",
+      "opts": ["Desaparición de la onda P", "Ondas T picudas y simétricas", "Ensanchamiento del QRS", "Aparición de ondas U"],
+      "ans": 1,
+      "just": "El aumento del potasio extracelular acelera la fase 3 de repolarización; consecuentemente, las ondas T se vuelven altas además de estrechas.",
+      "hint": "Ondas T en 'tienda de campaña'."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué derivación es perpendicular a la derivación DI (0°)?",
+      "opts": ["DII", "aVL", "aVF", "DIII"],
+      "ans": 2,
+      "just": "aVF se sitúa a +90°; por consiguiente, forma un ángulo recto con la derivación horizontal del brazo izquierdo.",
+      "hint": "Apunta directamente a los pies."
+    },
+    {
+      "cat": "ekg",
+      "q": "El fenómeno de Wenckebach se localiza habitualmente a nivel de:",
+      "opts": ["Nodo SA", "Nodo AV", "Fibras de Purkinje", "Miocardio ventricular"],
+      "ans": 1,
+      "just": "Representa una fatiga fisiológica del nodo AV que se manifiesta con el alargamiento progresivo del intervalo PR.",
+      "hint": "Es un bloqueo de segundo grado Mobitz I."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un infarto que muestra elevación del ST en las derivaciones V1, V2, V3 y V4 se denomina:",
+      "opts": ["Anteroseptal", "Inferior", "Lateral alto", "Posterior"],
+      "ans": 0,
+      "just": "Compromete el tabique junto con la pared anterior del ventrículo izquierdo; asimismo, la arteria responsable suele ser la descendente anterior.",
+      "hint": "Afecta las derivaciones precordiales iniciales."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V1 se coloca anatómicamente en:",
+      "opts": ["4to espacio intercostal, línea medioclavicular", "4to espacio intercostal, borde esternal derecho", "5to espacio intercostal izquierdo", "2do espacio intercostal derecho"],
+      "ans": 1,
+      "just": "Es la única derivación precordial estándar situada a la derecha del esternón; además, es esencial para evaluar el ventrículo derecho.",
+      "hint": "Punto de partida de los electrodos del pecho."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué indica un intervalo QT prolongado en el trazado electrocardiográfico?",
+      "opts": ["Conducción auricular rápida", "Retraso en la repolarización ventricular", "Isquemia subendocárdica", "Hipercalcemia"],
+      "ans": 1,
+      "just": "Refleja una duración excesiva de la sístole eléctrica; por tanto, aumenta el riesgo de arritmias ventriculares graves como la Torsade de Pointes.",
+      "hint": "Relacionado con la fase 3 del potencial."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama izquierda (BRI), la despolarización del tabique ocurre de:",
+      "opts": ["Izquierda a derecha", "Derecha a izquierda", "Ápice a base", "De forma simultánea"],
+      "ans": 1,
+      "just": "Al estar bloqueada la rama izquierda, el impulso llega primero al ventrículo derecho y cruza el tabique en sentido inverso al fisiológico.",
+      "hint": "Inversión del primer vector septal."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda U, cuando es prominente, se asocia típicamente con:",
+      "opts": ["Hiperpotasemia", "Hipopotasemia", "Hipercalcemia", "Taquicardia"],
+      "ans": 1,
+      "just": "La falta de potasio retrasa la repolarización de las fibras de Purkinje; consecuentemente, aparece esta pequeña deflexión tras la onda T.",
+      "hint": "Signo de potasio sérico bajo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El punto J se define como:",
+      "opts": ["El pico de la onda R", "La unión del final del QRS con el segmento ST", "El inicio de la onda P", "El fin de la onda T"],
+      "ans": 1,
+      "just": "Es el punto de referencia para determinar si existe elevación o depresión del segmento ST; además, marca el final de la despolarización ventricular.",
+      "hint": "Es la 'esquina' tras el complejo ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "En una fibrilación auricular, la ausencia de ondas P se debe a:",
+      "opts": ["Muerte del nodo SA", "Activación auricular caótica y múltiple", "Bloqueo AV completo", "Uso de betabloqueadores"],
+      "ans": 1,
+      "just": "Existen múltiples frentes de reentrada que impiden una despolarización coordinada; por consiguiente, solo se observa una línea de base temblorosa.",
+      "hint": "Ritmo irregularmente irregular."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V6 se localiza en la intersección de:",
+      "opts": ["5to espacio intercostal y línea axilar anterior", "5to espacio intercostal y línea axilar media", "4to espacio intercostal y línea media", "6to espacio y línea clavicular"],
+      "ans": 1,
+      "just": "Es la derivación más lateral del plano horizontal; asimismo, observa la pared libre del ventrículo izquierdo.",
+      "hint": "Ubicada bajo la axila."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo idioventricular de escape suele presentar una frecuencia de:",
+      "opts": ["60-100 lpm", "40-60 lpm", "20-40 lpm", "Mayor a 150 lpm"],
+      "ans": 2,
+      "just": "Se origina en los ventrículos cuando fallan los centros superiores; puesto que la frecuencia es muy baja, suele haber compromiso hemodinámico.",
+      "hint": "Último recurso del corazón."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DII es ideal para monitorizar el ritmo porque:",
+      "opts": ["Es perpendicular al eje", "Su vector es paralelo a la despolarización auricular normal", "Mide solo el ventrículo izquierdo", "No tiene interferencias"],
+      "ans": 1,
+      "just": "La activación auricular viaja hacia abajo y a la izquierda (60°); consecuentemente, DII registra la onda P con su máxima amplitud.",
+      "hint": "Apunta en la misma dirección que el nodo SA hacia el ápex."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama derecha (BRD), el complejo QRS en V1 muestra una morfología de:",
+      "opts": ["QS ancho", "rsR' (orejas de conejo)", "R única estrecha", "Ondas T picudas"],
+      "ans": 1,
+      "just": "Refleja la activación inicial normal del tabique seguida de la despolarización tardía del ventrículo derecho bloqueado.",
+      "hint": "Imagen de doble pico positivo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué par de derivaciones se denominan 'laterales altas'?",
+      "opts": ["DII y aVF", "DI y aVL", "V1 y V2", "V5 y V6"],
+      "ans": 1,
+      "just": "DI y aVL observan el corazón desde el brazo izquierdo; por consiguiente, detectan infartos en la porción superior de la pared lateral.",
+      "hint": "Derivaciones del plano frontal izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "El segmento PR es isoeléctrico porque representa:",
+      "opts": ["La sístole auricular", "El paso del impulso a través del nodo AV y Haz de His", "La relajación de los ventrículos", "La pausa respiratoria"],
+      "ans": 1,
+      "just": "La cantidad de tejido en estas estructuras es insuficiente para generar un voltaje detectable por electrodos de superficie.",
+      "hint": "Tiempo de viaje por el cableado central."
+    },
+    {
+      "cat": "ekg",
+      "q": "La isquemia subepicárdica se manifiesta típicamente en el EKG como:",
+      "opts": ["Ondas T picudas", "Ondas T invertidas y simétricas", "Elevación del ST", "Ondas U"],
+      "ans": 1,
+      "just": "La alteración de la repolarización viaja de epicardio a endocardio; consecuentemente, el vector resultante se aleja del electrodo.",
+      "hint": "Inversión de la 'recuperación' eléctrica."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la frecuencia intrínseca de descarga del nodo auriculoventricular?",
+      "opts": ["70-80 lpm", "40-60 lpm", "15-30 lpm", "100-120 lpm"],
+      "ans": 1,
+      "just": "Funciona como marcapasos secundario; asimismo, toma el mando si el nodo SA deja de funcionar correctamente.",
+      "hint": "Ritmo de la unión."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVF se sitúa a un ángulo de:",
+      "opts": ["0°", "+90°", "-30°", "+180°"],
+      "ans": 1,
+      "just": "Explora la cara inferior del corazón de manera vertical; además, es una de las tres derivaciones que ven la base diafragmática.",
+      "hint": "F de Foot."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un paciente con un intervalo R-R de 5 cuadros grandes tiene una frecuencia de:",
+      "opts": ["100 lpm", "75 lpm", "60 lpm", "50 lpm"],
+      "ans": 2,
+      "just": "Dividiendo la constante 300 entre los 5 cuadros grandes, obtenemos una frecuencia de 60 latidos por minuto.",
+      "hint": "Frecuencia en el límite de la bradicardia."
+    },
+    {
+      "cat": "ekg",
+      "q": "La presencia de una onda Q mayor a 0.04 s en DII, DIII y aVF indica:",
+      "opts": ["Isquemia anterior", "Necrosis (infarto antiguo) inferior", "Bloqueo de rama", "Normalidad"],
+      "ans": 1,
+      "just": "Las ondas Q patológicas son signos de tejido muerto que ha sido reemplazado por fibrosis.",
+      "hint": "Cicatriz en la cara diafragmática."
+    },
+    {
+      "cat": "ekg",
+      "q": "La fase 0 del potencial de acción cardiaco depende de la apertura de canales de:",
+      "opts": ["Potasio", "Calcio", "Sodio rápidos", "Cloro"],
+      "ans": 2,
+      "just": "Permiten la entrada súbita de sodio a la célula; por consiguiente, generan la rápida despolarización que inicia la contracción.",
+      "hint": "Causa del complejo QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico a -45° se considera:",
+      "opts": ["Normal", "Desviación a la izquierda", "Desviación a la derecha", "Eje indeterminado"],
+      "ans": 1,
+      "just": "Supera el límite normal de -30°; asimismo, puede ser indicativo de un hemibloqueo anterior izquierdo.",
+      "hint": "Vector apuntando hacia arriba a la izquierda."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V2 observa principalmente:",
+      "opts": ["La pared lateral", "El tabique interventricular", "El ápex", "La aurícula derecha"],
+      "ans": 1,
+      "just": "Se sitúa en el cuarto espacio intercostal izquierdo, junto al esternón; por tanto, es sensible a cambios septales.",
+      "hint": "Junto con V1 forma el par septal."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo de McGinn-White (S1Q3T3) se asocia clásicamente con:",
+      "opts": ["Infarto de miocardio", "Tromboembolismo pulmonar", "Pericarditis", "Bloqueo AV completo"],
+      "ans": 1,
+      "just": "Refleja una sobrecarga súbita del ventrículo derecho; no obstante, solo aparece en una minoría de los casos clínicos.",
+      "hint": "Signo de cor pulmonale agudo."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué cambio electrolítico prolonga el segmento ST y el intervalo QT?",
+      "opts": ["Hipercalcemia", "Hipocalcemia", "Hiperpotasemia", "Hiponatremia"],
+      "ans": 1,
+      "just": "La escasez de calcio retrasa el cierre de los canales y la fase de meseta; consecuentemente, se alarga la sístole eléctrica.",
+      "hint": "El QT es inversamente proporcional al nivel de este ion."
+    },
+    {
+      "cat": "ekg",
+      "q": "La taquicardia paroxística supraventricular suele ser causada por:",
+      "opts": ["Necrosis", "Reentrada en el nodo AV", "Fiebre", "Hipotiroidismo"],
+      "ans": 1,
+      "just": "Se establece un circuito eléctrico vicioso que autoperpetúa el ritmo rápido; además, suele responder a maniobras vagales.",
+      "hint": "Mecanismo de reentrada común."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V4 se coloca en:",
+      "opts": ["Línea axilar anterior", "Intersección del 5to espacio intercostal y línea medioclavicular", "4to espacio izquierdo", "2do espacio derecho"],
+      "ans": 1,
+      "just": "Se ubica sobre el ápex anatómico del corazón; asimismo, es fundamental para detectar isquemia anterior.",
+      "hint": "Lugar del choque de punta."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo AV de tercer grado (completo), el ritmo ventricular suele ser:",
+      "opts": ["Rápido e irregular", "Lento y regular (ritmo de escape)", "Igual al auricular", "Ausente"],
+      "ans": 1,
+      "just": "Debido a la interrupción total de la conducción, un foco inferior toma el mando; por tanto, el pulso es lento pero constante.",
+      "hint": "Escape ventricular o nodal."
+    },
+    {
+      "cat": "ekg",
+      "q": "La 'cubeta digitálica' es un hallazgo que indica:",
+      "opts": ["Intoxicación grave", "Impregnación por digoxina", "Infarto inferior", "Hipertrofia derecha"],
+      "ans": 1,
+      "just": "Es un cambio morfológico esperado del segmento ST en pacientes tratados con este fármaco; no obstante, no siempre significa toxicidad.",
+      "hint": "ST deprimido en forma de cuchara."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la frecuencia cardíaca si el intervalo R-R mide 2 cuadros grandes?",
+      "opts": ["75 lpm", "100 lpm", "150 lpm", "300 lpm"],
+      "ans": 2,
+      "just": "Siguiendo la regla de los 300, 300 dividido para 2 resulta en una taquicardia de 150 latidos por minuto.",
+      "hint": "Frecuencia de un flutter 2:1 típico."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo QRS predominantemente negativo en DI y positivo en aVF indica:",
+      "opts": ["Eje normal", "Desviación a la derecha", "Desviación a la izquierda", "Tierra de nadie"],
+      "ans": 1,
+      "just": "El vector se aleja del brazo izquierdo y se acerca a los pies; consecuentemente, se sitúa en el cuadrante inferior derecho.",
+      "hint": "Eje entre +90° y +180°."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V5 se sitúa en el quinto espacio intercostal a nivel de:",
+      "opts": ["Línea medioclavicular", "Línea axilar anterior", "Línea axilar media", "Borde esternal"],
+      "ans": 1,
+      "just": "Junto con V6, observa la cara lateral baja del ventrículo izquierdo; además, suele mostrar ondas R prominentes.",
+      "hint": "Lateral a V4."
+    },
+    {
+      "cat": "ekg",
+      "q": "En la pericarditis aguda, el intervalo PR suele mostrar:",
+      "opts": ["Prolongación", "Depresión (infradesnivel)", "Elevación", "No cambia"],
+      "ans": 1,
+      "just": "La inflamación de las aurículas altera su repolarización inicial; por consiguiente, el segmento PR desciende respecto a la línea de base.",
+      "hint": "Signo de lesión auricular difusa."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo de rama derecha se asocia frecuentemente con un eje:",
+      "opts": ["Siempre izquierdo", "Siempre derecho", "Normal o desviado a la derecha", "Indeterminado"],
+      "ans": 2,
+      "just": "A diferencia del bloqueo izquierdo, el derecho no siempre desvía el eje de forma extrema; no obstante, puede coexistir con hemibloqueos.",
+      "hint": "Depende de la masa del VD."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda R alta en V1 (mayor que la S) es un criterio para:",
+      "opts": ["Hipertrofia ventricular izquierda", "Hipertrofia ventricular derecha", "Bloqueo de rama izquierda", "Normalidad"],
+      "ans": 1,
+      "just": "Sugiere que las fuerzas eléctricas se dirigen hacia adelante y a la derecha; consecuentemente, indica aumento de masa en el ventrículo derecho.",
+      "hint": "Inversión del patrón normal de V1."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVL tiene su centro de visión en el ángulo de:",
+      "opts": ["0°", "-30°", "-150°", "+60°"],
+      "ans": 1,
+      "just": "Mira el corazón desde el hombro izquierdo; asimismo, es perpendicular a la derivación DII.",
+      "hint": "L de Left."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un ritmo con ondas P en 'dientes de sierra' y frecuencia auricular de 300 lpm es:",
+      "opts": ["Fibrilación auricular", "Flutter auricular", "Taquicardia sinusal", "Extrasistolia multifocal"],
+      "ans": 1,
+      "just": "Es una macro-reentrada organizada en la aurícula; por tanto, produce ondas F mayúsculas muy regulares.",
+      "hint": "Serrucho eléctrico."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo R-R irregularmente irregular es patognomónico de:",
+      "opts": ["Flutter auricular", "Fibrilación auricular", "Bloqueo AV I", "Ritmo nodal"],
+      "ans": 1,
+      "just": "Debido al bombardeo caótico de impulsos al nodo AV, la respuesta ventricular es totalmente aleatoria.",
+      "hint": "Ritmo sin ondas P."
+    },
+    {
+      "cat": "ekg",
+      "q": "El vector de despolarización ventricular normal se dirige de:",
+      "opts": ["Derecha a izquierda, arriba a abajo y atrás hacia adelante", "Atrás hacia adelante únicamente", "Derecha a izquierda, arriba a abajo y adelante hacia atrás", "Base a ápice exclusivamente"],
+      "ans": 2,
+      "just": "Refleja la mayor masa del ventrículo izquierdo y la posición anatómica del corazón; asimismo, determina la positividad en derivaciones izquierdas.",
+      "hint": "Hacia el ápex y levemente hacia atrás."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda T de la hiperpotasemia se caracteriza por ser:",
+      "opts": ["Invertida y ancha", "Simétrica, picuda y de base estrecha", "Bifásica", "Plana con onda U"],
+      "ans": 1,
+      "just": "Es el cambio más precoz de esta alteración electrolítica; por consiguiente, es un signo de alarma clínica.",
+      "hint": "Puntiaguda."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo de rama izquierda, el complejo QRS en V6 suele ser:",
+      "opts": ["Estrecho y negativo", "Ancho, positivo y con melladura (en torre)", "rsR'", "Ausente"],
+      "ans": 1,
+      "just": "Toda la despolarización viaja hacia la izquierda con retraso; además, la ausencia de onda q es obligatoria.",
+      "hint": "Melladura en derivaciones laterales."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V3R se utiliza para diagnosticar:",
+      "opts": ["Infarto lateral", "Extensión a ventrículo derecho", "Isquemia septal", "Crecimiento auricular"],
+      "ans": 1,
+      "just": "Se coloca en la posición simétrica a V3 en el lado derecho del tórax; consecuentemente, ve directamente al ventrículo derecho.",
+      "hint": "Derivación derecha adicional."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué efecto tiene la estimulación vagal sobre el intervalo PR?",
+      "opts": ["Lo acorta", "Lo prolonga", "No lo afecta", "Elimina la onda P"],
+      "ans": 1,
+      "just": "El sistema parasimpático enlentece la conducción en el nodo AV; por tanto, aumenta el tiempo de retraso fisiológico.",
+      "hint": "Efecto dromotrópico negativo."
+    },
+    {
+      "cat": "ekg",
+      "q": "La presencia de ondas P de diferentes morfologías en una misma tira de ritmo sugiere:",
+      "opts": ["Taquicardia sinusal", "Marcapasos auricular migratorio", "Bloqueo de rama", "Isquemia"],
+      "ans": 1,
+      "just": "Indica que el foco que inicia la despolarización está cambiando de lugar dentro de la aurícula.",
+      "hint": "Focos auriculares variables."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico a -90° se denomina:",
+      "opts": ["Normal", "Desviación extrema o tierra de nadie", "Eje izquierdo", "Eje vertical"],
+      "ans": 1,
+      "just": "Se sitúa en el cuadrante superior; asimismo, puede deberse a defectos congénitos o mala colocación de electrodos.",
+      "hint": "Perpendicular a DI."
+    },
+    {
+      "cat": "ekg",
+      "q": "La elevación del segmento ST en DII, DIII y aVF localiza el infarto en la cara:",
+      "opts": ["Anterior", "Septal", "Inferior", "Lateral"],
+      "ans": 2,
+      "just": "Estas tres derivaciones comparten la visión de la base diafragmática del corazón.",
+      "hint": "Mirada desde los miembros inferiores."
+    },
+    {
+      "cat": "ekg",
+      "q": "La arteria que irriga habitualmente el nodo SA proviene en un 60% de la:",
+      "opts": ["Coronaria izquierda", "Coronaria derecha", "Circunfleja", "Aorta"],
+      "ans": 1,
+      "just": "Es una rama auricular proximal que nace poco después del origen de la arteria coronaria derecha.",
+      "hint": "Fuente más común del marcapasos."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un QRS mayor a 0.12 s con onda S ancha en DI y aVL es criterio de:",
+      "opts": ["Bloqueo de rama izquierda", "Bloqueo de rama derecha", "Hipertrofia izquierda", "WPW"],
+      "ans": 1,
+      "just": "La despolarización final del ventrículo derecho bloqueado se aleja de las derivaciones izquierdas; consecuentemente, produce una S empastada.",
+      "hint": "Fuerzas finales hacia la derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V1 muestra una onda r pequeña y una S profunda porque:",
+      "opts": ["El electrodo está mal puesto", "El vector principal se aleja hacia el ventrículo izquierdo", "La aurícula derecha es pequeña", "No hay fuerzas septales"],
+      "ans": 1,
+      "just": "La masa del VI es dominante; por consiguiente, el vector resultante se dirige hacia atrás y a la izquierda, alejándose de V1.",
+      "hint": "Patrón normal de la precordial derecha."
+    },
+    {
+      "cat": "ekg",
+      "q": "La sístole eléctrica ventricular se mide mediante el intervalo:",
+      "opts": ["PR", "QRS", "QT", "RR"],
+      "ans": 2,
+      "just": "Abarca desde el inicio de la despolarización hasta el final de la repolarización de los ventrículos.",
+      "hint": "Suma de activación y recuperación."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el electrocardiograma, un milímetro vertical equivale a:",
+      "opts": ["1 mV", "0.1 mV", "0.5 mV", "10 mV"],
+      "ans": 1,
+      "just": "En la calibración estándar, un cuadro pequeño (1 mm) representa 0.1 milivoltios de actividad eléctrica.",
+      "hint": "Escala de voltaje estándar."
+    },
+    {
+      "cat": "ekg",
+      "q": "La frecuencia cardíaca normal en reposo se sitúa entre:",
+      "opts": ["40-60 lpm", "60-100 lpm", "80-120 lpm", "50-90 lpm"],
+      "ans": 1,
+      "just": "Es el rango establecido para un ritmo sinusal saludable en el adulto.",
+      "hint": "Límites fisiológicos basales."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DIII registra la diferencia de potencial entre:",
+      "opts": ["Brazo izquierdo y brazo derecho", "Brazo izquierdo y pierna izquierda", "Brazo derecho y pierna izquierda", "Ambas piernas"],
+      "ans": 1,
+      "just": "Forma el lado izquierdo del triángulo de Einthoven; además, su vector apunta a +120°.",
+      "hint": "Conecta el lado izquierdo del cuerpo."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un bloqueo bifascicular es la combinación de:",
+      "opts": ["BRD y hemibloqueo anterior o posterior", "BRI y BAV I", "BRD y BAV III", "Ambas ramas de His"],
+      "ans": 0,
+      "just": "Indica que dos de las tres vías principales de conducción ventricular están interrumpidas.",
+      "hint": "Derrame eléctrico parcial."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje a +90° se localiza observando que el complejo QRS es isodifásico en:",
+      "opts": ["aVF", "DI", "DII", "aVL"],
+      "ans": 1,
+      "just": "Puesto que DI está a 0°, un vector perpendicular a ella (90°) generará sumas iguales de positividad y negatividad.",
+      "hint": "Relación de perpendicularidad."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda P tiene una duración normal máxima de:",
+      "opts": ["0.08 s", "0.11 s", "0.20 s", "0.04 s"],
+      "ans": 1,
+      "just": "Si supera este tiempo, se sospecha de un crecimiento o retraso en la conducción de la aurícula izquierda.",
+      "hint": "Casi tres cuadraditos pequeños."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V3 se coloca:",
+      "opts": ["En el 4to espacio izquierdo", "Entre V2 y V4", "En la línea axilar media", "Sobre el esternón"],
+      "ans": 1,
+      "just": "No tiene una referencia anatómica propia; consecuentemente, depende de la posición de sus derivaciones vecinas.",
+      "hint": "Posición equidistante precordial."
+    },
+    {
+      "cat": "ekg",
+      "q": "La muesca de Osborne es característica de la:",
+      "opts": ["Hipertermia", "Hipotermia", "Isquemia", "Hipocalcemia"],
+      "ans": 1,
+      "just": "Es una deflexión positiva al final del QRS que aparece en estados de enfriamiento corporal severo.",
+      "hint": "Onda J."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es el vector de despolarización más potente del corazón?",
+      "opts": ["Vector auricular", "Vector septal", "Vector de la pared libre del ventrículo izquierdo", "Vector basal"],
+      "ans": 2,
+      "just": "Debido a la gran masa muscular del VI, su activación domina el trazado del complejo QRS.",
+      "hint": "Fuerza eléctrica principal."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el bloqueo AV de segundo grado Mobitz I, el intervalo PR:",
+      "opts": ["Es siempre el mismo", "Se acorta", "Se alarga progresivamente", "Desaparece súbitamente"],
+      "ans": 2,
+      "just": "Es el signo distintivo del fenómeno de Wenckebach; además, la pausa tras el bloqueo es menor a dos ciclos R-R.",
+      "hint": "Fatiga del nodo AV."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V4R es útil para:",
+      "opts": ["Ver el ápex", "Confirmar infarto de ventrículo derecho", "Ver la aurícula izquierda", "Medir el QT"],
+      "ans": 1,
+      "just": "Se coloca en el lado derecho del tórax; por consiguiente, detecta elevaciones del ST que las derivaciones estándar omiten.",
+      "hint": "Espejo de V4."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo R-R mide 6 cuadros grandes. La frecuencia cardíaca es:",
+      "opts": ["60 lpm", "50 lpm", "40 lpm", "300 lpm"],
+      "ans": 1,
+      "just": "Dividiendo 300 entre 6, resulta en una bradicardia de 50 latidos por minuto.",
+      "hint": "Cálculo en bradicardia."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un complejo QRS con morfología rS en V1 y R pura en V6 con QRS de 0.14 s es:",
+      "opts": ["Bloqueo de rama derecha", "Bloqueo de rama izquierda", "Ritmo sinusal normal", "WPW"],
+      "ans": 1,
+      "just": "La ausencia de onda q en V6 y el ensanchamiento masivo confirman el fallo en la rama izquierda.",
+      "hint": "Melladura lateral alta."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DI observa el corazón desde:",
+      "opts": ["El lado derecho", "El lado izquierdo (0°)", "Arriba", "Abajo"],
+      "ans": 1,
+      "just": "Su electrodo positivo está en el brazo izquierdo; por tanto, las fuerzas que se acercan a él son positivas.",
+      "hint": "Derivación horizontal principal."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el EKG, la despolarización ventricular progresa de:",
+      "opts": ["Epicardio a endocardio", "Endocardio a epicardio", "Ápice a base únicamente", "Base a ápice exclusivamente"],
+      "ans": 1,
+      "just": "El sistema de conducción de Purkinje se sitúa bajo el endocardio; consecuentemente, el vector de fuerza viaja hacia afuera.",
+      "hint": "De adentro hacia afuera."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V5 se localiza en:",
+      "opts": ["4to espacio esternal", "Línea axilar anterior, nivel V4", "Línea axilar media", "Ápice"],
+      "ans": 1,
+      "just": "Se encarga de monitorizar la pared lateral baja del ventrículo izquierdo.",
+      "hint": "Quinto espacio intercostal."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo de estimulación que produce la contracción auricular se llama:",
+      "opts": ["Complejo QRS", "Onda P", "Onda T", "Onda U"],
+      "ans": 1,
+      "just": "Representa la suma de la despolarización de ambas aurículas; además, precede a la sístole mecánica auricular.",
+      "hint": "Primera onda del ciclo."
+    },
+    {
+      "cat": "ekg",
+      "q": "Una onda P invertida en DII, DIII y aVF con PR corto sugiere:",
+      "opts": ["Ritmo sinusal", "Ritmo de la unión o auricular bajo", "Hiperpotasemia", "Bloqueo AV"],
+      "ans": 1,
+      "just": "Indica que la activación auricular es retrógrada (de abajo hacia arriba) alejándose de las derivaciones inferiores.",
+      "hint": "Origen ectópico inferior."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación unipolar del brazo derecho es:",
+      "opts": ["aVL", "aVF", "aVR", "DI"],
+      "ans": 2,
+      "just": "Es la única derivación que apunta en dirección opuesta al corazón normal; consecuentemente, sus registros son negativos.",
+      "hint": "R de Right."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el EKG, un cuadro grande horizontal equivale a:",
+      "opts": ["0.04 s", "0.20 s", "1 s", "0.10 s"],
+      "ans": 1,
+      "just": "Es la suma de cinco cuadros pequeños; asimismo, permite el cálculo rápido de la frecuencia cardíaca.",
+      "hint": "Cinco milímetros."
+    },
+    {
+      "cat": "ekg",
+      "q": "La presencia de ondas Delta es típica del:",
+      "opts": ["Síndrome de QT largo", "Síndrome de preexcitación", "Infarto antiguo", "Bloqueo de rama"],
+      "ans": 1,
+      "just": "Reflejan el inicio lento de la despolarización ventricular por una vía accesoria.",
+      "hint": "WPW."
+    },
+    {
+      "cat": "ekg",
+      "q": "El eje eléctrico normal en el plano frontal se sitúa entre:",
+      "opts": ["-90° y 0°", "-30° y +90°", "+90° y +180°", "0° y -180°"],
+      "ans": 1,
+      "just": "Es el rango habitual donde el vector principal se dirige hacia abajo y a la izquierda.",
+      "hint": "Cuadrante inferior izquierdo."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V4 se encuentra sobre el:",
+      "opts": ["Ventrículo derecho", "Tabique", "Ápice del ventrículo izquierdo", "Aurícula izquierda"],
+      "ans": 2,
+      "just": "Es la mejor derivación para evaluar la punta del corazón y detectar isquemia anterior apical.",
+      "hint": "Intersección línea medioclavicular y 5to espacio."
+    },
+    {
+      "cat": "ekg",
+      "q": "La ausencia total de relación entre ondas P y QRS es signo de:",
+      "opts": ["Flutter", "Bloqueo AV de tercer grado", "Fibrilación", "Taquicardia sinusal"],
+      "ans": 1,
+      "just": "Las aurículas y ventrículos están disociados eléctricamente; por tanto, laten a ritmos independientes.",
+      "hint": "Bloqueo completo."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda T es asimétrica porque:",
+      "opts": ["Es patológica siempre", "La repolarización es un proceso iónico gradual", "El calcio entra rápido", "No tiene explicación"],
+      "ans": 1,
+      "just": "Su rama ascendente es más lenta que la descendente debido a la dinámica de los canales de potasio.",
+      "hint": "Forma fisiológica normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo R-R mide 3 cuadros grandes. La frecuencia cardíaca es:",
+      "opts": ["60 lpm", "75 lpm", "100 lpm", "150 lpm"],
+      "ans": 2,
+      "just": "Dividiendo 300 para 3, se obtiene una frecuencia rítmica de 100 pulsaciones por minuto.",
+      "hint": "Límite superior de lo normal."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un QRS ancho con muesca en V1 y eje a la derecha sugiere:",
+      "opts": ["Bloqueo de rama izquierda", "Bloqueo de rama derecha", "Infarto anterior", "Ritmo sinusal"],
+      "ans": 1,
+      "just": "La despolarización tardía del VD se manifiesta en las derivaciones derechas.",
+      "hint": "V1 positivo y ancho."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación DII se calcula como:",
+      "opts": ["Brazo izquierdo - brazo derecho", "Pierna izquierda - brazo derecho", "Pierna izquierda - brazo izquierdo", "Brazo derecho - pierna izquierda"],
+      "ans": 1,
+      "just": "Sigue el eje principal del corazón; consecuentemente, es la mejor derivación para el análisis del ritmo.",
+      "hint": "Eje a 60°."
+    },
+    {
+      "cat": "ekg",
+      "q": "La onda Q se considera necrosis si mide más de:",
+      "opts": ["1 mm de profundidad", "1/4 del voltaje de la onda R", "0.02 s", "Todas las anteriores"],
+      "ans": 1,
+      "just": "Existen criterios estrictos de duración y amplitud para no confundirla con una q septal normal.",
+      "hint": "Relación con la onda positiva siguiente."
+    },
+    {
+      "cat": "ekg",
+      "q": "El nodo sinoauricular se localiza en la aurícula derecha, cerca de:",
+      "opts": ["Vena cava inferior", "Vena cava superior", "Seno coronario", "Válvula tricúspide"],
+      "ans": 1,
+      "just": "Se sitúa en la parte superior del surco terminal, donde la VCS entra en la aurícula.",
+      "hint": "Techo auricular derecho."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación V2 se coloca en el cuarto espacio intercostal izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es su posición estándar para evaluar el tabique y la cara anterior del corazón.",
+      "hint": "A la izquierda del esternón."
+    },
+    {
+      "cat": "ekg",
+      "q": "El intervalo QT varía inversamente con la frecuencia cardíaca.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Al aumentar la frecuencia, el corazón acelera su repolarización; por tanto, el intervalo se acorta.",
+      "hint": "Se requiere corregir por frecuencia (QTc)."
+    },
+    {
+      "cat": "ekg",
+      "q": "La derivación aVR observa el corazón desde el hombro derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Su visión es opuesta a la del ápex; consecuentemente, detecta bien la inversión de cables.",
+      "hint": "Derecha unipolar."
+    },
+    {
+      "cat": "ekg",
+      "q": "El bloqueo de rama izquierda es siempre patológico.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "A diferencia del derecho, el izquierdo suele asociarse con enfermedad estructural del ventrículo izquierdo.",
+      "hint": "Implica daño severo en el sistema."
+    },
+    {
+      "cat": "ekg",
+      "q": "La línea isoeléctrica es el punto de referencia para medir desniveles.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se suele tomar el segmento TP o el PR como referencia para evaluar el segmento ST.",
+      "hint": "Línea base."
+    }
+  ]
+}

@@ -1,69 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cuestionario · Cardiovascular, Respiratorio & EKG</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario · Cardiovascular, Respiratorio & EKG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="header">
-  <div class="header-left">
-    <span class="header-tag">Medicina · UIDE</span>
-    <span class="header-title">Cardiovascular &amp; Respiratorio</span>
-  </div>
-  <div class="header-right">
-    <div class="score-pill">
-      <div class="score-pill-label">Puntaje</div>
-      <div class="score-pill-value" id="scoreDisplay">0</div>
+    <div class="header-left">
+        <span class="header-tag">Medicina · UIDE</span>
+        <span class="header-title">Cardiovascular &amp; Respiratorio</span>
     </div>
-    <div class="progress-ring">
-      <svg viewBox="0 0 56 56" width="56" height="56">
-        <circle class="progress-ring-bg" cx="28" cy="28" r="24"/>
-        <circle class="progress-ring-fill" id="progressCircle" cx="28" cy="28" r="24"
-          stroke-dasharray="150.8" stroke-dashoffset="150.8"/>
-      </svg>
-      <div class="progress-ring-label">
-        <span id="progressNum">0</span>
-        <span>/ <span id="totalNum">0</span></span>
-      </div>
+    <div class="header-right">
+        <div class="score-pill">
+            <div class="score-pill-label">Puntaje</div>
+            <div class="score-pill-value" id="scoreDisplay">0</div>
+        </div>
+        <div class="progress-ring">
+            <svg viewBox="0 0 56 56" width="56" height="56">
+                <circle class="progress-ring-bg" cx="28" cy="28" r="24"/>
+                <circle class="progress-ring-fill" id="progressCircle" cx="28" cy="28" r="24"
+                        stroke-dasharray="150.8" stroke-dashoffset="150.8"/>
+            </svg>
+            <div class="progress-ring-label">
+                <span id="progressNum">0</span>
+                <span>/ <span id="totalNum">0</span></span>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="main" id="quizMain">
-  <div class="filter-bar" id="filterBar">
-    <button class="filter-btn active" onclick="filterCat('all', this)">Todas</button>
-    <button class="filter-btn" onclick="filterCat('cardiaco', this)">Cardíaco</button>
-    <button class="filter-btn" onclick="filterCat('respiratorio', this)">Respiratorio</button>
-    <button class="filter-btn" onclick="filterCat('calculo', this)">Cálculos</button>
-    <button class="filter-btn" onclick="filterCat('radiologia', this)">Radiología</button>
-    <button class="filter-btn" onclick="filterCat('ekg', this)">EKG</button>
-    <span class="answered-count" id="answeredCount">0 respondidas</span>
-  </div>
-  <div id="questionsContainer"></div>
-  <div class="summary" id="summary">
-    <div class="summary-icon" id="summaryIcon">🏆</div>
-    <div class="summary-title" id="summaryTitle">¡Cuestionario completado!</div>
-    <div class="summary-sub" id="summarySub"></div>
-    <div class="summary-stats">
-      <div class="stat-box">
-        <div class="stat-value" id="statCorrect">0</div>
-        <div class="stat-label">Correctas</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-value" id="statWrong" style="color:var(--warn)">0</div>
-        <div class="stat-label">Incorrectas</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-value" id="statPct">0%</div>
-        <div class="stat-label">Precisión</div>
-      </div>
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" onclick="filterCat('all', this)">Todas</button>
+        <button class="filter-btn" onclick="filterCat('cardiaco', this)">Cardíaco</button>
+        <button class="filter-btn" onclick="filterCat('respiratorio', this)">Respiratorio</button>
+        <button class="filter-btn" onclick="filterCat('calculo', this)">Cálculos</button>
+        <button class="filter-btn" onclick="filterCat('radiologia', this)">Radiología</button>
+        <button class="filter-btn" onclick="filterCat('ekg', this)">EKG</button>
+        
+        <button class="filter-btn" id="shuffleBtn" onclick="manualShuffle()" style="border-color: #7d5fff; color: #7d5fff;">
+            🔀 Mezclar
+        </button>
+
+        <button class="filter-btn" id="reviewBtn" onclick="reviewErrors(this)" style="display: none; border: 1.5px solid var(--warn); color: var(--warn);">
+            ⚠️ Repasar Errores (<span id="errorCount">0</span>)
+        </button>
+        
+        <span class="answered-count" id="answeredCount">0 respondidas</span>
     </div>
-    <button class="restart-btn" onclick="restart()">↺ Reiniciar cuestionario</button>
-  </div>
+
+    <div id="questionsContainer"></div>
+
+    <div class="summary" id="summary">
+        <div class="summary-icon" id="summaryIcon">🏆</div>
+        <div class="summary-title" id="summaryTitle">¡Cuestionario completado!</div>
+        <div class="summary-sub" id="summarySub"></div>
+        <div class="summary-stats">
+            <div class="stat-box">
+                <div class="stat-value" id="statCorrect">0</div>
+                <div class="stat-label">Correctas</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="statWrong" style="color:var(--warn)">0</div>
+                <div class="stat-label">Incorrectas</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value" id="statPct">0%</div>
+                <div class="stat-label">Precisión</div>
+            </div>
+        </div>
+        <button class="restart-btn" onclick="restart()">↺ Reiniciar cuestionario</button>
+    </div>
 </div>
 
 <script src="script.js"></script>
