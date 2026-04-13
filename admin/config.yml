@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: al3w0f205/hosting-Cuestionario-Anto
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "cuestionario"
+    label: "Gestor de Cuestionario"
+    files:
+      - file: "preguntas.json"
+        name: "datos"
+        label: "Base de Preguntas"
+        fields:
+          - name: "lista_preguntas"
+            label: "Lista de Preguntas"
+            widget: "list"
+            fields:
+              - {label: "Categoría", name: "cat", widget: "select", options: ["cardiaco", "respiratorio", "calculo", "radiologia", "ekg"]}
+              - {label: "Pregunta", name: "q", widget: "string"}
+              - {label: "Opciones", name: "opts", widget: "list", field: {name: "opcion", widget: "string"}}
+              - {label: "Respuesta Correcta (Índice 0-3)", name: "ans", widget: "number", value_type: "int"}
+              - {label: "Justificación", name: "just", widget: "text"}
+              - {label: "Pista", name: "hint", widget: "string"}
