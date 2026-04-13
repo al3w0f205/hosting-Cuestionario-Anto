@@ -1,0 +1,2540 @@
+{
+  "preguntas": [
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la proyección estándar de tórax que permite una evaluación más precisa del tamaño cardiaco al evitar la magnificación por divergencia de rayos?",
+      "opts": ["Anteroposterior (AP)", "Posteroanterior (PA)", "Lateral izquierda", "Decúbito supino"],
+      "ans": 1,
+      "just": "En la proyección PA el corazón se encuentra más cerca de la placa receptora; en consecuencia se reduce la distorsión del tamaño de la silueta cardiaca.",
+      "hint": "El haz de rayos entra por la espalda del paciente."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué criterio técnico se utiliza para evaluar si una radiografía de tórax está correctamente inspirada?",
+      "opts": ["Visualización de 4 a 5 arcos costales anteriores", "Visualización de 6 arcos costales anteriores por encima del diafragma", "Borramiento de los ángulos costofrénicos", "Escápulas superpuestas en campos pulmonares"],
+      "ans": 1,
+      "just": "Una inspiración profunda adecuada permite contar entre 6 arcos costales anteriores o de 9 a 10 posteriores; asimismo esto garantiza que el parénquima no parezca falsamente consolidado.",
+      "hint": "Se cuentan las costillas que cruzan los campos pulmonares."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía de tórax PA ¿cuál es la posición ideal de las escápulas para permitir una visión clara de los campos pulmonares?",
+      "opts": ["Superpuestas sobre los ápices", "Rotadas lateralmente fuera de los campos pulmonares", "A nivel de la quinta vértebra torácica", "En posición neutra"],
+      "ans": 1,
+      "just": "Al rotar los hombros hacia adelante el paciente desplaza las escápulas hacia afuera; por consiguiente se evita que su densidad ósea oculte patologías en la periferia pulmonar.",
+      "hint": "El paciente debe 'abrazar' el chasis."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura anatómica forma el borde derecho de la silueta cardiaca en una proyección frontal?",
+      "opts": ["Ventrículo derecho", "Aurícula derecha", "Ventrículo izquierdo", "Vena cava superior únicamente"],
+      "ans": 1,
+      "just": "La aurícula derecha constituye el componente principal del borde cardiaco derecho; no obstante la vena cava superior puede visualizarse por encima de esta.",
+      "hint": "Es la cámara que recibe la sangre sistémica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El arco superior del borde izquierdo de la silueta cardiaca corresponde anatómicamente a:",
+      "opts": ["Tronco pulmonar", "Botón aórtico", "Orejuela izquierda", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "El botón aórtico representa el cayado de la aorta en su transición a la aorta descendente; además es un punto de referencia para evaluar la presión arterial crónica.",
+      "hint": "Es la primera prominencia de arriba hacia abajo a la izquierda."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El arco medio del borde izquierdo de la silueta cardiaca está formado predominantemente por:",
+      "opts": ["Aorta ascendente", "Tronco de la arteria pulmonar", "Ventrículo derecho", "Vena pulmonar superior"],
+      "ans": 1,
+      "just": "Inmediatamente debajo del botón aórtico se proyecta el tronco pulmonar; por lo tanto su prominencia puede sugerir hipertensión pulmonar.",
+      "hint": "Relacionado con la circulación menor."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué cámara cardiaca forma el borde izquierdo inferior y el ápice del corazón en la radiografía?",
+      "opts": ["Ventrículo derecho", "Ventrículo izquierdo", "Aurícula izquierda", "Tabique interventricular"],
+      "ans": 1,
+      "just": "El ventrículo izquierdo es la cámara más lateral y posterior del lado izquierdo; en consecuencia define la mayor parte del borde inferior en esa zona.",
+      "hint": "Responsable del choque de la punta."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La fórmula del Índice Cardiotorácico (ICT) se define como:",
+      "opts": ["(A+B) / C", "A / B", "C / (A+B)", "(A*B) / C"],
+      "ans": 0,
+      "just": "Se suma el diámetro transverso máximo derecho e izquierdo (A+B) y se divide para el diámetro interno del tórax (C); asimismo este valor permite cuantificar la cardiomegalia.",
+      "hint": "Ancho del corazón dividido para ancho del pecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un valor de Índice Cardiotorácico superior a 0.50 en un adulto se considera:",
+      "opts": ["Normal", "Cardiomegalia", "Situs inversus", "Tórax en tonel"],
+      "ans": 1,
+      "just": "Puesto que el corazón no debe ocupar más de la mitad del diámetro torácico transverso un valor mayor a 0.50 indica dilatación o hipertrofia cardiaca.",
+      "hint": "Criterio de crecimiento cardiaco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Según la escala de cardiomegalia un ICT de 0.58 corresponde a:",
+      "opts": ["Grado I", "Grado II", "Grado III", "Grado IV"],
+      "ans": 1,
+      "just": "El Grado II se sitúa en el rango de 0.56 a 0.60; por consiguiente este valor refleja un crecimiento moderado de la silueta cardiaca.",
+      "hint": "Se encuentra en el segundo escalón de la escala."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿A qué grado de cardiomegalia corresponde un Índice Cardiotorácico de 0.63?",
+      "opts": ["Grado I", "Grado II", "Grado III", "Grado IV"],
+      "ans": 2,
+      "just": "El rango de 0.61 a 0.65 define la cardiomegalia Grado III; consecuentemente indica una dilatación severa que compromete gran parte del hemitórax izquierdo.",
+      "hint": "Penúltimo grado de la clasificación."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La cardiomegalia Grado IV se define por un ICT superior a:",
+      "opts": ["0.55", "0.60", "0.65", "0.70"],
+      "ans": 2,
+      "just": "Valores por encima de 0.65 representan la dilatación más extrema; además suelen asociarse con insuficiencia cardiaca terminal.",
+      "hint": "Es el valor de corte más alto."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo radiológico indica la presencia de aire en el espacio virtual entre las pleuras?",
+      "opts": ["Consolidación", "Neumotórax", "Derrame pleural", "Edema agudo"],
+      "ans": 1,
+      "just": "La presencia de aire separa las pleuras y causa el colapso del pulmón; por tanto se observa una zona de hiperlucidez sin trama vascular.",
+      "hint": "Pulmón 'negro' sin vasos visibles."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El borramiento o pérdida de nitidez del ángulo costofrénico suele ser el primer signo de:",
+      "opts": ["Atelectasia", "Derrame pleural", "Neumonía lobar", "Cardiomegalia"],
+      "ans": 1,
+      "just": "El líquido se acumula en las zonas declives por gravedad; asimismo se requiere al menos 75 a 100 ml de líquido para ser visible en una placa lateral.",
+      "hint": "Acumulación de líquido en la base."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué signo radiológico se caracteriza por la visualización de los bronquios llenos de aire dentro de una zona de pulmón opaco?",
+      "opts": ["Signo de la silueta", "Broncograma aéreo", "Signo del menisco", "Líneas B de Kerley"],
+      "ans": 1,
+      "just": "Indica que los alvéolos están llenos de líquido o células mientras que las vías aéreas permanecen permeables; en consecuencia es típico de las consolidaciones neumónicas.",
+      "hint": "Vías aéreas visibles en medio de lo blanco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'signo de la silueta' positivo ocurre cuando:",
+      "opts": ["Dos estructuras de diferente densidad están en contacto", "Dos estructuras de la misma densidad están en contacto eliminando su borde común", "El corazón se desplaza hacia la derecha", "El pulmón está hiperinsuflado"],
+      "ans": 1,
+      "just": "Si un infiltrado pulmonar borra el contorno del corazón significa que ambos están en el mismo plano anatómico; por lo tanto ayuda a localizar la lesión.",
+      "hint": "Pérdida del límite entre dos densidades iguales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática ABCDE de una radiografía ¿qué representa la letra 'B'?",
+      "opts": ["Bones (Huesos)", "Breathing (Pulmones y pleura)", "Blood (Grandes vasos)", "Base del corazón"],
+      "ans": 1,
+      "just": "Se enfoca en la expansión pulmonar además de la búsqueda de infiltrados o neumotórax; de este modo se garantiza no omitir lesiones parenquimatosas.",
+      "hint": "Relacionado con la respiración."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura se evalúa prioritariamente en la letra 'A' de la revisión sistemática?",
+      "opts": ["Aorta", "Vía aérea (Tráquea)", "Ápices", "Arterias pulmonares"],
+      "ans": 1,
+      "just": "Se debe verificar la centralidad de la tráquea; no obstante su desviación puede indicar una masa mediastínica o un neumotórax a tensión.",
+      "hint": "Conducto de paso del aire."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de la burbuja gástrica por debajo del hemidiafragma izquierdo es un hallazgo:",
+      "opts": ["Patológico", "Normal", "Indicativo de hernia", "Signo de perforación"],
+      "ans": 1,
+      "just": "Representa el gas acumulado en el fundus del estómago; además su ausencia o desplazamiento puede sugerir patología subdiafragmática.",
+      "hint": "Cámara de aire bajo el diafragma."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es el nombre del signo ecográfico que confirma el deslizamiento normal entre la pleura parietal y visceral?",
+      "opts": ["Signo del murciélago", "Signo del deslizamiento pulmonar (Lung sliding)", "Signo de la orilla del mar", "Signo del código de barras"],
+      "ans": 1,
+      "just": "Su presencia descarta de forma inmediata el neumotórax en el punto explorado; por consiguiente es la base de la ecografía pulmonar Point of Care.",
+      "hint": "Movimiento de vaivén en la línea pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el modo M de la ecografía pulmonar el patrón normal que indica pleura sana se denomina:",
+      "opts": ["Signo de la estratosfera", "Signo de la orilla del mar (Seashore)", "Signo del punto pulmonar", "Signo de las líneas B"],
+      "ans": 1,
+      "just": "La parte superior representa la pared estática y la inferior el parénquima en movimiento; de esta manera se visualiza una textura granular similar a la arena.",
+      "hint": "Arena y olas."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El hallazgo de 'Líneas A' en la ecografía pulmonar representa:",
+      "opts": ["Edema pulmonar", "Artefactos de reverberación normales de un pulmón aireado", "Consolidación neumónica", "Derrame pleural"],
+      "ans": 1,
+      "just": "Son líneas horizontales paralelas a la línea pleural; además indican que el aire es el componente predominante en esa zona del pulmón.",
+      "hint": "Líneas horizontales normales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué indican las 'Líneas B' (colas de cometa) cuando son más de tres por campo en la ecografía?",
+      "opts": ["Pulmón seco", "Síndrome intersticial o edema alveolar", "Neumotórax", "Enfisema"],
+      "ans": 1,
+      "just": "Son líneas verticales que nacen en la pleura y llegan al final de la pantalla; consecuentemente sugieren la presencia de líquido en el intersticio pulmonar.",
+      "hint": "Rayos láser verticales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'punto pulmonar' (Lung Point) en ecografía es el signo patognomónico de:",
+      "opts": ["Neumonía", "Neumotórax", "Derrame pleural", "Tromboembolismo"],
+      "ans": 1,
+      "just": "Es el punto exacto donde el pulmón colapsado se separa de la pared torácica; por tanto confirma al 100 por ciento la presencia de aire extrapleural.",
+      "hint": "Zona de transición entre aire y pulmón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el 'Signo del Murciélago' se utiliza para identificar:",
+      "opts": ["El corazón", "El espacio intercostal y la línea pleural", "El hígado", "La aorta"],
+      "ans": 1,
+      "just": "Las sombras de las costillas forman las alas y la línea pleural el cuerpo; de este modo el ecografista localiza el área segura de exploración.",
+      "hint": "Referencia inicial para ver pleura."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué proyección radiográfica es más útil para detectar pequeñas cantidades de aire libre subdiafragmático en sospecha de perforación de víscera hueca?",
+      "opts": ["Tórax AP decúbito", "Tórax en bipedestación", "Tórax lateral", "Decúbito lateral derecho"],
+      "ans": 1,
+      "just": "El aire libre asciende hacia las cúpulas diafragmáticas; por consiguiente la posición erguida es la más sensible para este diagnóstico clínico.",
+      "hint": "El paciente debe estar de pie."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una radiografía de tórax rotada se identifica porque:",
+      "opts": ["El corazón se ve más grande", "Las clavículas no están equidistantes de las apófisis espinosas", "Los pulmones se ven más negros", "No se ve la tráquea"],
+      "ans": 1,
+      "just": "La asimetría en la distancia de los bordes mediales de las clavículas indica giro del paciente; en consecuencia se pueden distorsionar las dimensiones del mediastino.",
+      "hint": "Se miden las clavículas respecto a la columna."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'D' (Diaphragm) incluye la búsqueda de:",
+      "opts": ["Cuerpos extraños", "Aire subdiafragmático y profundidad de los senos costofrénicos", "Dilatación aórtica", "Fracturas costales"],
+      "ans": 1,
+      "just": "Permite detectar neumoperitoneo además de derrames pleurales mínimos; de este modo se evalúa la integridad mecánica del músculo respiratorio.",
+      "hint": "Músculo que separa tórax de abdomen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término radiológico 'radiopaco' se aplica a estructuras que se visualizan de color:",
+      "opts": ["Negro", "Blanco", "Gris oscuro", "Transparente"],
+      "ans": 1,
+      "just": "Dichas estructuras absorben la mayor parte de la radiación; por tanto impiden el paso de los rayos hacia la placa generando una imagen clara.",
+      "hint": "Como el hueso o el metal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término radiológico 'radiolúcido' se aplica a estructuras que se visualizan de color:",
+      "opts": ["Blanco", "Negro", "Gris claro", "Opaco"],
+      "ans": 1,
+      "just": "El tejido permite el paso de los rayos casi sin resistencia; consecuentemente la placa se impresiona totalmente adquiriendo un tono oscuro.",
+      "hint": "Como el aire en los pulmones."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura ósea se utiliza como referencia para localizar los ángulos costofrénicos?",
+      "opts": ["Clavícula", "Costillas inferiores", "Escápula", "Esternón"],
+      "ans": 1,
+      "just": "Se forman por la intersección de las costillas laterales con las cúpulas diafragmáticas; asimismo deben ser agudos y estar libres de opacidad.",
+      "hint": "Puntas inferiores de los pulmones."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La tráquea normalmente presenta una leve desviación hacia la derecha a nivel de:",
+      "opts": ["Entrada al tórax", "Cayado aórtico", "Bifurcación (Carina)", "Base del cuello"],
+      "ans": 1,
+      "just": "Puesto que la aorta cruza hacia la izquierda empuja sutilmente la tráquea hacia el lado opuesto; por tanto esta desviación es un hallazgo anatómico normal.",
+      "hint": "Efecto de la arteria aorta."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la densidad radiológica del corazón?",
+      "opts": ["Densidad aire", "Densidad agua/tejido blando", "Densidad grasa", "Densidad calcio"],
+      "ans": 1,
+      "just": "El miocardio y la sangre comparten una densidad similar a los líquidos; además esto permite diferenciarlo del aire pulmonar circundante.",
+      "hint": "Igual que el músculo o el hígado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía PA el diafragma derecho suele estar más elevado que el izquierdo debido a:",
+      "opts": ["El corazón", "El hígado", "El bazo", "La cámara gástrica"],
+      "ans": 1,
+      "just": "La masa hepática se sitúa inmediatamente inferior a la cúpula derecha; consecuentemente eleva su posición habitual entre 1 a 2 cm respecto a la izquierda.",
+      "hint": "Víscera grande abdominal derecha."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El signo de la 'Hepatización' en ecografía de tórax indica:",
+      "opts": ["Hígado sano", "Consolidación pulmonar con densidad similar al hígado", "Derrame pleural masivo", "Enfisema"],
+      "ans": 1,
+      "just": "Ocurre cuando el pulmón pierde su aire y adquiere una textura de tejido sólido; por consiguiente se asemeja morfológicamente al parénquima hepático.",
+      "hint": "Pulmón que parece hígado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe el espacio entre el corazón y el esternón visible en la placa lateral?",
+      "opts": ["Espacio retrocardiaco", "Espacio retroesternal", "Seno oblicuo", "Ventana aortopulmonar"],
+      "ans": 1,
+      "just": "Es una zona normalmente radiolúcida debido a la presencia de pulmón anterior; no obstante su opacidad puede indicar masas mediastínicas.",
+      "hint": "Delante del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un paciente con EPOC suele presentar en la radiografía un diafragma:",
+      "opts": ["Elevado", "Aplanado", "Muy curvo", "Invertido"],
+      "ans": 1,
+      "just": "La hiperinsuflación pulmonar empuja el diafragma hacia abajo; consecuentemente se pierde su convexidad natural y se observa rectificado.",
+      "hint": "Efecto de pulmones muy grandes."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El hileo pulmonar izquierdo se sitúa habitualmente más arriba que el derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debido a la posición de la arteria pulmonar izquierda que cabalga sobre el bronquio principal; por tanto este desnivel es un hallazgo normal frecuente.",
+      "hint": "Asimetría hiliar normal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de aire en el mediastino (Neumomediastino) se visualiza como:",
+      "opts": ["Líneas negras paralelas al borde cardiaco", "Opacidad difusa", "Desviación de la tráquea", "Botón aórtico prominente"],
+      "ans": 0,
+      "just": "El aire delinea estructuras como la aorta o el corazón al infiltrar el tejido conectivo; de este modo se observa una fina silueta lúcida.",
+      "hint": "Delineado negro del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura separa el mediastino superior del inferior a nivel radiológico?",
+      "opts": ["Carina", "Plano que pasa por el ángulo esternal y T4", "Aorta ascendente", "Tronco braquiocefálico"],
+      "ans": 1,
+      "just": "Es una referencia anatómica clave para localizar el arco aórtico y la bifurcación traqueal; además divide las patologías mediastínicas.",
+      "hint": "Nivel de T4 y ángulo de Louis."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE de ecografía ¿cuál es el hallazgo que define un pulmón seco?",
+      "opts": ["Líneas B abundantes", "Predominio de Líneas A con deslizamiento", "Hepatización", "Efusión pleural"],
+      "ans": 1,
+      "just": "La presencia de líneas A confirma que el parénquima subpleural está bien aireado; asimismo sugiere que no hay edema intersticial significativo.",
+      "hint": "Líneas horizontales normales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las vértebras dorsales a través de la silueta cardiaca es un signo de:",
+      "opts": ["Radiografía poco penetrada", "Adecuada penetración (voltaje)", "Radiografía sobreexpuesta", "Osteoporosis"],
+      "ans": 1,
+      "just": "Si los cuerpos vertebrales son vagamente visibles la técnica de rayos es óptima; por el contrario si no se ven la placa está blanda.",
+      "hint": "Criterio de calidad técnica de la imagen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un desplazamiento del mediastino hacia el lado de la lesión sugiere:",
+      "opts": ["Neumotórax", "Atelectasia masiva", "Derrame masivo", "Neumonía lobar"],
+      "ans": 1,
+      "just": "La pérdida de volumen pulmonar genera una presión negativa que 'succiona' las estructuras centrales; por consiguiente la tráquea se desvía al lado enfermo.",
+      "hint": "Pérdida de volumen que tira del mediastino."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un desplazamiento del mediastino hacia el lado opuesto de la lesión sugiere:",
+      "opts": ["Atelectasia", "Neumotórax a tensión o derrame masivo", "Fibrosis", "Bronquitis"],
+      "ans": 1,
+      "just": "El exceso de presión o volumen en un hemitórax empuja el mediastino hacia el lado sano; de esta manera se puede comprometer el retorno venoso.",
+      "hint": "Efecto de masa que empuja."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe el ángulo formado por el corazón y el diafragma?",
+      "opts": ["Ángulo costofrénico", "Ángulo cardiofrénico", "Ángulo hiliar", "Seno pleural"],
+      "ans": 1,
+      "just": "Son dos ángulos internos; además su ocupación por grasa o líquido puede alterar la forma de la silueta cardiaca.",
+      "hint": "Entre corazón y músculo respiratorio."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La calcificación de los cartílagos costales es un hallazgo:",
+      "opts": ["Siempre patológico", "Frecuente con el envejecimiento", "Signo de raquitismo", "Exclusivo de deportistas"],
+      "ans": 1,
+      "just": "Se considera un cambio degenerativo normal por la edad; no obstante puede confundirse con nódulos pulmonares si se superponen.",
+      "hint": "Común en adultos mayores."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo del 'Código de Barras' (Barcode) indica:",
+      "opts": ["Pulmón normal", "Neumotórax", "Edema", "Hígado graso"],
+      "ans": 1,
+      "just": "Ocurre en modo M cuando desaparece el deslizamiento pleural; por tanto toda la pantalla muestra líneas horizontales estáticas.",
+      "hint": "Patrón de líneas paralelas sin arena."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿En qué zona se debe buscar preferentemente un neumotórax en un paciente en decúbito supino mediante ecografía?",
+      "opts": ["Zonas basales", "Zonas anteriores y superiores", "Zonas laterales", "Línea axilar posterior"],
+      "ans": 1,
+      "just": "Puesto que el aire es menos denso que el tejido siempre asciende a la zona más alta del tórax; consecuentemente los campos anteriores son los más sensibles.",
+      "hint": "El aire sube."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La cisura menor o horizontal del pulmón derecho se visualiza en la placa PA al nivel de:",
+      "opts": ["Segunda costilla", "Cuarta costilla o cartílago costal", "Base del pulmón", "Ápice"],
+      "ans": 1,
+      "just": "Se extiende desde el hilio hasta la pared lateral; además permite delimitar el lóbulo superior del medio.",
+      "hint": "Línea horizontal en el lado derecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una opacidad que borra el borde derecho del corazón localiza la lesión en:",
+      "opts": ["Lóbulo superior derecho", "Lóbulo medio derecho", "Lóbulo inferior derecho", "Língula"],
+      "ans": 1,
+      "just": "Por el signo de la silueta sabemos que el lóbulo medio está en contacto con la aurícula derecha; por consiguiente la opacidad confirma su afectación.",
+      "hint": "Signo de la silueta en aurícula derecha."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una opacidad que borra el borde izquierdo del corazón localiza la lesión en:",
+      "opts": ["Lóbulo superior izquierdo (Língula)", "Lóbulo inferior izquierdo", "Ventrículo derecho", "Hilio izquierdo"],
+      "ans": 0,
+      "just": "La língula es la estructura pulmonar que abraza el borde izquierdo del corazón; consecuentemente su consolidación borra el contorno ventricular.",
+      "hint": "Análogo al lóbulo medio en el lado izquierdo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La elevación unilateral de un hemidiafragma (ej. el izquierdo sobre el derecho) puede indicar:",
+      "opts": ["Normalidad", "Parálisis del nervio frénico", "EPOC", "Enfisema"],
+      "ans": 1,
+      "just": "Si el nervio frénico se lesiona el diafragma pierde tono y es empujado hacia arriba por la presión abdominal; de esta manera se eleva patológicamente.",
+      "hint": "Fallo muscular por denervación."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'E' (Extra-thoracic tissues) incluye:",
+      "opts": ["Aorta y cava", "Tejidos blandos, mamas y abdomen superior", "Hilios", "Bronquios"],
+      "ans": 1,
+      "just": "Permite detectar enfisema subcutáneo o la presencia de mastecomías; de este modo se integra el contexto quirúrgico del paciente.",
+      "hint": "Todo lo que está fuera del pulmón y hueso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura se observa como una opacidad circular en el hilio pulmonar al ser cortada transversalmente por los rayos?",
+      "opts": ["Venas pulmonares", "Arterias pulmonares acompañando a los bronquios", "Ganglios linfáticos sanos", "Carina"],
+      "ans": 1,
+      "just": "Los vasos hiliares suelen acompañar a las ramificaciones bronquiales; por tanto su visión de frente simula pequeños nódulos vasculares normales.",
+      "hint": "Unidad arteria bronquio."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un corazón con forma de 'bota' o 'zueco' es sugerente de:",
+      "opts": ["Hipertrofia de aurícula derecha", "Hipertrofia de ventrículo derecho (ej. Tetralogía de Fallot)", "Derrame pericárdico", "Insuficiencia mitral"],
+      "ans": 1,
+      "just": "La punta del corazón se eleva debido al crecimiento de las cavidades derechas; asimismo el arco pulmonar suele estar excavado.",
+      "hint": "Forma típica en ciertas cardiopatías congénitas."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La silueta cardiaca en 'garrafa' o 'tienda de campaña' es característica de:",
+      "opts": ["Cardiomegalia Grado IV", "Derrame pericárdico masivo", "Aneurisma de aorta", "Situs inversus"],
+      "ans": 1,
+      "just": "El líquido se acumula en la parte inferior del saco pericárdico por gravedad; por lo tanto genera una base muy ancha con hilios nítidos.",
+      "hint": "Mucho líquido alrededor del miocardio."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'Quad' (Cuadrilátero) se asocia con:",
+      "opts": ["Consolidación", "Derrame pleural", "Neumotórax", "Intersticio sano"],
+      "ans": 1,
+      "just": "Se observa un espacio anecoico (negro) limitado por las costillas y las pleuras; de esta manera se confirma la presencia de líquido libre.",
+      "hint": "Espacio negro rectangular de líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El bronquio principal derecho es más vertical que el izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debido a su orientación suele ser el sitio de alojamiento de cuerpos extraños aspirados; además esto se evidencia claramente en radiografías contrastadas.",
+      "hint": "Criterio anatómico hiliar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La arteria pulmonar izquierda es habitualmente más corta que la derecha.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El tronco pulmonar se encuentra a la izquierda del plano medio; por consiguiente el trayecto hacia el hilio izquierdo es más directo y breve.",
+      "hint": "Distancia desde el tronco pulmonar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe la línea radiopaca que delinea la pleura en un neumotórax?",
+      "opts": ["Línea de Kerley", "Línea pleural visceral", "Signo del menisco", "Cisura"],
+      "ans": 1,
+      "just": "Representa el borde del pulmón colapsado; por lo tanto es el hallazgo clave para diferenciar un neumotórax de un artefacto de piel.",
+      "hint": "Borde del pulmón que se retrae."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía de tórax ¿qué densidad tiene el metal (ej. un marcapasos)?",
+      "opts": ["Radiolúcido", "Radiopaco extremo", "Densidad grasa", "Gris tenue"],
+      "ans": 1,
+      "just": "Los metales tienen un número atómico muy alto; consecuentemente bloquean todos los rayos X apareciendo de un color blanco brillante.",
+      "hint": "Lo más blanco de la imagen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La evaluación de las costillas buscando fracturas se realiza en el apartado:",
+      "opts": ["C", "B", "E", "Ninguno"],
+      "ans": 1,
+      "just": "La letra 'B' incluye la integridad de la caja torácica ósea; además esto es vital en pacientes traumatizados para descartar tórax inestable.",
+      "hint": "Apartado de pulmones y esqueleto torácico."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ensanchamiento del mediastino superior (> 8 cm) en un trauma de tórax sugiere:",
+      "opts": ["Neumonía", "Disección o rotura aórtica", "Cardiomegalia", "Derrame pleural"],
+      "ans": 1,
+      "just": "El hematoma mediastínico desplaza las estructuras y borra los bordes claros; por tanto es una emergencia quirúrgica de alta sospecha.",
+      "hint": "Lesión de la arteria más grande."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El hemidiafragma izquierdo es normalmente más bajo que el derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La posición del corazón lo deprime levemente; asimismo la ausencia del hígado permite que se sitúe a un nivel inferior.",
+      "hint": "Relación con el ápex cardiaco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Las Líneas B de Kerley en la radiografía representan:",
+      "opts": ["Bronquios dilatados", "Engrosamiento de los tabiques interlobulillares por edema", "Costillas fracturadas", "Aire en la pleura"],
+      "ans": 1,
+      "just": "Son líneas horizontales cortas en las bases pulmonares; de este modo indican congestión venosa y falla cardiaca izquierda.",
+      "hint": "Signo de edema intersticial."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el cálculo del ICT ¿qué representa la medida 'C'?",
+      "opts": ["Ancho del corazón", "Diámetro interno máximo del tórax", "Ancho del botón aórtico", "Altura del diafragma"],
+      "ans": 1,
+      "just": "Se mide a nivel de las cúpulas diafragmáticas de borde interno a borde interno; por tanto es el denominador de la relación.",
+      "hint": "El ancho total de la cavidad."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía rotada hacia la derecha el corazón parecerá:",
+      "opts": ["Más pequeño", "Falsamente agrandado", "Sin cambios", "Radiolúcido"],
+      "ans": 1,
+      "just": "El cambio de ángulo proyecta una sombra mediastínica más ancha; en consecuencia puede llevar a diagnósticos erróneos de cardiomegalia.",
+      "hint": "Error por mala posición."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura cardiaca se encuentra más posterior y no forma bordes en la placa frontal?",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "Se localiza directamente frente al esófago; no obstante su crecimiento se evidencia por el desplazamiento de la tráquea o el signo del doble contorno.",
+      "hint": "Cámara que recibe venas pulmonares."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'signo del doble contorno' en la aurícula derecha sugiere:",
+      "opts": ["Derrame", "Crecimiento de aurícula izquierda", "Aneurisma", "Normalidad"],
+      "ans": 1,
+      "just": "Cuando la aurícula izquierda crece se proyecta sobre la derecha creando una doble silueta; por consiguiente es un signo de valvulopatía mitral.",
+      "hint": "Superposición de ambas aurículas."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué proyección es obligatoria para confirmar la localización de una lesión sospechosa en la placa PA?",
+      "opts": ["AP", "Lateral (Perfil)", "Oblicua", "Decúbito"],
+      "ans": 1,
+      "just": "Permite ver el espacio retroesternal y retrocardiaco; además localiza si la lesión es anterior, media o posterior.",
+      "hint": "Visión de costado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de aire por debajo de ambos diafragmas (Signo de la gaviota) indica:",
+      "opts": ["Neumotórax bilateral", "Neumoperitoneo", "EPOC", "Hernia hiatal"],
+      "ans": 1,
+      "just": "Sugiere perforación de una víscera abdominal que permite al gas libre subir al espacio subdiafragmático; por tanto es una urgencia quirúrgica.",
+      "hint": "Aire libre en abdomen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El bronquio principal izquierdo pasa por debajo de qué estructura vascular:",
+      "opts": ["Vena cava superior", "Arco de la aorta", "Vena ácigos", "Arteria subclavia"],
+      "ans": 1,
+      "just": "El cayado aórtico 'cabalga' el bronquio izquierdo; consecuentemente esto limita su movilidad en comparación con el derecho.",
+      "hint": "Relación vascular superior izquierda."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cómo se visualiza un derrame pleural masivo en la radiografía?",
+      "opts": ["Como una zona muy negra", "Como una opacidad completa (velamiento) de un hemitórax", "Como un aumento de la trama vascular", "Como una desviación de la tráquea al mismo lado"],
+      "ans": 1,
+      "just": "El líquido ocupa todo el espacio pulmonar bloqueando los rayos; además suele desplazar el mediastino hacia el lado sano.",
+      "hint": "Hemitórax blanco por líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Menisco' es característico de:",
+      "opts": ["Atelectasia", "Derrame pleural", "Neumonía", "Neumotórax"],
+      "ans": 1,
+      "just": "La superficie del líquido pleural se curva hacia arriba en contacto con la pared torácica; por consiguiente forma una línea cóncava superior.",
+      "hint": "Curva cóncava de líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la ecografía pulmonar la pleura se visualiza como una línea:",
+      "opts": ["Hiperequogénica (blanca) y brillante", "Anecoica (negra)", "Gris tenue", "Intermitente"],
+      "ans": 0,
+      "just": "Representa la interfaz entre los tejidos de la pared y el aire pulmonar; asimismo debe mostrar movimiento rítmico con la respiración.",
+      "hint": "Línea superior brillante."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué parámetro técnico indica que una radiografía se tomó en AP y no en PA?",
+      "opts": ["La tráquea está centrada", "Las escápulas están dentro de los campos pulmonares", "El corazón es pequeño", "Hay burbuja gástrica clara"],
+      "ans": 1,
+      "just": "Puesto que el paciente no puede rotar los hombros hacia adelante en AP los huesos escapulares quedan superpuestos; de este modo se pierde visión pulmonar lateral.",
+      "hint": "Posición de los omóplatos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE la presencia de Líneas B y deslizamiento pleural sugiere:",
+      "opts": ["EPOC", "Edema Agudo de Pulmón", "Neumotórax", "Tromboembolia"],
+      "ans": 1,
+      "just": "Indica que la pleura se mueve (no hay aire) pero que hay exceso de agua en el pulmón; por tanto orienta a falla cardiaca aguda.",
+      "hint": "Líquido en el pulmón que se mueve."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe la zona del pulmón donde entran los vasos y bronquios?",
+      "opts": ["Ápice", "Hilio", "Base", "Língula"],
+      "ans": 1,
+      "just": "Es el centro de la silueta pulmonar; además su agrandamiento puede indicar linfadenopatías o hipertensión venocapilar.",
+      "hint": "Raíz del pulmón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La opacidad de un hemidiafragma que no puede diferenciarse de una base pulmonar opaca se llama:",
+      "opts": ["Signo del menisco", "Signo de la silueta", "Signo de la carina", "Atelectasia"],
+      "ans": 1,
+      "just": "Al tener la misma densidad el líquido o tejido tapa el contorno diafragmático; consecuentemente se pierde la línea de separación.",
+      "hint": "Borramiento del borde diafragmático."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo en las costillas sugiere coartación de la aorta?",
+      "opts": ["Fracturas", "Muescas costales (Signo de Roesler)", "Calcificación", "Ausencia de costillas"],
+      "ans": 1,
+      "just": "Las arterias intercostales se dilatan para servir de colaterales erosionando el borde inferior óseo; de este modo se observan pequeñas muescas.",
+      "hint": "Erosión por arterias dilatadas."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las arterias pulmonares en 'asta de ciervo' (cefalización de flujo) indica:",
+      "opts": ["Hipertensión pulmonar", "Hipertensión venocapilar (Falla cardiaca)", "Neumotórax", "EPOC"],
+      "ans": 1,
+      "just": "La sangre se redistribuye hacia los campos superiores debido al aumento de presión en las bases; por tanto es signo de congestión pasiva.",
+      "hint": "Vasos más grandes arriba que abajo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la placa lateral el ventrículo derecho forma el borde:",
+      "opts": ["Posterior", "Anterior", "Superior", "Inferior"],
+      "ans": 1,
+      "just": "Se sitúa inmediatamente detrás del esternón; consecuentemente su crecimiento borra el espacio retroesternal lúcido.",
+      "hint": "Cámara contra el esternón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la placa lateral la aurícula izquierda forma el borde:",
+      "opts": ["Anterior superior", "Posterior superior", "Inferior", "Lateral"],
+      "ans": 1,
+      "just": "Es la cámara más cercana a la columna vertebral y el esófago; asimismo su dilatación desplaza al bronquio izquierdo.",
+      "hint": "Cámara más trasera."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad tiene el parénquima pulmonar normal en una radiografía?",
+      "opts": ["Agua", "Aire", "Grasa", "Hueso"],
+      "ans": 1,
+      "just": "Al estar lleno de aire absorbe muy poca radiación; consecuentemente se visualiza de color negro con trama vascular fina.",
+      "hint": "Tono oscuro."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La elevación bilateral de los diafragmas suele deberse a:",
+      "opts": ["EPOC", "Pobre inspiración o distensión abdominal masiva (ej. ascitis)", "Neumotórax", "Fibrosis"],
+      "ans": 1,
+      "just": "Si el paciente no toma suficiente aire el diafragma no desciende; además el contenido abdominal puede limitar físicamente su excursión.",
+      "hint": "Falta de aire o vientre lleno."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'Sinus' indica:",
+      "opts": ["Derrame pericárdico", "Derrame pleural en modo M", "Pulmón sano", "Neumotórax"],
+      "ans": 1,
+      "just": "Se visualiza como un espacio que varía con la respiración pero que mantiene una zona libre de ecos; por tanto confirma fluido entre pleuras.",
+      "hint": "Similar a una cavidad de líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La vena ácigos se visualiza radiológicamente como una pequeña sombra ovalada en:",
+      "opts": ["Hilio izquierdo", "Ángulo traqueobronquial derecho", "Ápice izquierdo", "Base derecha"],
+      "ans": 1,
+      "just": "Cruza por encima del bronquio derecho para desembocar en la cava; asimismo su dilatación puede indicar sobrecarga de volumen sistémico.",
+      "hint": "Vena que arquea a la derecha."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una radiografía sobreexpuesta (quemada) se caracteriza por:",
+      "opts": ["Ser muy blanca", "Ser muy negra dificultando ver la trama vascular", "Tener mucho contraste", "Escápulas fuera"],
+      "ans": 1,
+      "just": "Se usó un voltaje excesivo que atravesó todos los tejidos; consecuentemente se pierden los detalles finos del parénquima.",
+      "hint": "Demasiado oscura."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la causa más común de una 'cisura accesoria' de la ácigos?",
+      "opts": ["Trauma", "Variante anatómica congénita por descenso anómalo de la vena", "Infección", "Cáncer"],
+      "ans": 1,
+      "just": "La vena ácigos queda atrapada en el lóbulo superior derecho arrastrando la pleura; de esta manera crea un pequeño lóbulo accesorio.",
+      "hint": "Lóbulo extra en el ápice derecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación de la vía aérea ¿qué sugiere un estrechamiento en 'punta de lápiz' de la tráquea?",
+      "opts": ["Neumonía", "Crup (Laringotraqueobronquitis)", "Epiglotitis", "Asma"],
+      "ans": 1,
+      "just": "Indica edema subglótico que reduce la luz traqueal de forma cónica; por tanto es un signo clínico de obstrucción alta pediátrica.",
+      "hint": "Forma de embudo invertido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La arteria pulmonar principal se divide en ramas derecha e izquierda por debajo de:",
+      "opts": ["Clavícula", "Ángulo de Louis", "Vena cava inferior", "Xifoides"],
+      "ans": 1,
+      "just": "Esta zona mediastínica media es donde se localiza el complejo hiliar; además es el nivel donde se miden los diámetros arteriales.",
+      "hint": "Plano transverso del tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'corazón en gota' se asocia típicamente con:",
+      "opts": ["Insuficiencia cardiaca", "EPOC y enfisema (tórax en tonel)", "Obesidad", "Pericarditis"],
+      "ans": 1,
+      "just": "Debido a la elongación del tórax y el descenso diafragmático el corazón parece estirarse verticalmente; de este modo adquiere una forma estrecha.",
+      "hint": "Corazón alargado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura cardiaca forma el arco superior del borde derecho?",
+      "opts": ["Aorta ascendente", "Vena cava superior", "Aurícula derecha", "Vena ácigos"],
+      "ans": 1,
+      "just": "Desciende verticalmente antes de unirse a la aurícula; consecuentemente forma un borde recto por encima de la curvatura auricular.",
+      "hint": "Vena grande superior."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La placa de tórax lateral es superior a la PA para evaluar:",
+      "opts": ["Hilios laterales", "Lóbulo medio y segmentos posteriores del lóbulo inferior", "Vena cava superior", "Tráquea cervical"],
+      "ans": 1,
+      "just": "Evita la superposición del corazón y diafragma sobre estas zonas; por tanto permite localizar opacidades basales ocultas.",
+      "hint": "Estructuras detrás del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'fragmentación' o 'shred sign' indica:",
+      "opts": ["Derrame masivo", "Consolidación pulmonar parcial", "Neumotórax", "Pulmón sano"],
+      "ans": 1,
+      "just": "Es el borde irregular entre un pulmón consolidado y uno aireado; de esta manera sugiere la presencia de una neumonía en evolución.",
+      "hint": "Borde deshilachado subpleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un nódulo pulmonar calcificado suele ser indicativo de:",
+      "opts": ["Malignidad activa", "Lesión granulomatosa antigua (benigna)", "Infección aguda", "Edema"],
+      "ans": 1,
+      "just": "El depósito de calcio sugiere un proceso de cicatrización crónico; no obstante siempre debe compararse con placas previas.",
+      "hint": "Cicatriz de TB o histoplasmosis."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el cálculo del ICT ¿cuál es el valor normal máximo en un recién nacido?",
+      "opts": ["0.50", "0.60", "0.45", "0.70"],
+      "ans": 1,
+      "just": "Debido a la inmadurez torácica y el tamaño relativo de los órganos el corazón ocupa más espacio; consecuentemente se tolera hasta 0.60.",
+      "hint": "Es mayor que en el adulto."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo radiológico define a la atelectasia?",
+      "opts": ["Aumento de volumen pulmonar", "Pérdida de volumen con desplazamiento de cisuras hacia la lesión", "Hiperlucidez", "Broncograma aéreo siempre"],
+      "ans": 1,
+      "just": "El colapso alveolar retrae el tejido circundante; por consiguiente las estructuras vecinas se desplazan para llenar el vacío.",
+      "hint": "Colapso con tironeamiento."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La 'cisura mayor' de ambos pulmones solo es visible habitualmente en la proyección:",
+      "opts": ["PA", "Lateral", "AP", "Oblicua"],
+      "ans": 1,
+      "just": "Debido a su orientación oblicua los rayos la atraviesan tangencialmente de lado; de esta manera se visualiza como una línea fina descendente.",
+      "hint": "Proyección de perfil."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad tiene el líquido pleural comparado con el corazón?",
+      "opts": ["Diferente", "Igual (Densidad agua)", "Más oscura", "Más brillante"],
+      "ans": 1,
+      "just": "Ambos son tejidos de base líquida; por lo tanto si están en contacto se produce el signo de la silueta eliminando los bordes cardiacos.",
+      "hint": "Misma opacidad."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un paciente con cifoescoliosis severa presentará una silueta cardiaca:",
+      "opts": ["Pequeña", "Distorsionada y falsamente agrandada", "Sin cambios", "Radiolúcida"],
+      "ans": 1,
+      "just": "La deformidad ósea altera la orientación del mediastino; consecuentemente el cálculo del ICT pierde validez diagnóstica.",
+      "hint": "Efecto de la desviación de columna."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'mediastino' se define radiológicamente como:",
+      "opts": ["Los campos pulmonares", "El espacio central entre ambos pulmones", "El diafragma", "La caja torácica"],
+      "ans": 1,
+      "just": "Contiene al corazón, grandes vasos, tráquea y esófago; además su evaluación es el núcleo de la letra 'C' (Cardiac).",
+      "hint": "Zona media del pecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el deslizamiento pleural abolido con Líneas A presentes es altamente sugestivo de:",
+      "opts": ["Derrame", "Neumotórax", "Neumonía", "Edema"],
+      "ans": 1,
+      "just": "Si no hay movimiento pero hay aire (líneas A) significa que las pleuras se han separado; por tanto el aire impide ver el pulmón moverse.",
+      "hint": "Pleura quieta con aire debajo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las arterias intercostales bajo las costillas es imposible en radiografías normales.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Al estar inmersas en tejido blando y ser pequeñas su densidad se confunde con la pared; no obstante se ven indirectamente si erosionan el hueso.",
+      "hint": "Son demasiado finas para los Rayos X."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El bronquio principal izquierdo es más horizontal que el derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debe pasar por encima del corazón y debajo de la aorta; consecuentemente su ángulo de salida es mucho más agudo respecto a la tráquea.",
+      "hint": "Desvío lateral pronunciado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La sombra de las mamas en mujeres puede simular opacidades en:",
+      "opts": ["Ápices", "Bases pulmonares", "Hilios", "Mediastino"],
+      "ans": 1,
+      "just": "El tejido mamario aumenta la densidad en los campos inferiores; por lo tanto se debe tener cuidado de no confundirlo con neumonías basales.",
+      "hint": "Superposición de tejido blando anterior."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo define a la cardiomegalia Grado I?",
+      "opts": ["ICT 0.45", "ICT 0.51 a 0.55", "ICT 0.56 a 0.60", "ICT 0.65"],
+      "ans": 1,
+      "just": "Representa el inicio del crecimiento patológico; asimismo es el rango más frecuente en hipertensos estables.",
+      "hint": "Primer rango por encima de 0.50."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un marcapasos situado en el lado derecho del pecho se visualiza como una opacidad de densidad:",
+      "opts": ["Agua", "Calcio", "Metal", "Grasa"],
+      "ans": 2,
+      "just": "Debido a sus componentes internos de litio y circuitos bloquea totalmente el paso de radiación; de este modo brilla intensamente en la placa.",
+      "hint": "Cuerpo extraño metálico."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La arteria pulmonar derecha es más larga que la izquierda.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debe cruzar todo el mediastino por detrás de la aorta ascendente para llegar al hilio derecho; por consiguiente su trayecto es mayor.",
+      "hint": "Atraviesa el centro del tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el 'Signo de la columna' positivo por encima del diafragma indica:",
+      "opts": ["Pulmón sano", "Derrame pleural (el líquido permite ver las vértebras)", "Neumotórax", "Atelectasia"],
+      "ans": 1,
+      "just": "Normalmente el aire pulmonar bloquea la visión de la columna vertebral dorsal; no obstante el líquido actúa como ventana acústica permitiendo visualizarla.",
+      "hint": "Vértebras visibles en el tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad radiológica se le asigna clásicamente al parénquima pulmonar sano debido a su alto contenido de gas?",
+      "opts": ["Densidad agua", "Densidad aire", "Densidad grasa", "Densidad metal"],
+      "ans": 1,
+      "just": "El pulmón sano permite el paso casi total de los fotones de rayos X; por consiguiente se visualiza de color negro permitiendo distinguir la fina trama vascular.",
+      "hint": "Es la densidad más oscura de la radiografía."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la ecografía pulmonar ¿cuál es la apariencia normal del parénquima aireado debajo de la línea pleural?",
+      "opts": ["Líneas B verticales", "Artefacto de reverberación horizontal (Líneas A)", "Hepatización", "Zona anecoica"],
+      "ans": 1,
+      "just": "Puesto que el aire bloquea el ultrasonido el transductor genera ecos horizontales repetitivos; asimismo la presencia de estas líneas confirma que el pulmón está seco.",
+      "hint": "Son ecos en espejo de la línea pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo en la radiografía lateral de tórax sugiere un agrandamiento de la aurícula izquierda?",
+      "opts": ["Borramiento del espacio retroesternal", "Desplazamiento posterior del esófago o bronquio principal izquierdo", "Elevación del diafragma derecho", "Prominencia del ventrículo derecho"],
+      "ans": 1,
+      "just": "La aurícula izquierda es la cámara más posterior del corazón; consecuentemente su dilatación comprime estructuras adyacentes como el esófago.",
+      "hint": "Relación anatómica de la base cardiaca."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Código de Barras' en el modo M de la ecografía de tórax es indicativo de:",
+      "opts": ["Deslizamiento pleural normal", "Ausencia de deslizamiento (Neumotórax)", "Derrame pleural", "Edema alveolar"],
+      "ans": 1,
+      "just": "La falta de movimiento del pulmón genera un patrón de líneas horizontales paralelas; por consiguiente este signo alerta sobre la presencia de aire en la cavidad pleural.",
+      "hint": "También se llama signo de la estratósfera."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cómo se visualiza un edema agudo de pulmón en su fase inicial (intersticial) en la radiografía?",
+      "opts": ["Opacidad lobar única", "Líneas B de Kerley y manguitos peribronquiales", "Hiperlucidez bilateral", "Aplanamiento diafragmático"],
+      "ans": 1,
+      "just": "El líquido se acumula inicialmente en los tabiques interlobulillares; además esto se manifiesta como líneas horizontales cortas en la periferia de las bases.",
+      "hint": "Signo de fallo cardiaco izquierdo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el cálculo del ICT ¿cuál es el hito anatómico para medir el diámetro interno del tórax (C)?",
+      "opts": ["Nivel de la carina", "Nivel de las cúpulas diafragmáticas", "Nivel de la segunda costilla", "Nivel del ápex"],
+      "ans": 1,
+      "just": "Esta medida se toma en el punto más ancho de la cavidad torácica interna; de este modo se estandariza la comparación con el tamaño cardiaco.",
+      "hint": "Borde interno costal sobre el diafragma."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Broncograma Aéreo' es un signo que permite descartar con alta probabilidad una lesión de tipo:",
+      "opts": ["Neumonía", "Masa pleural o extrapulmonar", "Atelectasia obstructiva", "Edema"],
+      "ans": 1,
+      "just": "Si existe aire dentro de los bronquios en una zona opaca la lesión debe ser intrapulmonar; no obstante las masas externas suelen comprimir los bronquios impidiendo este signo.",
+      "hint": "Bronquios abiertos en tejido sólido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué cámara cardiaca se sitúa inmediatamente detrás del esternón y forma el borde anterior en la placa lateral?",
+      "opts": ["Aurícula izquierda", "Ventrículo derecho", "Ventrículo izquierdo", "Aorta ascendente"],
+      "ans": 1,
+      "just": "Anatómicamente el ventrículo derecho es la cámara más anterior; por lo tanto su crecimiento reduce el espacio aéreo retroesternal normal.",
+      "hint": "Cara esternocostal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de una línea fina y blanca que rodea el pulmón en la radiografía sugiere:",
+      "opts": ["Enfisema", "Pleura visceral en un neumotórax", "Calcificación aórtica", "Infección bronquial"],
+      "ans": 1,
+      "just": "Al colapsarse el pulmón la pleura visceral se hace visible frente al aire extrapleural; consecuentemente este hallazgo confirma el diagnóstico de neumotórax.",
+      "hint": "Borde del pulmón retraído."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el 'Signo del Cuadrilátero' (Quad sign) se utiliza para identificar:",
+      "opts": ["Neumonía lobar", "Derrame pleural", "Neumotórax", "Consolidación"],
+      "ans": 1,
+      "just": "Se forma un espacio negro limitado por las costillas y las dos pleuras; por consiguiente este signo es fundamental para cuantificar el líquido pleural.",
+      "hint": "Colección anecoica entre pleuras."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué cambio radiológico se observa en el mediastino durante una atelectasia masiva del pulmón derecho?",
+      "opts": ["Desplazamiento a la izquierda", "Desplazamiento a la derecha (hacia la lesión)", "Ensanchamiento superior", "No hay cambios"],
+      "ans": 1,
+      "just": "La pérdida de volumen del pulmón afectado genera una presión negativa; asimismo esta fuerza tracciona el corazón y la tráquea hacia el lado enfermo.",
+      "hint": "El mediastino es 'jalado' por el vacío."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Menisco' es la representación radiológica de:",
+      "opts": ["Aire subdiafragmático", "Líquido pleural libre", "Cisura horizontal", "Absceso pulmonar"],
+      "ans": 1,
+      "just": "Debido a la tensión superficial el líquido tiende a subir por las paredes del tórax; por ende adquiere una forma cóncava superior característica.",
+      "hint": "Curva ascendente en la base."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una radiografía de tórax con 'Penetración Adecuada' permite observar:",
+      "opts": ["Solo los pulmones muy blancos", "Los vasos detrás del corazón y las vértebras dorsales vagamente", "Solo los huesos costales", "La piel del paciente"],
+      "ans": 1,
+      "just": "El kilovoltaje correcto atraviesa el mediastino permitiendo ver estructuras retrocardiacas; de esta manera se evitan errores diagnósticos por subexposición.",
+      "hint": "Balance entre negro y blanco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'C' (Cardiac) incluye el análisis de:",
+      "opts": ["Huesos y columna", "Silueta cardiaca e hilios pulmonares", "Diafragma y ángulos", "Vía aérea"],
+      "ans": 1,
+      "just": "Se evalúa el tamaño la forma y la densidad del corazón junto con los vasos hiliares; además permite detectar crecimientos de cavidades específicas.",
+      "hint": "Letra del sistema cardiovascular."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Murciélago' en ecografía es la referencia inicial para localizar:",
+      "opts": ["El corazón", "El espacio intercostal y la línea pleural", "El bazo", "La vena cava"],
+      "ans": 1,
+      "just": "Las costillas generan sombras acústicas que parecen alas; asimismo la línea hiperequogénica entre ellas representa la interfaz pleural.",
+      "hint": "Primer paso del rastreo pulmonar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un Índice Cardiotorácico de 0.54 en un adulto indica:",
+      "opts": ["Normalidad", "Cardiomegalia Grado I", "Cardiomegalia Grado II", "Taponamiento"],
+      "ans": 1,
+      "just": "El rango entre 0.51 y 0.55 define el primer grado de crecimiento cardiaco; por tanto se considera un hallazgo patológico leve.",
+      "hint": "Primer escalón sobre el límite 0.50."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe la densidad radiológica característica de los huesos y calcificaciones?",
+      "opts": ["Densidad aire", "Densidad calcio", "Densidad agua", "Densidad grasa"],
+      "ans": 1,
+      "just": "Dichas estructuras poseen un número atómico elevado; consecuentemente absorben gran cantidad de rayos X y aparecen muy blancas en la placa.",
+      "hint": "Estructuras más radiopacas naturales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Punto Pulmonar' (Lung Point) confirma específicamente el diagnóstico de:",
+      "opts": ["Derrame", "Neumotórax", "Consolidación", "Edema intersticial"],
+      "ans": 1,
+      "just": "Es el lugar físico donde el pulmón vuelve a tocar la pared torácica tras un colapso; por consiguiente es el signo más específico en ecografía de tórax.",
+      "hint": "Zona donde aparece y desaparece el deslizamiento."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía PA el botón aórtico se localiza en el borde:",
+      "opts": ["Derecho superior", "Izquierdo superior", "Izquierdo inferior", "Derecho inferior"],
+      "ans": 1,
+      "just": "Representa el cayado de la aorta en su porción distal; además su prominencia es habitual en pacientes hipertensos crónicos.",
+      "hint": "Primera joroba izquierda."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo radiológico es típico de la Tetralogía de Fallot?",
+      "opts": ["Corazón en garrafa", "Corazón en zueco o bota", "Corazón en gota", "Dextrocardia"],
+      "ans": 1,
+      "just": "La hipertrofia del ventrículo derecho eleva el ápex cardiaco; de este modo la silueta adquiere una forma característica de calzado.",
+      "hint": "Punta del corazón levantada."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'Sinus' se produce cuando:",
+      "opts": ["El corazón late rápido", "Existe líquido libre entre la pleura parietal y la visceral", "El pulmón está consolidado", "Hay aire en el mediastino"],
+      "ans": 1,
+      "just": "La zona anecoica del líquido permite visualizar la profundidad del tórax sin ecos de aire; por tanto confirma una efusión pleural fluida.",
+      "hint": "Espacio negro que permite ver 'hacia adentro'."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La tráquea se evalúa en el paso 'A' (Airway) de la revisión sistemática principalmente para verificar:",
+      "opts": ["Su grosor", "Su centralidad y permeabilidad", "Su longitud", "Su color"],
+      "ans": 1,
+      "just": "Debe estar en la línea media o levemente hacia la derecha; no obstante su desviación es un signo indirecto de masas o cambios de presión pleural.",
+      "hint": "Ubicación respecto a la columna."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La cisura horizontal (menor) se observa normalmente solo en el pulmón:",
+      "opts": ["Izquierdo", "Derecho", "Fetal", "Accesorios"],
+      "ans": 1,
+      "just": "Separa el lóbulo superior del medio; asimismo su engrosamiento o desplazamiento es un indicador de patología lobar.",
+      "hint": "Pulmón con tres lóbulos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía de tórax ¿qué indica la presencia de aire por debajo de la cúpula diafragmática derecha?",
+      "opts": ["Neumotórax", "Neumoperitoneo (Perforación de víscera hueca)", "EPOC", "Hernia"],
+      "ans": 1,
+      "just": "El gas libre abdominal asciende hacia el diafragma en bipedestación; consecuentemente es un signo de emergencia quirúrgica abdominal.",
+      "hint": "Aire fuera del pulmón pero en el torso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Código de Barras' en modo M es el equivalente ecográfico de:",
+      "opts": ["Líneas B", "Neumotórax", "Derrame", "Hepatización"],
+      "ans": 1,
+      "just": "Al no haber deslizamiento de pleuras la imagen se vuelve estática y rayada; de esta manera se diferencia del patrón normal de 'orilla del mar'.",
+      "hint": "Pattern de líneas paralelas estáticas."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura forma el borde cardiaco izquierdo inmediatamente por debajo del tronco pulmonar?",
+      "opts": ["Ventrículo derecho", "Orejuela izquierda", "Ventrículo izquierdo", "Vena cava superior"],
+      "ans": 1,
+      "just": "La orejuela izquierda se proyecta en el margen medio izquierdo; además su crecimiento puede dar un aspecto de 'cuarto arco' cardiaco.",
+      "hint": "Cámara auricular del lado izquierdo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La cefalización de flujo sanguíneo en la radiografía de tórax indica:",
+      "opts": ["Normalidad", "Hipertensión venocapilar (Fallo cardiaco)", "Asma", "Tromboembolismo"],
+      "ans": 1,
+      "just": "Los vasos de los ápices se vuelven más gruesos que los de las bases; por consiguiente refleja una redistribución por aumento de presión hidrostática.",
+      "hint": "Vasos 'en asta de ciervo' arriba."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía pulmonar el signo de 'Hepatización' es característico de:",
+      "opts": ["Hígado graso", "Consolidación pulmonar (Neumonía)", "Pulmón sano", "Neumotórax"],
+      "ans": 1,
+      "just": "El pulmón pierde su aire y adquiere una densidad de tejido sólido similar al hígado; asimismo pueden observarse broncogramas fluidos en su interior.",
+      "hint": "Pulmón que parece un órgano sólido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT mayor a 0.65 se clasifica como cardiomegalia:",
+      "opts": ["Grado I", "Grado II", "Grado III", "Grado IV"],
+      "ans": 3,
+      "just": "Es el nivel máximo de crecimiento de la silueta cardiaca; por lo tanto se asocia con cardiopatías dilatadas graves.",
+      "hint": "Último grado de la escala."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática ABCDE la letra 'D' se enfoca en:",
+      "opts": ["Dientes", "Diafragma y ángulos costofrénicos", "Dedos", "Dorsales"],
+      "ans": 1,
+      "just": "Permite buscar derrames pleurales o neumoperitoneo; además evalúa la simetría de las cúpulas musculares.",
+      "hint": "Músculo principal de la respiración."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de 'Líneas B' (Lung rockets) en ecografía sugiere un pulmón:",
+      "opts": ["Lleno de aire", "Lleno de líquido (húmedo)", "Colapsado", "Fracturado"],
+      "ans": 1,
+      "just": "Son rayos verticales que eliminan las líneas A; consecuentemente indican edema pulmonar o síndrome intersticial.",
+      "hint": "Rayos láser que nacen en la pleura."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué proyección es mejor para observar el espacio retrocardiaco?",
+      "opts": ["PA", "Lateral (Perfil)", "AP", "Oblicua"],
+      "ans": 1,
+      "just": "Evita la superposición del corazón permitiendo ver el pulmón posterior; por consiguiente localiza lesiones detrás de la silueta cardiaca.",
+      "hint": "Vista de lado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La amígdala faríngea se encuentra en la pared posterior de la:",
+      "opts": ["Orofaringe", "Nasofaringe", "Laringofaringe", "Laringe"],
+      "ans": 1,
+      "just": "Se sitúa en la parte más alta de la faringe; además su crecimiento obstructivo se evalúa mediante radiografías laterales de cuello.",
+      "hint": "Rinofaringe."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la densidad de un marcapasos o una prótesis valvular en la placa?",
+      "opts": ["Densidad calcio", "Densidad metal", "Densidad agua", "Densidad grasa"],
+      "ans": 1,
+      "just": "Al ser materiales de altísima densidad bloquean todos los rayos; por tanto aparecen con un blanco brillante superior al del hueso.",
+      "hint": "Densidad de cuerpos extraños fabricados."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo de la silueta' negativo entre el corazón y una opacidad sugiere que:",
+      "opts": ["Están en contacto", "Están en planos anatómicos diferentes", "La opacidad es de aire", "El corazón es pequeño"],
+      "ans": 1,
+      "just": "Si los bordes se mantienen nítidos a pesar de la opacidad vecina significa que no se tocan; de este modo se sabe que la lesión es posterior o anterior al órgano.",
+      "hint": "Borde cardiaco bien definido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE el perfil 'A' (Líneas A + deslizamiento) orienta hacia:",
+      "opts": ["Asma o EPOC", "Edema pulmonar", "Derrame", "Neumonía"],
+      "ans": 0,
+      "just": "Indica un pulmón aireado sin exceso de líquido intersticial; por consiguiente la disnea suele ser de origen bronquial.",
+      "hint": "Pulmón seco y móvil."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La elevación del diafragma derecho respecto al izquierdo se considera normal hasta:",
+      "opts": ["5 cm", "1.5 a 2 cm", "10 cm", "No debe haber diferencia"],
+      "ans": 1,
+      "just": "Puesto que el hígado empuja la cúpula derecha hacia arriba esta asimetría es fisiológica; asimismo una diferencia mayor obliga a descartar parálisis frénica.",
+      "hint": "Pequeña diferencia por el órgano abdominal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'Fragmentación' (Shred sign) se localiza en:",
+      "opts": ["La pleura parietal", "El límite entre pulmón consolidado y aireado", "El corazón", "El diafragma"],
+      "ans": 1,
+      "just": "Se observa como un borde deshilachado e irregular; de esta manera indica una consolidación que no ocupa todo el lóbulo.",
+      "hint": "Borde de una neumonía."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura ósea forma la parte más superior y lateral de la caja torácica en la radiografía?",
+      "opts": ["Esternón", "Acromion y clavícula", "Costillas falsas", "Vértebras"],
+      "ans": 1,
+      "just": "Dichas estructuras óseas sirven de referencia para evaluar la simetría del posicionamiento del paciente.",
+      "hint": "Huesos de los hombros."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un corazón con base muy ancha y hilios que parecen 'flotar' sugiere:",
+      "opts": ["Cardiomegalia", "Derrame pericárdico (garrafa)", "Aneurisma", "Fibrosis"],
+      "ans": 1,
+      "just": "El líquido pericárdico se acumula inferiormente por gravedad; consecuentemente la silueta se ensancha sin que los vasos hiliares crezcan.",
+      "hint": "Mucha agua alrededor del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el modo M de ecografía el patrón de 'Orilla del Mar' indica:",
+      "opts": ["Neumotórax", "Pulmón normal (deslizamiento presente)", "Edema", "Derrame"],
+      "ans": 1,
+      "just": "Las líneas horizontales son la pared (mar) y el granulado es el parénquima moviéndose (arena); por tanto descarta aire extrapleural.",
+      "hint": "Signo de salud pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué hallazgo en las costillas es típico de un paciente con raquitismo u osteomalacia?",
+      "opts": ["Fracturas", "Rosario raquítico (nódulos en uniones costocondrales)", "Muescas", "Calcificación"],
+      "ans": 1,
+      "just": "El engrosamiento de las uniones entre hueso y cartílago genera una imagen de cuencas en serie; además es más visible en niños.",
+      "hint": "Nódulos en las costillas anteriores."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La aurícula derecha forma el borde cardiaco derecho en una proyección PA.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la cámara que define el límite lateral derecho de la sombra cardiaca entre las venas cavas.",
+      "hint": "Única aurícula visible en ese borde frontal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'E' incluye el análisis de:",
+      "opts": ["Esófago", "Tejidos blandos extratorácicos y mamas", "Estómago", "Endocardio"],
+      "ans": 1,
+      "just": "Se buscan sombras de mamas enfisema subcutáneo o cirugías previas; de este modo se obtiene información del contexto clínico externo.",
+      "hint": "Everything else (Todo lo demás)."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'Radiolúcido' se asocia con el color:",
+      "opts": ["Blanco", "Negro", "Gris", "Brillante"],
+      "ans": 1,
+      "just": "El tejido deja pasar los rayos X sin absorberlos; por consiguiente impresiona la placa oscureciéndola.",
+      "hint": "Tono del aire."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe la zona más inferior de la cavidad pleural en la radiografía?",
+      "opts": ["Ápice", "Seno o ángulo costofrénico", "Hilio", "Mediastino"],
+      "ans": 1,
+      "just": "Es el sitio predilecto para detectar derrames mínimos; asimismo debe terminar en una punta aguda y clara.",
+      "hint": "Intersección diafragma-costilla."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía las 'Colas de Cometa' son sinónimo de:",
+      "opts": ["Líneas A", "Líneas B", "Neumotórax", "Hígado"],
+      "ans": 1,
+      "just": "Son artefactos verticales que se mueven con el deslizamiento pleural; además sugieren compromiso del espacio intersticial por agua.",
+      "hint": "Líneas B."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ensanchamiento del mediastino superior en una placa de tórax puede indicar:",
+      "opts": ["Fallo cardiaco", "Aneurisma de aorta o masas mediastínicas", "EPOC", "Neumotórax"],
+      "ans": 1,
+      "just": "Cualquier incremento del diámetro de los vasos o presencia de ganglios deforma la silueta superior; por tanto requiere estudio tomográfico.",
+      "hint": "Crecimiento del arco vascular."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de la tráquea desviada hacia el lado de una opacidad sugiere:",
+      "opts": ["Neumonía", "Atelectasia (tracción)", "Derrame (empuje)", "Tumor"],
+      "ans": 1,
+      "just": "El pulmón colapsado tira de las estructuras centrales hacia sí mismo; consecuentemente la tráquea se aleja de la línea media.",
+      "hint": "Signo de pérdida de volumen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el modo modo M ecográfico el signo de la 'Estratósfera' es patognomónico de:",
+      "opts": ["Derrame", "Neumotórax", "Pulmón sano", "Neumonía"],
+      "ans": 1,
+      "just": "Las líneas son todas horizontales indicando que no hay parénquima moviéndose debajo de la pleura; por ende confirma el aire atrapado.",
+      "hint": "Barcode sign."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad tiene la burbuja gástrica en una radiografía?",
+      "opts": ["Densidad agua", "Densidad aire", "Densidad calcio", "Densidad grasa"],
+      "ans": 1,
+      "just": "Contiene el aire deglutido acumulado en el fundus gástrico; asimismo se observa como una zona oscura bajo el diafragma izquierdo.",
+      "hint": "Igual que el pulmón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El hileo pulmonar derecho se encuentra normalmente más bajo que el izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La posición de la arteria pulmonar izquierda sobre el bronquio eleva el complejo hiliar izquierdo; por tanto este desnivel es fisiológico.",
+      "hint": "Asimetría hiliar estándar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de la 'Columna' presente en el tórax confirma:",
+      "opts": ["Pulmón sano", "Derrame pleural (ventana acústica)", "Huesos fuertes", "Neumotórax"],
+      "ans": 1,
+      "just": "El líquido permite el paso del sonido hasta las vértebras dorsales; no obstante el aire pulmonar normal lo impediría reflejando el sonido.",
+      "hint": "Se ven las vértebras sobre el diafragma."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una radiografía de tórax en AP tiende a:",
+      "opts": ["Agrandar falsamente el corazón", "Achicar el corazón", "Mejorar la visión de las costillas", "Eliminar las escápulas"],
+      "ans": 0,
+      "just": "Debido a la divergencia de los rayos y la distancia del corazón a la placa la silueta se magnifica; por consiguiente el ICT no es fiable.",
+      "hint": "Efecto de magnificación geométrica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué cámara cardiaca es responsable de la mayor parte de la sombra cardiaca inferior en la placa frontal?",
+      "opts": ["Aurícula derecha", "Ventrículo izquierdo", "Ventrículo derecho", "Aurícula izquierda"],
+      "ans": 1,
+      "just": "Su gran masa muscular y posición lateral izquierda definen el borde y el ápex del órgano; además es el principal motor sistémico.",
+      "hint": "Define el borde izquierdo bajo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de broncograma aéreo indica que la lesión es alveolar y no bronquial.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Significa que el aire llega a los bronquios pero no puede entrar a los alvéolos llenos de líquido; por tanto es signo de consolidación.",
+      "hint": "Vía aérea abierta en medio de ocupación alveolar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía pulmonar el protocolo BLUE se realiza con el paciente preferentemente en:",
+      "opts": ["Decúbito prono", "Decúbito supino o semisentado", "Bipedestación", "Sentado de espaldas"],
+      "ans": 1,
+      "just": "Facilita el acceso a las 6 zonas de exploración por hemitórax; asimismo permite evaluar derrames en zonas declives y neumotórax en zonas altas.",
+      "hint": "Boca arriba."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El Índice Cardiotorácico Grado III se sitúa en el rango de:",
+      "opts": ["0.51 - 0.55", "0.61 - 0.65", "0.56 - 0.60", "> 0.65"],
+      "ans": 1,
+      "just": "Representa una dilatación severa de la silueta cardiaca; además suele correlacionar con síntomas de insuficiencia cardiaca avanzada.",
+      "hint": "Rango previo al máximo grado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las escápulas dentro de los campos pulmonares sugiere que la técnica fue:",
+      "opts": ["PA", "AP o mala rotación en PA", "Lateral", "Perfecta"],
+      "ans": 1,
+      "just": "Si el paciente no separa los omóplatos estos ocultan parte del parénquima; consecuentemente es un signo de técnica mejorable o proyección portátil.",
+      "hint": "Omóplatos que 'tapan' el pulmón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Deslizamiento' (Lung sliding) ausente es necesario para sospechar neumotórax pero no suficiente.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La ausencia de deslizamiento también ocurre en atelectasias o apnea; por tanto se deben buscar otros signos como el punto pulmonar.",
+      "hint": "Falta de movimiento pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad radiológica tiene el diafragma?",
+      "opts": ["Densidad aire", "Densidad agua/tejido blando", "Densidad calcio", "Densidad grasa"],
+      "ans": 1,
+      "just": "Al ser un músculo su opacidad es similar a la del corazón y el hígado; de este modo forma una interfase clara con el aire pulmonar.",
+      "hint": "Igual que el corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una radiografía rotada hacia la izquierda el botón aórtico parecerá:",
+      "opts": ["Normal", "Falsamente prominente", "Ausente", "Achicado"],
+      "ans": 1,
+      "just": "El giro proyecta el arco aórtico con mayor magnitud lateral; por consiguiente puede simular un aneurisma o elongación aórtica.",
+      "hint": "Error por rotación del torso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'Radiopaco' se aplica a estructuras que se ven de color:",
+      "opts": ["Negro", "Blanco", "Gris oscuro", "Invisible"],
+      "ans": 1,
+      "just": "Representan materiales o tejidos que bloquean el paso de los fotones; por tanto generan una sombra clara en la imagen.",
+      "hint": "Tono del hueso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La sombra de la vena cava superior forma el borde:",
+      "opts": ["Izquierdo medio", "Derecho superior", "Inferior", "Derecho inferior"],
+      "ans": 1,
+      "just": "Desciende verticalmente por encima de la aurícula derecha; asimismo es un componente normal del mediastino superior derecho.",
+      "hint": "Vaso por encima del corazón derecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el 'Signo de las Líneas A' indica que hay:",
+      "opts": ["Líquido", "Aire en el parénquima subpleural", "Sangre", "Pus"],
+      "ans": 1,
+      "just": "Es un artefacto de repetición normal del pulmón aireado; de este modo confirma que no hay ocupación alveolar en ese punto.",
+      "hint": "Ecos horizontales paralelos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una opacidad en la base pulmonar derecha que borra el diafragma pero no el corazón se localiza en:",
+      "opts": ["Lóbulo superior", "Lóbulo inferior derecho", "Lóbulo medio", "Pleura lateral"],
+      "ans": 1,
+      "just": "Puesto que el lóbulo inferior está en contacto con el diafragma su consolidación elimina ese borde; no obstante no borra el corazón por ser posterior.",
+      "hint": "Signo de la silueta en diafragma."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe el espacio lúcido detrás del corazón en la placa lateral?",
+      "opts": ["Espacio retroesternal", "Espacio retrocardiaco", "Ventana aortopulmonar", "Hilio"],
+      "ans": 1,
+      "just": "Debe ser oscuro por contener pulmón; por el contrario su opacidad sugiere masas en el mediastino posterior.",
+      "hint": "Zona negra tras la silueta cardiaca."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de más de 10 arcos costales posteriores indica una radiografía:",
+      "opts": ["Pobremente inspirada", "Hiperinsuflada (ej. EPOC)", "Normal", "Rotada"],
+      "ans": 1,
+      "just": "Refleja un volumen pulmonar excesivo que empuja el diafragma hacia abajo; consecuentemente es común en pacientes con atrapamiento aéreo.",
+      "hint": "Demasiado aire inspirado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo del 'Punto Pulmonar' es 100% específico para:",
+      "opts": ["Derrame", "Neumotórax", "Atelectasia", "Normalidad"],
+      "ans": 1,
+      "just": "Indica el límite exacto de la cámara de aire; por tanto su hallazgo anula cualquier duda diagnóstica sobre el neumotórax.",
+      "hint": "Lugar de despegue pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad tiene el moco o el pus en una radiografía?",
+      "opts": ["Densidad aire", "Densidad agua", "Densidad calcio", "Densidad grasa"],
+      "ans": 1,
+      "just": "Comparten la misma opacidad que los tejidos blandos y líquidos; por consiguiente se visualizan como manchas blancas o grisáceas.",
+      "hint": "Igual que el corazón o derrame."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'Tórax en Tonel' se asocia radiológicamente con:",
+      "opts": ["Insuficiencia cardiaca", "Enfisema y EPOC", "Obesidad", "Escoliosis"],
+      "ans": 1,
+      "just": "Se observa un aumento del diámetro anteroposterior y aplanamiento diafragmático; asimismo el corazón parece más estrecho y vertical.",
+      "hint": "Pulmones muy voluminosos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La aurícula izquierda se sitúa en la parte más posterior del mediastino medio.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la cámara que se relaciona directamente con el esófago y la aorta descendente; por tanto su crecimiento se ve mejor de perfil.",
+      "hint": "Ubicación trasera del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el perfil 'B' (Líneas B bilaterales) es sugestivo de:",
+      "opts": ["EPOC", "Edema agudo de pulmón cardiogénico", "Neumotórax", "Pulmón seco"],
+      "ans": 1,
+      "just": "Indica un aumento difuso del agua pulmonar; de este modo orienta hacia una falla en el bombeo del corazón izquierdo.",
+      "hint": "Múltiples líneas verticales en ambos lados."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura radiológica se encuentra en el vértice de cada pulmón?",
+      "opts": ["Bases", "Ápices", "Hilios", "Cisuras"],
+      "ans": 1,
+      "just": "Son las zonas superiores que sobresalen por encima de las clavículas; asimismo son sitios frecuentes para buscar tuberculosis o bulas.",
+      "hint": "Puntas superiores."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El diafragma izquierdo suele ser 1.5 cm más bajo que el derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La presencia del corazón lo empuja hacia abajo mientras que el hígado eleva el derecho; por consiguiente es una relación normal.",
+      "hint": "Asimetría diafragmática normal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía pulmonar la 'Línea Pleural' debe mostrar un movimiento rítmico llamado:",
+      "opts": ["Pulsación", "Deslizamiento o Lung sliding", "Reverberación", "Hepatización"],
+      "ans": 1,
+      "just": "Este vaivén confirma que las dos pleuras están en contacto y se mueven durante la ventilación; de esta manera se excluye el neumotórax.",
+      "hint": "Deslizamiento."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La opacidad masiva de un hemitórax con mediastino centrado sugiere:",
+      "opts": ["Neumonía total o derrame compensado", "Neumotórax", "Atelectasia", "Derrame a tensión"],
+      "ans": 0,
+      "just": "Si no hay desplazamiento de estructuras significa que no hay cambios drásticos de presión o volumen; por tanto es un hallazgo inespecífico inicial.",
+      "hint": "Hemitórax blanco sin empuje ni tracción."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Menisco' desaparece si el paciente se coloca en decúbito lateral.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El líquido se redistribuye por la gravedad a lo largo de la pared costal; consecuentemente se visualiza como una capa de líquido lateral.",
+      "hint": "Efecto del cambio de posición sobre el fluido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe el bronquio principal derecho en la radiografía?",
+      "opts": ["Vertical", "Horizontal", "Eparterial", "Sinuoso"],
+      "ans": 2,
+      "just": "Se sitúa por encima de la arteria pulmonar derecha en el hilio; además es más corto y ancho que el izquierdo.",
+      "hint": "Relación hiliar derecha."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las arterias pulmonares en la periferia del pulmón es:",
+      "opts": ["Anormal", "Normal", "Signo de cáncer", "Signo de asma"],
+      "ans": 1,
+      "just": "Los vasos deben ser visibles hasta el último tercio del campo pulmonar; asimismo su ausencia sugiere oligohemia o neumotórax.",
+      "hint": "Trama vascular normal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo de 'Punto de Neumonía' se caracteriza por:",
+      "opts": ["Aire libre", "Broncograma aéreo dinámico dentro de una consolidación", "Líneas A", "Pared costal negra"],
+      "ans": 1,
+      "just": "Se observan ecos blancos moviéndose dentro del tejido sólido con la respiración; por ende confirma que el bronquio está permeable dentro de la neumonía.",
+      "hint": "Movimiento de aire en pulmón sólido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El Índice Cardiotorácico normal en un adulto es:",
+      "opts": ["> 0.50", "< 0.50", "0.60", "0.75"],
+      "ans": 1,
+      "just": "El corazón debe medir menos de la mitad del ancho del tórax; consecuentemente cualquier valor superior obliga a descartar cardiomegalia.",
+      "hint": "Límite de normalidad."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'B' (Breathing) incluye la búsqueda de fracturas costales.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se debe analizar la integridad de cada costilla para descartar traumas asociados al cuadro respiratorio; de esta manera se completa el análisis pulmonar.",
+      "hint": "Letra que evalúa pulmones y huesos del tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La silueta cardiaca de un paciente obeso puede parecer falsamente agrandada por:",
+      "opts": ["Corazón grande real", "Elevación diafragmática y depósitos de grasa pericárdica", "Falta de aire", "Mucho calcio"],
+      "ans": 1,
+      "just": "La presión abdominal eleva el diafragma y horizontaliza el corazón; además los cojinetes grasos ensanchan los bordes cardiacos.",
+      "hint": "Efecto de la grasa y posición diafragmática."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía las 'Líneas B' son verticales e hiperequogénicas.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Atraviesan toda la pantalla sin atenuarse y se mueven con la pleura; por consiguiente son el signo de congestión pulmonar.",
+      "hint": "Lung rockets."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura radiológica se encuentra en la bifurcación de la tráquea?",
+      "opts": ["Hilio", "Carina", "Ápice", "Língula"],
+      "ans": 1,
+      "just": "Es el punto donde se originan los bronquios principales; asimismo su ensanchamiento sugiere crecimiento de ganglios subcarinales.",
+      "hint": "Último cartílago traqueal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La proyección PA se realiza con el paciente a una distancia de 1.80 metros para:",
+      "opts": ["Ver mejor la piel", "Evitar la magnificación del corazón", "Aumentar el contraste", "Ver los riñones"],
+      "ans": 1,
+      "just": "Al alejar la fuente de rayos los haces llegan paralelos minimizando la distorsión del tamaño mediastínico; de este modo el ICT es real.",
+      "hint": "Técnica de telerradiografía."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El signo de la 'Jiba de Hampton' se asocia con:",
+      "opts": ["Neumonía", "Infarto pulmonar por TEP", "Edema", "Cáncer"],
+      "ans": 1,
+      "just": "Es una opacidad en forma de cuña con base en la pleura; consecuentemente indica muerte de tejido por falta de riego arterial.",
+      "hint": "Opacidad periférica triangular."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía el signo del 'Sinusoide' en modo M indica:",
+      "opts": ["Aire libre", "Líquido pleural (el pulmón flota al respirar)", "Pulmón sano", "Hepatización"],
+      "ans": 1,
+      "just": "La línea pleural se aleja y acerca rítmicamente a la pared debido a la capa de líquido; por tanto confirma efusión pleural.",
+      "hint": "Movimiento ondulatorio del pulmón en líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la densidad de un derrame pleural en la placa de tórax?",
+      "opts": ["Densidad aire", "Densidad agua", "Densidad calcio", "Densidad metal"],
+      "ans": 1,
+      "just": "Al ser líquido absorbe la radiación de forma similar a los órganos sólidos; por consiguiente se ve blanco y borra los contornos.",
+      "hint": "Opacidad basal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática la letra 'A' incluye el análisis del esófago.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "La letra 'A' se reserva estrictamente para la vía aérea (tráquea y bronquios); no obstante el esófago puede verse si está dilatado o contiene aire.",
+      "hint": "Solo conductos aéreos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'Cefalización de Flujo' es exclusivo de la insuficiencia cardiaca.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "También puede ocurrir en cortocircuitos de izquierda a derecha; sin embargo su causa más común es el aumento de presión venosa pulmonar.",
+      "hint": "Signo de congestión vascular superior."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía la presencia de 'Líneas A' excluye el síndrome intersticial.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Las líneas A significan pulmón seco; por tanto no pueden coexistir con el exceso de agua que define al síndrome intersticial.",
+      "hint": "Pulmón aireado normal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un paciente con neumotórax masivo presentará la tráquea desviada al lado sano.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La presión del aire acumulado empuja el mediastino alejándolo de la lesión; de esta manera se produce un neumotórax a tensión.",
+      "hint": "Efecto de empuje por aire."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La aurícula izquierda forma el borde izquierdo del corazón en la placa frontal.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Solo la orejuela izquierda es visible; por el contrario el borde inferior izquierdo es propiedad exclusiva del ventrículo izquierdo.",
+      "hint": "Cámara oculta en la visión frontal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE el perfil 'C' se define por la presencia de consolidación pulmonar.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se identifica mediante signos de hepatización o fragmentación subpleural; por consiguiente orienta al diagnóstico de neumonía.",
+      "hint": "Perfil de consolidación."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de la arteria pulmonar izquierda por encima del bronquio principal es normal.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la configuración anatómica típica del hilio izquierdo; además esto explica por qué este hilio se ve más alto.",
+      "hint": "Relación hiliar estándar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un Índice Cardiotorácico de 0.48 en un adulto sano es un hallazgo normal.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se encuentra por debajo del límite de 0.50; por tanto la silueta cardiaca tiene un tamaño proporcionado al tórax.",
+      "hint": "Dentro del rango de normalidad."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática de la radiografía de tórax bajo el acrónimo ABCDE, ¿qué estructuras se analizan prioritariamente en el apartado A?",
+      "opts": ["Borde cardíaco y grandes vasos", "Aire, vía aérea y vértices pulmonares", "Integridad ósea costal", "Nivel del diafragma"],
+      "ans": 1,
+      "just": "El apartado A se centra en la columna de aire traqueal además de la permeabilidad de los bronquios principales junto con la claridad de los ápices pulmonares[cite: 1].",
+      "hint": "Representa el primer paso de la revisión de la vía aérea."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué componente anatómico forma el arco superior del borde derecho de la silueta cardíaca en una proyección frontal?",
+      "opts": ["Aurícula derecha", "Vena cava superior", "Ventrículo derecho", "Tronco pulmonar"],
+      "ans": 1,
+      "just": "La vena cava superior desciende verticalmente hacia el corazón formando la porción superior del contorno mediastínico derecho[cite: 1].",
+      "hint": "Es un vaso venoso de gran calibre."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término radiológico 'radiopaco' se aplica a estructuras que en la imagen se visualizan de color:",
+      "opts": ["Negro", "Blanco", "Gris oscuro", "Transparente"],
+      "ans": 1,
+      "just": "Representa tejidos o materiales que absorben la mayor parte de la radiación impidiendo el paso de los rayos hacia el receptor[cite: 1].",
+      "hint": "Es la densidad típica del hueso o el metal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es el hallazgo ecográfico patognomónico de neumotórax en el protocolo BLUE?",
+      "opts": ["Líneas B abundantes", "Punto pulmonar (Lung Point)", "Signo de la orilla del mar", "Hepatización pulmonar"],
+      "ans": 1,
+      "just": "El punto pulmonar marca la transición exacta donde el parénquima colapsado se separa de la pared torácica confirmando la presencia de aire[cite: 173].",
+      "hint": "Es el sitio donde aparece y desaparece el deslizamiento pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la ecografía pulmonar, el signo de la 'Estratósfera' o del 'Código de Barras' en modo M indica:",
+      "opts": ["Deslizamiento pleural conservado", "Ausencia de deslizamiento (sugerente de neumotórax)", "Derrame pleural masivo", "Consolidación neumónica"],
+      "ans": 1,
+      "just": "La falta de movimiento del pulmón genera un patrón de líneas horizontales estáticas en toda la pantalla[cite: 173].",
+      "hint": "Opuesto al patrón granular de la arena."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Para considerar que una radiografía de tórax está correctamente inspirada, ¿cuántos arcos costales posteriores deben ser visibles por encima del diafragma?",
+      "opts": ["5 a 6", "9 a 10", "12 a 13", "3 a 4"],
+      "ans": 1,
+      "just": "Una expansión pulmonar adecuada permite la visualización clara de aproximadamente diez costillas posteriores garantizando una evaluación fidedigna del parénquima[cite: 1].",
+      "hint": "Se cuentan las costillas más horizontales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática del tórax, el apartado 'B' (Bones) se encarga de analizar:",
+      "opts": ["La silueta cardíaca", "Los huesos de la caja torácica", "La burbuja gástrica", "Los ángulos costofrénicos"],
+      "ans": 1,
+      "just": "Se enfoca en la búsqueda de fracturas costales, lesiones esternales además de patologías vertebrales que puedan comprometer la función respiratoria[cite: 1].",
+      "hint": "Relacionado con la estructura ósea."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad radiológica presenta habitualmente el corazón y los grandes vasos?",
+      "opts": ["Densidad aire", "Densidad agua o tejido blando", "Densidad calcio", "Densidad grasa"],
+      "ans": 1,
+      "just": "El miocardio junto con la sangre absorben radiación de forma similar a los líquidos corporales apareciendo de color gris claro o blanco tenue[cite: 1].",
+      "hint": "Es la misma densidad que el hígado o el músculo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el hallazgo de 'Líneas A' horizontales con deslizamiento pleural conservado orienta hacia:",
+      "opts": ["Edema agudo de pulmón", "Pulmón seco (normalidad o asma/EPOC)", "Neumotórax", "Derrame pleural"],
+      "ans": 1,
+      "just": "Indica que el parénquima subpleural está bien aireado descartando la presencia de líquido intersticial significativo[cite: 173].",
+      "hint": "Representa el patrón A del protocolo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de 'Líneas B' verticales (colas de cometa) en número mayor a tres por zona sugiere:",
+      "opts": ["Enfisema pulmonar", "Síndrome intersticial (edema o inflamación)", "Colapso pulmonar", "Derrame pleural"],
+      "ans": 1,
+      "just": "Son artefactos hiperequogénicos que atraviesan toda la pantalla reflejando la presencia de líquido en los tabiques interlobulillares[cite: 173].",
+      "hint": "Indican un pulmón 'húmedo'."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la placa frontal, el borde izquierdo de la silueta cardíaca presenta normalmente tres arcos; ¿cuál de ellos corresponde al tronco pulmonar?",
+      "opts": ["Arco superior", "Arco medio", "Arco inferior", "Arco derecho"],
+      "ans": 1,
+      "just": "Se sitúa inmediatamente por debajo del botón aórtico siendo una referencia crítica para detectar hipertensión pulmonar[cite: 1].",
+      "hint": "Es la prominencia central del borde izquierdo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el contexto de la ecografía de tórax, el signo de 'Hepatización' indica:",
+      "opts": ["Derrame pleural", "Consolidación pulmonar (neumonía o atelectasia)", "Neumotórax", "Normalidad"],
+      "ans": 1,
+      "just": "El pulmón pierde su aire adquiriendo una apariencia sólida similar al parénquima hepático con presencia de broncogramas aéreos o fluidos[cite: 173].",
+      "hint": "El pulmón parece un órgano sólido abdominal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura radiológica se analiza bajo la letra 'G' en la revisión sistemática del tórax?",
+      "opts": ["Glándulas", "Gástrico, burbuja gástrica y grandes vasos", "Ganglios hiliares", "Grasa pericárdica"],
+      "ans": 1,
+      "just": "Incluye la localización de la cámara gástrica bajo el hemidiafragma izquierdo además de la integridad de la aorta junto con otros vasos mediastínicos[cite: 1].",
+      "hint": "Relacionado con el estómago y arterias principales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El Índice Cardiotorácico (ICT) se utiliza para cuantificar el tamaño del corazón; ¿cuál es el valor límite superior normal en el adulto?",
+      "opts": ["0.40", "0.50", "0.60", "0.65"],
+      "ans": 1,
+      "just": "Un valor superior a 0.50 sugiere cardiomegalia indicando que el ancho cardíaco ocupa más de la mitad del diámetro interno del tórax[cite: 1].",
+      "hint": "Es la relación entre el ancho del corazón y el pecho."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, una 'colección anecoica entre pleuras' define la presencia de:",
+      "opts": ["Neumotórax", "Derrame pleural", "Neumonía", "Enfisema"],
+      "ans": 1,
+      "just": "El líquido aparece negro (anecoico) en el ultrasonido separando las láminas pleurales parietal y visceral[cite: 173].",
+      "hint": "Se visualiza como un espacio negro fluctuante."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'H' de la evaluación sistemática, se deben inspeccionar los:",
+      "opts": ["Huesos largos", "Hilios pulmonares", "Haces de conducción", "Hipocondrios"],
+      "ans": 1,
+      "just": "Se evalúa el tamaño además de la densidad de los vasos pulmonares y ganglios linfáticos situados en la raíz del pulmón[cite: 1].",
+      "hint": "Puerta de entrada de vasos y bronquios."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo de la orilla del mar' (Seashore sign) en modo M de ultrasonido confirma:",
+      "opts": ["Neumotórax inminente", "Pulmón normal con adecuado deslizamiento pleural", "Edema alveolar severo", "Atelectasia obstructiva"],
+      "ans": 1,
+      "just": "La parte superior inmóvil parece el mar junto con la parte inferior granulada que simula la arena debido al movimiento pulmonar[cite: 173].",
+      "hint": "Indica contacto y movimiento entre las pleuras."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué proyección radiográfica es la más sensible para detectar pequeñas cantidades de líquido pleural libre?",
+      "opts": ["Anteroposterior (AP)", "Decúbito lateral con rayo horizontal", "Posteroanterior (PA) de pie", "Lateral izquierda"],
+      "ans": 1,
+      "just": "La gravedad desplaza el líquido hacia la pared costal inferior permitiendo identificar derrames de apenas 5 a 10 ml[cite: 294].",
+      "hint": "El paciente se acuesta sobre el lado sospechoso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de aire libre por debajo del hemidiafragma derecho en bipedestación sugiere:",
+      "opts": ["Neumotórax basal", "Neumoperitoneo (perforación de víscera hueca)", "Hernia hiatal", "EPOC"],
+      "ans": 1,
+      "just": "Es un signo de emergencia quirúrgica abdominal que se visualiza como una semiluna radiolúcida bajo la cúpula diafragmática[cite: 1].",
+      "hint": "Aire fuera del tracto digestivo pero en abdomen."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, ¿cuántas áreas de exploración se recomiendan por cada hemitórax?",
+      "opts": ["2 áreas", "6 áreas (12 en total)", "4 áreas", "8 áreas"],
+      "ans": 1,
+      "just": "Se deben evaluar zonas anteriores, laterales junto con posteriores para obtener una visión integral del parénquima y la pleura[cite: 170].",
+      "hint": "Divide el pecho en cuadrantes superiores e inferiores."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura forma el borde cardíaco izquierdo más inferior en la radiografía?",
+      "opts": ["Aurícula izquierda", "Ventrículo izquierdo", "Ventrículo derecho", "Tronco aórtico"],
+      "ans": 1,
+      "just": "Es la cámara responsable de la formación del ápice cardíaco además de ser la más voluminosa del lado izquierdo[cite: 1].",
+      "hint": "Cámara que bombea hacia la aorta."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las vértebras dorsales a través de la silueta cardíaca en una radiografía de tórax es un criterio de:",
+      "opts": ["Penetración adecuada", "Radiografía blanda o subexpuesta", "Rotación del paciente", "Mala inspiración"],
+      "ans": 0,
+      "just": "Un voltaje correcto permite que el haz de rayos atraviese la densidad del corazón delineando vagamente la columna vertebral[cite: 1].",
+      "hint": "Indica que se usó la energía técnica correcta."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática, la letra 'F' se refiere al análisis de:",
+      "opts": ["Fisuras pulmonares", "Forasteros (cuerpos extraños o dispositivos médicos)", "Frénicos (nervios)", "Fascias"],
+      "ans": 1,
+      "just": "Se deben identificar tubos endotraqueales, catéteres, marcapasos además de otros elementos externos al paciente[cite: 1].",
+      "hint": "Busca elementos artificiales introducidos en el tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué nombre recibe el signo radiológico caracterizado por la visualización de bronquios llenos de aire dentro de una opacidad pulmonar?",
+      "opts": ["Signo de la silueta", "Broncograma aéreo", "Signo del menisco", "Línea B de Kerley"],
+      "ans": 1,
+      "just": "Indica la ocupación alveolar con mantenimiento de la vía aérea permeable siendo típico de la neumonía[cite: 173].",
+      "hint": "Se ven tubos negros en medio de una mancha blanca."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido pulmonar, el hallazgo de 'líneas B' bilaterales abundantes es altamente sugestivo de:",
+      "opts": ["Tromboembolismo pulmonar", "Edema agudo de pulmón (EAP)", "Neumotórax", "Enfisema"],
+      "ans": 1,
+      "just": "Representa el componente húmedo o congestivo del pulmón característico de la falla cardíaca izquierda[cite: 173].",
+      "hint": "Múltiples 'cohetes' de ultrasonido en ambos lados."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La tráquea se desvía habitualmente hacia el lado de la lesión en casos de:",
+      "opts": ["Neumotórax a tensión", "Atelectasia masiva", "Derrame pleural severo", "Masa mediastínica"],
+      "ans": 1,
+      "just": "La pérdida de volumen pulmonar ejerce una fuerza de tracción que jala el mediastino hacia el pulmón colapsado[cite: 1].",
+      "hint": "El mediastino es 'succionado' por el vacío."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué arco del borde izquierdo del corazón se vuelve prominente en pacientes con hipertensión pulmonar crónica?",
+      "opts": ["Botón aórtico", "Segundo arco (tronco pulmonar)", "Orejuela izquierda", "Ápice ventricular"],
+      "ans": 1,
+      "just": "El aumento de presión en el circuito menor dilata el tronco de la arteria pulmonar haciéndolo visiblemente sobresaliente[cite: 1].",
+      "hint": "Localizado entre la aorta y la orejuela."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el cálculo del ICT, si la suma de los diámetros cardíacos máximos es mayor al 50 por ciento del diámetro torácico interno se define:",
+      "opts": ["Normalidad", "Cardiomegalia", "Atelectasia", "Pneumotórax"],
+      "ans": 1,
+      "just": "Este criterio cuantitativo permite clasificar objetivamente el agrandamiento de la silueta cardíaca en la placa PA[cite: 1].",
+      "hint": "Significa 'corazón grande'."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'E' de la revisión sistemática del tórax, se debe buscar:",
+      "opts": ["Esófago", "Efusiones (derrame) y tejidos extratorácicos", "Endocardio", "Epiglotis"],
+      "ans": 1,
+      "just": "Se analizan los senos costofrénicos en busca de líquido además de la integridad de los tejidos blandos fuera de la pleura[cite: 1].",
+      "hint": "Incluye los bordes y las partes blandas superficiales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el patrón caracterizado por múltiples líneas B con deslizamiento conservado se denomina:",
+      "opts": ["Perfil A", "Perfil B", "Perfil C", "Perfil A'"],
+      "ans": 1,
+      "just": "Este patrón orienta hacia causas de insuficiencia respiratoria aguda de origen hidrostático o inflamatorio intersticial[cite: 173].",
+      "hint": "Es el patrón de pulmón 'húmedo' o congestionado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cómo se visualiza el derrame pleural libre en una radiografía de tórax en bipedestación?",
+      "opts": ["Zona hiperlúcida sin vasos", "Opacidad basal con signo del menisco", "Broncograma aéreo difuso", "Ensanchamiento del botón aórtico"],
+      "ans": 1,
+      "just": "El líquido se acumula en las bases por gravedad borrando los ángulos costofrénicos y adquiriendo una curva cóncava superior[cite: 294].",
+      "hint": "Se observa blanco y en el fondo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática, la letra 'I' del acrónimo final se refiere a:",
+      "opts": ["Inflamación", "Impresión diagnóstica final", "Infiltrados", "Isquemia"],
+      "ans": 1,
+      "just": "Representa la conclusión clínica integrando todos los hallazgos observados en los pasos previos del análisis[cite: 1].",
+      "hint": "Es el resumen o conclusión del informe."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El bronquio principal derecho se distingue radiológicamente del izquierdo por ser:",
+      "opts": ["Más horizontal y estrecho", "Más vertical, corto y ancho", "Más largo y delgado", "Siempre invisible"],
+      "ans": 1,
+      "just": "Debido a su orientación más directa con la tráquea es el sitio más común de obstrucción por cuerpos extraños aspirados[cite: 1].",
+      "hint": "Tiene una trayectoria más empinada hacia el pulmón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, el 'Signo del Murciélago' permite identificar la línea pleural situada entre:",
+      "opts": ["El corazón y el esternón", "Dos sombras acústicas costales", "El hígado y el riñón", "La columna y la aorta"],
+      "ans": 1,
+      "just": "Las costillas actúan como referencia anatómica para localizar la interfaz entre la pleura parietal junto con la visceral[cite: 170].",
+      "hint": "Es el punto de partida básico para el rastreo pulmonar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la causa más probable de una radiografía de tórax donde los pulmones se ven excesivamente negros (hiperlúcidos) y el corazón estrecho (en gota)?",
+      "opts": ["Insuficiencia cardíaca", "EPOC o enfisema pulmonar", "Derrame pleural bilateral", "Neumonía lobar"],
+      "ans": 1,
+      "just": "El atrapamiento de aire aumenta la radiolucidez mientras que el descenso del diafragma estira verticalmente la silueta cardíaca[cite: 1].",
+      "hint": "Típico en pacientes fumadores crónicos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, un perfil 'A' (Líneas A) con ausencia de deslizamiento obliga a buscar:",
+      "opts": ["Punto pulmonar", "Líneas B", "Hepatización", "Broncograma fluido"],
+      "ans": 0,
+      "just": "Si se identifica el punto pulmonar se confirma el diagnóstico de neumotórax; por el contrario si no aparece se debe ampliar la exploración[cite: 173].",
+      "hint": "Es el signo que sella el diagnóstico de aire extrapleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La asimetría en la posición de las clavículas respecto a las apófisis espinosas indica:",
+      "opts": ["Rotación del paciente", "Crecimiento auricular", "Escoliosis congénita", "Fractura de esternón"],
+      "ans": 0,
+      "just": "El giro del tórax durante la toma altera las proporciones mediastínicas pudiendo generar falsos positivos de agrandamiento cardíaco[cite: 1].",
+      "hint": "Es un criterio de calidad técnica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El término 'radiolúcido' se refiere a estructuras que en la placa aparecen de color:",
+      "opts": ["Blanco brillante", "Negro o gris muy oscuro", "Gris claro", "Opaco"],
+      "ans": 1,
+      "just": "Corresponde a zonas por las que el haz de rayos X pasa con mínima interferencia como los pulmones llenos de aire[cite: 1].",
+      "hint": "Es el color predominante en el parénquima sano."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura forma el tercer arco del borde izquierdo cardíaco?",
+      "opts": ["Tronco pulmonar", "Orejuela izquierda", "Ventrículo izquierdo", "Vena cava inferior"],
+      "ans": 1,
+      "just": "Normalmente es cóncavo o plano pero se vuelve prominente en valvulopatías mitrales o dilataciones auriculares[cite: 1].",
+      "hint": "Situada entre la arteria pulmonar y el ventrículo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, el 'Signo del Cuadrilátero' es útil para:",
+      "opts": ["Detectar consolidaciones neumónicas", "Identificar y cuantificar un derrame pleural", "Confirmar el neumotórax", "Evaluar el pericardio"],
+      "ans": 1,
+      "just": "Se define por el espacio anecoico delimitado por la pleura parietal, la visceral junto con las sombras costales[cite: 173].",
+      "hint": "Representa una zona negra rectangular de líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT de 0.60 clasifica como una cardiomegalia grado:",
+      "opts": ["I", "II", "III", "IV"],
+      "ans": 1,
+      "just": "El grado II abarca el rango desde 0.56 hasta 0.60 indicando una dilatación moderada del corazón[cite: 1].",
+      "hint": "Es el segundo nivel de crecimiento cardíaco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las ramas de la arteria pulmonar con mayor calibre en los campos superiores (cefalización) es signo de:",
+      "opts": ["Neumotórax apical", "Hipertensión venocapilar pulmonar", "Normalidad en atletas", "Tromboembolismo"],
+      "ans": 1,
+      "just": "Indica una redistribución del flujo sanguíneo debido al aumento de la presión hidrostática basal típico de la insuficiencia cardíaca[cite: 1].",
+      "hint": "Los vasos parecen 'astas de ciervo' arriba."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el perfil C se asocia con:",
+      "opts": ["Derrame pleural", "Consolidación pulmonar", "Edema alveolar agudo", "Pulmón seco"],
+      "ans": 1,
+      "just": "Se identifica por signos de hepatización o fragmentación subpleural orientando hacia el diagnóstico de neumonía[cite: 173].",
+      "hint": "C de Consolidación."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué parámetro técnico define que una radiografía de tórax se tomó en posición AP (Anteroposterior)?",
+      "opts": ["Clavículas muy bajas", "Escápulas superpuestas sobre los campos pulmonares", "Burbuja gástrica clara", "Corazón pequeño y nítido"],
+      "ans": 1,
+      "just": "Puesto que el paciente no rota los hombros hacia adelante los omóplatos permanecen dentro de la proyección pulmonar[cite: 1].",
+      "hint": "Se observa frecuentemente en placas tomadas en cama con equipo portátil."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El signo de la silueta ocurre cuando:",
+      "opts": ["Dos estructuras de diferente densidad están en contacto", "Dos estructuras de la misma densidad están en contacto físico directo", "El pulmón está demasiado negro", "Hay aire en el pericardio"],
+      "ans": 1,
+      "just": "Al tener la misma densidad el contacto elimina el borde que las separa permitiendo localizar la lesión[cite: 1].",
+      "hint": "Pérdida del límite entre corazón y pulmón opaco."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, el 'Signo del Sinusoide' se observa en el modo M durante la presencia de:",
+      "opts": ["Neumotórax", "Derrame pleural (el pulmón se acerca y aleja rítmicamente)", "Consolidación masiva", "Punto pulmonar"],
+      "ans": 1,
+      "just": "El líquido pleural permite que la pleura visceral se mueva libremente con la respiración creando una onda oscilante[cite: 173].",
+      "hint": "El pulmón parece 'flotar' o bailar en el líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La silueta cardíaca en forma de 'garrafa' o 'tienda de campaña' es típica de:",
+      "opts": ["Aneurisma de aorta", "Derrame pericárdico masivo", "Hipertrofia ventricular izquierda", "Tetralogía de Fallot"],
+      "ans": 1,
+      "just": "La acumulación masiva de líquido en el saco pericárdico ensancha la base del corazón por efecto de la gravedad[cite: 1].",
+      "hint": "Mucho líquido alrededor del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el análisis sistemático, ¿qué se busca en el apartado 'A' (Airway) además de la tráquea?",
+      "opts": ["Botón aórtico", "Vértices pulmonares (ápices)", "Costillas flotantes", "Grasa pericárdica"],
+      "ans": 1,
+      "just": "Se debe inspeccionar la claridad de los ápices para descartar tuberculosis, masas o pequeños neumotórax apicales[cite: 1].",
+      "hint": "Representa las puntas superiores de los pulmones."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, las líneas B que aparecen y desaparecen con el deslizamiento pleural se denominan:",
+      "opts": ["Líneas A", "Cohetes pulmonares (Lung rockets)", "Punto pulmonar", "Sinusoide"],
+      "ans": 1,
+      "just": "Son artefactos dinámicos que confirman que la pleura está en contacto además de sugerir compromiso intersticial[cite: 173].",
+      "hint": "Son rayas blancas verticales brillantes."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué estructura forma el borde derecho inferior de la silueta cardíaca?",
+      "opts": ["Ventrículo derecho", "Aurícula derecha", "Vena cava inferior", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "La aurícula derecha define el contorno lateral derecho entre ambas venas cavas en la proyección frontal[cite: 1].",
+      "hint": "Cámara que recibe la mayor parte del retorno venoso sistémico."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un paciente con ICT de 0.68 presenta una cardiomegalia grado:",
+      "opts": ["II", "III", "IV", "I"],
+      "ans": 2,
+      "just": "Valores por encima de 0.65 corresponden al grado máximo de dilatación cardíaca evaluable en radiografía[cite: 1].",
+      "hint": "Representa el crecimiento más severo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el modo M ecográfico, el patrón granular o 'arenoso' por debajo de la línea pleural se llama:",
+      "opts": ["Mar", "Arena", "Código de barras", "Línea A"],
+      "ans": 1,
+      "just": "Corresponde al parénquima pulmonar en movimiento rítmico que rompe la linealidad de la imagen[cite: 173].",
+      "hint": "Componente inferior del signo de la orilla del mar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de borramiento del ángulo costofrénico izquierdo en una placa de tórax indica:",
+      "opts": ["Atelectasia de lóbulo superior", "Derrame pleural (mínimo 75-100 ml)", "Cardiomegalia severa", "Hiperinsuflación"],
+      "ans": 1,
+      "just": "El líquido acumulado en el fondo de saco pleural oculta la punta aguda del ángulo por gravedad[cite: 294].",
+      "hint": "Primer signo visual de líquido en pleura."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo el apartado 'B' (Breathing), ¿qué se debe inspeccionar además del parénquima?",
+      "opts": ["Huesos y partes blandas superficiales", "La tráquea exclusivamente", "Los grandes vasos", "La válvula tricúspide"],
+      "ans": 0,
+      "just": "Incluye el análisis de las costillas y pleura para garantizar una visión integral de la mecánica respiratoria[cite: 1].",
+      "hint": "Letra B de Breathing y Bones."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El 'Signo del Murciélago' se visualiza con el transductor posicionado de forma:",
+      "opts": ["Horizontal pura", "Longitudinal (perpendicular a las costillas)", "Oblicua en axila", "Circular"],
+      "ans": 1,
+      "just": "Permite captar dos costillas consecutivas con la pleura en el centro formando la figura característica[cite: 170].",
+      "hint": "Corta las costillas en su eje menor."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué denota un botón aórtico muy prominente o calcificado en la radiografía?",
+      "opts": ["Juventud", "Hipertensión arterial o aterosclerosis", "Enfisema", "Normalidad absoluta"],
+      "ans": 1,
+      "just": "La elongación y el depósito de calcio en la aorta son signos de daño vascular crónico o envejecimiento[cite: 1].",
+      "hint": "Relacionado con la presión arterial alta crónica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el perfil 'B' bilateral con deslizamiento conservado orienta a:",
+      "opts": ["Neumonía", "Edema agudo de pulmón (EAP)", "Neumotórax", "Asma"],
+      "ans": 1,
+      "just": "La presencia de múltiples líneas B en ambos pulmones confirma la congestión venocapilar masiva[cite: 173].",
+      "hint": "Pulmón húmedo simétrico."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La carina traqueal es el punto de bifurcación de la vía aérea y se proyecta normalmente a nivel de:",
+      "opts": ["T1", "T4 - T5", "T8", "C7"],
+      "ans": 1,
+      "just": "Coincide con el ángulo esternal en la superficie anterior y marca el inicio de los bronquios principales[cite: 1].",
+      "hint": "Hito anatómico del mediastino superior."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cómo se reconoce una radiografía de tórax rotada hacia la derecha?",
+      "opts": ["La clavícula derecha está más lejos de la columna que la izquierda", "La clavícula derecha está más cerca de la columna que la izquierda", "El corazón desaparece", "El diafragma sube"],
+      "ans": 1,
+      "just": "La asimetría en los espacios claviculares indica que el paciente no estaba paralelo al chasis durante el disparo[cite: 1].",
+      "hint": "Usa la distancia entre los bordes mediales óseos."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el signo del 'Punto Pulmonar' es diagnóstico de:",
+      "opts": ["Neumonía lobar", "Neumotórax", "Derrame pleural", "Normalidad"],
+      "ans": 1,
+      "just": "Es el punto de despegue donde la pleura visceral se separa de la parietal por la entrada de aire[cite: 173].",
+      "hint": "Signo más específico de aire en pleura."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál es la densidad radiológica de un cuerpo extraño metálico?",
+      "opts": ["Radiolúcido", "Radiopaco extremo", "Densidad grasa", "Densidad agua"],
+      "ans": 1,
+      "just": "Bloquea totalmente la radiación apareciendo de un blanco brillante muy intenso en la imagen[cite: 1].",
+      "hint": "Mucho más blanco que el hueso."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'D' (Diaphragm), ¿qué hallazgo obliga a descartar una perforación de víscera hueca?",
+      "opts": ["Ángulos costofrénicos agudos", "Aire libre subdiafragmático", "Aplanamiento bilateral", "Hernia hiatal"],
+      "ans": 1,
+      "just": "El gas libre abdominal (neumoperitoneo) se visualiza como una sombra negra bajo el músculo diafragmático[cite: 1].",
+      "hint": "Es una urgencia quirúrgica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, un perfil 'A' unilateral sin deslizamiento sugiere:",
+      "opts": ["Derrame pleural", "Neumotórax", "EPOC", "Normalidad"],
+      "ans": 1,
+      "just": "La ausencia de movimiento con líneas horizontales conservadas es el primer paso para detectar aire extrapleural[cite: 173].",
+      "hint": "Perfil de pleura quieta con aire debajo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El arco inferior del borde izquierdo cardíaco está formado por el ventrículo izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la cámara que define el límite lateral izquierdo de la sombra cardíaca inferior y el ápex[cite: 1].",
+      "hint": "Cámara responsable de la presión sistémica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación sistemática, la letra 'C' (Cardiac) incluye el análisis de:",
+      "opts": ["Hilios y silueta cardíaca", "Burbuja gástrica", "Tráquea", "Costillas"],
+      "ans": 0,
+      "just": "Se revisa la forma, tamaño además de la posición del corazón junto con la densidad hiliar[cite: 1].",
+      "hint": "Letra enfocada en el sistema cardiovascular."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, las 'Líneas A' son artefactos de reverberación paralelos a:",
+      "opts": ["La pared abdominal", "La línea pleural", "La columna vertebral", "El diafragma"],
+      "ans": 1,
+      "just": "Son ecos horizontales repetitivos que confirman la presencia de aire en el parénquima subpleural[cite: 173].",
+      "hint": "Ecos horizontales normales."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT de 0.53 en un adulto se considera:",
+      "opts": ["Normal", "Cardiomegalia grado I", "Cardiomegalia grado II", "Pneumopericardio"],
+      "ans": 1,
+      "just": "El rango entre 0.51 y 0.55 define el primer nivel de crecimiento de la silueta cardíaca[cite: 1].",
+      "hint": "Levemente por encima del valor 0.50."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de las escápulas fuera de los campos pulmonares es un signo de buena técnica en proyección PA.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El paciente debe rotar los hombros hacia adelante para despejar el parénquima pulmonar de la densidad ósea escapular[cite: 1].",
+      "hint": "Criterio técnico de posición."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el signo de 'fragmentación' se asocia con el perfil:",
+      "opts": ["Perfil A", "Perfil B", "Perfil C", "Perfil B'"],
+      "ans": 2,
+      "just": "Indica un borde irregular de consolidación pulmonar subpleural típico de focos neumónicos[cite: 173].",
+      "hint": "Indica pulmón deshilachado o roto."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La cisura horizontal del pulmón derecho se visualiza habitualmente a nivel de la:",
+      "opts": ["2da costilla", "4ta costilla", "6ta costilla", "1ra costilla"],
+      "ans": 1,
+      "just": "Dicha cisura separa el lóbulo superior del medio permitiendo su identificación anatómica en la placa frontal[cite: 1].",
+      "hint": "Referencia ósea anterior media."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Qué densidad radiológica presenta el parénquima pulmonar sano?",
+      "opts": ["Densidad agua", "Densidad aire", "Densidad grasa", "Densidad calcio"],
+      "ans": 1,
+      "just": "Al estar lleno de gas permite el paso de los rayos visualizándose de color negro[cite: 1].",
+      "hint": "Es la densidad más lúcida del tórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el signo del 'Quad' confirma la presencia de líquido entre las pleuras.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La imagen anecoica (negra) queda enmarcada en forma de cuadrilátero por las estructuras circundantes[cite: 173].",
+      "hint": "Criterio de derrame pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'F' (Foreign bodies), se deben identificar:",
+      "opts": ["Fisuras", "Marcapasos, catéteres y tubos", "Fracturas", "Fascias"],
+      "ans": 1,
+      "just": "Se inspecciona cualquier dispositivo médico implantado o externo que aparezca en la placa[cite: 1].",
+      "hint": "Elementos 'forasteros' al cuerpo humano."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el modo M de ecografía, el patrón de 'arena' indica que el pulmón está móvil.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Refleja el deslizamiento pleural normal descartando así la presencia de aire extrapleural en ese punto[cite: 173].",
+      "hint": "Componente granular del signo Seashore."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT de 0.64 se clasifica como cardiomegalia grado:",
+      "opts": ["I", "II", "III", "IV"],
+      "ans": 2,
+      "just": "Se sitúa en el rango de 0.61 a 0.65 indicando un crecimiento severo de la silueta cardíaca[cite: 1].",
+      "hint": "Penúltimo nivel de la clasificación."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La tráquea normalmente presenta una leve desviación hacia la derecha a nivel del cayado aórtico.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La masa de la aorta empuja sutilmente la vía aérea siendo este un hallazgo anatómico normal[cite: 1].",
+      "hint": "Relación entre grandes vasos y tráquea."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el signo del 'Sinus' en modo M es diagnóstico de derrame pleural.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La pleura visceral se aleja y acerca a la parietal rítmicamente permitiendo ver el líquido[cite: 173].",
+      "hint": "Movimiento sinusoidal del pulmón en líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La burbuja gástrica debe localizarse bajo el diafragma:",
+      "opts": ["Derecho", "Izquierdo", "Ambos", "No se ve"],
+      "ans": 1,
+      "just": "Corresponde al aire deglutido en el fundus del estómago siendo una referencia de normalidad abdominal[cite: 1].",
+      "hint": "Situada del lado del bazo."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el perfil B bilateral con deslizamiento indica pulmón seco.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Al contrario, indica edema agudo de pulmón (pulmón húmedo) debido a la gran cantidad de agua intersticial[cite: 173].",
+      "hint": "Las líneas B representan líquido."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ensanchamiento del mediastino superior puede ser causado por un aneurisma aórtico.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La dilatación vascular deforma el contorno mediastínico superior siendo visible en la placa frontal[cite: 1].",
+      "hint": "Relacionado con la letra G (Grandes vasos)."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, el 'Punto Pulmonar' es 100% específico para neumotórax.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Localiza el límite físico donde el aire separa las pleuras anclando el diagnóstico de forma definitiva[cite: 173].",
+      "hint": "Signo de certeza absoluto."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La silueta cardíaca en bota es sugerente de hipertrofia ventricular derecha.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El crecimiento de las cavidades derechas eleva el ápice del corazón sobre el diafragma[cite: 1].",
+      "hint": "Común en la Tetralogía de Fallot."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la evaluación ABCDE, la letra 'D' incluye la búsqueda de aire libre subdiafragmático.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se inspeccionan las cúpulas diafragmáticas para descartar neumoperitoneo junto con derrames basales[cite: 1].",
+      "hint": "Letra enfocada en el diafragma."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El hileo pulmonar izquierdo suele estar más elevado que el derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es un hallazgo anatómico normal debido a la posición de la arteria pulmonar izquierda[cite: 1].",
+      "hint": "Asimetría hiliar fisiológica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, las líneas B verticales que nacen en la pleura se llaman 'cohetes'.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Su presencia masiva indica un aumento del agua pulmonar extra-vascular[cite: 173].",
+      "hint": "Lung rockets."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT mayor a 0.50 en adultos se define siempre como cardiomegalia.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Representa el límite superior de la proporción normal del corazón respecto al tórax[cite: 1].",
+      "hint": "Valor de corte estandarizado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La técnica de 'bipedestación' es preferible para ver niveles hidroaéreos pulmonares.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La posición erguida permite que el aire suba junto con el líquido bajando por gravedad facilitando la visión del nivel[cite: 294].",
+      "hint": "El paciente debe estar de pie."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ecografía, el signo del 'Código de Barras' descarta el neumotórax.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Al contrario, es el signo característico de su presencia al mostrar una pleura inmóvil[cite: 173].",
+      "hint": "Indica ausencia de deslizamiento pleural."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La vena cava superior forma la parte superior del borde derecho cardíaco.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el vaso principal que delinea el margen mediastínico superior a la derecha[cite: 1].",
+      "hint": "Retorno venoso por arriba del corazón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'A', se debe verificar que la tráquea esté en la línea media.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Cualquier desviación significativa sugiere cambios de presión pleural o masas mediastínicas[cite: 1].",
+      "hint": "Análisis de la vía aérea."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el parénquima hepático sirve de referencia para identificar el diafragma derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La interfaz hiperequogénica del diafragma separa el hígado del parénquima pulmonar basal[cite: 173].",
+      "hint": "El hígado actúa como ventana acústica inferior."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Una radiografía subexpuesta (blanca) dificulta ver las estructuras retrocardíacas.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La falta de energía técnica impide que los rayos atraviesen adecuadamente la silueta cardíaca[cite: 1].",
+      "hint": "Se conoce como radiografía 'blanda'."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La aurícula derecha recibe las aberturas de las venas cavas superior e inferior.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Anatómicamente es el receptor principal de la circulación sistémica desoxigenada[cite: 1].",
+      "hint": "Cámara receptora derecha."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el deslizamiento pleural (lung sliding) presente indica pulmón sano.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Confirma que no hay aire separando las pleuras en el punto de contacto del transductor[cite: 173].",
+      "hint": "Vaivén pleural normal."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La visualización de aire en el esófago es siempre un signo de patología grave.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Pequeñas burbujas de aire pueden ser normales por deglución reciente; no obstante una dilatación masiva sugiere acalasia[cite: 1].",
+      "hint": "Puede ser un hallazgo transitorio."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El bronquiolo terminal es la estructura final de la zona de conducción.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "A partir de este punto comienzan las unidades respiratorias con capacidad de intercambio gaseoso[cite: 1].",
+      "hint": "Fin de la vía puramente conductora."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, las áreas posteriores son fundamentales para detectar derrames.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El líquido pleural tiende a acumularse en las zonas declives posteriores del tórax en decúbito[cite: 170].",
+      "hint": "Zonas bajas del hemitórax."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La silueta cardíaca se desplaza hacia el lado sano en un neumotórax a tensión.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El aumento de presión en el espacio pleural empuja el mediastino alejándolo de la lesión[cite: 1].",
+      "hint": "Efecto de empuje por aire."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El Índice Cardiotorácico Grado I se define por valores de 0.51 a 0.55.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el rango inicial de crecimiento patológico observado en la radiografía[cite: 1].",
+      "hint": "Primer escalón de cardiomegalia."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La ecografía de tórax es superior a la radiografía para diagnosticar neumotórax oculto.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Posee una mayor sensibilidad para detectar pequeñas láminas de aire en las zonas anteriores del tórax[cite: 173].",
+      "hint": "Técnica a la cabecera del paciente."
+    },
+    {
+      "cat": "radiologia",
+      "q": "El botón aórtico se localiza habitualmente en el lado izquierdo del mediastino superior.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Representa el segmento del arco aórtico visible en la proyección frontal[cite: 1].",
+      "hint": "Joroba superior izquierda."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En ultrasonido, el signo del 'Murciélago' se forma por las sombras de las costillas.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Dichas sombras delinean los bordes de la línea pleural facilitando el rastreo[cite: 170].",
+      "hint": "Estructura de referencia en ecografía torácica."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Bajo la letra 'B', se debe evaluar la tráquea.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "La tráquea se evalúa bajo la letra 'A' (Airway) mientras que la 'B' se enfoca en pulmones junto con huesos[cite: 1].",
+      "hint": "Letra específica para vía aérea."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La presencia de 'Líneas A' indica que el pulmón está húmedo.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Al contrario, indican que el pulmón está seco al ser artefactos de aire parénquima normal[cite: 173].",
+      "hint": "Hallazgo normal de pulmón aireado."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un ICT de 0.61 clasifica como cardiomegalia grado III.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Este valor entra en el rango de crecimiento severo que finaliza en 0.65[cite: 1].",
+      "hint": "Tercer nivel de dilatación cardíaca."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La placa lateral permite visualizar el espacio retroesternal lúcido.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el área radiolúcida anterior al corazón cuya opacidad sugiere masas mediastínicas[cite: 1].",
+      "hint": "Espacio negro tras el esternón."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En el protocolo BLUE, el perfil C orienta hacia neumonía.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Consiste en la identificación de consolidaciones subpleurales compatibles con focos infecciosos[cite: 173].",
+      "hint": "Perfil de consolidación pulmonar."
+    },
+    {
+      "cat": "radiologia",
+      "q": "La vena ácigos arquea sobre el bronquio principal derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es una relación hiliar derecha fundamental visible en el mediastino medio[cite: 1].",
+      "hint": "Vena que desemboca en la VCS."
+    },
+    {
+      "cat": "radiologia",
+      "q": "Un paciente con ICT de 0.45 tiene el corazón de tamaño normal.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se encuentra por debajo del límite de 0.50 establecido para el adulto[cite: 1].",
+      "hint": "Relación equilibrada entre corazón y tórax."
+    }
+  ]
+}

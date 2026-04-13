@@ -6,133 +6,133 @@ let currentFilter = 'all';
 let visibleQs = [];
 let isReviewMode = false;
 
+// ESTADO DE HERRAMIENTAS
+let isExamMode = false;
+let isTimerMode = false;
+let timerValue = 45;
+let globalTimerInterval = null;
+let categoryStats = {}; 
+
 async function inicializarCuestionario() {
-    const archivos = [
-        'data/cardiaco.json',
-        'data/respiratorio.json',
-        'data/calculos.json',
-        'data/radiologia.json',
-        'data/ekg.json'
-    ];
-
+    const archivos = ['data/cardiaco.json','data/respiratorio.json','data/calculos.json','data/radiologia.json','data/ekg.json'];
     try {
-        const promesas = archivos.map(url => 
-            fetch(url)
-                .then(async res => {
-                    if (!res.ok) return null;
-                    try {
-                        return await res.json();
-                    } catch (e) {
-                        console.error(`Error de formato en ${url}:`, e);
-                        return null;
-                    }
-                })
-                .catch(() => null)
-        );
-
+        const promesas = archivos.map(url => fetch(url).then(async res => res.ok ? await res.json() : null).catch(() => null));
         const resultados = await Promise.all(promesas);
-        QUESTIONS = resultados
-            .filter(res => res !== null && res.preguntas)
-            .flatMap(res => res.preguntas);
+        QUESTIONS = resultados.filter(res => res !== null && res.preguntas).flatMap(res => res.preguntas);
         
-        // Carga inicial sin mezcla automática para preservar el orden del JSON
+        // Inicializar categorías para analítica
+        const categorias = [...new Set(QUESTIONS.map(q => q.cat))];
+        categorias.forEach(c => categoryStats[c] = { correct: 0, total: 0 });
+        
+        updateMasteryUI();
         prepareVisibleQuestions();
         renderAll();
-    } catch (error) {
-        console.error("Error crítico en la carga de datos:", error);
-    }
+    } catch (error) { console.error("Error crítico:", error); }
 }
 
-/**
- * Filtra las preguntas según el modo y la categoría actual
- */
-function prepareVisibleQuestions() {
-    let sourcePool = isReviewMode ? [...failedQuestions] : [...QUESTIONS];
-    let filtered = sourcePool.filter(q => currentFilter === 'all' || q.cat === currentFilter);
+function updateMasteryUI() {
+    const container = document.getElementById('masteryIndex');
+    if (!container) return;
+    container.innerHTML = '';
+    
+    const catLabels = {cardiaco:'Cardíaco', respiratorio:'Respiratorio', calculo:'Cálculos', radiologia:'Radiología', ekg:'EKG'};
+    const colors = {cardiaco: 'var(--accent)', respiratorio: 'var(--accent2)', calculo: 'var(--warn)', radiologia: '#b48cff', ekg: '#ffc107'};
 
-    visibleQs = filtered.map(q => {
-        let opts = q.opts.map((text, i) => ({ text, isCorrect: i === q.ans }));
-        // Las opciones internas sí se mezclan para evitar patrones de posición
-        shuffle(opts);
-        return { 
-            ...q, 
-            currentOpts: opts.map(o => o.text), 
-            currentAns: opts.findIndex(o => o.isCorrect) 
-        };
+    Object.keys(categoryStats).forEach(cat => {
+        const stats = categoryStats[cat];
+        const pct = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
+        
+        container.innerHTML += `
+            <div class="mastery-item">
+                <div class="mastery-info"><span>${catLabels[cat] || cat}</span><span>${pct}%</span></div>
+                <div class="mastery-bar"><div class="mastery-fill" style="width: ${pct}%; background: ${colors[cat] || 'var(--accent)'}"></div></div>
+            </div>`;
     });
 }
 
-/**
- * Función accionada por el botón de Shuffle
- */
-function manualShuffle() {
-    if (visibleQs.length === 0) return;
-    
-    // Mezcla el arreglo actual de preguntas visibles
-    shuffle(visibleQs);
-    
-    // Reinicia el progreso local para evitar inconsistencias al mezclar a mitad de sesión
-    reiniciarEstadoLocal();
-    renderAll();
+function toggleExamMode() { 
+    isExamMode = document.getElementById('examModeToggle').checked; 
+    restart(); 
 }
 
-function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+function updateTimerValue() {
+    const inputVal = parseInt(document.getElementById('customTimeInput').value);
+    if (!isNaN(inputVal) && inputVal > 0) {
+        timerValue = inputVal;
     }
-    return array;
 }
+
+function toggleTimerMode() { 
+    isTimerMode = document.getElementById('timerToggle').checked; 
+    document.getElementById('timerDisplay').style.display = isTimerMode ? 'block' : 'none';
+    document.getElementById('timerConfig').style.display = isTimerMode ? 'block' : 'none';
+    updateTimerValue();
+    restart(); 
+}
+
+function startGlobalTimer() {
+    clearInterval(globalTimerInterval);
+    if (!isTimerMode || visibleQs.length === 0) return;
+    
+    let timeLeft = visibleQs.length * timerValue; 
+    const display = document.getElementById('timerDisplay');
+    display.style.display = 'block';
+    
+    const updateDisplay = () => {
+        const mins = Math.floor(timeLeft / 60);
+        const secs = timeLeft % 60;
+        display.textContent = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    };
+    updateDisplay();
+    
+    globalTimerInterval = setInterval(() => {
+        timeLeft--;
+        updateDisplay();
+        if (timeLeft <= 0) {
+            clearInterval(globalTimerInterval);
+            showSummary(); 
+        }
+    }, 1000);
+}
+
+function toggleFocusMode() { document.body.classList.toggle('focus-mode'); }
 
 function renderAll() {
     const container = document.getElementById('questionsContainer');
     if (!container) return;
     container.innerHTML = '';
-
     document.getElementById('totalNum').textContent = visibleQs.length;
-
-    let prevCat = null;
-    visibleQs.forEach((q, idx) => {
-        const showDivider = !isReviewMode || (isReviewMode && currentFilter === 'all');
-        
-        if (showDivider && q.cat !== prevCat) {
-            const div = document.createElement('div');
-            div.className = 'category-divider';
-            const catLabels = {cardiaco:'Anatomía & Fisiología Cardíaca', respiratorio:'Anatomía & Fisiología Respiratoria', calculo:'Cálculos Clínicos', radiologia:'Radiología Torácica', ekg:'Electrocardiograma'};
-            const catClass = {cardiaco:'cat-cardiac', respiratorio:'cat-resp', calculo:'cat-calc', radiologia:'cat-radio', ekg:'cat-ekg'};
-            div.innerHTML = `<div class="cat-badge ${catClass[q.cat] || ''}">${catLabels[q.cat] || q.cat}</div><div class="cat-line"></div>`;
-            container.appendChild(div);
-            prevCat = q.cat;
-        }
-        container.appendChild(buildCard(q, idx));
-    });
-
+    
+    if (visibleQs.length > 0) {
+        visibleQs.forEach((q, idx) => {
+            container.appendChild(buildCard(q, idx));
+        });
+        startGlobalTimer();
+        document.getElementById('finishBtn').style.display = 'block';
+    } else {
+        document.getElementById('finishBtn').style.display = 'none';
+        showSummary();
+    }
     updateProgress();
-    actualizarBotonRepaso();
 }
 
 function buildCard(q, idx) {
     const card = document.createElement('div');
     card.className = 'q-card';
     card.id = `card-${idx}`;
-
-    const optsHTML = q.currentOpts.map((o, i) => {
-        const keys = ['A','B','C','D','E'];
-        return `<button class="option-btn" onclick="answer(${idx}, ${i})" id="opt-${idx}-${i}">
-            <span class="option-key">${keys[i]}</span><span>${o}</span>
-        </button>`;
-    }).join('');
+    const optsHTML = q.currentOpts.map((o, i) => `
+        <button class="option-btn" onclick="answer(${idx}, ${i})" id="opt-${idx}-${i}">
+            <span class="option-key">${['A','B','C','D','E'][i]}</span><span>${o}</span>
+        </button>`).join('');
 
     card.innerHTML = `
-        <div class="q-header">
-            <span class="q-num">Q${idx + 1}</span>
-            <span class="q-text">${q.q}</span>
-        </div>
+        <div class="q-header"><span class="q-num">CASO · ${q.cat.toUpperCase()}</span><span class="q-text">${q.q}</span></div>
         <div class="options">${optsHTML}</div>
-        <button class="hint-toggle" onclick="toggleHint(${idx})">💡 Pista</button>
-        <div class="hint-box" id="hint-${idx}">${q.hint}</div>
-        <div class="feedback" id="fb-${idx}"></div>
-    `;
+        <div class="hint-wrapper" style="${isExamMode ? 'display:none' : ''}">
+            <button class="hint-btn" onclick="toggleHint(${idx})"><span>💡</span> Pista Diagnóstica</button>
+            <div class="hint-box" id="hint-${idx}" style="display: none;">${q.hint || ''}</div>
+        </div>
+        <div class="feedback" id="fb-${idx}"></div>`;
     return card;
 }
 
@@ -143,125 +143,157 @@ function answer(idx, chosen) {
     card.dataset.done = '1';
 
     const isCorrect = chosen === q.currentAns;
-    const keys = ['A','B','C','D','E'];
+    
+    categoryStats[q.cat].total++;
+    if (isCorrect) categoryStats[q.cat].correct++;
+    updateMasteryUI();
 
-    for (let i = 0; i < q.currentOpts.length; i++) {
-        const btn = document.getElementById(`opt-${idx}-${i}`);
-        if (btn) {
-            btn.disabled = true;
-            if (i === q.currentAns) btn.classList.add('correct');
-            else if (i === chosen && !isCorrect) btn.classList.add('wrong');
-        }
-    }
-
-    const fb = document.getElementById(`fb-${idx}`);
-    if (fb) {
+    if (!isExamMode) {
+        const fb = document.getElementById(`fb-${idx}`);
         if (isCorrect) {
-            fb.className = 'feedback correct';
-            fb.innerHTML = `<strong>✓ Correcto</strong>${q.just}`;
             correct++;
+            fb.className = 'feedback correct';
+            fb.innerHTML = `<strong>✓ VALIDACIÓN CORRECTA</strong><br>${q.just || ''}`;
             card.classList.add('answered-correct');
         } else {
             fb.className = 'feedback wrong';
-            fb.innerHTML = `<strong>✗ Incorrecto — La respuesta correcta es ${keys[q.currentAns]}</strong>${q.just}`;
+            fb.innerHTML = `<strong>✗ ERROR: RESPUESTA ${['A','B','C','D','E'][q.currentAns]}</strong><br>${q.just || ''}`;
             card.classList.add('answered-wrong');
-            
-            if (!failedQuestions.some(fq => fq.q === q.q)) {
-                failedQuestions.push(q);
-            }
+            if (!failedQuestions.some(fq => fq.q === q.q)) failedQuestions.push(q);
         }
         fb.style.display = 'block';
+    } else {
+        if (isCorrect) correct++;
+        else if (!failedQuestions.some(fq => fq.q === q.q)) failedQuestions.push(q);
+        card.classList.add('answered-exam');
+        const selectedBtn = document.getElementById(`opt-${idx}-${chosen}`);
+        if(selectedBtn) selectedBtn.style.borderColor = 'var(--accent)';
     }
 
     answered++;
     document.getElementById('scoreDisplay').textContent = correct;
-    document.getElementById('answeredCount').textContent = `${answered} respondidas`;
-    
-    updateProgress();
     actualizarBotonRepaso();
-    
-    if (document.querySelectorAll('.q-card[data-done]').length === visibleQs.length) showSummary();
-}
+    updateProgress();
 
-function actualizarBotonRepaso() {
-    const btn = document.getElementById('reviewBtn');
-    const span = document.getElementById('errorCount');
-    const relevantErrors = failedQuestions.filter(q => currentFilter === 'all' || q.cat === currentFilter);
-    
-    if (relevantErrors.length > 0) {
-        btn.style.display = 'inline-block';
-        span.textContent = relevantErrors.length;
-    } else {
-        btn.style.display = 'none';
+    if (isCorrect) {
+        setTimeout(() => {
+            card.classList.add('hide-card');
+            setTimeout(() => {
+                card.style.display = 'none';
+            }, 600);
+        }, 5000);
+    }
+
+    if (answered === visibleQs.length) {
+        setTimeout(showSummary, 1000);
     }
 }
 
-function filterCat(cat, btn) {
-    isReviewMode = false;
-    currentFilter = cat;
-    reiniciarEstadoLocal();
+function showSummary() {
+    clearInterval(globalTimerInterval);
+    const summary = document.getElementById('summary');
+    const report = document.getElementById('diagnosticReport');
+    const finishBtn = document.getElementById('finishBtn');
     
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    if (btn) btn.classList.add('active');
+    if (!summary) return;
     
-    prepareVisibleQuestions();
-    renderAll();
+    if (finishBtn) finishBtn.style.display = 'none';
+    summary.style.display = 'block';
+    report.innerHTML = '';
+
+    Object.keys(categoryStats).forEach(cat => {
+        const s = categoryStats[cat];
+        if (s.total === 0) return;
+        const pct = (s.correct / s.total) * 100;
+        let advice = pct >= 90 ? "Dominio experto. Mantén el repaso." : pct >= 70 ? "Buen nivel. Revisa fallas específicas." : "Nivel crítico. Refuerza bibliografía base.";
+
+        report.innerHTML += `
+            <div class="diag-item">
+                <span class="diag-category">${cat} (${Math.round(pct)}%)</span>
+                <p>${advice}</p>
+            </div>`;
+    });
+
+    document.getElementById('statCorrect').textContent = correct;
+    document.getElementById('statWrong').textContent = answered - correct;
+    document.getElementById('statPct').textContent = Math.round((correct / Math.max(1, answered)) * 100) + '%';
+    summary.scrollIntoView({ behavior: 'smooth' });
 }
 
-function reviewErrors(btn) {
-    isReviewMode = true;
-    reiniciarEstadoLocal();
-    btn.classList.add('active');
-    prepareVisibleQuestions();
-    renderAll();
+function exportSession() {
+    const data = { fecha: new Date().toISOString(), puntaje: correct, total: answered, analitica: categoryStats };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = `Sesion_MedQuest_${Date.now()}.json`;
+    a.click();
 }
 
-function reiniciarEstadoLocal() {
-    answered = 0;
-    correct = 0;
-    document.getElementById('scoreDisplay').textContent = '0';
-    document.getElementById('answeredCount').textContent = '0 respondidas';
-    document.getElementById('summary').style.display = 'none';
-    
-    // Limpia estados de cards previas
-    document.querySelectorAll('.q-card').forEach(c => {
-        delete c.dataset.done;
-        c.classList.remove('answered-correct', 'answered-wrong');
+function shuffle(array) { 
+    for (let i = array.length - 1; i > 0; i--) { 
+        const j = Math.floor(Math.random() * (i + 1)); 
+        [array[i], array[j]] = [array[j], array[i]]; 
+    } 
+    return array; 
+}
+
+function manualShuffle() { 
+    shuffle(QUESTIONS); 
+    restart(); 
+}
+
+function prepareVisibleQuestions() { 
+    let pool = isReviewMode ? [...failedQuestions] : [...QUESTIONS];
+    let filtered = pool.filter(q => currentFilter === 'all' || q.cat === currentFilter);
+    visibleQs = filtered.map(q => {
+        let opts = q.opts.map((text, i) => ({ text, isCorrect: i === q.ans }));
+        shuffle(opts);
+        return { ...q, currentOpts: opts.map(o => o.text), currentAns: opts.findIndex(o => o.isCorrect) };
     });
 }
 
-function toggleHint(idx) {
-    const hint = document.getElementById(`hint-${idx}`);
-    if (hint) hint.style.display = hint.style.display === 'block' ? 'none' : 'block';
+function filterCat(cat, btn) { 
+    currentFilter = cat; 
+    isReviewMode = false; 
+    restart(); 
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); 
+    if(btn) btn.classList.add('active'); 
 }
 
-function updateProgress() {
-    const total = visibleQs.length;
-    const pct = total > 0 ? answered / total : 0;
-    const circle = document.getElementById('progressCircle');
-    if (circle) circle.style.strokeDashoffset = 150.8 * (1 - pct);
-    document.getElementById('progressNum').textContent = answered;
-}
-
-function showSummary() {
-    const total = visibleQs.length;
-    const pct = Math.round((correct / total) * 100);
-    const summary = document.getElementById('summary');
-    
-    document.getElementById('statCorrect').textContent = correct;
-    document.getElementById('statWrong').textContent = total - correct;
-    document.getElementById('statPct').textContent = pct + '%';
-    document.getElementById('summarySub').textContent = `Completaste ${total} preguntas con ${pct}% de acierto.`;
-
-    summary.style.display = 'block';
-    summary.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function restart() {
-    reiniciarEstadoLocal();
-    prepareVisibleQuestions();
-    renderAll();
+function restart() { 
+    answered = 0; 
+    correct = 0; 
+    clearInterval(globalTimerInterval);
+    document.getElementById('summary').style.display = 'none';
+    Object.keys(categoryStats).forEach(c => categoryStats[c] = {correct:0, total:0}); 
+    updateMasteryUI();
+    prepareVisibleQuestions(); 
+    renderAll(); 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function updateProgress() { 
+    const total = visibleQs.length;
+    const pct = total > 0 ? (answered / total) * 100 : 0;
+    document.getElementById('progressBar').style.width = `${pct}%`;
+    document.getElementById('progressNum').textContent = answered;
+}
+
+function actualizarBotonRepaso() { 
+    const btn = document.getElementById('reviewBtn'); 
+    btn.style.display = failedQuestions.length > 0 ? 'block' : 'none'; 
+    document.getElementById('errorCount').textContent = failedQuestions.length; 
+}
+
+function toggleHint(idx) { 
+    const h = document.getElementById(`hint-${idx}`); 
+    h.style.display = h.style.display === 'none' ? 'block' : 'none'; 
+}
+
+function reviewErrors(btn) { 
+    isReviewMode = true; 
+    restart(); 
+}
+
+window.addEventListener('beforeunload', () => clearInterval(globalTimerInterval));
 inicializarCuestionario();
