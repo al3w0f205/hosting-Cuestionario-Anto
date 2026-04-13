@@ -1,0 +1,17 @@
+{
+  "lista_preguntas": [
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la vía principal por la que se transmite el dolor originado en la capa parietal del pericardio seroso?",
+      "opts": [
+        "Nervios frénicos derecho e izquierdo",
+        "Nervios simpáticos de los ganglios cervicales",
+        "Nervio vago a través del plexo esofágico",
+        "Nervios intercostales del 2° al 4° espacio"
+      ],
+      "ans": 0,
+      "just": "Los nervios frénicos transportan la sensibilidad somática de la pleura mediastínica además del pericardio parietal.",
+      "hint": "Son los mismos nervios que inervan el diafragma."
+    }
+  ]
+}
