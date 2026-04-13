@@ -2006,8 +2006,567 @@
       "ans": 0,
       "just": "Este valor de referencia se utiliza para calcular el índice cardíaco (GC / superficie corporal), cuyo valor normal es 2.5 a 4 L/min/m².",
       "hint": "Multiplica el volumen sistólico normal por la frecuencia en reposo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ápice cardíaco se ubica comúnmente en:",
+      "opts": [
+        "Detrás de la quinta costilla izquierda o el quinto espacio intercostal, cerca de la línea medioclavicular",
+        "En el segundo espacio intercostal izquierdo, a 2 cm del esternón",
+        "Detrás del cuarto cartílago costal derecho",
+        "Sobre el tendón central del diafragma"
+      ],
+      "ans": 0,
+      "just": "Esta localización es la base del 'latido apical' o choque de punta palpable en la exploración física; su desplazamiento sugiere cardiomegalia o patología mediastínica.",
+      "hint": "Se ausculta en el quinto espacio intercostal izquierdo, línea medioclavicular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Aproximadamente qué fracción de la masa cardíaca se encuentra a la derecha de la línea media:",
+      "opts": [
+        "Un tercio",
+        "Dos tercios",
+        "La mitad",
+        "Menos de una cuarta parte"
+      ],
+      "ans": 0,
+      "just": "Esta posición oblicua explica por qué la proyección frontal de radiografía de tórax muestra más corazón a la izquierda; su desviación sugiere patología.",
+      "hint": "La mayor parte del corazón está en el lado izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las válvulas aórtica y pulmonar en la superficie corporal se auscultan en áreas que NO coinciden exactamente con su localización anatómica. Esto se debe a:",
+      "opts": [
+        "La transmisión del sonido sigue el flujo sanguíneo hacia distal; las áreas de auscultación reflejan dónde llega ese sonido más claramente",
+        "Los sonidos valvulares se transmiten solo a través del pericardio",
+        "Las válvulas tienen una orientación paralela al plano sagital que dirige el sonido hacia áreas específicas",
+        "Los ruidos cardíacos se originan en el miocardio, no en las válvulas"
+      ],
+      "ans": 0,
+      "just": "Por eso el foco aórtico se ausculta en el segundo espacio intercostal derecho aunque la válvula aórtica esté anatómicamente más central y medial.",
+      "hint": "El sonido se proyecta en la dirección del flujo sanguíneo distal a la válvula."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La superficie posterior (base anatómica) del corazón está formada principalmente por:",
+      "opts": [
+        "La aurícula izquierda",
+        "El ventrículo izquierdo",
+        "La aurícula derecha",
+        "El ventrículo derecho"
+      ],
+      "ans": 0,
+      "just": "Esto tiene implicaciones clínicas: la fibrosis o hipertrofia de la aurícula izquierda puede comprimir el esófago (que está posterior) y causar disfagia.",
+      "hint": "Recordar: aurículas en la parte posterior, ventrículos en la anterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cruz cardíaca se forma por la unión de:",
+      "opts": [
+        "Los surcos auriculoventricular, interauricular e interventricular inferior",
+        "Los surcos auriculoventricular y los dos interventriculares",
+        "El tabique interventricular con el tabique interauricular exclusivamente",
+        "Los dos surcos coronarios anteriores"
+      ],
+      "ans": 0,
+      "just": "Este punto anatómico corresponde en la superficie externa al lugar donde convergen los límites entre las cuatro cámaras cardíacas.",
+      "hint": "Es la confluencia de tres surcos en la cara inferior del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La circunferencia promedio del orificio valvular tricúspide es aproximadamente:",
+      "opts": [
+        "11.4 cm en hombres y 10.8 cm en mujeres",
+        "8 cm en ambos sexos",
+        "14 cm en hombres",
+        "6 cm en mujeres"
+      ],
+      "ans": 0,
+      "just": "El orificio tricúspide es el más grande de las cuatro válvulas cardíacas; esto concuerda con su función a baja presión en el circuito pulmonar de resistencia menor.",
+      "hint": "Es el mayor orificio valvular del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La valva anterosuperior de la válvula tricúspide es:",
+      "opts": [
+        "La más grande, con forma semicircular",
+        "La más pequeña y más fija al tabique",
+        "La que tiene inserción completamente mural",
+        "La única que tiene cuerdas tendinosas"
+      ],
+      "ans": 0,
+      "just": "Por su mayor tamaño actúa como la vela principal que cierra el orificio durante la sístole, mientras la valva septal permanece relativamente inmóvil.",
+      "hint": "Corresponde al sector marginal anterosuperior del orificio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Por qué la válvula tricúspide actúa funcionalmente como una válvula bicúspide?",
+      "opts": [
+        "Porque su valva septal, más pequeña, está fijada entre los tabiques auricular y ventricular y permanece relativamente inmóvil",
+        "Porque solo dos de sus valvas se abren durante la diástole",
+        "Porque el anillo tricúspide es fibroso como el mitral",
+        "Porque solo tiene dos músculos papilares principales"
+      ],
+      "ans": 0,
+      "just": "Las valvas anterosuperior e inferior se mueven como velas alrededor de la valva septal inmóvil; el movimiento efectivo es bicúspide aunque haya tres valvas.",
+      "hint": "Una de las valvas está 'anclada' y no contribuye al movimiento de apertura/cierre."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las zonas de las valvas auriculoventriculares, de libre a insertada, son:",
+      "opts": [
+        "Zona rugosa (contacto y cuerdas), zona clara (translúcida, pocas cuerdas) y zona basal (vascularizada e inervada)",
+        "Zona libre, zona media y zona anular",
+        "Zona auricular, zona ventricular y zona endocárdica",
+        "Zona de aposición, zona de coaptación y zona fibrosa"
+      ],
+      "ans": 0,
+      "just": "La zona rugosa define el plano de coaptación valvular; su engrosamiento o calcificación altera el cierre y produce insuficiencia valvular.",
+      "hint": "Tres zonas del borde libre hacia la inserción."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cortina subaórtica se forma por:",
+      "opts": [
+        "La estrecha continuidad fibrosa entre las valvas mitral y aórtica",
+        "La fusión del pericardio fibroso con la aorta ascendente",
+        "El tabique membranoso que separa el VI del VD",
+        "La cresta supraventricular del ventrículo izquierdo"
+      ],
+      "ans": 0,
+      "just": "Esta continuidad fibrosa directa significa que la patología de una válvula puede afectar directamente a la otra, como en la endocarditis infecciosa.",
+      "hint": "Relaciona la válvula de entrada y la de salida del ventrículo izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las cuerdas tendinosas falsas del ventrículo derecho se caracterizan por:",
+      "opts": [
+        "No unirse a las valvas; conectan músculos papilares entre sí o con las paredes; el 40% contiene células de Purkinje",
+        "Insertarse directamente en el borde libre de las valvas",
+        "Ser las únicas que transmiten impulsos de conducción",
+        "Surgir exclusivamente del músculo papilar anterior"
+      ],
+      "ans": 0,
+      "just": "Su contenido en células de Purkinje explica por qué actúan como vías accesorias de conducción y pueden generar arritmias en ciertas cardiopatías.",
+      "hint": "Falsas porque no se insertan en las valvas; algunas tienen tejido conductor."
+    },
+
+    {
+      "cat": "cardiaco",
+      "q": "La cresta terminal de la aurícula derecha corresponde externamente a:",
+      "opts": [
+        "El surco terminal",
+        "El surco interauricular",
+        "El surco coronario",
+        "El surco interventricular anterior"
+      ],
+      "ans": 0,
+      "just": "Esta cresta muscular en forma de C separa el seno venoso liso de la aurícula trabeculada, y el nódulo SA se localiza en su extremo superior.",
+      "hint": "Tiene una contraparte externa visible en la superficie del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nódulo sinoauricular se localiza exactamente en:",
+      "opts": [
+        "La parte superior del surco terminal, inferolateral al orificio de la vena cava superior",
+        "En el triángulo de Koch, anterosuperior al seno coronario",
+        "En la cresta de Eustaquio, junto a la válvula de la VCI",
+        "En el tendón de Todaro, cerca del cuerpo fibroso central"
+      ],
+      "ans": 0,
+      "just": "Esta localización precisa es fundamental para entender las arritmias del nódulo SA y las técnicas de mapeo electrofisiológico.",
+      "hint": "Está en la aurícula derecha, cerca de donde entra la vena cava superior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura lleva la rama derecha del haz auriculoventricular hacia el vértice ventricular?",
+      "opts": [
+        "La trabécula septomarginal (banda moderadora)",
+        "La cresta supraventricular",
+        "Las trabeculaciones septoparietales",
+        "El músculo papilar septal del cono arterioso"
+      ],
+      "ans": 0,
+      "just": "Esta es la razón funcional por la que la trabécula septomarginal existe: es un puente conductor que lleva el impulso al músculo papilar anterior antes de distribuirse por el ventrículo derecho.",
+      "hint": "La trabécula septomarginal tiene un doble papel: mecánico y conductor."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El triángulo de Koch delimita la posición del nódulo AV; sus tres lados son:",
+      "opts": [
+        "La valva septal de la tricúspide, el margen anteromedial del seno coronario y el tendón de Todaro",
+        "El seno coronario, la cresta terminal y el limbo de la fosa oval",
+        "La válvula de Eustaquio, la fosa oval y la VCS",
+        "El orificio de la VCI, el tendón de Todaro y el ostium pulmonar"
+      ],
+      "ans": 0,
+      "just": "Este triángulo es el punto de referencia quirúrgico más importante de la aurícula derecha; la cirugía valvular tricúspide requiere conocerlo para no dañar el nódulo AV.",
+      "hint": "Tres estructuras anatómicas distintas forman sus lados."
     }
+    {
+      "cat": "cardiaco",
+      "q": "El tendón de Todaro es:",
+      "opts": [
+        "Una extensión anterior fibrosa de la válvula de la VCI que forma un borde del triángulo de Koch",
+        "Un tendón que suspende el corazón del pericardio fibroso",
+        "La continuación fibrosa de la cresta terminal hacia la fosa oval",
+        "Un ligamento entre el nódulo SA y el nódulo AV"
+      ],
+      "ans": 0,
+      "just": "Su importancia radica en que forma el borde superior del triángulo de Koch y la ablación o lesión quirúrgica cerca de él puede dañar el nódulo AV.",
+      "hint": "Es una hebra fibrosa subendocárdica en la pared de la aurícula derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La frecuencia de descarga intrínseca del nódulo SA comparada con el haz de His es:",
+      "opts": [
+        "SA: 70-80/min; haz de His: 40/min",
+        "SA: 40-60/min; haz de His: 70/min",
+        "SA: 15-20/min; haz de His: 40-60/min",
+        "SA: 100-120/min; haz de His: 70-80/min"
+      ],
+      "ans": 0,
+      "just": "Esta jerarquía de frecuencias garantiza que el SA domine siempre; al fallar el SA, el haz de His toma el control como marcapasos de rescate con frecuencia menor.",
+      "hint": "El SA es el más rápido de todos los marcapasos."
+    },
 
+    // ══════════ RED DE CHIARI Y VARIANTES ANATÓMICAS ══════════
+    {
+      "cat": "cardiaco",
+      "q": "La red de Chiari es el resultado de:",
+      "opts": [
+        "Reabsorción incompleta de la válvula derecha del seno venoso embrionario",
+        "Persistencia del foramen oval con tabique anormal",
+        "Reabsorción incompleta del septum primum",
+        "Fusión anormal del septum secundum con los cojinetes endocárdicos"
+      ],
+      "ans": 0,
+      "just": "Aunque frecuentemente es clínicamente insignificante, se ha asociado con enfermedad tromboembólica, endocarditis, arritmias y atrapamiento de catéteres percutáneos.",
+      "hint": "Proviene de una estructura del seno venoso embrionario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál de los siguientes puede ser una consecuencia clínica de la red de Chiari?",
+      "opts": [
+        "Atrapamiento de catéteres en intervención percutánea y enfermedad tromboembólica",
+        "Siempre produce soplos cardíacos audibles",
+        "Produce taponamiento cardíaco crónico",
+        "Origina inevitablemente hipertensión pulmonar"
+      ],
+      "ans": 0,
+      "just": "Su carácter reticular puede enganchar catéteres de vía central, marcapasos o dispositivos percutáneos durante procedimientos intervencionistas.",
+      "hint": "Es una red dentro de la aurícula derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Cuando la vena cardinal común izquierda persiste en la vida adulta se convierte en:",
+      "opts": [
+        "Vena cava superior izquierda, que drena al corazón a través del seno coronario",
+        "Ligamento arterioso izquierdo",
+        "Vena pulmonar izquierda accesoria",
+        "Vena intercostal superior izquierda"
+      ],
+      "ans": 0,
+      "just": "Su presencia puede confundirse con una estructura mediastínica anormal en imágenes; drena a la aurícula derecha a través de un seno coronario dilatado.",
+      "hint": "Reemplaza a la vena oblicua de la aurícula izquierda."
+    },
 
+    // ══════════ FOSA OVAL Y TABIQUE INTERAURICULAR ══════════
+    {
+      "cat": "cardiaco",
+      "q": "El suelo de la fosa oval corresponde a:",
+      "opts": [
+        "El septum primum",
+        "El septum secundum",
+        "El cuerpo fibroso central",
+        "El tabique muscular interventricular"
+      ],
+      "ans": 0,
+      "just": "El limbo de la fosa oval representa los bordes musculares y el tejido adiposo el cual es abundante; el suelo delgado es el septum primum que puede persistir permeable.",
+      "hint": "Diferencia el suelo del borde (limbo) de la fosa oval."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El foramen oval permeable (PFO) se encuentra en qué porcentaje de corazones normales:",
+      "opts": [
+        "Hasta un tercio",
+        "Casi todos",
+        "Menos del 5%",
+        "Solo en cardiopatías congénitas"
+      ],
+      "ans": 0,
+      "just": "Su persistencia puede facilitar embolias paradójicas siendo una causa reconocida de accidente cerebrovascular criptogénico.",
+      "hint": "Es sorprendentemente frecuente en la población general."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El tubérculo intervenoso de Lower es:",
+      "opts": [
+        "Una elevación del limbo superior de la fosa oval formada por tejido adiposo extracardíaco abundante",
+        "Una cresta muscular en el ventrículo derecho que separa las válvulas",
+        "El músculo papilar posterior de la válvula tricúspide",
+        "El tendón de Todaro hipertrofiado"
+      ],
+      "ans": 0,
+      "just": "Puede ser un hallazgo incidental en imágenes cardíacas por lo que no debe confundirse con una masa patológica intracardíaca.",
+      "hint": "Es un repliegue del limbo de la fosa oval."
+    },
+
+    // ══════════ VENTRÍCULO IZQUIERDO EN DETALLE ══════════
+    {
+      "cat": "cardiaco",
+      "q": "La cavidad del ventrículo izquierdo tiene forma de:",
+      "opts": [
+        "Semielipsoide o cono estrecho, con paredes de 8-12 mm",
+        "Semilunar como el VD, con paredes de 3-5 mm",
+        "Cilíndrica con paredes uniformes de 6 mm",
+        "Piramidal con base posterior"
+      ],
+      "ans": 0,
+      "just": "Su forma junto con su espesor parietal son consecuencia de la alta presión sistémica que debe generar.",
+      "hint": "Las paredes del VI son tres veces más gruesas que las del VD."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las trabéculas carnosas del ventrículo izquierdo comparadas con las del ventrículo derecho son:",
+      "opts": [
+        "Más finas e intrincadas",
+        "Más gruesas y prominentes",
+        "Iguales en ambos ventrículos",
+        "Ausentes en el VI"
+      ],
+      "ans": 0,
+      "just": "El patrón trabecular fino del VI es su característica morfológica distintiva.",
+      "hint": "Las del VI son más delicadas; las del VD son más gruesas."
+    },
+
+    // ══════════ EMBRIOLOGÍA CARDÍACA ══════════
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué día aproximado comienza el corazón a latir rítmicamente durante el desarrollo embrionario?",
+      "opts": [
+        "Día 22",
+        "Día 19",
+        "Día 28",
+        "Día 33"
+      ],
+      "ans": 0,
+      "just": "Este latido temprano es esencial para el inicio de la circulación embrionaria ya que el tubo cardíaco late incluso antes de que el sistema nervioso lo controle.",
+      "hint": "El latido precede a la formación de las cuatro cámaras."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El septum primum comienza a formarse en el día:",
+      "opts": [
+        "28",
+        "22",
+        "33",
+        "46"
+      ],
+      "ans": 0,
+      "just": "La formación del septum primum es el inicio de la tabicación auricular; consiguientemente defectos en este proceso generan la comunicación interauricular tipo ostium primum.",
+      "hint": "La tabicación cardíaca comienza hacia el final del primer mes embrionario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los cojinetes endocárdicos son esenciales para:",
+      "opts": [
+        "Dividir los canales auriculoventriculares y los tractos de salida",
+        "Formar el tabique interventricular muscular",
+        "Originar el nódulo sinoauricular",
+        "Formar los músculos papilares de ambas válvulas AV"
+      ],
+      "ans": 0,
+      "just": "Defectos en los cojinetes producen el canal auriculoventricular completo el cual es frecuente en síndrome de Down.",
+      "hint": "Participan en la separación de los tractos de entrada y salida."
+    },
+
+    {
+      "cat": "cardiaco",
+      "q": "La diferencia entre el potencial de equilibrio del Na⁺ (+65 mV) y el valor real alcanzado en la fase 0 (+20 mV) se explica por:",
+      "opts": [
+        "El cierre de las puertas de inactivación de los canales de Na⁺ antes de alcanzar el equilibrio",
+        "La apertura simultánea de canales de K⁺ que contrarrestan la entrada de Na⁺",
+        "La inhibición de la Na/K ATPasa durante la despolarización",
+        "La apertura de canales de Cl⁻ que hiperpolarizan la membrana"
+      ],
+      "ans": 0,
+      "just": "Esta inactivación rápida protege al corazón de una despolarización sostenida que imposibilitaría la repolarización.",
+      "hint": "Las puertas de inactivación se cierran casi inmediatamente después de la despolarización."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La corriente If ('funny current') del nódulo SA es responsable de:",
+      "opts": [
+        "La despolarización espontánea de la fase 4 que genera el automatismo cardíaco",
+        "La repolarización de la fase 3",
+        "La corriente de entrada de Ca²⁺ durante la meseta",
+        "El ascenso rápido de la fase 0 en el ventrículo"
+      ],
+      "ans": 0,
+      "just": "La corriente If es transportada principalmente por Na⁺ además de activarse al final de la repolarización.",
+      "hint": "La 'f' viene de 'funny' porque tiene propiedades inusuales."
+    }
+    // ══════════ REGULACIÓN Y FISIOLOGÍA AVANZADA ══════════
+    {
+      "cat": "cardiaco",
+      "q": "¿Por qué la velocidad de conducción en el nódulo AV (0.01 a 0.05 m/s) es fisiológicamente necesaria?",
+      "opts": [
+        "Garantiza que las aurículas terminen de contraerse antes de activar los ventrículos, optimizando el llenado ventricular",
+        "Es un artefacto evolutivo sin función clara",
+        "Previene la taquicardia sinusal excesiva",
+        "Aumenta la precarga auricular compensatoriamente"
+      ],
+      "ans": 0,
+      "just": "Este retraso de aproximadamente 100 a 150 milisegundos permite que la sístole auricular sea efectiva; en consecuencia, se evita la contracción simultánea de cámaras que reduciría el gasto cardíaco.",
+      "hint": "El retraso nodal tiene un propósito mecánico fundamental."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El fosfolambano en el retículo sarcoplásmico normalmente:",
+      "opts": [
+        "Inhibe la Ca²⁺-ATPasa (SERCA), reduciendo la recaptación de Ca²⁺; la PKA lo fosforila para aliviar esta inhibición",
+        "Activa la Ca²⁺-ATPasa, aumentando el calcio intracelular",
+        "Transporta Ca²⁺ desde el citosol hacia el exterior celular",
+        "Es un canal de Ca²⁺ tipo L en la membrana sarcolémica"
+      ],
+      "ans": 0,
+      "just": "Al fosforilarlo mediante la vía simpática, la bomba SERCA recupera más calcio al retículo sarcoplásmico con mayor celeridad; por consiguiente, se acorta la sístole y aumenta la reserva de calcio para el siguiente ciclo.",
+      "hint": "Es un inhibidor que se desactiva con la estimulación simpática."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La relación entre la poscarga y el volumen sistólico en la curva presión volumen muestra que:",
+      "opts": [
+        "Al aumentar la poscarga, el volumen sistólico disminuye porque el ventrículo no puede eyectar contra mayor presión con la misma fuerza",
+        "La poscarga no afecta el volumen sistólico en condiciones normales",
+        "Al aumentar la poscarga, el volumen sistólico aumenta por el mecanismo de Frank Starling",
+        "La poscarga y el volumen sistólico son directamente proporcionales"
+      ],
+      "ans": 0,
+      "just": "En la insuficiencia cardíaca, la reducción de la poscarga con vasodilatadores representa una estrategia terapéutica clave para mejorar el volumen sistólico.",
+      "hint": "Mayor resistencia implica mayor esfuerzo para vaciar el ventrículo."
+    },
+
+    // ══════════ RUIDOS CARDÍACOS ACCESORIOS ══════════
+    {
+      "cat": "cardiaco",
+      "q": "El tercer ruido cardíaco (R3) se produce durante:",
+      "opts": [
+        "El llenado ventricular rápido en la diástole temprana",
+        "La sístole auricular al final de la diástole",
+        "El cierre de las válvulas semilunares",
+        "La relajación isovolumétrica"
+      ],
+      "ans": 0,
+      "just": "En adultos mayores con disfunción diastólica o sobrecarga de volumen, el R3 se considera un signo patológico de falla cardíaca.",
+      "hint": "Es un ruido de llenado que ocurre al abrirse la válvula mitral."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El cuarto ruido cardíaco (R4) se asocia con:",
+      "opts": [
+        "La sístole auricular que ocurre contra un ventrículo rígido o poco distensible",
+        "El llenado ventricular rápido en personas jóvenes",
+        "El cierre de las válvulas semilunares",
+        "La apertura súbita de una válvula mitral estenótica"
+      ],
+      "ans": 0,
+      "just": "Se produce cuando la aurícula se contrae enérgicamente para vencer la rigidez ventricular; asimismo, es característico de la hipertrofia ventricular izquierda.",
+      "hint": "Ocurre al final de la diástole, justo antes del R1."
+    },
+
+    // ══════════ EKG AVANZADO ══════════
+    {
+      "cat": "ekg",
+      "q": "El segmento ST en el EKG corresponde a:",
+      "opts": [
+        "La meseta del potencial de acción ventricular (Fase 2)",
+        "La repolarización ventricular rápida",
+        "La conducción por el haz de His y las ramas",
+        "El intervalo entre la sístole auricular y la ventricular"
+      ],
+      "ans": 0,
+      "just": "Representa el periodo en que los ventrículos están completamente despolarizados; por tanto, cualquier elevación o depresión sugiere isquemia o lesión miocárdica.",
+      "hint": "Se sitúa entre el complejo QRS y la onda T."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál de las siguientes alteraciones es el hallazgo más precoz en la hiperpotasemia severa?",
+      "opts": [
+        "Ondas T picudas simétricas en tienda de campaña",
+        "Ondas U prominentes",
+        "Prolongación del intervalo QT",
+        "Depresión del segmento ST"
+      ],
+      "ans": 0,
+      "just": "El aumento del potasio extracelular acelera la repolarización; en consecuencia, se manifiestan inicialmente ondas T altas y estrechas.",
+      "hint": "Constituye la primera alteración visible antes del ensanchamiento del QRS."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la triada característica del síndrome de Wolff Parkinson White?",
+      "opts": [
+        "Intervalo PR corto, onda delta y ensanchamiento del QRS",
+        "Intervalo PR largo, onda T invertida y QRS estrecho",
+        "Onda Q patológica, elevación del ST y bloqueo de rama",
+        "Fibrilación auricular, QRS alternante y ondas U"
+      ],
+      "ans": 0,
+      "just": "La vía accesoria preexcita el ventrículo antes de que el impulso llegue por el nodo AV; por consiguiente, se genera la onda delta característica.",
+      "hint": "Se produce por una vía de conducción anómala rápida."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el diagnóstico de hipertrofia ventricular izquierda, el índice de Sokolow Lyon se calcula sumando:",
+      "opts": [
+        "Amplitud de onda S en V1 o V2 más la onda R en V5 o V6",
+        "Amplitud de onda R en aVL más la onda S en V3",
+        "Duración del QRS en V1 más la amplitud de onda T en V6",
+        "El voltaje total en las derivaciones de los miembros"
+      ],
+      "ans": 0,
+      "just": "Si la suma resultante es igual o superior a 35 milímetros, se apoya firmemente el diagnóstico de hipertrofia ventricular.",
+      "hint": "Suma la profundidad derecha con la altura lateral."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Un paciente con infarto inferior presenta bloqueo AV completo. ¿Qué arteria es la responsable probable?",
+      "opts": [
+        "Arteria coronaria derecha (ACD)",
+        "Arteria descendente anterior izquierda",
+        "Arteria circunfleja",
+        "Arteria marginal obtusa"
+      ],
+      "ans": 0,
+      "just": "La ACD irriga tanto el territorio inferior como el nódulo AV en la mayoría de los casos de dominancia derecha; en consecuencia, su oclusión explica ambos hallazgos.",
+      "hint": "Relaciona el territorio inferior con la dominancia vascular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Por qué los betabloqueadores son útiles en la insuficiencia cardíaca crónica a pesar de su inotropismo negativo?",
+      "opts": [
+        "Reducen la toxicidad crónica de las catecolaminas y el remodelado adverso",
+        "Aumentan el AMPc a largo plazo de manera compensatoria",
+        "Reducen la poscarga al bloquear directamente la renina",
+        "Aumentan la frecuencia cardíaca durante el ejercicio"
+      ],
+      "ans": 0,
+      "just": "La exposición prolongada a niveles altos de adrenalina daña el miocardio; por lo tanto, bloquear estos receptores previene la apoptosis y el deterioro estructural.",
+      "hint": "La estimulación simpática crónica resulta tóxica para el corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Un atleta de alto rendimiento tiene FC de 40 lpm con gasto cardíaco normal. ¿Cuál es el mecanismo?",
+      "opts": [
+        "Mayor volumen sistólico por hipertrofia excéntrica y mayor llenado diastólico",
+        "Mayor contractilidad intrínseca con menos latidos",
+        "Hipotiroidismo que reduce el metabolismo basal",
+        "Mayor resistencia vascular periférica"
+      ],
+      "ans": 0,
+      "just": "Puesto que el gasto cardíaco es el producto del volumen sistólico por la frecuencia, un corazón más grande puede bombear el mismo volumen con menos pulsaciones.",
+      "hint": "Si la frecuencia disminuye, el volumen expulsado en cada latido debe aumentar."
+    }
   ]
 }
