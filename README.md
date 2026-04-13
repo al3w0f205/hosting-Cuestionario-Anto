@@ -7,9 +7,6 @@
 <br/>
 <br/>
 
-<p align="center">
-  <img src="assets/lol.jpeg" alt="Motivación" width="70%">
-</p>
 
 <br/>
 
