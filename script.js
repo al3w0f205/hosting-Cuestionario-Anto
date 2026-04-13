@@ -5,6 +5,7 @@ let currentFilter = 'all';
 let visibleQs = [];
 
 async function inicializarCuestionario() {
+  // Lista de archivos JSON por categoría dentro de la carpeta data/
   const archivos = [
     'data/cardiaco.json',
     'data/respiratorio.json',
@@ -14,26 +15,38 @@ async function inicializarCuestionario() {
   ];
 
   try {
-    const respuestas = await Promise.all(archivos.map(url => 
-      fetch(url).then(res => res.ok ? res.json() : { preguntas: [] }) // Si falla, devuelve vacío
-      .catch(() => ({ preguntas: [] })) // Captura errores de red
-    ));
+    // Se ejecutan las peticiones de forma individual para evitar el fallo en cadena
+    const promesas = archivos.map(url => 
+      fetch(url)
+        .then(async res => {
+          if (!res.ok) return null; // Omite archivos no encontrados (404)
+          try {
+            return await res.json();
+          } catch (e) {
+            console.error(`Error de formato en ${url}:`, e);
+            return null; // Omite archivos con errores de sintaxis
+          }
+        })
+        .catch(() => null) // Captura fallos de conexión o red
+    );
 
-    // Filtrar y fusionar solo los que tengan datos
-    QUESTIONS = respuestas.flatMap(datos => datos.preguntas || []);
+    const resultados = await Promise.all(promesas);
+
+    // Se filtran los resultados nulos y se fusionan únicamente los objetos válidos
+    QUESTIONS = resultados
+      .filter(res => res !== null && res.preguntas)
+      .flatMap(res => res.preguntas);
     
-    if (QUESTIONS.length === 0) {
-      console.warn("No se cargaron preguntas. Revisa que los archivos JSON existan y tengan el formato correcto.");
-    }
-
+    console.log("Preguntas cargadas con éxito:", QUESTIONS.length);
     renderAll();
   } catch (error) {
-    console.error("Error crítico en la inicialización:", error);
+    console.error("Error crítico durante la carga de datos:", error);
   }
 }
 
 function renderAll() {
   const container = document.getElementById('questionsContainer');
+  if (!container) return;
   container.innerHTML = '';
 
   const filtered = QUESTIONS.filter(q => currentFilter === 'all' || q.cat === currentFilter).map(q => {
@@ -47,7 +60,8 @@ function renderAll() {
   });
 
   visibleQs = filtered;
-  document.getElementById('totalNum').textContent = filtered.length;
+  const totalNumElem = document.getElementById('totalNum');
+  if (totalNumElem) totalNumElem.textContent = filtered.length;
 
   let prevCat = null;
   filtered.forEach((q, idx) => {
@@ -56,7 +70,7 @@ function renderAll() {
       div.className = 'category-divider';
       const catLabels = {cardiaco:'Anatomía & Fisiología Cardíaca', respiratorio:'Anatomía & Fisiología Respiratoria', calculo:'Cálculos Clínicos', radiologia:'Radiología Torácica', ekg:'Electrocardiograma'};
       const catClass = {cardiaco:'cat-cardiac', respiratorio:'cat-resp', calculo:'cat-calc', radiologia:'cat-radio', ekg:'cat-ekg'};
-      div.innerHTML = `<div class="cat-badge ${catClass[q.cat]}">${catLabels[q.cat]}</div><div class="cat-line"></div>`;
+      div.innerHTML = `<div class="cat-badge ${catClass[q.cat] || ''}">${catLabels[q.cat] || q.cat}</div><div class="cat-line"></div>`;
       container.appendChild(div);
       prevCat = q.cat;
     }
@@ -94,7 +108,7 @@ function buildCard(q, idx) {
 function answer(idx, chosen) {
   const q = visibleQs[idx];
   const card = document.getElementById(`card-${idx}`);
-  if (card.dataset.done) return;
+  if (!card || card.dataset.done) return;
   card.dataset.done = '1';
 
   const isCorrect = chosen === q.currentAns;
@@ -102,54 +116,74 @@ function answer(idx, chosen) {
 
   for (let i = 0; i < q.currentOpts.length; i++) {
     const btn = document.getElementById(`opt-${idx}-${i}`);
-    btn.disabled = true;
-    if (i === q.currentAns) btn.classList.add('correct');
-    else if (i === chosen && !isCorrect) btn.classList.add('wrong');
+    if (btn) {
+      btn.disabled = true;
+      if (i === q.currentAns) btn.classList.add('correct');
+      else if (i === chosen && !isCorrect) btn.classList.add('wrong');
+    }
   }
 
   const fb = document.getElementById(`fb-${idx}`);
-  if (isCorrect) {
-    fb.className = 'feedback correct';
-    fb.innerHTML = `<strong>✓ Correcto</strong>${q.just}`;
-    correct++;
-    card.classList.add('answered-correct');
-  } else {
-    fb.className = 'feedback wrong';
-    fb.innerHTML = `<strong>✗ Incorrecto — La respuesta correcta es ${keys[q.currentAns]}</strong>${q.just}`;
-    card.classList.add('answered-wrong');
+  if (fb) {
+    if (isCorrect) {
+      fb.className = 'feedback correct';
+      fb.innerHTML = `<strong>✓ Correcto</strong>${q.just}`;
+      correct++;
+      card.classList.add('answered-correct');
+    } else {
+      fb.className = 'feedback wrong';
+      fb.innerHTML = `<strong>✗ Incorrecto — La respuesta correcta es ${keys[q.currentAns]}</strong>${q.just}`;
+      card.classList.add('answered-wrong');
+    }
+    fb.style.display = 'block';
   }
-  fb.style.display = 'block';
 
   answered++;
-  document.getElementById('scoreDisplay').textContent = correct;
-  document.getElementById('answeredCount').textContent = `${answered} respondidas`;
+  const scoreDisp = document.getElementById('scoreDisplay');
+  const ansCount = document.getElementById('answeredCount');
+  if (scoreDisp) scoreDisp.textContent = correct;
+  if (ansCount) ansCount.textContent = `${answered} respondidas`;
+  
   updateProgress();
 
   const allAnswered = document.querySelectorAll('.q-card[data-done]').length;
-  if (allAnswered === visibleQs.length) showSummary();
+  if (allAnswered === visibleQs.length && visibleQs.length > 0) showSummary();
 }
 
 function toggleHint(idx) {
   const hint = document.getElementById(`hint-${idx}`);
-  hint.style.display = hint.style.display === 'block' ? 'none' : 'block';
+  if (hint) {
+    hint.style.display = hint.style.display === 'block' ? 'none' : 'block';
+  }
 }
 
 function updateProgress() {
   const total = visibleQs.length;
   const pct = total > 0 ? answered / total : 0;
   const circumference = 150.8;
-  document.getElementById('progressCircle').style.strokeDashoffset = circumference * (1 - pct);
-  document.getElementById('progressNum').textContent = answered;
+  const circle = document.getElementById('progressCircle');
+  const num = document.getElementById('progressNum');
+  
+  if (circle) circle.style.strokeDashoffset = circumference * (1 - pct);
+  if (num) num.textContent = answered;
 }
 
 function filterCat(cat, btn) {
   currentFilter = cat;
-  answered = 0; correct = 0;
-  document.getElementById('scoreDisplay').textContent = '0';
-  document.getElementById('answeredCount').textContent = '0 respondidas';
-  document.getElementById('summary').style.display = 'none';
+  answered = 0; 
+  correct = 0;
+  
+  const scoreDisp = document.getElementById('scoreDisplay');
+  const ansCount = document.getElementById('answeredCount');
+  const summary = document.getElementById('summary');
+  
+  if (scoreDisp) scoreDisp.textContent = '0';
+  if (ansCount) ansCount.textContent = '0 respondidas';
+  if (summary) summary.style.display = 'none';
+  
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) btn.classList.add('active');
+  
   renderAll();
 }
 
@@ -157,20 +191,29 @@ function showSummary() {
   const total = visibleQs.length;
   const pct = Math.round((correct / total) * 100);
   const summary = document.getElementById('summary');
-  document.getElementById('statCorrect').textContent = correct;
-  document.getElementById('statWrong').textContent = total - correct;
-  document.getElementById('statPct').textContent = pct + '%';
-  document.getElementById('summarySub').textContent = `Respondiste ${total} preguntas con ${pct}% de precisión.`;
+  if (!summary) return;
+
+  const statCorrect = document.getElementById('statCorrect');
+  const statWrong = document.getElementById('statWrong');
+  const statPct = document.getElementById('statPct');
+  const summarySub = document.getElementById('summarySub');
+  const summaryIcon = document.getElementById('summaryIcon');
+  const summaryTitle = document.getElementById('summaryTitle');
+
+  if (statCorrect) statCorrect.textContent = correct;
+  if (statWrong) statWrong.textContent = total - correct;
+  if (statPct) statPct.textContent = pct + '%';
+  if (summarySub) summarySub.textContent = `Respondiste ${total} preguntas con ${pct}% de precisión.`;
 
   if (pct >= 80) {
-    document.getElementById('summaryIcon').textContent = '🏆';
-    document.getElementById('summaryTitle').textContent = '¡Excelente desempeño!';
+    if (summaryIcon) summaryIcon.textContent = '🏆';
+    if (summaryTitle) summaryTitle.textContent = '¡Excelente desempeño!';
   } else if (pct >= 60) {
-    document.getElementById('summaryIcon').textContent = '📚';
-    document.getElementById('summaryTitle').textContent = 'Buen avance, sigue repasando.';
+    if (summaryIcon) summaryIcon.textContent = '📚';
+    if (summaryTitle) summaryTitle.textContent = 'Buen avance, sigue repasando.';
   } else {
-    document.getElementById('summaryIcon').textContent = '🔬';
-    document.getElementById('summaryTitle').textContent = 'Hay temas por reforzar.';
+    if (summaryIcon) summaryIcon.textContent = '🔬';
+    if (summaryTitle) summaryTitle.textContent = 'Hay temas por reforzar.';
   }
 
   summary.style.display = 'block';
@@ -178,10 +221,16 @@ function showSummary() {
 }
 
 function restart() {
-  answered = 0; correct = 0;
-  document.getElementById('scoreDisplay').textContent = '0';
-  document.getElementById('answeredCount').textContent = '0 respondidas';
-  document.getElementById('summary').style.display = 'none';
+  answered = 0; 
+  correct = 0;
+  const scoreDisp = document.getElementById('scoreDisplay');
+  const ansCount = document.getElementById('answeredCount');
+  const summary = document.getElementById('summary');
+  
+  if (scoreDisp) scoreDisp.textContent = '0';
+  if (ansCount) ansCount.textContent = '0 respondidas';
+  if (summary) summary.style.display = 'none';
+  
   renderAll();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
