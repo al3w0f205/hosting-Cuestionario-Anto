@@ -1,0 +1,2468 @@
+{
+  "preguntas": [
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué subdivisión del mediastino se localiza específicamente el corazón y el saco pericárdico?",
+      "opts": ["Mediastino superior", "Mediastino medio", "Mediastino posterior", "Mediastino anterior"],
+      "ans": 1,
+      "just": "El corazón se sitúa en el mediastino medio, limitado anteriormente por el cuerpo del esternón y posteriormente por las vértebras T5 a T8.",
+      "hint": "Es la parte más ancha del mediastino inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué capa del pericardio es una bolsa de tejido conjuntivo denso que evita la distensión excesiva del corazón?",
+      "opts": ["Pericardio seroso", "Pericardio fibroso", "Epicardio", "Endocardio"],
+      "ans": 1,
+      "just": "El pericardio fibroso es una capa externa resistente que protege al corazón además de anclarlo al diafragma y a los grandes vasos.",
+      "hint": "Es la capa más superficial y rígida."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ligamento que une el pericardio fibroso con la superficie posterior del esternón se denomina:",
+      "opts": ["Ligamento pericardiofrénico", "Ligamento esternopericárdico", "Ligamento suspensorio del corazón", "Ligamento vertebropericárdico"],
+      "ans": 1,
+      "just": "Los ligamentos esternopericárdicos estabilizan el saco pericárdico dentro de la cavidad torácica, limitando sus movimientos.",
+      "hint": "Su nombre indica los dos huesos/estructuras que conecta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el origen de la arteria pericardiacofrénica, principal fuente de irrigación del pericardio?",
+      "opts": ["Aorta abdominal", "Arteria torácica interna", "Arteria subclavia", "Arteria carótida común"],
+      "ans": 1,
+      "just": "Esta arteria es rama de la torácica interna; además, acompaña al nervio frénico en su recorrido por el mediastino medio.",
+      "hint": "Proviene de un vaso que desciende a los lados del esternón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La sensibilidad del pericardio parietal es transportada fundamentalmente por:",
+      "opts": ["Nervio vago", "Nervios frénicos", "Cadena simpática", "Nervios intercostales"],
+      "ans": 1,
+      "just": "Los nervios frénicos (C3-C5) no solo inervan el diafragma, sino que también transmiten el dolor del pericardio parietal.",
+      "hint": "Su irritación causa dolor referido en el hombro."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura separa el flujo de salida arterial del flujo de entrada venoso dentro del saco pericárdico?",
+      "opts": ["Seno pericárdico oblicuo", "Seno pericárdico transverso", "Receso poscavo", "Ligamento arterioso"],
+      "ans": 1,
+      "just": "El seno transverso es un pasaje ubicado detrás de la aorta y el tronco pulmonar, delante de la vena cava superior.",
+      "hint": "Es de gran utilidad quirúrgica para pinzar los grandes vasos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El receso del pericardio seroso que se encuentra detrás de la aurícula izquierda se conoce como:",
+      "opts": ["Seno transverso", "Seno oblicuo (de Haller)", "Seno coronario", "Vena oblicua"],
+      "ans": 1,
+      "just": "Es un espacio en forma de 'cul-de-sac' limitado por las venas pulmonares y la vena cava inferior.",
+      "hint": "Se explora introduciendo la mano por debajo del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el componente de la Tríada de Beck que refleja la incapacidad de llenado auricular en el taponamiento cardíaco?",
+      "opts": ["Bradicardia", "Ingurgitación yugular", "Fiebre", "Hipertensión arterial"],
+      "ans": 1,
+      "just": "La ingurgitación yugular ocurre porque la presión pericárdica impide el retorno venoso, acumulando sangre en las venas del cuello.",
+      "hint": "Observarás las venas del cuello muy dilatadas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Anatómicamente, el ápice del corazón se proyecta normalmente a nivel del:",
+      "opts": ["3er espacio intercostal izquierdo", "5to espacio intercostal izquierdo", "2do espacio intercostal derecho", "4to espacio intercostal derecho"],
+      "ans": 1,
+      "just": "El ápice está formado por el ventrículo izquierdo y se sitúa en la línea medioclavicular izquierda.",
+      "hint": "Es donde mejor se ausculta el foco mitral."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué cara del corazón está formada principalmente por la aurícula derecha?",
+      "opts": ["Cara anterior (esternocostal)", "Cara derecha (pulmonar)", "Cara diafragmática", "Cara izquierda"],
+      "ans": 1,
+      "just": "La cara derecha se extiende entre la vena cava superior y la inferior, siendo constituida por la aurícula derecha.",
+      "hint": "Es el borde lateral derecho de la silueta cardíaca."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El surco que separa externamente las aurículas de los ventrículos es:",
+      "opts": ["Surco interventricular anterior", "Surco coronario", "Surco terminal", "Surco interauricular"],
+      "ans": 1,
+      "just": "El surco coronario rodea el corazón; asimismo, contiene las arterias coronarias y el seno coronario.",
+      "hint": "Parece una corona que rodea la base de los ventrículos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la estructura interna de la aurícula derecha que separa la porción lisa de la rugosa?",
+      "opts": ["Fosa oval", "Crista terminalis", "Músculos pectíneos", "Limbo"],
+      "ans": 1,
+      "just": "La cresta terminal es un reborde muscular vertical que marca la transición entre el seno de las venas cavas y la aurícula verdadera.",
+      "hint": "Su contraparte externa es el surco terminal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El remanente embrionario del tabique interauricular visible en la aurícula derecha se llama:",
+      "opts": ["Foramen oval", "Fosa oval", "Ostium primum", "Agujero de Botal"],
+      "ans": 1,
+      "just": "La fosa oval es una depresión en el tabique interauricular; representa el sitio del antiguo foramen oval fetal.",
+      "hint": "Se localiza por encima del orificio de la vena cava inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué válvula se localiza en el orificio auriculoventricular derecho?",
+      "opts": ["Válvula mitral", "Válvula tricúspide", "Válvula aórtica", "Válvula pulmonar"],
+      "ans": 1,
+      "just": "La válvula tricúspide consta de tres valvas (anterior, posterior y septal) que impiden el reflujo hacia la aurícula derecha.",
+      "hint": "Es la válvula del 'corazón derecho'."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La estructura muscular que conduce el impulso eléctrico a la base del músculo papilar anterior en el ventrículo derecho es:",
+      "opts": ["Crista supraventricular", "Trabécula septomarginal", "Músculo papilar septal", "Haz de His"],
+      "ans": 1,
+      "just": "La trabécula septomarginal (banda moderadora) conecta el tabique interventricular con la pared anterior.",
+      "hint": "Es un puente muscular exclusivo del ventrículo derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cómo se denomina la zona de salida lisa del ventrículo derecho que precede a la válvula pulmonar?",
+      "opts": ["Vestíbulo aórtico", "Cono arterioso (infundíbulo)", "Seno venoso", "Ápex"],
+      "ans": 1,
+      "just": "El infundíbulo tiene paredes lisas derivadas del bulbo cardíaco embrionario, facilitando la eyección hacia el tronco pulmonar.",
+      "hint": "Tiene forma de embudo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuántas venas pulmonares desembocan normalmente en la aurícula izquierda?",
+      "opts": ["Dos", "Cuatro", "Una", "Seis"],
+      "ans": 1,
+      "just": "La aurícula izquierda recibe sangre oxigenada a través de dos venas pulmonares derechas y dos izquierdas.",
+      "hint": "Provienen de ambos pulmones, superiores e inferiores."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El grosor de la pared del ventrículo izquierdo respecto al derecho es aproximadamente:",
+      "opts": ["Igual", "Tres veces mayor", "La mitad", "Diez veces mayor"],
+      "ans": 1,
+      "just": "El ventrículo izquierdo maneja presiones sistémicas mucho más altas; por consiguiente, su miocardio es significativamente más grueso.",
+      "hint": "Refleja la mayor resistencia periférica que debe vencer."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué válvula posee cuerdas tendinosas unidas a solo dos músculos papilares principales?",
+      "opts": ["Tricúspide", "Mitral", "Aórtica", "Pulmonar"],
+      "ans": 1,
+      "just": "La válvula mitral (bicúspide) tiene dos valvas y se asocia con los músculos papilares anterior y posterior del ventrículo izquierdo.",
+      "hint": "Es la válvula del orificio AV izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los pequeños engrosamientos en el centro del borde libre de las valvas de la válvula aórtica son:",
+      "opts": ["Lúnulas", "Nódulos", "Cuerdas", "Comisuras"],
+      "ans": 1,
+      "just": "Los nódulos (de Arancio en la aorta) aseguran el cierre hermético de las válvulas semilunares durante la diástole.",
+      "hint": "Se encuentran en el vértice de la zona de contacto."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué momento del ciclo cardíaco se produce la máxima irrigación de las arterias coronarias?",
+      "opts": ["Sístole", "Diástole", "Eyección rápida", "Contracción isovolumétrica"],
+      "ans": 1,
+      "just": "Durante la sístole, la contracción miocárdica comprime los vasos; por lo tanto, el flujo efectivo ocurre al relajarse el corazón.",
+      "hint": "Cuando las válvulas semilunares están cerradas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el origen habitual de la arteria descendente anterior (interventricular anterior)?",
+      "opts": ["Coronaria derecha", "Coronaria izquierda", "Aorta ascendente", "Arteria circunfleja"],
+      "ans": 1,
+      "just": "La arteria coronaria izquierda se bifurca casi de inmediato en la arteria circunfleja y la interventricular anterior.",
+      "hint": "Es la arteria más importante para la cara anterior del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria que irriga el nódulo sinoauricular proviene mayoritariamente (60%) de:",
+      "opts": ["Arteria coronaria izquierda", "Arteria coronaria derecha", "Arteria marginal", "Arteria descendente posterior"],
+      "ans": 1,
+      "just": "La arteria del nodo SA suele ser una rama proximal de la coronaria derecha en la mayoría de los individuos.",
+      "hint": "Suele nacer cerca del origen de la coronaria que va por el surco derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué vena cardíaca discurre junto a la arteria interventricular posterior?",
+      "opts": ["Vena cardíaca magna", "Vena cardíaca media", "Vena cardíaca parva", "Vena oblicua"],
+      "ans": 1,
+      "just": "La vena cardíaca media (interventricular posterior) drena la cara diafragmática y desemboca en el seno coronario.",
+      "hint": "Sigue el mismo camino que la arteria descendente posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno coronario desemboca directamente en:",
+      "opts": ["Ventrículo derecho", "Aurícula derecha", "Vena cava inferior", "Aurícula izquierda"],
+      "ans": 1,
+      "just": "Recoge casi todo el drenaje venoso del miocardio y lo vierte en la aurícula derecha, entre la VCI y la válvula tricúspide.",
+      "hint": "Es el colector venoso principal del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El marcapasos natural del corazón, donde se origina el impulso eléctrico, es:",
+      "opts": ["Nodo auriculoventricular", "Nodo sinoauricular", "Fibras de Purkinje", "Haz de His"],
+      "ans": 1,
+      "just": "El nodo SA posee la frecuencia de despolarización más alta; en consecuencia, impone el ritmo al resto del sistema.",
+      "hint": "Se localiza cerca de la desembocadura de la vena cava superior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura representa el único puente eléctrico normal entre aurículas y ventrículos?",
+      "opts": ["Nodo SA", "Fascículo auriculoventricular (Haz de His)", "Trabécula septomarginal", "Haz de Bachmann"],
+      "ans": 1,
+      "just": "El esqueleto fibroso del corazón aísla las cámaras; por ello, el impulso solo puede pasar a través del Haz de His.",
+      "hint": "Cruza el esqueleto fibroso hacia el tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La estimulación parasimpática del corazón, que disminuye la frecuencia cardíaca, es mediada por:",
+      "opts": ["Nervios esplácnicos", "Nervios vagos", "Nervio frénico", "Tronco simpático"],
+      "ans": 1,
+      "just": "El nervio vago libera acetilcolina, la cual actúa reduciendo la automaticidad del nodo SA y la conducción en el nodo AV.",
+      "hint": "Es el par craneal X."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué capa del corazón está en contacto directo con la sangre en las cavidades?",
+      "opts": ["Miocardio", "Endocardio", "Pericardio visceral", "Pericardio fibroso"],
+      "ans": 1,
+      "just": "El endocardio es una capa delgada de endotelio y tejido conjuntivo que reviste el interior de las cámaras y válvulas.",
+      "hint": "Es análogo al endotelio de los vasos sanguíneos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El espacio entre las capas parietal y visceral del pericardio seroso contiene:",
+      "opts": ["Sangre", "Líquido pericárdico", "Aire", "Tejido adiposo"],
+      "ans": 1,
+      "just": "Este líquido lubrica las superficies, permitiendo que el corazón se mueva sin fricción durante sus contracciones.",
+      "hint": "Normalmente hay de 15 a 50 ml."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La base del corazón está orientada predominantemente hacia:",
+      "opts": ["Adelante y a la izquierda", "Atrás y a la derecha", "Abajo y a la izquierda", "Adelante y a la derecha"],
+      "ans": 1,
+      "just": "La base está formada principalmente por la aurícula izquierda y se proyecta hacia los cuerpos vertebrales torácicos.",
+      "hint": "Es la parte opuesta al ápice."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los músculos pectíneos son una característica prominente de:",
+      "opts": ["Ventrículo izquierdo", "Aurícula derecha (orejuela)", "Ventrículo derecho", "Tabique interventricular"],
+      "ans": 1,
+      "just": "Estos haces musculares se encuentran en la porción rugosa de las aurículas y son especialmente visibles en las orejuelas.",
+      "hint": "Tienen forma de dientes de peine."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura evita que las valvas de las válvulas AV se evertan hacia las aurículas durante la sístole?",
+      "opts": ["Músculos pectíneos", "Cuerdas tendinosas y músculos papilares", "Crista terminalis", "Esqueleto fibroso"],
+      "ans": 1,
+      "just": "La contracción de los papilares tensa las cuerdas; por consiguiente, las valvas se mantienen cerradas contra la presión ventricular.",
+      "hint": "Actúan como los hilos de un paracaídas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula tricúspide se ausculta con mayor claridad en:",
+      "opts": ["2do espacio intercostal derecho", "Borde esternal inferior izquierdo", "2do espacio intercostal izquierdo", "Ápice cardíaco"],
+      "ans": 1,
+      "just": "El foco tricuspídeo se sitúa típicamente sobre el cuerpo del esternón o el cuarto espacio intercostal izquierdo.",
+      "hint": "Está cerca del apéndice xifoides."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura separa las válvulas tricúspide y pulmonar en el ventrículo derecho?",
+      "opts": ["Tabique interventricular", "Cresta supraventricular", "Banda moderadora", "Músculo papilar anterior"],
+      "ans": 1,
+      "just": "La cresta supraventricular es un arco muscular que separa la zona de entrada de la zona de salida del ventrículo derecho.",
+      "hint": "Es un relieve muscular en el techo del ventrículo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La 'orejuela' es una prolongación de:",
+      "opts": ["Los ventrículos", "Las aurículas", "La aorta", "La arteria pulmonar"],
+      "ans": 1,
+      "just": "Las orejuelas son sacos musculares pequeños que aumentan la capacidad de las aurículas.",
+      "hint": "Tienen forma de oreja de perro."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función del esqueleto fibroso del corazón?",
+      "opts": ["Producir impulsos eléctricos", "Proporcionar inserción a las fibras musculares y aislar eléctricamente las cámaras", "Bombear sangre", "Almacenar calcio"],
+      "ans": 1,
+      "just": "Está compuesto por cuatro anillos que rodean las válvulas, proporcionando soporte y previniendo la conducción eléctrica directa.",
+      "hint": "Es el armazón del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la dominancia coronaria derecha, la arteria interventricular posterior es rama de:",
+      "opts": ["Arteria circunfleja", "Arteria coronaria derecha", "Arteria marginal derecha", "Aorta ascendente"],
+      "ans": 1,
+      "just": "La dominancia se define por qué arteria da origen a la descendente posterior; en el 70-85% es la coronaria derecha.",
+      "hint": "Es el patrón más frecuente en humanos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El triángulo de Koch, que localiza el nodo AV, tiene como uno de sus límites a:",
+      "opts": ["Vena cava superior", "Orificio del seno coronario", "Válvula mitral", "Arteria coronaria izquierda"],
+      "ans": 1,
+      "just": "Sus límites son el tendón de Todaro, la valva septal de la tricúspide y el orificio del seno coronario.",
+      "hint": "Es un área anatómica pequeña dentro de la aurícula derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué nervio puede verse afectado en un aneurisma del arco de la aorta, causando ronquera?",
+      "opts": ["Nervio frénico", "Nervio laríngeo recurrente izquierdo", "Nervio vago derecho", "Nervio espinal"],
+      "ans": 1,
+      "just": "Este nervio rodea el arco aórtico cerca del ligamento arterioso; por lo tanto, una compresión paraliza las cuerdas vocales.",
+      "hint": "Es una rama del vago que 'sube' hacia la laringe."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El peso promedio del corazón en un varón adulto es de aproximadamente:",
+      "opts": ["150 - 200 g", "280 - 340 g", "400 - 500 g", "100 - 120 g"],
+      "ans": 1,
+      "just": "En varones suele ser algo mayor que en mujeres (230-280 g), reflejando la masa corporal general.",
+      "hint": "Es un poco menos de lo que pesa una lata de refresco estándar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca magna (mayor) asciende por:",
+      "opts": ["Surco interventricular posterior", "Surco interventricular anterior", "Surco terminal", "Surco interauricular"],
+      "ans": 1,
+      "just": "Acompaña a la arteria descendente anterior antes de girar hacia el surco coronario para formar el seno coronario.",
+      "hint": "Es la vena principal del lado izquierdo del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la característica principal de las venas cardíacas anteriores?",
+      "opts": ["Drenan en el seno coronario", "Drenan directamente en la aurícula derecha", "Drenan en la aurícula izquierda", "Vienen de los pulmones"],
+      "ans": 1,
+      "just": "A diferencia de las otras venas, estas pequeñas venas cruzan el surco coronario y vierten su sangre directo en la aurícula derecha.",
+      "hint": "Se saltan el 'colector principal' venoso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria marginal derecha es típicamente una rama de:",
+      "opts": ["Arteria circunfleja", "Arteria coronaria derecha", "Arteria descendente anterior", "Arteria carótida"],
+      "ans": 1,
+      "just": "La arteria coronaria derecha da origen a la marginal derecha, que irriga el borde inferior del corazón.",
+      "hint": "Sigue el borde agudo del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo auriculoventricular se encuentra específicamente en:",
+      "opts": ["Techo de la aurícula derecha", "Tabique interauricular (Triángulo de Koch)", "Vértice del corazón", "Pared lateral del ventrículo izquierdo"],
+      "ans": 1,
+      "just": "Está situado en la parte posterior del tabique interauricular, cerca del orificio del seno coronario.",
+      "hint": "Recibe el impulso del nodo SA antes de pasarlo a los ventrículos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las fibras de Purkinje se localizan en:",
+      "opts": ["Capa profunda del endocardio", "Capa superficial del pericardio", "Interior de las válvulas", "Grandes vasos"],
+      "ans": 0,
+      "just": "Estas fibras especializadas de conducción forman una red subendocárdica que garantiza la contracción ventricular sincrónica.",
+      "hint": "Están justo debajo del revestimiento interno del miocardio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué plexo nervioso rodea el arco aórtico y la bifurcación traqueal?",
+      "opts": ["Plexo braquial", "Plexo cardíaco", "Plexo solar", "Plexo cervical"],
+      "ans": 1,
+      "just": "El plexo cardíaco recibe fibras tanto del vago (parasimpático) como de los ganglios simpáticos cervicales y torácicos.",
+      "hint": "Regula la actividad visceral del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara izquierda (pulmonar) del corazón está formada principalmente por:",
+      "opts": ["Aurícula derecha", "Ventrículo izquierdo", "Ventrículo derecho", "Aorta ascendente"],
+      "ans": 1,
+      "just": "Esta cara es convexa y se relaciona con la pleura y el pulmón izquierdo; además, produce la impresión cardíaca en dicho pulmón.",
+      "hint": "Es la parte que mira hacia la cavidad pleural izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cómo se llama la cresta que separa el orificio de la vena cava superior de la aurícula derecha?",
+      "opts": ["Limbo de la fosa oval", "Crista terminalis (parte superior)", "Válvula de Eustaquio", "Válvula de Tebesio"],
+      "ans": 1,
+      "just": "La cresta terminal se extiende desde el techo de la aurícula y sirve de referencia para localizar el nodo SA.",
+      "hint": "Es un relieve muscular interno."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El volumen de líquido pericárdico que causa taponamiento depende principalmente de:",
+      "opts": ["El color del líquido", "La velocidad de acumulación", "La edad del paciente", "La presión atmosférica"],
+      "ans": 1,
+      "just": "Si el líquido aumenta lentamente, el pericardio se estira; sin embargo, una acumulación rápida (hemopericardio) comprime el corazón de inmediato.",
+      "hint": "Un derrame agudo es mucho más peligroso que uno crónico."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria circunfleja suele irrigar:",
+      "opts": ["Ventrículo derecho", "Pared lateral del ventrículo izquierdo", "Tabique interventricular anterior", "Ápice cardíaco únicamente"],
+      "ans": 1,
+      "just": "La circunfleja sigue el surco coronario hacia la izquierda e irriga la cara lateral y posterior del ventrículo izquierdo.",
+      "hint": "Es una de las dos ramas principales de la coronaria izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio del seno coronario está protegido por una valva rudimentaria llamada:",
+      "opts": ["Válvula de Eustaquio", "Válvula de Tebesio", "Válvula de Arancio", "Válvula de Vieussens"],
+      "ans": 1,
+      "just": "La válvula del seno coronario (Tebesio) es un repliegue endocárdico en la aurícula derecha que suele ser incompleto.",
+      "hint": "Se encuentra junto al orificio de la vena cava inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En una radiografía de tórax, el borde izquierdo de la silueta cardíaca está formado por:",
+      "opts": ["Vena cava superior", "Ventrículo izquierdo y orejuela izquierda", "Aurícula derecha", "Ventrículo derecho"],
+      "ans": 1,
+      "just": "De arriba a abajo, el borde izquierdo lo forman el arco aórtico, el tronco pulmonar, la orejuela y el ventrículo izquierdo.",
+      "hint": "Incluye la estructura responsable del ápice."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura une el tronco pulmonar con el arco aórtico?",
+      "opts": ["Conducto arterioso", "Ligamento arterioso", "Cuerda tendinosa", "Fosa oval"],
+      "ans": 1,
+      "just": "Es el remanente fibroso del conducto arterioso fetal, que comunicaba la circulación pulmonar con la sistémica.",
+      "hint": "Es un vestigio post-natal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula pulmonar se ausculta típicamente en:",
+      "opts": ["2do espacio intercostal derecho", "2do espacio intercostal izquierdo", "Ápice", "5to espacio intercostal derecho"],
+      "ans": 1,
+      "just": "El foco pulmonar se sitúa en el segundo espacio intercostal izquierdo, junto al borde del esternón.",
+      "hint": "Está a la misma altura que el foco aórtico pero al otro lado."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué vasos perforan el pericardio fibroso para entrar en la aurícula izquierda?",
+      "opts": ["Arterias coronarias", "Venas pulmonares", "Vena cava superior", "Aorta"],
+      "ans": 1,
+      "just": "Las cuatro venas pulmonares atraviesan el saco pericárdico tras abandonar los hilios pulmonares.",
+      "hint": "Traen sangre rica en oxígeno."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio seroso se divide en las láminas:",
+      "opts": ["Fibrosa y parietal", "Parietal y visceral", "Visceral y muscular", "Interna y externa"],
+      "ans": 1,
+      "just": "La lámina parietal tapiza el pericardio fibroso, mientras que la visceral (epicardio) recubre la superficie del corazón.",
+      "hint": "Entre ambas se encuentra la cavidad pericárdica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria descendente posterior (interventricular posterior) discurre por:",
+      "opts": ["Surco coronario", "Surco interventricular inferior", "Surco terminal", "Borde izquierdo"],
+      "ans": 1,
+      "just": "Esta arteria irriga el tercio posterior del tabique interventricular y la cara diafragmática de los ventrículos.",
+      "hint": "Se asocia con la cara que descansa sobre el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función primordial de las válvulas semilunares?",
+      "opts": ["Permitir flujo a las aurículas", "Evitar el reflujo de las grandes arterias a los ventrículos", "Aislar los ventrículos entre sí", "Anclar las cuerdas tendinosas"],
+      "ans": 1,
+      "just": "Estas válvulas (aórtica y pulmonar) se cierran al final de la sístole cuando la presión en las arterias supera la ventricular.",
+      "hint": "Tienen forma de nidos de golondrina."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las venas cardíacas mínimas (de Tebesio) drenan:",
+      "opts": ["En el seno coronario únicamente", "Directamente en las cavidades cardíacas", "En las venas pulmonares", "En la vena ácigos"],
+      "ans": 1,
+      "just": "Son vasos diminutos que nacen en el miocardio y se abren directamente en la cámara más cercana, especialmente en las aurículas.",
+      "hint": "Constituyen un 'atajo' venoso al interior del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El vértice del corazón (ápex) está formado exclusivamente por:",
+      "opts": ["Ventrículo derecho", "Ventrículo izquierdo", "Aurícula izquierda", "Ambos ventrículos"],
+      "ans": 1,
+      "just": "Aunque el ventrículo derecho forma la mayor parte de la cara anterior, el ápice es propiedad del ventrículo izquierdo.",
+      "hint": "Es la parte más inferior y lateral del órgano."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca parva (menor) suele acompañar a la arteria:",
+      "opts": ["Descendente anterior", "Marginal derecha", "Circunfleja", "Carótida"],
+      "ans": 1,
+      "just": "Esta vena discurre por el borde inferior derecho junto a la arteria marginal derecha de la coronaria derecha.",
+      "hint": "Drena la parte inferior derecha del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El tabique interventricular tiene dos porciones:",
+      "opts": ["Superior e inferior", "Muscular y membranosa", "Anterior y posterior", "Lisa y rugosa"],
+      "ans": 1,
+      "just": "La porción muscular es gruesa y constituye la mayor parte; no obstante, la porción membranosa es delgada y cercana a las válvulas.",
+      "hint": "La parte superior es mucho más fina."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué nervio craneal aporta la inervación parasimpática al corazón?",
+      "opts": ["V par (Trigémino)", "X par (Vago)", "XII par (Hipogloso)", "VII par (Facial)"],
+      "ans": 1,
+      "just": "El vago derecho inerva principalmente el nodo SA, mientras que el izquierdo actúa sobre el nodo AV.",
+      "hint": "También se le llama nervio neumogástrico."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El aumento del volumen del corazón por dilatación o hipertrofia se observa en:",
+      "opts": ["Derrame pericárdico", "Cardiomegalia", "Situs inversus", "Taponamiento"],
+      "ans": 1,
+      "just": "La cardiomegalia se mide clínicamente con el índice cardiotorácico en una radiografía de tórax (normal < 0.5).",
+      "hint": "Significa literalmente 'corazón grande'."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La valva de la vena cava inferior (de Eustaquio) tenía la función fetal de:",
+      "opts": ["Cerrar el foramen oval", "Dirigir sangre oxigenada hacia el foramen oval", "Impedir el paso de sangre a los pulmones", "Bombear sangre a la placenta"],
+      "ans": 1,
+      "just": "En el feto, dirigía el flujo proveniente de la vena umbilical a través del tabique interauricular hacia el lado izquierdo.",
+      "hint": "Actuaba como una guía de tráfico sanguíneo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la fuente de fibras simpáticas que aumentan la contractilidad cardíaca?",
+      "opts": ["Nervio frénico", "Ganglios cervicales y torácicos superiores", "Nervio vago", "Nervios intercostales"],
+      "ans": 1,
+      "just": "Las neuronas postganglionares simpáticas liberan noradrenalina, incrementando tanto la frecuencia como la fuerza del corazón.",
+      "hint": "Provienen de la cadena que está al lado de la columna."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El 'mar de grasa' donde se encuentran los vasos coronarios se localiza en:",
+      "opts": ["Endocardio", "Capa subepicárdica", "Miocardio", "Cavidad pericárdica"],
+      "ans": 1,
+      "just": "Los vasos coronarios están inmersos en tejido adiposo profundo al epicardio (lámina visceral del pericardio seroso).",
+      "hint": "Están en la superficie externa del músculo, pero cubiertos por serosa."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura marca el inicio del sistema de conducción?",
+      "opts": ["Haz de His", "Nodo de Keith-Flack (SA)", "Nodo de Aschoff-Tawara (AV)", "Red de Purkinje"],
+      "ans": 1,
+      "just": "El nodo sinoauricular es el marcapasos primario, ubicado en la unión de la vena cava superior y la aurícula derecha.",
+      "hint": "Se conoce habitualmente por las siglas SA."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La base del corazón se relaciona directamente con:",
+      "opts": ["El esternón", "El esófago y la aorta descendente", "Los hilios pulmonares", "La columna cervical"],
+      "ans": 1,
+      "just": "Debido a su posición posterior, la aurícula izquierda está separada del esófago únicamente por el pericardio.",
+      "hint": "Es por esta relación que un crecimiento de la AI puede causar disfagia."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El surco interventricular anterior contiene:",
+      "opts": ["Arteria circunfleja y vena magna", "Arteria interventricular anterior y vena cardíaca magna", "Arteria coronaria derecha", "Seno coronario"],
+      "ans": 1,
+      "just": "Este surco marca la separación externa entre ambos ventrículos en la cara esternocostal del corazón.",
+      "hint": "Es el hogar de la arteria del 'creador de viudas'."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué músculo papilar del ventrículo derecho es el más grande?",
+      "opts": ["Músculo papilar septal", "Músculo papilar anterior", "Músculo papilar posterior", "Músculo pectíneo"],
+      "ans": 1,
+      "just": "El papilar anterior es el más constante y voluminoso; sus cuerdas tendinosas se unen a las valvas anterior y posterior de la tricúspide.",
+      "hint": "Se origina en la pared anterior del ventrículo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula aórtica posee tres valvas denominadas:",
+      "opts": ["Anterior, derecha e izquierda", "Posterior, derecha e izquierda", "Septal, anterior y posterior", "Superior, inferior y lateral"],
+      "ans": 1,
+      "just": "Se denominan valva semilunar derecha, izquierda y posterior (o no coronariana).",
+      "hint": "Su nombre tradicional se relaciona con el origen de las arterias coronarias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los senos de Valsalva se encuentran en:",
+      "opts": ["La aurícula derecha", "La raíz de la aorta y el tronco pulmonar", "El ápex", "El surco coronario"],
+      "ans": 1,
+      "just": "Son dilataciones justo por encima de las valvas semilunares; además, de los senos aórticos derecho e izquierdo nacen las coronarias.",
+      "hint": "Son 'bolsillos' arteriales basales."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria que recorre el surco interventricular posterior hasta el ápice es:",
+      "opts": ["Rama circunfleja", "Rama interventricular posterior", "Arteria marginal izquierda", "Arteria conal"],
+      "ans": 1,
+      "just": "Es responsable de irrigar el tabique posterior y suele acompañar a la vena cardíaca media.",
+      "hint": "Su origen define la dominancia cardíaca."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué porción del corazón descansa principalmente sobre el centro tendinoso del diafragma?",
+      "opts": ["Aurícula derecha", "Cara diafragmática (Ventrículo izquierdo y parte del derecho)", "Ápice", "Cara pulmonar izquierda"],
+      "ans": 1,
+      "just": "La cara diafragmática es casi horizontal y está formada en dos tercios por el ventrículo izquierdo.",
+      "hint": "Es la base física del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La crista terminalis se extiende entre:",
+      "opts": ["La aorta y la pulmonar", "La vena cava superior y la inferior", "Las venas pulmonares", "Las aurículas y ventrículos"],
+      "ans": 1,
+      "just": "Internamente, une los bordes de los orificios de ambas venas cavas en la aurícula derecha.",
+      "hint": "Es la 'frontera' interna de la aurícula derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué aurícula tiene paredes más gruesas debido a la presión más alta de la sangre que recibe?",
+      "opts": ["Derecha", "Izquierda", "Ambas son iguales", "La fetal"],
+      "ans": 1,
+      "just": "Aunque ambas son de pared delgada, la aurícula izquierda suele ser ligeramente más gruesa que la derecha.",
+      "hint": "Maneja la sangre que viene de los pulmones."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral se ausculta con máxima intensidad en:",
+      "opts": ["2do espacio intercostal derecho", "5to espacio intercostal izquierdo (ápex)", "Apéndice xifoides", "Línea axilar posterior"],
+      "ans": 1,
+      "just": "El latido de la punta o choque de punta coincide con el foco de auscultación mitral.",
+      "hint": "Es el punto más lateral e inferior de la auscultación estándar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria irriga habitualmente el Haz de His y sus ramas?",
+      "opts": ["Arteria circunfleja", "Arteria interventricular anterior (DA)", "Arteria marginal derecha", "Arteria carótida"],
+      "ans": 1,
+      "just": "La DA da ramas septales anteriores que irrigan la mayor parte del sistema de conducción ventricular.",
+      "hint": "Es la arteria 'viuda' por el daño eléctrico masivo que causa su oclusión."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El 'esqueleto' del corazón está formado por:",
+      "opts": ["Hueso hioides", "Tejido conjuntivo fibroso denso", "Cartílago hialino", "Cristales de hidroxiapatita"],
+      "ans": 1,
+      "just": "Consiste en anillos fibrosos y trígonos que mantienen la integridad de los orificios valvulares.",
+      "hint": "No es tejido óseo, sino fibroso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la orientación del eje longitudinal del corazón?",
+      "opts": ["De atrás hacia adelante, de derecha a izquierda y de arriba hacia abajo", "De adelante hacia atrás, de izquierda a derecha", "Vertical puro", "Horizontal puro"],
+      "ans": 0,
+      "just": "Esta orientación oblicua sitúa al ápice en una posición anterior, inferior y lateral izquierda respecto a la base.",
+      "hint": "Apunta hacia el bazo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La pequeña orejuela izquierda se sitúa por encima de:",
+      "opts": ["Seno coronario", "Ventrículo izquierdo", "Aurícula derecha", "Vena cava superior"],
+      "ans": 1,
+      "just": "La orejuela izquierda se superpone a la raíz del tronco pulmonar y al ventrículo izquierdo.",
+      "hint": "Es un resto del desarrollo auricular original."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El drenaje linfático del corazón termina principalmente en:",
+      "opts": ["Ganglios axilares", "Ganglios traqueobronquiales e hiliares", "Ganglios inguinales", "Ganglios cervicales superficiales"],
+      "ans": 1,
+      "just": "Los vasos linfáticos del miocardio y pericardio visceral ascienden hacia la bifurcación de la tráquea.",
+      "hint": "Siguen el camino de las vías respiratorias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El dolor cardíaco referido se suele sentir en el brazo izquierdo porque:",
+      "opts": ["El corazón está físicamente en el brazo", "Comparten segmentos medulares (T1-T4)", "El nervio vago inerva el brazo", "La sangre fluye hacia la mano"],
+      "ans": 1,
+      "just": "Las fibras aferentes viscerales del corazón entran en la médula en los mismos niveles que los nervios cutáneos del brazo.",
+      "hint": "Es una confusión sensorial a nivel de la médula espinal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula que impide el reflujo hacia el ventrículo izquierdo es:",
+      "opts": ["Válvula pulmonar", "Válvula aórtica", "Válvula mitral", "Válvula de Tebesio"],
+      "ans": 1,
+      "just": "La válvula aórtica se sitúa en el vestíbulo aórtico y se cierra durante la diástole ventricular.",
+      "hint": "Es una de las dos válvulas semilunares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El trígono fibroso derecho conecta:",
+      "opts": ["La aorta con la mitral", "El anillo aórtico con el anillo tricúspide y mitral", "Los ventrículos con las aurículas", "El ápex con la base"],
+      "ans": 1,
+      "just": "Es el área de mayor densidad del esqueleto fibroso; asimismo, es atravesado por el fascículo auriculoventricular.",
+      "hint": "Es el componente central de la estructura de soporte."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura fetal permitía que la sangre pasara de la aurícula derecha a la izquierda?",
+      "opts": ["Conducto arterioso", "Foramen oval", "Conducto venoso", "Vena umbilical"],
+      "ans": 1,
+      "just": "Esta comunicación evitaba el paso innecesario de sangre por los pulmones fetales no funcionales.",
+      "hint": "Se convierte en la fosa oval tras el nacimiento."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las arterias coronarias se originan en:",
+      "opts": ["Arco de la aorta", "Aorta ascendente (Senos de Valsalva)", "Tronco pulmonar", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "Nacen de los senos aórticos justo por encima de las valvas semilunares derecha e izquierda.",
+      "hint": "Es la primera rama de la aorta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La pericardiocentesis de emergencia se realiza habitualmente en:",
+      "opts": ["2do espacio intercostal derecho", "Ángulo infraxifoideo izquierdo", "6to espacio intercostal derecho", "Ombligo"],
+      "ans": 1,
+      "just": "La aguja se inserta hacia arriba y atrás para evitar perforar la pleura y el pulmón, accediendo al saco pericárdico.",
+      "hint": "Se busca el ángulo entre el xifoides y el reborde costal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La lámina visceral del pericardio seroso también se llama:",
+      "opts": ["Parietocardio", "Epicardio", "Mesocardio", "Endocardio"],
+      "ans": 1,
+      "just": "Es la serosa delgada que se adhiere íntimamente al miocardio y contiene grasa subepicárdica.",
+      "hint": "Epi- significa sobre."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura delimita el orificio de la vena cava inferior?",
+      "opts": ["Válvula de Eustaquio", "Válvula de Tebesio", "Crista terminalis", "Músculo papilar"],
+      "ans": 0,
+      "just": "La válvula de la VCI (Eustaquio) es un repliegue semilunar situado en el borde anterior del orificio.",
+      "hint": "Es más grande que la válvula del seno coronario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La 'crux cordis' o cruz del corazón es la unión de:",
+      "opts": ["Surcos interventriculares y coronario", "Venas cavas y pulmonares", "Aurículas y ventrículos", "Aorta y pulmonar"],
+      "ans": 0,
+      "just": "Es el punto en la cara posterior donde se encuentran el surco coronario y los surcos interauricular e interventricular.",
+      "hint": "Es una intersección de surcos en la cara posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nódulo de Morgagni se encuentra en:",
+      "opts": ["Válvula aórtica", "Válvula pulmonar", "Válvula mitral", "Válvula tricúspide"],
+      "ans": 1,
+      "just": "Los nódulos de las valvas semilunares pulmonares se llaman de Morgagni, mientras que los aórticos se llaman de Arancio.",
+      "hint": "Es homólogo al de la aorta pero en el tronco pulmonar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria izquierda suele medir entre:",
+      "opts": ["1 - 2 cm antes de bifurcarse", "5 - 10 cm", "0.5 cm", "15 cm"],
+      "ans": 0,
+      "just": "El tronco de la coronaria izquierda es corto y se divide rápidamente en sus ramas terminales.",
+      "hint": "Es un segmento muy corto antes de dividirse."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué cámara cardíaca presenta la superficie interna más lisa?",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "La aurícula izquierda es casi totalmente lisa, a excepción de su orejuela que contiene músculos pectíneos.",
+      "hint": "Carece de la cresta terminal prominente de la derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca mínima más constante se abre en:",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo izquierdo", "Ventrículo derecho"],
+      "ans": 0,
+      "just": "Aunque se abren en todas las cámaras, son más numerosas y fáciles de identificar en la aurícula derecha.",
+      "hint": "La cámara de llegada de la sangre desoxigenada sistémica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El arco de la aorta comienza y termina a nivel de:",
+      "opts": ["Vértebra C7", "Ángulo del esternón (T4/T5)", "Vértebra T12", "Cartílago cricoides"],
+      "ans": 1,
+      "just": "El ángulo de Louis es un hito anatómico clave para identificar el inicio y fin del arco aórtico.",
+      "hint": "Es la unión entre manubrio y cuerpo esternal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función del saco pericárdico?",
+      "opts": ["Producir glóbulos rojos", "Limitar la expansión cardíaca y proteger contra infecciones", "Regular la glucosa", "Secretar hormonas tiroideas"],
+      "ans": 1,
+      "just": "Funciona como una barrera mecánica y reduce la fricción, además de fijar el corazón en el mediastino.",
+      "hint": "Es una bolsa protectora."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria interventricular anterior irriga los:",
+      "opts": ["2/3 anteriores del tabique interventricular", "1/3 posterior del tabique", "Músculos papilares de la tricúspide únicamente", "Nodo SA exclusivamente"],
+      "ans": 0,
+      "just": "Es la principal fuente de sangre para el tabique muscular que separa los ventrículos.",
+      "hint": "Domina la parte frontal del tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El miocardio es más grueso en:",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Ventrículo izquierdo"],
+      "ans": 3,
+      "just": "La pared del ventrículo izquierdo es de 2 a 3 veces más gruesa que la del derecho para bombear sangre a todo el cuerpo.",
+      "hint": "La cámara con mayor carga de trabajo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El surco terminal es una muesca externa que indica la posición de:",
+      "opts": ["La válvula mitral", "La crista terminalis", "El Haz de His", "La aorta"],
+      "ans": 1,
+      "just": "Es la manifestación externa de la cresta muscular interna de la aurícula derecha.",
+      "hint": "Se extiende entre las venas cavas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué nervios transmiten las fibras aferentes del dolor del miocardio (isquemia)?",
+      "opts": ["Nervio frénico", "Fibras simpáticas (T1-T4)", "Nervio vago", "Nervios intercostales T10"],
+      "ans": 1,
+      "just": "Las fibras de dolor viajan con los nervios simpáticos hacia los ganglios torácicos, explicando el dolor referido en el tórax.",
+      "hint": "Siguen el camino inverso a los nervios que aceleran el corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca magna se vacía en el extremo:",
+      "opts": ["Derecho del seno coronario", "Izquierdo del seno coronario", "Superior de la VCI", "Interior del ventrículo izquierdo"],
+      "ans": 1,
+      "just": "Fluye por el surco coronario y se ensancha para formar el inicio del seno coronario en la izquierda.",
+      "hint": "Viene del surco interventricular anterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los trígonos fibrosos se forman por la fusión de:",
+      "opts": ["Los anillos valvulares", "El miocardio con el endocardio", "Las cuerdas tendinosas", "Las arterias coronarias"],
+      "ans": 0,
+      "just": "Son áreas de tejido conectivo reforzado entre los anillos de la aorta y las válvulas AV.",
+      "hint": "Puntos de anclaje del esqueleto cardíaco."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha viaja inicialmente entre:",
+      "opts": ["La aorta y la pulmonar", "La orejuela derecha y el tronco pulmonar", "La vena cava superior y la aorta", "La aurícula izquierda y la derecha"],
+      "ans": 1,
+      "just": "Emerge del seno aórtico derecho y pasa hacia adelante, oculta parcialmente por la orejuela derecha.",
+      "hint": "Su origen está cerca del tronco pulmonar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el componente más posterior del corazón?",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Ápice"],
+      "ans": 1,
+      "just": "La aurícula izquierda forma la base y está en íntima relación con el esófago.",
+      "hint": "Recibe sangre de los pulmones."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La zona de la aurícula derecha que deriva del seno venoso es:",
+      "opts": ["La porción rugosa", "La porción lisa (sinus venarum)", "La orejuela", "El tabique"],
+      "ans": 1,
+      "just": "El sinus venarum tiene paredes lisas y en él desembocan las venas cavas.",
+      "hint": "Es la parte que recibe las venas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula tricúspide tiene valvas llamadas:",
+      "opts": ["Anterior, septal y posterior", "Derecha, izquierda y media", "Aórtica y pulmonar", "Mitral y bicúspide"],
+      "ans": 0,
+      "just": "Sus tres valvas se anclan en los respectivos músculos papilares del ventrículo derecho.",
+      "hint": "Una de ellas se pega al tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El sistema de conducción del corazón está compuesto por:",
+      "opts": ["Neuronas motoras", "Células musculares cardíacas especializadas", "Tejido óseo", "Fibras de colágeno puras"],
+      "ans": 1,
+      "just": "No son nervios, sino cardiomiocitos modificados para iniciar y conducir potenciales de acción rápidamente.",
+      "hint": "Miocardio modificado."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio auriculoventricular izquierdo es cerrado por:",
+      "opts": ["Válvula tricúspide", "Válvula mitral", "Válvula aórtica", "Válvula de Eustaquio"],
+      "ans": 1,
+      "just": "La mitral impide que la sangre regrese a la aurícula izquierda durante la sístole ventricular.",
+      "hint": "También se llama bicúspide."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué rama de la arteria coronaria derecha irriga habitualmente la cara diafragmática del ventrículo izquierdo en un corazón con dominancia derecha?",
+      "opts": ["Arteria marginal derecha", "Arteria interventricular posterior", "Arteria circunfleja", "Arteria conal"],
+      "ans": 1,
+      "just": "La arteria interventricular posterior se origina de la coronaria derecha en la mayoría de los casos; por consiguiente, suministra sangre a la parte posterior del tabique y la cara inferior.",
+      "hint": "Su nombre indica que viaja por el surco del mismo nombre en la base."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria del nódulo auriculoventricular (AV) nace típicamente de:",
+      "opts": ["La arteria coronaria izquierda cerca de su origen", "La arteria coronaria derecha cerca de la cruz del corazón", "La arteria descendente anterior", "La arteria marginal izquierda"],
+      "ans": 1,
+      "just": "En aproximadamente el 80% de los individuos, esta arteria se origina de la coronaria derecha justo cuando esta alcanza la cruz cardíaca.",
+      "hint": "Depende directamente de la dominancia coronaria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la primera rama que suele emitir la arteria coronaria derecha para irrigar el infundíbulo pulmonar?",
+      "opts": ["Rama marginal", "Rama del cono arterioso", "Rama nodal sinoauricular", "Rama septal anterior"],
+      "ans": 1,
+      "just": "La rama conal se dirige anteriormente para irrigar la zona de salida del ventrículo derecho; asimismo, puede formar un anillo anastomótico con su homóloga izquierda.",
+      "hint": "Su nombre hace referencia al cono arterioso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La oclusión de la arteria circunfleja afectaría primordialmente a:",
+      "opts": ["El ventrículo derecho", "La cara lateral del ventrículo izquierdo", "Los dos tercios anteriores del tabique", "El cono arterioso"],
+      "ans": 1,
+      "just": "Esta arteria sigue el surco coronario hacia la izquierda; por lo tanto, es la responsable de la perfusión de la pared libre lateral del ventrículo izquierdo.",
+      "hint": "Rodea el borde obtuso del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las venas cardíacas anteriores tienen la particularidad de drenar directamente en:",
+      "opts": ["El seno coronario", "La aurícula derecha", "La vena cava superior", "El ventrículo derecho"],
+      "ans": 1,
+      "just": "A diferencia de las venas magna o media, las anteriores no suelen pasar por el seno coronario; consecuentemente, desembocan de forma independiente en la cámara derecha.",
+      "hint": "Se saltan el conducto colector principal del surco coronario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué vena se localiza en el surco interventricular anterior acompañando a la arteria descendente anterior?",
+      "opts": ["Vena cardíaca media", "Vena cardíaca magna", "Vena cardíaca parva", "Vena marginal"],
+      "ans": 1,
+      "just": "La vena cardíaca magna comienza en el ápice y asciende por el surco anterior; posteriormente, gira hacia la izquierda para unirse al seno coronario.",
+      "hint": "Es la vena más grande del sistema cardíaco."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno coronario se localiza anatómicamente en:",
+      "opts": ["El surco interventricular anterior", "La parte posterior del surco coronario", "El mediastino superior", "El tabique interauricular"],
+      "ans": 1,
+      "just": "Se sitúa en la cara posterior del corazón, entre la aurícula y el ventrículo izquierdos; además, está cubierto por una delgada capa de miocardio.",
+      "hint": "Es un canal venoso ancho de unos 2 a 3 cm de largo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura une las cuerdas tendinosas con la pared ventricular?",
+      "opts": ["Trabéculas carnosas de tercer orden", "Músculos papilares", "Músculos pectíneos", "Válvulas semilunares"],
+      "ans": 1,
+      "just": "Los músculos papilares son proyecciones de miocardio que se contraen antes que el resto del ventrículo; por tanto, evitan el prolapso valvular.",
+      "hint": "Son elevaciones musculares cónicas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las trabéculas carnosas que forman puentes entre dos puntos de la pared ventricular se denominan de:",
+      "opts": ["Primer orden", "Segundo orden", "Tercer orden", "Cuarto orden"],
+      "ans": 1,
+      "just": "Las de segundo orden están libres en su parte media pero unidas a la pared en sus extremos; un ejemplo notable es la banda moderadora.",
+      "hint": "A diferencia de los papilares, no tienen extremos libres."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función de la válvula de Tebesio?",
+      "opts": ["Regular el flujo de la vena cava superior", "Proteger el orificio del seno coronario", "Evitar el reflujo en la válvula mitral", "Dirigir la sangre al foramen oval"],
+      "ans": 1,
+      "just": "Esta válvula es un repliegue de endocardio que impide parcialmente que la sangre de la aurícula derecha entre al seno coronario durante la sístole auricular.",
+      "hint": "Se ubica en la desembocadura del colector venoso principal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El esqueleto fibroso del corazón se compone fundamentalmente de:",
+      "opts": ["Cartílago hialino", "Tejido conjuntivo denso", "Hueso compacto", "Tejido muscular liso"],
+      "ans": 1,
+      "just": "Consiste en cuatro anillos fibrosos y dos trígonos; asimismo, sirve de punto de inserción para las fibras del miocardio.",
+      "hint": "Es el armazón aislante del órgano."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué cámara se encuentran los músculos papilares septales de pequeño tamaño?",
+      "opts": ["Ventrículo izquierdo", "Ventrículo derecho", "Aurícula derecha", "Aurícula izquierda"],
+      "ans": 1,
+      "just": "A diferencia del ventrículo izquierdo, el derecho posee pequeños músculos papilares que nacen directamente del tabique interventricular.",
+      "hint": "La válvula tricúspide tiene una valva septal que requiere anclaje."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La banda moderadora (trabécula septomarginal) transporta:",
+      "opts": ["Sangre oxigenada", "La rama derecha del haz de His", "Fibras nerviosas simpáticas únicamente", "Sangre desoxigenada a alta presión"],
+      "ans": 1,
+      "just": "Esta estructura muscular es clave para la conducción eléctrica rápida hacia el músculo papilar anterior; consecuentemente, coordina la sístole ventricular derecha.",
+      "hint": "Es un 'atajo' eléctrico para el ventrículo derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El vestíbulo aórtico es una estructura característica de:",
+      "opts": ["La aurícula derecha", "El ventrículo izquierdo", "El ventrículo derecho", "La raíz de la pulmonar"],
+      "ans": 1,
+      "just": "Representa la parte superior y lisa del ventrículo izquierdo que conduce la sangre hacia la válvula aórtica.",
+      "hint": "Es el equivalente al infundíbulo del lado derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué característica distingue a la aurícula izquierda de la derecha?",
+      "opts": ["Posee la fosa oval", "Recibe venas que no tienen válvulas funcionales", "Tiene una cresta terminal muy marcada", "Contiene el nodo sinoauricular"],
+      "ans": 1,
+      "just": "Las cuatro venas pulmonares desembocan en la aurícula izquierda; no obstante, carecen de válvulas verdaderas a pesar de que el miocardio auricular rodea sus desembocaduras.",
+      "hint": "Maneja el retorno de la circulación menor."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los nódulos de Arancio se localizan en el borde libre de las valvas de:",
+      "opts": ["La válvula tricúspide", "La válvula aórtica", "La válvula pulmonar", "La válvula mitral"],
+      "ans": 1,
+      "just": "Son pequeños engrosamientos de tejido fibroso situados en el centro de las lúnulas; por lo tanto, aseguran el sellado completo de la aorta.",
+      "hint": "Se encuentran en las válvulas semilunares de mayor presión."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La irrigación del nódulo auriculoventricular depende de la arteria coronaria izquierda en qué porcentaje de casos:",
+      "opts": ["80%", "20%", "50%", "0%"],
+      "ans": 1,
+      "just": "En la mayoría de las personas la irrigación es de la coronaria derecha; sin embargo, en un 20% (dominancia izquierda) proviene de la arteria circunfleja.",
+      "hint": "Es la minoría de la población."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El vértice del corazón se sitúa normalmente profundo al:",
+      "opts": ["Segundo espacio intercostal izquierdo", "Quinto espacio intercostal izquierdo", "Cuarto espacio intercostal derecho", "Sexto espacio intercostal izquierdo"],
+      "ans": 1,
+      "just": "Se localiza aproximadamente a 9 cm de la línea media esternal; asimismo, se encuentra por debajo de la tetilla en el varón.",
+      "hint": "Punto donde se percibe el choque de la punta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué capa del corazón contiene el sistema de conducción especializado?",
+      "opts": ["Miocardio", "Subendocardio", "Epicardio", "Pericardio fibroso"],
+      "ans": 1,
+      "just": "Las fibras de Purkinje y las ramas del haz se sitúan en el tejido conjuntivo profundo al endocardio.",
+      "hint": "Están justo debajo del revestimiento interno."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La rama marginal izquierda es habitualmente una rama de:",
+      "opts": ["La arteria descendente anterior", "La arteria circunfleja", "La arteria coronaria derecha", "La aorta descendente"],
+      "ans": 1,
+      "just": "Esta arteria sigue el borde izquierdo (obtuso) del corazón; por consiguiente, irriga la pared lateral del ventrículo izquierdo.",
+      "hint": "Sigue el margen más redondeado del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno pericárdico transverso se forma durante el desarrollo debido a:",
+      "opts": ["La ruptura del mesocardio posterior", "La fusión de las pleuras", "El crecimiento de los pulmones", "La atrofia del timo"],
+      "ans": 0,
+      "just": "La desaparición de la parte central del mesocardio dorsal comunica ambos lados del saco pericárdico.",
+      "hint": "Es una consecuencia del plegamiento del tubo cardíaco."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La inervación simpática del corazón llega principalmente a través de los nervios:",
+      "opts": ["Vagos", "Cardíacos del tronco simpático", "Frénicos", "Intercostales"],
+      "ans": 1,
+      "just": "Las fibras proceden de los ganglios cervicales y torácicos superiores; además, aumentan la frecuencia y fuerza de contracción.",
+      "hint": "Preparan al cuerpo para la acción."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura separa la porción del seno venoso de la aurícula derecha propiamente dicha?",
+      "opts": ["Surco coronario", "Surco terminal", "Surco interventricular", "Surco interauricular"],
+      "ans": 1,
+      "just": "Externamente se observa como una muesca vertical; internamente corresponde a la cresta terminal.",
+      "hint": "Une las venas cavas por fuera."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El trígono fibroso izquierdo se sitúa entre:",
+      "opts": ["La aorta y la tricúspide", "La aorta y la válvula mitral", "La mitral y la tricúspide", "La pulmonar y la aorta"],
+      "ans": 1,
+      "just": "Es un área de tejido conectivo denso que estabiliza el anillo aórtico y el anillo mitral.",
+      "hint": "Se encuentra en el lado izquierdo del esqueleto fibroso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el volumen normal de líquido en la cavidad pericárdica?",
+      "opts": ["100 a 200 ml", "15 a 50 ml", "5 a 10 ml", "500 ml"],
+      "ans": 1,
+      "just": "Esta pequeña cantidad es suficiente para lubricar las láminas del pericardio seroso; no obstante, su aumento rápido compromete la función cardíaca.",
+      "hint": "Es una cantidad muy reducida."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La base del corazón se encuentra opuesta al ápice y está formada por:",
+      "opts": ["Ambos ventrículos", "Principalmente la aurícula izquierda", "La aurícula derecha únicamente", "La aorta ascendente"],
+      "ans": 1,
+      "just": "Se orienta hacia atrás y recibe a las venas pulmonares; por consiguiente, es la cara más posterior del órgano.",
+      "hint": "Mira hacia el esófago."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las arterias septales anteriores irrigan:",
+      "opts": ["El tercio posterior del tabique", "Los dos tercios anteriores del tabique interventricular", "La pared libre del ventrículo derecho únicamente", "La aurícula derecha"],
+      "ans": 1,
+      "just": "Son ramas de la arteria interventricular anterior; por tanto, son vitales para el sistema de conducción ventricular.",
+      "hint": "Nacen de la 'descendente anterior'."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué nervio discurre entre el pericardio fibroso y la pleura mediastínica?",
+      "opts": ["Nervio vago", "Nervio frénico", "Nervio laríngeo recurrente", "Nervio espinal"],
+      "ans": 1,
+      "just": "Los nervios frénicos pasan lateralmente al corazón acompañados de los vasos pericardiacofrénicos.",
+      "hint": "Inervan al diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula tricúspide tiene una superficie de orificio mayor que la mitral.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El orificio auriculoventricular derecho es ligeramente más amplio que el izquierdo en condiciones normales.",
+      "hint": "El lado derecho maneja mayores volúmenes a menores presiones."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nódulo de Morgagni se encuentra en:",
+      "opts": ["La válvula aórtica", "La válvula pulmonar", "La fosa oval", "El Haz de His"],
+      "ans": 1,
+      "just": "Es el nombre específico del engrosamiento fibroso en las valvas del tronco pulmonar.",
+      "hint": "Es el hermano del de Arancio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la cámara del corazón que tiene el miocardio más delgado?",
+      "opts": ["Ventrículo derecho", "Aurícula derecha", "Ventrículo izquierdo", "Aurícula izquierda"],
+      "ans": 1,
+      "just": "La aurícula derecha maneja presiones mínimas; asimismo, su pared es extremadamente delgada en comparación con los ventrículos.",
+      "hint": "Cámara que recibe la sangre sistémica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena oblicua de la aurícula izquierda (de Marshall) es un remanente de:",
+      "opts": ["La arteria umbilical", "La vena cava superior izquierda embrionaria", "El conducto arterioso", "El seno venoso derecho"],
+      "ans": 1,
+      "just": "Es un vestigio del desarrollo embrionario venoso que desciende por la cara posterior de la aurícula izquierda.",
+      "hint": "Se asocia con la persistencia de estructuras fetales izquierdas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En el ventrículo izquierdo, el músculo papilar posterior recibe irrigación de:",
+      "opts": ["Solo la descendente anterior", "Generalmente solo la coronaria derecha o circunfleja", "Ambas coronarias por igual", "La arteria subclavia"],
+      "ans": 1,
+      "just": "A diferencia del papilar anterior, el posterior suele tener una sola fuente de irrigación; por consiguiente, es más vulnerable a la isquemia.",
+      "hint": "Suele depender de la arteria que da la dominancia."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El espacio pericárdico termina superiormente a nivel de:",
+      "opts": ["El ángulo del esternón", "La base del cuello", "La segunda costilla", "El cartílago cricoides"],
+      "ans": 0,
+      "just": "El pericardio se refleja sobre los grandes vasos aproximadamente al nivel del ángulo de Louis.",
+      "hint": "Referencia de la unión de la aorta ascendente con el arco."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué porción del miocardio ventricular es la última en despolarizarse?",
+      "opts": ["El ápice", "La base de los ventrículos", "El tabique interventricular", "Los músculos papilares"],
+      "ans": 1,
+      "just": "El impulso viaja del tabique al ápice y finalmente hacia las paredes basales; consecuentemente, la eyección es más eficiente.",
+      "hint": "Zona cercana a las válvulas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara esternocostal del corazón está compuesta principalmente por:",
+      "opts": ["Ventrículo izquierdo", "Ventrículo derecho", "Aurícula izquierda", "Arteria aorta"],
+      "ans": 1,
+      "just": "Es la cara anterior que se sitúa detrás del esternón y las costillas; además, incluye una pequeña parte de la aurícula derecha.",
+      "hint": "Cámara más anterior del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ligamento arterioso se encuentra entre:",
+      "opts": ["VCI y aurícula derecha", "Arteria pulmonar izquierda y arco aórtico", "VCS y aorta", "Venas pulmonares y aurícula"],
+      "ans": 1,
+      "just": "Es el resto fibroso del conducto que permitía el cortocircuito pulmonar en el feto.",
+      "hint": "Une el tronco pulmonar con la aorta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha discurre por el surco coronario entre:",
+      "opts": ["Ventrículo derecho e izquierdo", "Aurícula derecha y ventrículo derecho", "Aurícula izquierda y ventrículo izquierdo", "Aorta y pulmonar"],
+      "ans": 1,
+      "just": "Se localiza en el surco auriculoventricular derecho tras originarse en el seno aórtico derecho.",
+      "hint": "Divide las cámaras derechas superiores de las inferiores."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los músculos pectíneos de la aurícula izquierda se limitan a:",
+      "opts": ["Toda la pared interna", "La orejuela izquierda", "El tabique interauricular", "La desembocadura de las venas pulmonares"],
+      "ans": 1,
+      "just": "A diferencia de la derecha, la aurícula izquierda es casi lisa en su totalidad, exceptuando el interior de su orejuela.",
+      "hint": "Se encuentran en la pequeña 'extensión' muscular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La presión dentro del ventrículo izquierdo debe superar la de la aorta para:",
+      "opts": ["Cerrar la válvula mitral", "Abrir la válvula aórtica", "Iniciar la diástole", "Llenar la aurícula"],
+      "ans": 1,
+      "just": "Solo cuando la presión ventricular es mayor a 80 mmHg (en reposo) se produce la apertura de la semilunar.",
+      "hint": "Paso necesario para la eyección de sangre."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El 'marcapasos latente' que toma el control si el nodo SA falla es:",
+      "opts": ["Fibras de Purkinje", "Nodo auriculoventricular", "Haz de Bachmann", "Músculo papilar"],
+      "ans": 1,
+      "just": "El nodo AV tiene una frecuencia intrínseca menor; por lo tanto, actúa como sistema de rescate.",
+      "hint": "Se localiza en el tabique interauricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria irriga el tercio posterior del tabique interventricular?",
+      "opts": ["Descendente anterior", "Interventricular posterior", "Circunfleja", "Marginal izquierda"],
+      "ans": 1,
+      "just": "Esta arteria suele ser rama de la coronaria derecha y complementa la irrigación del tabique.",
+      "hint": "Depende de la dominancia coronaria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cresta terminal de la aurícula derecha es el sitio donde se localiza el nódulo sinoauricular.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "El nodo SA se ubica en el extremo superior de la cresta terminal, cerca de la entrada de la vena cava superior.",
+      "hint": "Es la parte más alta de este relieve muscular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura cardiaca es cruzada por el esófago?",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Ápice"],
+      "ans": 1,
+      "just": "La aurícula izquierda es la cámara más posterior; por consiguiente, su crecimiento puede comprimir el esófago y causar disfagia.",
+      "hint": "Se relaciona con la base del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio fibroso se continúa superiormente con:",
+      "opts": ["La fascia cervical profunda", "La túnica adventicia de los grandes vasos", "El peritoneo", "La pleura parietal"],
+      "ans": 1,
+      "just": "Se fusiona con la capa externa de la aorta y el tronco pulmonar a nivel del ángulo esternal.",
+      "hint": "Capa externa de las arterias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria circunfleja termina habitualmente antes de alcanzar la cruz del corazón.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "En la dominancia derecha típica, la circunfleja finaliza en la cara lateral o posterior sin llegar al surco interventricular posterior.",
+      "hint": "Suele ser más corta que la coronaria derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio de la vena cava superior posee una válvula funcional.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "A diferencia de la VCI, la vena cava superior no tiene válvula; no obstante, la contracción auricular impide parcialmente el reflujo.",
+      "hint": "La sangre cae a favor de la gravedad."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la rama de la arteria coronaria izquierda que rodea el borde izquierdo del corazón?",
+      "opts": ["Descendente anterior", "Arteria marginal izquierda", "Rama septal", "Arteria del nodo AV"],
+      "ans": 1,
+      "just": "Esta arteria es rama de la circunfleja; asimismo, irriga la mayor parte del ventrículo izquierdo lateral.",
+      "hint": "Sigue el borde 'obtuso'."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La superficie del corazón cubierta por el pericardio visceral se denomina:",
+      "opts": ["Endocardio", "Epicardio", "Miocardio", "Pericardio fibroso"],
+      "ans": 1,
+      "just": "Es la misma lámina visceral del pericardio seroso que se adhiere al músculo cardíaco.",
+      "hint": "Capa más externa de la pared del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El segundo ruido cardíaco (R2) se produce por:",
+      "opts": ["El cierre de las válvulas auriculoventriculares", "El cierre de las válvulas semilunares", "La contracción de las aurículas", "El llenado ventricular rápido"],
+      "ans": 1,
+      "just": "Ocurre al inicio de la diástole ventricular cuando la sangre intenta regresar desde las arterias.",
+      "hint": "Indica el fin de la sístole."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué vaso drena la sangre de la parte posterior de los ventrículos?",
+      "opts": ["Vena cardíaca magna", "Vena cardíaca media", "Vena cardíaca anterior", "Vena cava inferior"],
+      "ans": 1,
+      "just": "La vena media se localiza en el surco interventricular posterior; además, desemboca en el seno coronario.",
+      "hint": "Acompaña a la arteria interventricular posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La rama para el nódulo sinoauricular en un 40% de los casos proviene de:",
+      "opts": ["La arteria coronaria derecha", "La arteria coronaria izquierda (circunfleja)", "La aorta ascendente", "La arteria pulmonar"],
+      "ans": 1,
+      "just": "Aunque es más común que nazca de la derecha, en una proporción significativa proviene de la izquierda.",
+      "hint": "Es la variante anatómica menos frecuente para este nodo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El espacio entre las cuerdas tendinosas de la válvula mitral es mayor que en la tricúspide.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 0,
+      "just": "La válvula mitral maneja presiones mucho más altas; consecuentemente, sus cuerdas son más gruesas y resistentes.",
+      "hint": "Relacionado con la fuerza de la sístole izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el límite inferior de la silueta cardíaca en una radiografía frontal?",
+      "opts": ["El arco aórtico", "El ventrículo derecho", "La aurícula izquierda", "El diafragma"],
+      "ans": 1,
+      "just": "Anatómicamente, la cara diafragmática (principalmente el VD y VI) descansa sobre el músculo respiratorio.",
+      "hint": "Estructura sobre la que se apoya el corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria conal izquierda es una rama de la:",
+      "opts": ["Coronaria derecha", "Descendente anterior", "Arteria circunfleja", "Vena magna"],
+      "ans": 1,
+      "just": "Se origina de la interventricular anterior e irriga la zona izquierda del cono arterioso.",
+      "hint": "Irriga el 'embudo' de salida izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El vértice del corazón permanece inmóvil durante el ciclo cardíaco.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "El corazón rota y se mueve significativamente; no obstante, el ápice experimenta un movimiento de torsión notable.",
+      "hint": "Genera el latido palpable."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria interventricular anterior termina habitualmente en:",
+      "opts": ["La base del corazón", "El ápice, rodeándolo hacia la cara posterior", "La aurícula derecha", "El surco coronario"],
+      "ans": 1,
+      "just": "Rodea la punta del corazón para anastomosarse con la interventricular posterior.",
+      "hint": "Llega hasta el extremo más distal del órgano."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué aurícula forma la mayor parte del borde derecho del corazón?",
+      "opts": ["Aurícula izquierda", "Aurícula derecha", "Ventrículo derecho", "Oreja de perro"],
+      "ans": 1,
+      "just": "Se extiende entre la vena cava superior y la inferior en la radiografía de tórax.",
+      "hint": "Es la cámara de entrada sistémica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio fibroso recibe irrigación de las arterias frénicas superiores e inferiores.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Aunque la principal es la pericardiacofrénica, estas arterias también contribuyen a su nutrición.",
+      "hint": "Arterias relacionadas con el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo auriculoventricular se retrasa aproximadamente 0.1 segundos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Este retraso permite que los ventrículos se llenen completamente antes de contraerse.",
+      "hint": "Pausa necesaria para la eficiencia hemodinámica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca parva recorre el borde:",
+      "opts": ["Izquierdo", "Derecho", "Anterior", "Superior"],
+      "ans": 1,
+      "just": "Se sitúa en el margen inferior derecho acompañando a la arteria marginal derecha.",
+      "hint": "Sigue el borde agudo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El primer ruido cardíaco (R1) coincide con:",
+      "opts": ["El inicio de la diástole", "El inicio de la sístole ventricular", "La apertura de la aorta", "El fin de la eyección"],
+      "ans": 1,
+      "just": "Es causado por el cierre súbito de las válvulas mitral y tricúspide.",
+      "hint": "Sonido de 'cierre de puertas' de entrada."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la disposición de las fibras musculares en el ventrículo izquierdo?",
+      "opts": ["Longitudinal pura", "Circular y en espiral", "Transversal", "No tienen orden"],
+      "ans": 1,
+      "just": "Esta configuración permite que el ventrículo se 'escurra' como una toalla; por lo tanto, la eyección es máxima.",
+      "hint": "Estructura que optimiza la fuerza de bombeo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El infundíbulo es la parte de entrada del ventrículo derecho.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Es la porción de salida, lisa, que se dirige al tronco pulmonar.",
+      "hint": "Opuesto a la zona de las trabéculas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula aórtica se encuentra posterior a la válvula pulmonar.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Anatómicamente, la pulmonar es la más anterior de las cuatro válvulas cardíacas.",
+      "hint": "Relación espacial de los tractos de salida."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El drenaje de la vena cardíaca media termina en:",
+      "opts": ["La aurícula derecha directamente", "El seno coronario", "La vena cava superior", "La aurícula izquierda"],
+      "ans": 1,
+      "just": "Es una de las tributarias principales que vierten su contenido en el extremo derecho del seno coronario.",
+      "hint": "Vena del surco interventricular posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria izquierda se origina en el seno aórtico:",
+      "opts": ["Derecho", "Izquierdo", "Posterior", "Anterior"],
+      "ans": 1,
+      "just": "Nace justo por encima de la valva semilunares izquierda de la aorta ascendente.",
+      "hint": "Coincide con el nombre de la arteria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura fetal se convierte en el limbo de la fosa oval?",
+      "opts": ["Septum primum", "Septum secundum", "Conducto venoso", "Vena umbilical"],
+      "ans": 1,
+      "just": "El borde muscular de la fosa oval deriva de la parte inferior del septum secundum.",
+      "hint": "Cresta que rodea la depresión auricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La estimulación simpática aumenta la velocidad de conducción en el nodo AV.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Al disminuir el retraso nodal, el corazón puede latir más rápido con seguridad.",
+      "hint": "Efecto dromotrópico positivo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno oblicuo está limitado lateralmente por:",
+      "opts": ["La aorta", "Las venas pulmonares", "La vena cava superior", "El esternón"],
+      "ans": 1,
+      "just": "Este fondo de saco se encuentra entre las venas pulmonares derechas e izquierdas.",
+      "hint": "Espacio detrás de la base cardíaca."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria marginal derecha llega habitualmente hasta el ápice.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Suele terminar antes de alcanzar el vértice, recorriendo solo el borde inferior.",
+      "hint": "Su trayectoria es limitada al margen agudo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El trígono fibroso derecho es atravesado por el Haz de His.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el único lugar donde el tejido de conducción cruza el esqueleto fibroso aislante.",
+      "hint": "Punto de conexión eléctrica aurículo-ventricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la arteria que irriga los músculos papilares del ventrículo derecho?",
+      "opts": ["Coronaria izquierda", "Ramas de la coronaria derecha", "Arterias bronquiales", "Aorta descendente"],
+      "ans": 1,
+      "just": "Las ramas ventriculares de la arteria coronaria derecha suministran sangre a estas estructuras.",
+      "hint": "Proviene de la arteria del lado correspondiente."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula derecha tiene una capacidad aproximada de:",
+      "opts": ["50 ml", "100 ml", "10 ml", "200 ml"],
+      "ans": 1,
+      "just": "Su volumen es ligeramente mayor que el de la aurícula izquierda, promediando 100 ml en el adulto.",
+      "hint": "Volumen de un pequeño recipiente."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral es más propensa a patologías que la tricúspide.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debido a que soporta presiones mucho más elevadas, el desgaste y las lesiones son más frecuentes.",
+      "hint": "Causa común de soplos en el lado izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo sinoauricular mide aproximadamente:",
+      "opts": ["1 cm de largo", "15 mm de largo", "5 mm de largo", "3 cm de largo"],
+      "ans": 1,
+      "just": "Es una estructura pequeña en forma de huso que mide cerca de 15 mm.",
+      "hint": "Longitud de un objeto pequeño."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara diafragmática del corazón es predominantemente el ventrículo derecho.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Dos tercios de esta cara corresponden al ventrículo izquierdo.",
+      "hint": "Cámara que genera la mayor superficie inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura impide que las aurículas se contraigan al mismo tiempo que los ventrículos?",
+      "opts": ["El esqueleto fibroso", "El pericardio", "La fosa oval", "Las arterias coronarias"],
+      "ans": 0,
+      "just": "Actúa como un aislante eléctrico que obliga al impulso a pasar por el nodo AV.",
+      "hint": "Barrera física entre cámaras superiores e inferiores."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca parva desemboca en el extremo derecho del seno coronario.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Recoge sangre de la parte inferior derecha y se une al seno coronario en su terminación.",
+      "hint": "Vena pequeña del lado derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria del nodo SA en un 60% de casos nace de la coronaria derecha.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la variante más común en la población general.",
+      "hint": "Es la mayoría estadística."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El miocardio ventricular es una capa continua de músculo.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Se organiza en bandas que se enrollan de forma compleja sobre sí mismas.",
+      "hint": "Permite el movimiento de torsión."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio de la vena cava inferior es mayor que el de la superior.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La VCI transporta un volumen mayor de sangre proveniente de la parte inferior del cuerpo.",
+      "hint": "Relacionado con el diámetro de los vasos de retorno."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula pulmonar carece de cuerdas tendinosas.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Tanto la pulmonar como la aórtica son válvulas semilunares y no requieren anclaje muscular.",
+      "hint": "No son válvulas auriculoventriculares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula izquierda se sitúa a la derecha de la línea media.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Es la cámara más central y posterior del corazón.",
+      "hint": "Se aleja de la pared anterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El dolor referido del diafragma y del pericardio parietal se siente en el mismo sitio.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Ambos comparten la inervación del nervio frénico (C3-C5); por consiguiente, el dolor se irradia al hombro.",
+      "hint": "Consecuencia de compartir dermatomas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria descendente anterior da ramas diagonales.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Estas ramas irrigan la cara anterior del ventrículo izquierdo.",
+      "hint": "Vasos que se dirigen hacia el lado izquierdo anterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La orejuela derecha es más ancha que la izquierda.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La derecha tiene una base más amplia y forma triangular; no obstante, la izquierda es más alargada.",
+      "hint": "Diferencia morfológica entre las 'orejas' auriculares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio fibroso está unido al diafragma por el centro tendinoso.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Esta unión es firme; por lo tanto, el corazón se mueve con la respiración.",
+      "hint": "Fijación inferior del saco pericárdico."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura cardiaca se encuentra inmediatamente anterior a la bifurcación traqueal?",
+      "opts": ["Arteria aorta ascendente", "Arteria pulmonar derecha", "Aurícula izquierda", "Ventrículo derecho"],
+      "ans": 2,
+      "just": "La aurícula izquierda se apoya contra el pericardio que la separa de la tráquea y esófago.",
+      "hint": "Base del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha irriga todo el ventrículo derecho.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Una pequeña parte de la cara anterior del ventrículo derecho es irrigada por la descendente anterior izquierda.",
+      "hint": "No es una exclusividad total del lado derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca magna se convierte en seno coronario al recibir a:",
+      "opts": ["La vena cardíaca media", "La vena oblicua de la aurícula izquierda", "La vena cava inferior", "La vena parva"],
+      "ans": 1,
+      "just": "Anatómicamente, la entrada de la vena de Marshall marca el inicio formal del seno coronario.",
+      "hint": "Pequeño vaso vestigial en la parte posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nódulo auriculoventricular se encuentra en el trígono fibroso derecho.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se apoya contra esta estructura antes de dar origen al Haz de His.",
+      "hint": "Relación con el esqueleto del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral tiene tres valvas en un 10% de la población.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Es una variante anatómica poco frecuente pero posible.",
+      "hint": "Alteración del número estándar de valvas izquierdas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio seroso parietal es sensible al dolor.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Recibe inervación del nervio frénico; por el contrario, la lámina visceral es insensible.",
+      "hint": "Solo duele la capa externa que tapiza al fibroso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria circunfleja irriga al nódulo sinoauricular en un 40% de casos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Ocurre a través de la arteria nodal que nace de la rama circunfleja izquierda.",
+      "hint": "Variante de irrigación del marcapasos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ventrículo derecho tiene forma semilunar en un corte transversal.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se adapta a la curvatura del ventrículo izquierdo, que es circular.",
+      "hint": "Forma geométrica del ventrículo de menor presión."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las venas cardíacas anteriores drenan en el seno coronario.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Como se mencionó anteriormente, drenan directamente en la aurícula derecha.",
+      "hint": "Excepción a la regla del seno coronario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El epicardio es la capa más interna del pericardio seroso.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es sinónimo de la lámina visceral del pericardio seroso.",
+      "hint": "Capa pegada al músculo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La oclusión de la arteria coronaria derecha suele causar bradicardia.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debido a que irriga los nodos SA y AV en la mayoría de personas, su isquemia altera el ritmo.",
+      "hint": "Consecuencia eléctrica de un infarto inferior."
+    }
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el origen embrionario de la porción lisa de la aurícula derecha (sinus venarum)?",
+      "opts": ["Aurícula primitiva", "Seno venoso", "Bulbo cardíaco", "Tronco arterioso"],
+      "ans": 1,
+      "just": "La incorporación del asta derecha del seno venoso en la aurícula derecha crea esta zona de paredes lisas; por el contrario, la aurícula primitiva da origen a la porción trabeculada.",
+      "hint": "Es la parte que recibe las venas cavas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El borde superior del corazón, donde emergen los grandes vasos, se sitúa a nivel del:",
+      "opts": ["Segundo cartílago costal izquierdo", "Tercer cartílago costal derecho", "Quinto espacio intercostal", "Ángulo de Louis"],
+      "ans": 0,
+      "just": "Este borde se extiende desde el segundo cartílago costal izquierdo hasta el tercer cartílago costal derecho; asimismo, marca el límite superior de la silueta cardíaca.",
+      "hint": "Es la base clínica del órgano."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura divide los tractos de entrada y salida del ventrículo derecho?",
+      "opts": ["Trabécula septomarginal", "Cresta supraventricular", "Músculo papilar anterior", "Válvula tricúspide"],
+      "ans": 1,
+      "just": "La cresta supraventricular separa el cono arterioso de la porción trabeculada; por consiguiente, redirige el flujo sanguíneo hacia el tronco pulmonar.",
+      "hint": "Es una potente cresta muscular en el techo ventricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca media viaja por el surco interventricular posterior acompañada de:",
+      "opts": ["Arteria circunfleja", "Arteria interventricular posterior", "Arteria marginal derecha", "Arteria conal"],
+      "ans": 1,
+      "just": "Este par vasculonervioso recorre la cara diafragmática del corazón; además, drena la mayor parte del tabique posterior.",
+      "hint": "La arteria determina la dominancia."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué día del desarrollo embrionario comienza normalmente a latir el corazón?",
+      "opts": ["Día 15", "Día 22", "Día 30", "Semana 8"],
+      "ans": 1,
+      "just": "El tubo cardíaco primitivo inicia sus contracciones rítmicas hacia la cuarta semana; consecuentemente, es el primer sistema funcional del embrión.",
+      "hint": "Ocurre poco después del plegamiento embrionario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El surco interventricular anterior se proyecta en la superficie hacia:",
+      "opts": ["La derecha del ápice", "La izquierda del ápice", "El centro del diafragma", "La base del esófago"],
+      "ans": 1,
+      "just": "Este surco termina justo a la izquierda de la punta del corazón; por tanto, el ápice pertenece anatómicamente al ventrículo izquierdo.",
+      "hint": "Marca el límite frontal entre ventrículos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué cámara cardíaca forma la cara pulmonar derecha?",
+      "opts": ["Aurícula izquierda", "Aurícula derecha", "Ventrículo derecho", "Ventrículo izquierdo"],
+      "ans": 1,
+      "just": "La aurícula derecha se relaciona íntimamente con la pleura mediastínica derecha; asimismo, constituye el borde derecho de la sombra cardiovascular.",
+      "hint": "Es la cámara que recibe la VCS."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria del nódulo sinoauricular rodea la base de la vena cava superior en sentido:",
+      "opts": ["Solo horario", "Solo antihorario", "Horario o antihorario", "No la rodea"],
+      "ans": 2,
+      "just": "Existen variantes anatómicas donde la arteria pasa por delante o por detrás de la unión cavoauricular para alcanzar el nodo.",
+      "hint": "Su trayecto es variable alrededor de la vena."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno pericárdico oblicuo se encuentra posterior a la:",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Aorta ascendente", "Vena cava superior"],
+      "ans": 1,
+      "just": "Es un espacio en fondo de saco detrás de la base del corazón; por consiguiente, permite la expansión de la aurícula izquierda durante el retorno venoso.",
+      "hint": "Se sitúa entre las venas pulmonares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La 'banda moderadora' se localiza específicamente en el ventrículo:",
+      "opts": ["Izquierdo, parte basal", "Derecho, parte apical", "Derecho, parte media", "Izquierdo, parte septal"],
+      "ans": 1,
+      "just": "Se extiende desde el tabique interventricular hasta la base del músculo papilar anterior; puesto que lleva la rama derecha del haz, coordina la contracción.",
+      "hint": "Es una trabécula carnosas de segundo orden."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué nervio craneal es responsable de la respuesta bradicárdica ante el dolor pericárdico visceral?",
+      "opts": ["Nervio glosofaríngeo", "Nervio vago", "Nervio hipogloso", "Nervio accesorio"],
+      "ans": 1,
+      "just": "El nervio vago provee las fibras parasimpáticas; no obstante, el dolor somático viaja por los nervios frénicos.",
+      "hint": "Es el par craneal X."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El volumen de sangre que queda en el ventrículo al final de la sístole se denomina:",
+      "opts": ["Volumen telediastólico", "Volumen telesistólico", "Volumen latido", "Gasto cardíaco"],
+      "ans": 1,
+      "just": "Representa la reserva sistólica del corazón; por tanto, su aumento indica una disminución de la fracción de eyección.",
+      "hint": "Es lo que sobra tras la contracción."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria marginal izquierda es una rama constante de la:",
+      "opts": ["Descendente anterior", "Arteria circunfleja", "Coronaria derecha", "Arteria subclavia"],
+      "ans": 1,
+      "just": "Se origina de la circunfleja y desciende por el borde obtuso del corazón; asimismo, irriga la pared lateral del ventrículo izquierdo.",
+      "hint": "Sigue el borde más grueso del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la disposición de las válvulas semilunares en el tronco pulmonar?",
+      "opts": ["Dos anteriores y una posterior", "Una anterior y dos posteriores", "Derecha, izquierda y septal", "Superior e inferior"],
+      "ans": 1,
+      "just": "La válvula pulmonar tiene valvas semilunares anterior, derecha e izquierda; en cambio, la aórtica tiene posterior, derecha e izquierda.",
+      "hint": "Es lo opuesto a la configuración de la aorta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El drenaje venoso del ventrículo derecho se realiza principalmente por:",
+      "opts": ["Venas cardíacas anteriores", "Seno coronario", "Vena magna", "Vena de Marshall"],
+      "ans": 0,
+      "just": "Estas pequeñas venas recolectan la sangre de la cara anterior del VD y desembocan directo en la aurícula derecha.",
+      "hint": "No usan el seno coronario como vía principal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué porción del tubo cardíaco embrionario origina los ventrículos definitivos?",
+      "opts": ["Seno venoso", "Bulbus cordis y ventrículo primitivo", "Tronco arterioso", "Saco aórtico"],
+      "ans": 1,
+      "just": "El bulbus cordis forma el ventrículo derecho y los tractos de salida, mientras que el ventrículo primitivo forma el izquierdo.",
+      "hint": "Son las dilataciones centrales del tubo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La inervación del pericardio fibroso proviene de los nervios:",
+      "opts": ["Vagos y simpáticos", "Frénicos", "Intercostales únicamente", "Esplácnicos"],
+      "ans": 1,
+      "just": "Los nervios frénicos atraviesan el pericardio fibroso; en consecuencia, transmiten el dolor somático agudo en las pericarditis.",
+      "hint": "Nervios que también inervan el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo auriculoventricular se sitúa en el vértice del:",
+      "opts": ["Triángulo de Einthoven", "Triángulo de Koch", "Surco coronario", "Ápice cardíaco"],
+      "ans": 1,
+      "just": "Se localiza por debajo del endocardio del tabique interauricular; además, es la zona de mayor retraso fisiológico del impulso.",
+      "hint": "Pequeña zona delimitada por el seno coronario y la tricúspide."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la presión media normal en la aurícula derecha?",
+      "opts": ["120 mmHg", "0 a 5 mmHg", "25 mmHg", "80 mmHg"],
+      "ans": 1,
+      "just": "La aurícula derecha maneja presiones muy bajas para facilitar el retorno venoso sistémico.",
+      "hint": "Es la presión venosa central."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las cuerdas tendinosas 'falsas' se caracterizan por:",
+      "opts": ["Unirse a las valvas", "Unir dos paredes ventriculares o un músculo papilar con el tabique", "No existir en humanos", "Ser exclusivas de la aorta"],
+      "ans": 1,
+      "just": "Estas cuerdas no participan en el mecanismo valvular; no obstante, pueden contener fibras de conducción.",
+      "hint": "No se insertan en las valvas de las válvulas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria se conoce clínicamente como la 'arteria del creador de viudas' por su alta mortalidad en oclusiones?",
+      "opts": ["Circunfleja", "Interventricular anterior (DA)", "Interventricular posterior", "Coronaria derecha"],
+      "ans": 1,
+      "just": "La oclusión de la descendente anterior compromete la cara anterior de ambos ventrículos y el tabique; por tanto, causa fallos catastróficos.",
+      "hint": "Es la rama más importante de la coronaria izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca parva discurre por el surco coronario derecho acompañada de:",
+      "opts": ["Arteria marginal derecha", "Rama nodal", "Rama conal", "Arteria circunfleja"],
+      "ans": 0,
+      "just": "Esta vena drena la parte inferior derecha del corazón; además, suele unirse al extremo derecho del seno coronario.",
+      "hint": "Acompaña a la arteria del borde agudo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio de la vena cava inferior es de mayor diámetro que el de la superior.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debido al gran volumen de sangre que retorna desde la mitad inferior del cuerpo, este orificio es proporcionalmente más grande.",
+      "hint": "Relacionado con la carga de retorno venoso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La zona de la aurícula izquierda relacionada con el esófago es:",
+      "opts": ["El ápex", "La pared posterior", "La orejuela", "El tabique"],
+      "ans": 1,
+      "just": "La aurícula izquierda es la estructura más posterior; por consiguiente, un aumento de su tamaño puede causar dificultad al tragar.",
+      "hint": "Es la cara que forma la base del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura embriológica forma el tabique membranoso interventricular?",
+      "opts": ["Cojinetes endocárdicos", "Septum primum", "Bulbo cardíaco únicamente", "Vena umbilical"],
+      "ans": 0,
+      "just": "La fusión de los cojinetes endocárdicos con el tabique muscular completa la separación de los ventrículos.",
+      "hint": "Tejido que también divide las válvulas AV."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pulso venoso yugular refleja los cambios de presión de la cámara:",
+      "opts": ["Aurícula izquierda", "Aurícula derecha", "Ventrículo izquierdo", "Ventrículo derecho"],
+      "ans": 1,
+      "just": "Debido a la ausencia de válvulas funcionales en la VCS, las ondas de la aurícula derecha se transmiten de forma retrógrada.",
+      "hint": "Cámara receptora de la sangre del cuello."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La fosa oval se encuentra en el tabique interauricular, ¿hacia qué lado está su depresión?",
+      "opts": ["Izquierdo", "Derecho", "Superior", "Inferior"],
+      "ans": 1,
+      "just": "La fosa oval es visible desde la aurícula derecha; en cambio, en la aurícula izquierda se observa la válvula del foramen oval.",
+      "hint": "Se busca en la cámara que recibe las cavas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria irriga la mayor parte del sistema de conducción ventricular (Haz de His y ramas)?",
+      "opts": ["Coronaria derecha", "Descendente anterior (septales)", "Arteria circunfleja", "Rama marginal"],
+      "ans": 1,
+      "just": "Las ramas septales perforantes de la DA suministran sangre a los dos tercios superiores del tabique.",
+      "hint": "Proviene de la coronaria izquierda anterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El surco coronario está interrumpido anteriormente por:",
+      "opts": ["La vena cava superior", "El tronco pulmonar y la aorta", "La orejuela derecha", "El esófago"],
+      "ans": 1,
+      "just": "Los tractos de salida arteriales se sitúan delante de las aurículas; por tanto, el surco desaparece en esa zona.",
+      "hint": "Grandes arterias que salen del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La reflexión del pericardio seroso alrededor de las venas pulmonares forma el:",
+      "opts": ["Seno transverso", "Seno oblicuo", "Ligamento arterioso", "Seno venoso"],
+      "ans": 1,
+      "just": "Este espacio permite meter los dedos detrás del corazón; además, está limitado por las cuatro venas pulmonares.",
+      "hint": "Es un fondo de saco posterior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha termina habitualmente anastomosándose con la:",
+      "opts": ["Arteria circunfleja", "Arteria subclavia", "Vena magna", "Arteria carótida"],
+      "ans": 0,
+      "just": "Ambas coronarias se unen en el surco coronario posterior para asegurar la perfusión colateral.",
+      "hint": "Cierran el círculo alrededor del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cómo se denomina el remanente de la comunicación entre la aorta y la arteria pulmonar?",
+      "opts": ["Conducto arterioso", "Ligamento arterioso", "Fosa oval", "Seno de Valsalva"],
+      "ans": 1,
+      "just": "Es una banda fibrosa que une el tronco pulmonar con el arco de la aorta; asimismo, se relaciona con el nervio laríngeo recurrente.",
+      "hint": "Estructura vestigial post-fetal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula derecha posee una prolongación muscular llamada:",
+      "opts": ["Ápice", "Orejuela", "Infundíbulo", "Ventrículo"],
+      "ans": 1,
+      "just": "Las orejuelas aumentan la capacidad auricular; por consiguiente, permiten manejar volúmenes mayores durante el ejercicio.",
+      "hint": "Tiene forma de pequeña oreja."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El miocardio auricular y ventricular están unidos eléctricamente solo por el:",
+      "opts": ["Nodo SA", "Fascículo auriculoventricular (Haz de His)", "Haz de Bachmann", "Septum primum"],
+      "ans": 1,
+      "just": "El esqueleto fibroso aísla las cámaras; puesto que el impulso debe ser coordinado, el Haz de His es el único puente.",
+      "hint": "Atraviesa el trígono fibroso derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara diafragmática del corazón está formada en sus 2/3 izquierdos por el:",
+      "opts": ["Ventrículo derecho", "Ventrículo izquierdo", "Aurícula izquierda", "Ápice"],
+      "ans": 1,
+      "just": "Esta cara descansa sobre el diafragma; además, se sitúa entre la base y el vértice.",
+      "hint": "Cámara que genera la mayor presión sistémica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo sinoauricular recibe irrigación de la arteria circunfleja en un:",
+      "opts": ["60%", "40%", "10%", "90%"],
+      "ans": 1,
+      "just": "En la minoría de la población, el nodo SA depende del sistema coronario izquierdo.",
+      "hint": "Es menos frecuente que la irrigación derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las venas cardíacas mínimas se abren predominantemente en las:",
+      "opts": ["Arterias coronarias", "Aurículas", "Venas pulmonares", "Vena ácigos"],
+      "ans": 1,
+      "just": "También llamadas venas de Tebesio, devuelven la sangre directamente a las cámaras sin pasar por el sistema venoso mayor.",
+      "hint": "Son vasos intramurales microscópicos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral posee un anillo fibroso que forma parte del:",
+      "opts": ["Pericardio", "Esqueleto fibroso del corazón", "Miocardio", "Mediastino anterior"],
+      "ans": 1,
+      "just": "Los anillos valvulares mantienen la forma del orificio y sirven de anclaje a las valvas.",
+      "hint": "Armazón del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El tercer ruido cardíaco (R3) es normal en:",
+      "opts": ["Ancianos", "Niños y jóvenes", "Pacientes con infarto", "Hipertensos crónicos"],
+      "ans": 1,
+      "just": "Se debe al llenado ventricular rápido; no obstante, en adultos mayores suele indicar insuficiencia cardíaca.",
+      "hint": "Suele ser un hallazgo fisiológico en deportistas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria izquierda se bifurca habitualmente en:",
+      "opts": ["Marginal y Circunfleja", "DA y Circunfleja", "DA e Interventricular posterior", "Rama nodal y Conal"],
+      "ans": 1,
+      "just": "Tras un corto recorrido, el tronco principal de la izquierda da origen a sus dos ramas terminales.",
+      "hint": "Ramas para el frente y el lado izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio fibroso está fijado inferiormente al diafragma por el:",
+      "opts": ["Ligamento esternopericárdico", "Ligamento pericardiofrénico", "Tendón central", "Músculo transverso"],
+      "ans": 2,
+      "just": "Se fusiona íntimamente con el centro tendinoso; por consiguiente, el corazón sigue los movimientos respiratorios.",
+      "hint": "Zona no muscular del diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué cámara cardíaca recibe sangre oxigenada?",
+      "opts": ["Aurícula derecha", "Aurícula izquierda", "Ventrículo derecho", "Vena cava superior"],
+      "ans": 1,
+      "just": "Las venas pulmonares transportan sangre rica en oxígeno desde los pulmones hasta esta cavidad.",
+      "hint": "Cámara de la circulación mayor."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cresta terminal de la aurícula derecha corresponde externamente al:",
+      "opts": ["Surco coronario", "Surco terminal", "Surco interauricular", "Surco de Haller"],
+      "ans": 1,
+      "just": "Es una muesca poco profunda que une los bordes de las venas cavas.",
+      "hint": "Referencia externa del nodo SA."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria interventricular posterior irriga habitualmente el:",
+      "opts": ["Haz de His", "Nodo AV", "Músculo papilar anterior", "Tronco pulmonar"],
+      "ans": 1,
+      "just": "Debido a que nace cerca de la cruz del corazón, suele dar la rama para el nodo AV.",
+      "hint": "Depende de la dominancia coronaria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula tricúspide tiene una valva unida al tabique llamada:",
+      "opts": ["Anterior", "Posterior", "Septal", "Lateral"],
+      "ans": 2,
+      "just": "Sus cuerdas tendinosas nacen de los pequeños músculos papilares septales.",
+      "hint": "Su nombre indica su posición central."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno pericárdico transverso se localiza entre:",
+      "opts": ["Venas y arterias", "Aurículas y ventrículos", "Aorta y esófago", "Pulmones"],
+      "ans": 0,
+      "just": "Separa los grandes vasos arteriales (aorta y pulmonar) de los venosos (VCS y aurículas).",
+      "hint": "Permite pasar un dedo por detrás de la aorta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria irriga la mayor parte de la cara anterior del ventrículo derecho?",
+      "opts": ["Descendente anterior", "Arteria coronaria derecha", "Circunfleja", "Marginal izquierda"],
+      "ans": 1,
+      "just": "La coronaria derecha es la principal fuente de nutrición para las cámaras derechas.",
+      "hint": "Artería que viaja por el surco derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El endocardio es una capa de:",
+      "opts": ["Mesotelio", "Endotelio y tejido conjuntivo", "Músculo estriado", "Tejido óseo"],
+      "ans": 1,
+      "just": "Tapiza el interior del corazón y es continuo con el endotelio de los grandes vasos.",
+      "hint": "Revestimiento interno."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La fosa oval se encuentra en la pared:",
+      "opts": ["Lateral de la AD", "Septal de la AD", "Posterior de la AI", "Anterior del VD"],
+      "ans": 1,
+      "just": "Es el sitio del antiguo foramen oval en el tabique que separa ambas aurículas.",
+      "hint": "Localizada entre las dos aurículas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La estimulación parasimpática del nodo AV produce:",
+      "opts": ["Taquicardia", "Retraso en la conducción", "Aumento de contractilidad", "Hipertensión"],
+      "ans": 1,
+      "just": "El nervio vago enlentece el paso del impulso eléctrico a los ventrículos.",
+      "hint": "Efecto dromotrópico negativo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El tronco pulmonar se divide en arterias derecha e izquierda a nivel de:",
+      "opts": ["Vértebra T2", "Vértebra T4/T5 (ángulo esternal)", "Vértebra T8", "C7"],
+      "ans": 1,
+      "just": "Esta división ocurre por debajo del arco de la aorta y a la izquierda de la línea media.",
+      "hint": "Hito del mediastino medio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha suele dar origen a la rama nodal sinoauricular.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Ocurre en el 60% de los casos, siendo la fuente más frecuente.",
+      "hint": "Arteria dominante en el sistema de conducción auricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El epicardio secreta una pequeña cantidad de líquido seroso.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Al ser la lámina visceral de la serosa, participa en la producción del líquido lubricante pericárdico.",
+      "hint": "Capa externa funcional."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria circunfleja viaja por el surco:",
+      "opts": ["Interventricular", "Coronario izquierdo", "Terminal", "Aórtico"],
+      "ans": 1,
+      "just": "Sigue el surco auriculoventricular izquierdo hacia la cara posterior.",
+      "hint": "Rodea el lado izquierdo del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El músculo papilar anterior del ventrículo izquierdo es irrigado por:",
+      "opts": ["Solo la coronaria derecha", "Generalmente por la DA y la circunfleja", "Solo la marginal derecha", "La vena magna"],
+      "ans": 1,
+      "just": "Posee una doble irrigación; por consiguiente, es más resistente a la isquemia que el papilar posterior.",
+      "hint": "Músculo papilar de la válvula mitral."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula izquierda recibe sangre a través de:",
+      "opts": ["Venas cavas", "Venas pulmonares", "Seno coronario", "Aorta"],
+      "ans": 1,
+      "just": "Son cuatro vasos que traen sangre arterial desde los pulmones.",
+      "hint": "Retorno de la circulación menor."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El borde inferior del corazón está formado principalmente por el:",
+      "opts": ["Ventrículo izquierdo", "Ventrículo derecho", "Aurícula derecha", "Arco aórtico"],
+      "ans": 1,
+      "just": "Es casi horizontal y se extiende desde la aurícula derecha hasta el ápice.",
+      "hint": "Cámara que descansa sobre el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura cardiaca es la más cercana a la pared torácica anterior?",
+      "opts": ["Aurícula izquierda", "Ventrículo derecho", "Ventrículo izquierdo", "Aorta"],
+      "ans": 1,
+      "just": "El ventrículo derecho forma la mayor parte de la cara esternocostal.",
+      "hint": "Cámara situada detrás del cuerpo del esternón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo sinoauricular se localiza inferolateral a la embocadura de la:",
+      "opts": ["Vena cava inferior", "Vena cava superior", "Seno coronario", "Vena pulmonar"],
+      "ans": 1,
+      "just": "Se sitúa en la parte superior del surco terminal de la aurícula derecha.",
+      "hint": "Cerca del techo auricular derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula de Eustaquio se asocia con el orificio de la:",
+      "opts": ["Vena cava superior", "Vena cava inferior", "Seno coronario", "Vena magna"],
+      "ans": 1,
+      "just": "Es un repliegue de endocardio que en el feto dirigía la sangre hacia la fosa oval.",
+      "hint": "Se localiza en la base de la AD."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El tabique interventricular es curvo, con la convexidad dirigida hacia el:",
+      "opts": ["Ventrículo izquierdo", "Ventrículo derecho", "Ápice", "Seno coronario"],
+      "ans": 1,
+      "just": "Debido a la mayor presión del ventrículo izquierdo, el tabique protruye hacia la derecha.",
+      "hint": "El VI tiene forma circular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria izquierda nace del seno aórtico:",
+      "opts": ["Derecho", "Izquierdo", "Posterior", "Anterior"],
+      "ans": 1,
+      "just": "Se origina justo por encima de la valva semilunar izquierda de la aorta.",
+      "hint": "Seno relacionado con el nombre de la arteria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca magna se vacía en el seno coronario en su extremo:",
+      "opts": ["Derecho", "Izquierdo", "Superior", "Inferior"],
+      "ans": 1,
+      "just": "Proviene del surco interventricular anterior y entra al seno por la izquierda.",
+      "hint": "Lado de origen de la vena magna."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los músculos papilares se contraen ANTES que el miocardio ventricular libre.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Esto asegura que las válvulas AV estén tensas antes de que aumente la presión sistólica.",
+      "hint": "Mecanismo preventivo de insuficiencia valvular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio seroso visceral es insensible al dolor.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Solo el pericardio parietal y fibroso transmiten sensaciones dolorosas vía nervio frénico.",
+      "hint": "Es la capa pegada al músculo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria descendente posterior irriga los músculos papilares septales.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 0,
+      "just": "Esta arteria suministra sangre a la porción posterior del tabique interventricular.",
+      "hint": "Rama de la coronaria derecha en dominancia derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena de Marshall es un remanente de la vena cava superior izquierda.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es un vestigio embrionario que desciende sobre la aurícula izquierda.",
+      "hint": "También llamada vena oblicua de la AI."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El orificio del seno coronario está situado entre el orificio de la VCI y la válvula tricúspide.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es su localización anatómica constante en la aurícula derecha.",
+      "hint": "Zona de drenaje venoso miocárdico."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha da origen a la arteria marginal derecha.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Irriga el borde agudo y la cara anterior del ventrículo derecho.",
+      "hint": "Rama del margen inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El saco pericárdico se encuentra anclado al esternón por los ligamentos:",
+      "opts": ["Pericardiofrénicos", "Esternopericárdicos", "Vertebropericárdicos", "Frenicopleurales"],
+      "ans": 1,
+      "just": "Estos ligamentos estabilizan la posición del corazón en el mediastino anterior y medio.",
+      "hint": "Unen el hueso del pecho con el saco."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La rama circunfleja irriga habitualmente el nódulo AV en la dominancia izquierda.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "En este caso, la circunfleja llega a la cruz del corazón y da la arteria nodal.",
+      "hint": "Variante de la arteria coronaria izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo sinoauricular es subepicárdico.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se localiza justo debajo del epicardio en la unión de la VCS y la AD.",
+      "hint": "Capa donde se sitúa el marcapasos primario."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las arterias coronarias son funcionalmente arterias terminales.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Aunque existen anastomosis, suelen ser insuficientes para compensar una oclusión aguda.",
+      "hint": "Causa biológica del infarto."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral tiene mayor circunferencia que la tricúspide.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "El orificio tricuspídeo es más amplio que el mitral en el corazón normal.",
+      "hint": "El lado derecho maneja más volumen."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El esqueleto fibroso del corazón previene el paso directo del impulso de aurículas a ventrículos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Actúa como aislante eléctrico, obligando al impulso a seguir la vía del sistema de conducción.",
+      "hint": "Función protectora del armazón fibroso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La vena cardíaca mínima drena sangre oxigenada.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Drenan sangre venosa del miocardio directamente a las cavidades, mezclándola con la sangre allí presente.",
+      "hint": "Son venas de Tebesio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria descendente anterior irriga el Haz de His.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "A través de sus ramas septales anteriores nutre las porciones proximales del haz.",
+      "hint": "Principal fuente de irrigación del tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara diafragmática del corazón está formada principalmente por el ventrículo izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Constituye aproximadamente dos tercios de la superficie inferior del órgano.",
+      "hint": "Cámara que descansa sobre el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria derecha irriga el nódulo AV en el 80% de los casos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Esto se asocia con la dominancia derecha típica de la población humana.",
+      "hint": "Mayoría estadística en irrigación nodal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno pericárdico transverso permite separar quirúrgicamente las arterias de las venas.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es un pasaje que se utiliza para colocar pinzas o lazos durante la cirugía cardíaca.",
+      "hint": "Espacio detrás de la aorta y pulmonar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula izquierda es la cámara más anterior del corazón.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Anatómicamente, es la cámara más posterior y forma la base cardíaca.",
+      "hint": "Cámara situada frente al esófago."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio fibroso se fusiona con la túnica adventicia de los grandes vasos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Esta unión hermética protege el mediastino de derrames o infecciones pericárdicas.",
+      "hint": "Continuidad con la capa externa vascular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula de Tebesio protege el orificio del seno coronario.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es un pequeño pliegue semilunar en la desembocadura del colector venoso.",
+      "hint": "Nombre de la válvula del seno venoso principal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria circunfleja irriga la cara lateral del ventrículo izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Recorre el surco coronario izquierdo y suministra sangre a esa zona miocárdica.",
+      "hint": "Rama de la coronaria izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El nodo sinoauricular es el marcapasos primario del corazón.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Inicia el impulso eléctrico debido a su frecuencia de descarga más alta.",
+      "hint": "Nodo de Keith-Flack."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ventrículo derecho tiene paredes más delgadas que el izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Maneja una resistencia vascular pulmonar mucho menor que la sistémica.",
+      "hint": "Refleja la menor carga de trabajo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La sangre de las venas pulmonares entra en la aurícula derecha.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Las venas pulmonares llevan sangre oxigenada a la aurícula izquierda.",
+      "hint": "Retorno de la circulación pulmonar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El Haz de His se divide en ramas derecha e izquierda en el tabique interventricular.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Estas ramas llevan el impulso eléctrico hacia los respectivos ventrículos.",
+      "hint": "Continuación del nodo AV."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El pericardio parietal recubre internamente el pericardio fibroso.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la lámina externa del pericardio seroso que se adhiere a la bolsa fibrosa.",
+      "hint": "Capa externa de la serosa."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria coronaria izquierda irriga la mayor parte del tabique interventricular.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "A través de la DA nutre los dos tercios anteriores del septum.",
+      "hint": "Principal fuente sanguínea del tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ápice cardíaco se localiza en el quinto espacio intercostal izquierdo.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el punto más inferior y lateral del corazón, formado por el ventrículo izquierdo.",
+      "hint": "Localización del choque de punta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula aórtica tiene tres senos de Valsalva.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Son dilataciones de la raíz aórtica situadas por encima de las valvas.",
+      "hint": "Origen de las arterias coronarias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El ligamento arterioso une la arteria pulmonar izquierda con el arco aórtico.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el remanente del conducto arterioso fetal.",
+      "hint": "Unión vascular vestigial."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria marginal derecha irriga el borde agudo del corazón.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es una rama importante de la coronaria derecha.",
+      "hint": "Rama del margen inferior derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula derecha contiene los músculos pectíneos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se localizan en la porción rugosa y en la orejuela de la cámara.",
+      "hint": "Haces musculares en forma de peine."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno coronario drena en la aurícula izquierda.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Drena la sangre venosa del miocardio en la aurícula derecha.",
+      "hint": "Desemboca cerca de la VCI."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral impide el reflujo de sangre al ventrículo izquierdo.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Impide el reflujo hacia la aurícula izquierda durante la sístole.",
+      "hint": "Válvula auriculoventricular izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria del nódulo AV nace de la coronaria derecha en la dominancia derecha.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se origina en la cruz del corazón, donde se encuentran los surcos cardiacos.",
+      "hint": "Origen típico de la irrigación nodal AV."
+    }
+  ]
+}
