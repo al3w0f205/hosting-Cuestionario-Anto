@@ -2,6 +2,7 @@ backend:
   name: github
   repo: al3w0f205/hosting-Cuestionario-Anto
   branch: main
+  base_url: https://decap-oauth.kuworking.com
 
 media_folder: "images"
 public_folder: "/images"

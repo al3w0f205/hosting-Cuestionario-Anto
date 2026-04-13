@@ -12,6 +12,1428 @@
       "ans": 0,
       "just": "Los nervios frénicos transportan la sensibilidad somática de la pleura mediastínica además del pericardio parietal.",
       "hint": "Son los mismos nervios que inervan el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la Fase 4 del potencial de acción del miocardio ventricular no marcapasos, ¿qué canal es el principal responsable de mantener el potencial de reposo cerca de −90 mV?",
+      "opts": [
+        "Canales de potasio rectificadores internos IK1",
+        "Canales de sodio tipo funny If",
+        "Intercambiador Sodio-Calcio NCX",
+        "Canales de calcio tipo T"
+      ],
+      "ans": 0,
+      "just": "Estos canales permiten la salida de potasio en reposo, estabilizando la membrana cerca del potencial de equilibrio del ion.",
+      "hint": "Es un canal de potasio abierto durante el reposo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la característica anatómica principal que define el Índice Cardiotorácico en una radiografía de tórax normal?",
+      "opts": [
+        "Relación entre diámetro transverso del corazón y diámetro transverso interno de la caja torácica ≤ 0.5",
+        "Distancia entre el ápice cardíaco y el ángulo costofrénico izquierdo",
+        "Ancho de la aorta ascendente comparado con el ancho de la columna vertebral",
+        "Altura del ventrículo derecho dividida para la altura del pulmón derecho"
+      ],
+      "ans": 0,
+      "just": "Este índice es la medida estándar para evaluar clínicamente el tamaño del corazón además de detectar cardiomegalia.",
+      "hint": "Compara el ancho del corazón frente al ancho del pecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Si un paciente presenta obstrucción total de la Arteria Coronaria Derecha antes del origen de la rama marginal derecha, ¿qué zona del corazón se verá afectada principalmente?",
+      "opts": [
+        "Ventrículo derecho además de la cara inferior del ventrículo izquierdo",
+        "Pared lateral del ventrículo izquierdo",
+        "Ápice además de la cara anterior del ventrículo izquierdo",
+        "Aurícula izquierda exclusivamente"
+      ],
+      "ans": 0,
+      "just": "La coronaria derecha irriga el ventrículo derecho junto con la cara inferior a través de la descendente posterior en dominancia derecha.",
+      "hint": "La coronaria derecha abraza el lado derecho junto con la base inferior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Durante la fase de eyección rápida del ciclo cardíaco, ¿qué relación de presión es necesaria para que ocurra el flujo sanguíneo?",
+      "opts": [
+        "La presión ventricular debe superar la presión en la aorta o arteria pulmonar",
+        "La presión auricular debe ser mayor a la ventricular",
+        "La presión en la aorta debe ser igual a la del ventrículo",
+        "La presión intrapericárdica debe ser mayor a la intracavitaria"
+      ],
+      "ans": 0,
+      "just": "Este gradiente de presión es el que fuerza la apertura de las válvulas semilunares.",
+      "hint": "El ventrículo debe vencer la presión de las arterias de salida."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el valor aproximado de la presión sistólica media de llenado en un adulto normal?",
+      "opts": [
+        "7 mmHg",
+        "120 mmHg",
+        "0 mmHg",
+        "25 mmHg"
+      ],
+      "ans": 0,
+      "just": "Es la presión que existiría en el sistema circulatorio si el corazón se detuviera mientras las presiones se equilibraran.",
+      "hint": "Es una presión baja que impulsa el retorno venoso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la auscultación, un clic de apertura seguido de un soplo diastólico en el foco mitral es sugerente de:",
+      "opts": [
+        "Estenosis Mitral",
+        "Insuficiencia Mitral",
+        "Estenosis Aórtica",
+        "Persistencia del conducto arterioso"
+      ],
+      "ans": 0,
+      "just": "El clic se produce por la apertura súbita de una válvula mitral rígida; luego el soplo aparece por el flujo turbulento al pasar por el orificio estrecho.",
+      "hint": "Ocurre cuando la sangre intenta entrar al ventrículo pero la válvula no abre bien."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la estructura anatómica que separa la porción lisa de la porción rugosa de la aurícula derecha?",
+      "opts": [
+        "La cresta terminal",
+        "El limbo de la fosa oval",
+        "La válvula de Eustaquio",
+        "El tendón de Todaro"
+      ],
+      "ans": 0,
+      "just": "La cresta terminal es el reborde muscular que marca la transición entre el seno de las venas cavas (liso) y la zona de los músculos pectíneos (rugosa).",
+      "hint": "Se relaciona con el origen embriológico del seno venoso."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En el triángulo de Koch, ¿cuál es el límite posterior?",
+      "opts": [
+        "El tendón de Todaro",
+        "La valva septal de la tricúspide",
+        "El orificio del seno coronario",
+        "La orejuela derecha"
+      ],
+      "ans": 0,
+      "just": "El tendón de Todaro forma el límite superior o posterior de este espacio anatómico clave.",
+      "hint": "Es una banda tendinosa que se extiende desde la válvula de Eustaquio hacia el tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la velocidad de conducción más rápida en el corazón?",
+      "opts": [
+        "Fibras de Purkinje",
+        "Nodo Auriculoventricular",
+        "Músculo ventricular",
+        "Nodo Sinusal"
+      ],
+      "ans": 0,
+      "just": "Su gran diámetro y alta densidad de uniones gap permiten una velocidad de hasta 4 m/s para sincronizar la contracción ventricular.",
+      "hint": "Es la autopista eléctrica del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El fenómeno de autorritmicidad del corazón se debe fundamentalmente a:",
+      "opts": [
+        "La inestabilidad del potencial de reposo en las células del nodo sinusal",
+        "La presencia de abundantes nervios simpáticos dentro del miocardio",
+        "La entrada de Magnesio durante la fase de meseta",
+        "El grosor de la capa de pericardio fibroso"
+      ],
+      "ans": 0,
+      "just": "A diferencia de otras células, las del nodo SA nunca se mantienen estables en reposo, despolarizándose solas.",
+      "hint": "Se relaciona con los canales funny."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función de la trabécula septomarginal (banda moderadora) en el ventrículo derecho?",
+      "opts": [
+        "Conducir la rama derecha del haz de His hacia el músculo papilar anterior",
+        "Actuar como válvula secundaria ante fallas de la tricúspide",
+        "Separar el cono arterioso del resto del ventrículo",
+        "Producir péptido natriurético auricular"
+      ],
+      "ans": 0,
+      "just": "Permite una activación rápida del músculo papilar para coordinar el cierre de la tricúspide.",
+      "hint": "Es un puente muscular en el ventrículo derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura anatómica se conoce como el marcapasos natural del corazón?",
+      "opts": [
+        "Nodo Sinoauricular (Sinusal)",
+        "Nodo Auriculoventricular",
+        "Haces de Bachmann",
+        "Fibras de Purkinje"
+      ],
+      "ans": 0,
+      "just": "Ubicado en la aurícula derecha, inicia el impulso eléctrico debido a su mayor frecuencia intrínseca.",
+      "hint": "Se encuentra cerca de la desembocadura de la vena cava superior."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la presión sistólica normal en el ventrículo derecho?",
+      "opts": [
+        "15 a 25 mmHg",
+        "120 mmHg",
+        "80 mmHg",
+        "0 a 5 mmHg"
+      ],
+      "ans": 0,
+      "just": "El ventrículo derecho maneja presiones mucho menores que el izquierdo debido a la baja resistencia pulmonar.",
+      "hint": "Es aproximadamente un sexto de la presión del lado izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué efecto tiene un aumento de la precarga sobre el volumen sistólico según la Ley de Frank-Starling?",
+      "opts": [
+        "Aumenta el volumen sistólico debido a mayor estiramiento de las fibras miocárdicas",
+        "Disminuye el volumen sistólico por fatiga muscular inmediata",
+        "No produce ningún cambio",
+        "Aumenta la frecuencia cardíaca sin modificar el volumen sistólico"
+      ],
+      "ans": 0,
+      "just": "Un mayor llenado telediastólico optimiza la superposición de actina y miosina, aumentando la fuerza de contracción.",
+      "hint": "A mayor llenado, mayor estiramiento."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el componente principal del esqueleto fibroso del corazón?",
+      "opts": [
+        "Cuatro anillos fibrosos que rodean las válvulas",
+        "Tejido muscular estriado especializado",
+        "Células endoteliales del endocardio",
+        "Hueso cardíaco"
+      ],
+      "ans": 0,
+      "just": "Estos anillos proporcionan soporte estructural además de aislamiento eléctrico entre aurículas y ventrículos.",
+      "hint": "Sirve de aislante eléctrico entre las cámaras superiores e inferiores."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué fase del ciclo cardíaco consume la mayor cantidad de oxígeno miocárdico?",
+      "opts": [
+        "Contracción isovolumétrica",
+        "Llenado pasivo",
+        "Relajación isovolumétrica",
+        "Eyección reducida"
+      ],
+      "ans": 0,
+      "just": "Es la fase donde el corazón genera tensión máxima para abrir las válvulas semilunares, demandando mucha energía.",
+      "hint": "Piensa en el momento de mayor esfuerzo para empujar la puerta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El seno coronario desemboca directamente en:",
+      "opts": [
+        "La aurícula derecha",
+        "La vena cava superior",
+        "La aurícula izquierda",
+        "El ventrículo derecho"
+      ],
+      "ans": 0,
+      "just": "Recoge la sangre desoxigenada del propio corazón, vertiéndola en la aurícula derecha.",
+      "hint": "Está cerca de la fosa oval y la válvula tricúspide."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La Ley de Frank-Starling relaciona:",
+      "opts": [
+        "El volumen telediastólico con la fuerza de contracción",
+        "La presión arterial con el radio del vaso",
+        "La frecuencia cardíaca con el consumo de oxígeno",
+        "La resistencia con el flujo"
+      ],
+      "ans": 0,
+      "just": "A mayor llenado corresponde mayor fuerza de eyección dentro de parámetros fisiológicos.",
+      "hint": "Estudia la relación longitud-tensión intrínseca del miocardio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La noradrenalina aumenta la fuerza de contracción cardíaca al:",
+      "opts": [
+        "Aumentar la entrada de calcio a través de canales tipo L mediante la vía del AMPc",
+        "Bloquear los canales de sodio rápidos",
+        "Disminuir la sensibilidad de la troponina C al calcio",
+        "Hiperpolarizar la membrana del cardiomiocito"
+      ],
+      "ans": 0,
+      "just": "La activación de receptores Beta-1 incrementa el calcio disponible para la maquinaria contráctil.",
+      "hint": "El sistema simpático quiere más calcio en el citosol."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la principal fuente de energía para el corazón en condiciones de reposo?",
+      "opts": [
+        "Ácidos grasos libres",
+        "Glucosa",
+        "Aminoácidos",
+        "Lactato"
+      ],
+      "ans": 0,
+      "just": "Aproximadamente el 60-70% de la energía cardíaca proviene de la oxidación de grasas.",
+      "hint": "El corazón es un devorador de grasa."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el principal factor que determina la resistencia vascular sistémica?",
+      "opts": [
+        "El diámetro de las arteriolas",
+        "La longitud de la vena cava",
+        "El número de glóbulos blancos",
+        "La elasticidad de los capilares"
+      ],
+      "ans": 0,
+      "just": "Al ser los vasos de resistencia, pequeños cambios en su radio afectan enormemente la presión arterial total.",
+      "hint": "Se les llama grifos del sistema circulatorio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La aurícula izquierda recibe sangre oxigenada a través de:",
+      "opts": [
+        "Las cuatro venas pulmonares",
+        "La arteria pulmonar",
+        "La vena cava superior",
+        "El seno coronario"
+      ],
+      "ans": 0,
+      "just": "Son los únicos vasos venosos que transportan sangre con alta concentración de oxígeno hacia el corazón.",
+      "hint": "Son vasos que vienen de los pulmones hacia el lado izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura une el arco de la aorta con el tronco de la arteria pulmonar?",
+      "opts": [
+        "Ligamento arterioso",
+        "Ligamento pulmonar",
+        "Tendón de Todaro",
+        "Cuerda tendinosa"
+      ],
+      "ans": 0,
+      "just": "Constituye el remanente fibroso del conducto arterioso fetal.",
+      "hint": "Cerca de él pasa el nervio laríngeo recurrente izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la estructura de la aurícula derecha que se asocia con el remanente del agujero oval?",
+      "opts": [
+        "Fosa oval y su limbo",
+        "Válvula de Tebesio",
+        "Cresta terminal",
+        "Seno coronario"
+      ],
+      "ans": 0,
+      "just": "Representa la depresión en el tabique interauricular visible desde el lado derecho.",
+      "hint": "Se ubica en el tabique interauricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La cara diafragmática del corazón está formada principalmente por:",
+      "opts": [
+        "El ventrículo izquierdo acompañado de parte del derecho",
+        "La aurícula derecha exclusivamente",
+        "El ventrículo derecho únicamente",
+        "La aurícula izquierda"
+      ],
+      "ans": 0,
+      "just": "Descansa sobre el centro tendinoso del diafragma.",
+      "hint": "Es la cara que mira hacia el abdomen."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El volumen sistólico multiplicado por la frecuencia cardíaca da como resultado:",
+      "opts": [
+        "Gasto Cardíaco",
+        "Fracción de Eyección",
+        "Presión Arterial Media",
+        "Resistencia vascular sistémica"
+      ],
+      "ans": 0,
+      "just": "Refleja la cantidad de sangre bombeada por minuto.",
+      "hint": "Constituye el flujo total por minuto."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el espesor normal combinado de las capas del pericardio?",
+      "opts": [
+        "1 a 2 mm",
+        "5 a 10 mm",
+        "Menos de 0.5 mm",
+        "3 a 4 mm"
+      ],
+      "ans": 0,
+      "just": "Está compuesto por las capas fibrosa y serosa.",
+      "hint": "Es una estructura curvilínea delgada."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La válvula mitral también es conocida como:",
+      "opts": [
+        "Válvula Bicúspide",
+        "Válvula Tricúspide",
+        "Válvula Sigmoidea",
+        "Válvula de Tebesio"
+      ],
+      "ans": 0,
+      "just": "Posee dos valvas principales correspondientes a la anterior y posterior.",
+      "hint": "Solo tiene dos valvas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el neurotransmisor del sistema parasimpático que reduce la frecuencia cardíaca?",
+      "opts": [
+        "Acetilcolina",
+        "Adrenalina",
+        "Dopamina",
+        "Serotonina"
+      ],
+      "ans": 0,
+      "just": "Actúa sobre receptores muscarínicos M2 en el nodo sinusal para abrir canales de potasio.",
+      "hint": "Liberada por el nervio vago."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El volumen de sangre que queda en el ventrículo al final de la contracción se llama:",
+      "opts": [
+        "Volumen Telesistólico (VTS)",
+        "Volumen Telediastólico (VTD)",
+        "Gasto Cardíaco",
+        "Fracción de Eyección"
+      ],
+      "ans": 0,
+      "just": "Es la sangre residual que no pudo ser expulsada durante la sístole.",
+      "hint": "Tele = final; Sistólico = sístole."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la auscultación, el R2 (segundo ruido) es causado por:",
+      "opts": [
+        "Cierre de las válvulas semilunares (aórtica y pulmonar)",
+        "Cierre de las válvulas mitral y tricúspide",
+        "Apertura de la válvula aórtica",
+        "Llenado ventricular rápido"
+      ],
+      "ans": 0,
+      "just": "Ocurre al inicio de la diástole ventricular.",
+      "hint": "Marca el final de la sístole."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué estructura une las valvas de las válvulas AV con los músculos papilares?",
+      "opts": [
+        "Cuerdas tendinosas",
+        "Fibras de Purkinje",
+        "Músculos pectíneos",
+        "Ligamento arterioso"
+      ],
+      "ans": 0,
+      "just": "Estas finas fibras de colágeno transmiten la tensión de los papilares a los bordes de las valvas.",
+      "hint": "Parecen los hilos de un paracaídas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Durante la fase de eyección reducida del ciclo cardíaco:",
+      "opts": [
+        "La presión ventricular empieza a caer, reduciendo el flujo hacia las arterias",
+        "Se produce el cierre de las válvulas AV",
+        "La presión en las aurículas llega a su punto mínimo",
+        "El volumen ventricular aumenta"
+      ],
+      "ans": 0,
+      "just": "La mayor parte del volumen ya ha sido eyectado; por tanto, la fuerza de contracción empieza a declinar.",
+      "hint": "Es el final de la sístole, antes de que las válvulas semilunares se cierren."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En el ciclo cardíaco, el cierre de la válvula aórtica marca el inicio de:",
+      "opts": [
+        "Relajación ventricular isovolumétrica",
+        "Eyección rápida",
+        "Llenado ventricular",
+        "Sístole auricular"
+      ],
+      "ans": 0,
+      "just": "El ventrículo deja de eyectar sangre; consiguientemente, la presión cae rápidamente con todas las válvulas cerradas.",
+      "hint": "Es el momento justo después de que la sangre sale hacia el cuerpo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La Ley de Laplace aplicada al corazón establece que la tensión en la pared ventricular es proporcional a:",
+      "opts": [
+        "(Presión × Radio) / (2 × Grosor de la pared)",
+        "Frecuencia Cardíaca × Volumen Sistólico",
+        "Resistencia × Flujo",
+        "VTD − VTS"
+      ],
+      "ans": 0,
+      "just": "Explica por qué un ventrículo dilatado tiene más tensión; la hipertrofia la compensa.",
+      "hint": "Relaciona presión, tamaño de la cavidad y espesor del músculo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Anatómicamente, la válvula tricúspide tiene las siguientes valvas:",
+      "opts": [
+        "Anterior, posterior y septal",
+        "Derecha, izquierda y no coronariana",
+        "Anterior y posterior únicamente",
+        "Superior, inferior y media"
+      ],
+      "ans": 0,
+      "just": "Son las tres valvas estándar que cierran el orificio auriculoventricular derecho.",
+      "hint": "Una de ellas se pega al tabique."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la sístole auricular se produce el llenado de aproximadamente:",
+      "opts": [
+        "20% del volumen ventricular restante",
+        "80% del volumen total",
+        "50% del volumen",
+        "40% del volumen"
+      ],
+      "ans": 0,
+      "just": "El 80% del llenado ocurre de manera pasiva antes de que la aurícula se contraiga.",
+      "hint": "Constituye el último impulso de sangre."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la función primordial de los músculos papilares durante la sístole ventricular?",
+      "opts": [
+        "Tensar las cuerdas tendinosas para evitar el prolapso de las valvas hacia las aurículas",
+        "Iniciar la contracción del miocardio ventricular",
+        "Abrir activamente las válvulas auriculoventriculares",
+        "Bombear sangre directamente hacia la aorta"
+      ],
+      "ans": 0,
+      "just": "Su contracción impide que las válvulas AV se eviertan debido a la alta presión ventricular, evitando la regurgitación.",
+      "hint": "Actúan como anclajes de seguridad para las válvulas de entrada."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la Fase 4 del potencial de acción de las células marcapasos, la corriente 'funny' (If) es mediada principalmente por:",
+      "opts": [
+        "Canales de sodio activados por hiperpolarización",
+        "Canales de calcio tipo L de apertura rápida",
+        "Bomba de Cloro-Potasio",
+        "Canales de potasio rectificadores de salida"
+      ],
+      "ans": 0,
+      "just": "Estos canales se activan al final de la repolarización anterior, permitiendo una entrada lenta de sodio que genera la despolarización diastólica espontánea.",
+      "hint": "Es la corriente responsable de que el corazón lata solo."
+    },
+
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] La cresta supraventricular es una estructura muscular que separa el cono arterioso del resto del ventrículo derecho.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "Es una característica anatómica interna clave que separa la zona de entrada de la zona de salida del ventrículo derecho.",
+      "hint": "Busca la división entre la tricúspide y la válvula pulmonar."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] La repolarización auricular no se observa habitualmente en el EKG porque queda oculta tras el complejo QRS.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "La magnitud eléctrica de la despolarización ventricular es mucho mayor, ocurriendo al mismo tiempo.",
+      "hint": "¿Has visto alguna vez una onda después de la P que no sea el QRS?"
+    },
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] La válvula aórtica se encuentra en posición posterior además de a la izquierda respecto a la válvula pulmonar.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "Anatómicamente, la válvula pulmonar es la más anterior y superior de todas las válvulas cardíacas.",
+      "hint": "Imagina la salida del ventrículo derecho cruzando por delante de la del izquierdo."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] La incisura o muesca dicrótica en el registro de presión aórtica es causada por el cierre de la válvula aórtica.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "Representa el breve retroceso de sangre contra la válvula cerrada al inicio de la diástole.",
+      "hint": "Ocurre cuando la sangre intenta volver al corazón pero choca con la válvula."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] Las arterias pulmonares llevan sangre oxigenada desde los pulmones al corazón.",
+      "opts": [
+        "Falso",
+        "Verdadero"
+      ],
+      "ans": 0,
+      "just": "Las arterias pulmonares llevan sangre desoxigenada del ventrículo derecho hacia los pulmones.",
+      "hint": "Presta atención a la trampa clásica: las arterias salen del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "[VERDADERO / FALSO] El primer ruido cardíaco (R1) se produce por el cierre de las válvulas aórtica y pulmonar al inicio de la diástole.",
+      "opts": [
+        "Falso",
+        "Verdadero"
+      ],
+      "ans": 0,
+      "just": "El R1 es causado por el cierre de las válvulas auriculoventriculares (mitral y tricúspide) al inicio de la sístole. El cierre de las válvulas semilunares produce el R2.",
+      "hint": "Asocia R1 con sístole y válvulas de entrada."
+    },
+
+    {
+      "cat": "ekg",
+      "q": "En el electrocardiograma, la despolarización ventricular progresa de:",
+      "opts": [
+        "Endocardio a epicardio",
+        "Epicardio a endocardio",
+        "Ápice a base únicamente por la superficie externa",
+        "Base a ápice"
+      ],
+      "ans": 0,
+      "just": "El sistema de conducción (Purkinje) se encuentra en el subendocardio, por lo que la señal viaja hacia afuera.",
+      "hint": "Piensa dónde están ubicadas las fibras de Purkinje."
+    },
+    {
+      "cat": "ekg",
+      "q": "Un trazado de EKG con intervalo PR de 240 ms (0.24 s) indica:",
+      "opts": [
+        "Bloqueo auriculoventricular de primer grado",
+        "Ritmo sinusal normal",
+        "Bloqueo de rama derecha",
+        "Taquicardia supraventricular"
+      ],
+      "ans": 0,
+      "just": "Un intervalo PR constante superior a 0.20 s define un retraso en la conducción a través del nodo AV.",
+      "hint": "Evalúa si el tiempo de conducción entre aurícula y ventrículo está prolongado."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Qué representa la onda T en un electrocardiograma normal?",
+      "opts": [
+        "La repolarización de los ventrículos",
+        "El retraso en el nodo auriculoventricular",
+        "La sístole auricular tardía",
+        "La despolarización de las fibras de Purkinje"
+      ],
+      "ans": 0,
+      "just": "Representa el momento en que las células ventriculares recuperan su carga negativa de reposo tras la contracción.",
+      "hint": "Es el evento eléctrico que precede a la relajación ventricular."
+    },
+    {
+      "cat": "ekg",
+      "q": "Si el vector medio del QRS se encuentra a +90°, el eje es:",
+      "opts": [
+        "Normal (límite derecho)",
+        "Desviación extrema a la izquierda",
+        "Desviación a la derecha franca",
+        "Indeterminado"
+      ],
+      "ans": 0,
+      "just": "Un eje de +90° se considera dentro del rango normal.",
+      "hint": "Mira hacia dónde apunta el vector en el sistema hexaxial."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es el valor normal de la duración del complejo QRS en un adulto?",
+      "opts": [
+        "Menor a 0.12 s (3 cuadraditos)",
+        "Entre 0.12 y 0.20 s",
+        "Más de 0.20 s",
+        "Exactamente 0.04 s"
+      ],
+      "ans": 0,
+      "just": "Un QRS estrecho indica que el impulso viaja normalmente por el sistema de conducción especializado.",
+      "hint": "Si es más ancho, hay un bloqueo de rama."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el EKG, la presencia de ondas P de diferentes morfologías en una misma derivación sugiere:",
+      "opts": [
+        "Marcapasos auricular migratorio",
+        "Infarto agudo de miocardio",
+        "Hipertrofia ventricular izquierda",
+        "Bloqueo de rama derecha"
+      ],
+      "ans": 0,
+      "just": "Indica que el impulso se está originando en distintos puntos de las aurículas en lugar de un solo foco.",
+      "hint": "El foco que manda el ritmo se mueve por las aurículas."
+    },
+    {
+      "cat": "ekg",
+      "q": "En un trazado de EKG, la elevación del segmento ST suele ser indicativa de:",
+      "opts": [
+        "Lesión miocárdica aguda (infarto)",
+        "Hiperpotasemia leve",
+        "Bloqueo de primer grado",
+        "Efecto de la digoxina"
+      ],
+      "ans": 0,
+      "just": "Sugiere una oclusión arterial coronaria completa que está dañando el tejido de forma transmural.",
+      "hint": "Es la imagen clásica de la emergencia cardiológica."
+    },
+    {
+      "cat": "ekg",
+      "q": "En el sistema de derivaciones del EKG, ¿cuáles son las derivaciones bipolares de los miembros?",
+      "opts": [
+        "DI, DII y DIII",
+        "aVR, aVL y aVF",
+        "V1 a V6",
+        "DII, aVF y V2"
+      ],
+      "ans": 0,
+      "just": "Registran la diferencia de potencial entre dos electrodos específicos.",
+      "hint": "Son las que forman el triángulo de Einthoven."
+    },
+    {
+      "cat": "ekg",
+      "q": "¿Cuál es la derivación del EKG que mejor visualiza la cara inferior del corazón junto con DII y aVF?",
+      "opts": [
+        "DIII",
+        "DI",
+        "V1",
+        "aVR"
+      ],
+      "ans": 0,
+      "just": "Las derivaciones DII, DIII y aVF forman el grupo que observa la pared inferior del ventrículo izquierdo.",
+      "hint": "Recuerda las derivaciones inferiores del sistema hexaxial."
+    },
+    {
+      "cat": "ekg",
+      "q": "El complejo de estimulación que produce la contracción de las aurículas se denomina:",
+      "opts": [
+        "Onda P",
+        "Segmento ST",
+        "Onda U",
+        "Intervalo QT"
+      ],
+      "ans": 0,
+      "just": "Es la representación eléctrica de la activación auricular.",
+      "hint": "Es la primera deflexión del ciclo."
+    },
+    {
+      "cat": "ekg",
+      "q": "Si un paciente presenta FC de 150 lpm con QRS estrecho y ondas P ausentes o retrógradas, sospechamos de:",
+      "opts": [
+        "Taquicardia paroxística supraventricular (TPSV)",
+        "Bradicardia sinusal",
+        "Bloqueo AV completo",
+        "Fibrilación ventricular"
+      ],
+      "ans": 0,
+      "just": "Es un ritmo rápido originado por encima de los ventrículos donde la actividad auricular suele quedar oculta en el QRS.",
+      "hint": "Es una taquicardia común en jóvenes con inicio súbito."
+    },
+
+    {
+      "cat": "calculo",
+      "q": "Calcule el Volumen Sistólico si el VTD es 140 ml con una Fracción de Eyección del 60%.",
+      "opts": [
+        "84 ml",
+        "56 ml",
+        "100 ml",
+        "70 ml"
+      ],
+      "ans": 0,
+      "just": "VS = VTD × FE = 140 × 0.60 = 84 ml.",
+      "hint": "VS = VTD × FE (en decimal)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la Fracción de Eyección de un paciente con VTD = 120 ml y VS = 72 ml.",
+      "opts": [
+        "60%",
+        "40%",
+        "50%",
+        "72%"
+      ],
+      "ans": 0,
+      "just": "FE = VS / VTD = 72 / 120 = 0.6 → 60%.",
+      "hint": "FE = (VS / VTD) × 100."
+    },
+    {
+      "cat": "calculo",
+      "q": "Un paciente tiene PA 110/70 mmHg. Calcule su Presión de Pulso (presión diferencial).",
+      "opts": [
+        "40 mmHg",
+        "83.3 mmHg",
+        "180 mmHg",
+        "30 mmHg"
+      ],
+      "ans": 0,
+      "just": "PP = Sistólica − Diastólica = 110 − 70 = 40 mmHg.",
+      "hint": "Resta la mínima de la máxima."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la PAM de un paciente con PA 140/90 mmHg.",
+      "opts": [
+        "106.6 mmHg",
+        "115 mmHg",
+        "100 mmHg",
+        "120 mmHg"
+      ],
+      "ans": 0,
+      "just": "PAM = 90 + (1/3)(140 − 90) = 90 + 16.6 = 106.6 mmHg.",
+      "hint": "Aplica Diastólica + el tercio de la diferencial."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la PAM para una PA de 150/75 mmHg.",
+      "opts": [
+        "100 mmHg",
+        "112.5 mmHg",
+        "90 mmHg",
+        "125 mmHg"
+      ],
+      "ans": 0,
+      "just": "PAM = 75 + (1/3)(150 − 75) = 75 + 25 = 100 mmHg.",
+      "hint": "PAM = Diastólica + (1/3 × Presión de pulso)."
+    },
+    {
+      "cat": "calculo",
+      "q": "Con un EKG de intervalo RR constante de 1200 ms, ¿cuál es la frecuencia cardíaca?",
+      "opts": [
+        "50 lpm — bradicardia sinusal",
+        "75 lpm — ritmo normal",
+        "100 lpm — taquicardia",
+        "60 lpm — ritmo normal"
+      ],
+      "ans": 0,
+      "just": "FC = 60 000 / 1200 = 50 lpm. El intervalo constante indica ritmo regular.",
+      "hint": "Divide 60 000 ms entre el intervalo RR en ms."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule el Gasto Cardíaco si VTD = 150 ml, VTS = 90 ml, FC = 70 lpm.",
+      "opts": [
+        "4200 ml/min",
+        "10 500 ml/min",
+        "4900 ml/min",
+        "6300 ml/min"
+      ],
+      "ans": 0,
+      "just": "VS = 150 − 90 = 60 ml; GC = 60 × 70 = 4200 ml/min.",
+      "hint": "Primero calcula VS = VTD − VTS; luego GC = VS × FC."
+    },
+    {
+      "cat": "calculo",
+      "q": "Calcule la Distensibilidad (Capacitancia) de un vaso que aumenta 100 ml cuando la presión sube 10 mmHg.",
+      "opts": [
+        "10 ml/mmHg",
+        "1000 ml/mmHg",
+        "1 ml/mmHg",
+        "0.1 ml/mmHg"
+      ],
+      "ans": 0,
+      "just": "C = ΔV / ΔP = 100 / 10 = 10 ml/mmHg.",
+      "hint": "Capacitancia = Volumen / Presión."
+    },
+    {
+      "cat": "calculo",
+      "q": "Si un vaso sanguíneo reduce su radio a la mitad, ¿cuánto aumenta su resistencia al flujo según la Ley de Poiseuille?",
+      "opts": [
+        "16 veces",
+        "2 veces",
+        "4 veces",
+        "8 veces"
+      ],
+      "ans": 0,
+      "just": "R ∝ 1/r⁴. Si r → r/2, la resistencia aumenta (1/0.5)⁴ = 16 veces.",
+      "hint": "Eleva el cambio de radio a la cuarta potencia."
+    },
+    {
+      "cat": "calculo",
+      "q": "La fracción de eyección normal en un adulto sano suele ser:",
+      "opts": [
+        "55% a 70%",
+        "90% a 100%",
+        "20% a 30%",
+        "Exactamente 50%"
+      ],
+      "ans": 0,
+      "just": "Significa que el corazón expulsa algo más de la mitad de la sangre que recibe en cada latido.",
+      "hint": "Es más de la mitad, pero menos del total."
+    },
+
+    {
+      "cat": "respiratorio",
+      "q": "¿Dónde se localiza específicamente el Triángulo de Kiesselbach?",
+      "opts": [
+        "Parte anterior e inferior del tabique nasal",
+        "Meato superior, debajo del cornete superior",
+        "Mucosa olfatoria cerca de la lámina cribosa",
+        "Pared lateral de la nasofaringe"
+      ],
+      "ans": 0,
+      "just": "Constituye una zona ricamente vascularizada donde convergen varias arterias; por consiguiente, representa el sitio más común de epistaxis.",
+      "hint": "Es la zona donde ocurren la mayoría de los sangrados nasales."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es la extensión anatómica exacta de la faringe?",
+      "opts": [
+        "Desde la base del cráneo hasta el borde inferior del cartílago cricoides (C6–C7)",
+        "Desde las coanas hasta la bifurcación de la tráquea",
+        "Desde el istmo de las fauces hasta el cartílago tiroides",
+        "Desde la nasofaringe hasta el esófago cervical"
+      ],
+      "ans": 0,
+      "just": "Mide aproximadamente 12–14 cm y se continúa inferiormente con el esófago.",
+      "hint": "Llega hasta el nivel de la sexta o séptima vértebra cervical."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Las arterias bronquiales tienen la función de:",
+      "opts": [
+        "Suministrar sangre oxigenada a los tejidos pulmonares así como a las paredes bronquiales",
+        "Realizar el intercambio gaseoso en la membrana alveolocapilar",
+        "Drenar la sangre oxigenada hacia la aurícula izquierda",
+        "Producir surfactante pulmonar"
+      ],
+      "ans": 0,
+      "just": "Irrigan estructuras que carecen de acceso directo al oxígeno atmosférico, tales como los bronquios grandes.",
+      "hint": "Diferencia entre circulación funcional (pulmonar) y nutricia (bronquial)."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "En un neumotórax a tensión, ¿cuál es el sitio anatómico de emergencia para la descompresión con aguja?",
+      "opts": [
+        "Segundo espacio intercostal, línea medioclavicular",
+        "Quinto espacio intercostal, línea axilar media",
+        "Ápice pulmonar, por encima de la clavícula",
+        "Cuarto espacio intercostal, línea medioclavicular"
+      ],
+      "ans": 0,
+      "just": "Representa el punto estándar para aliviar la presión intratorácica rápidamente.",
+      "hint": "Busca el espacio intercostal superior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué componente del surfactante pulmonar es el principal responsable de reducir la tensión superficial?",
+      "opts": [
+        "Dipalmitoilfosfatidilcolina (DPPC)",
+        "Proteína del surfactante A (SP-A)",
+        "Fosfatidilglicerol",
+        "Colesterol"
+      ],
+      "ans": 0,
+      "just": "Es el fosfolípido más abundante, resultando crítico para evitar el colapso alveolar en la espiración.",
+      "hint": "Corresponde a un tipo específico de fosfolípido."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El pulmón derecho se caracteriza por tener:",
+      "opts": [
+        "Tres lóbulos (superior, medio e inferior) junto con dos fisuras",
+        "Dos lóbulos unidos a una incisura cardíaca profunda",
+        "Un peso promedio menor al del pulmón izquierdo",
+        "Una sola fisura oblicua"
+      ],
+      "ans": 0,
+      "just": "Presenta una fisura oblicua más una horizontal que delimitan los tres lóbulos.",
+      "hint": "Cuenta cuántos lóbulos posee el lado que carece del corazón encima."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es la función de los macrófagos alveolares (células de polvo)?",
+      "opts": [
+        "Fagocitar partículas extrañas y eliminar el excedente de surfactante",
+        "Secretar moco para atrapar bacterias en los bronquiolos",
+        "Producir angiogénesis en caso de hipoxia",
+        "Sintetizar surfactante pulmonar"
+      ],
+      "ans": 0,
+      "just": "Limpian la superficie alveolar mientras reciclan componentes del surfactante.",
+      "hint": "Son los recolectores del alvéolo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "En el contexto de la insuficiencia cardíaca congestiva, ¿por qué los macrófagos alveolares se vuelven de color rojo ladrillo?",
+      "opts": [
+        "Debido a que engullen eritrocitos extravasados (hemosiderina)",
+        "Por la inhalación masiva de partículas de óxido de hierro",
+        "Por la acumulación de alquitrán en fumadores",
+        "Por la fagocitosis de bacterias hemolíticas"
+      ],
+      "ans": 0,
+      "just": "Se les conoce como células de insuficiencia cardíaca porque degradan la hemoglobina de los glóbulos rojos.",
+      "hint": "Busca la relación con la extravasación de sangre en los pulmones."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El Anillo de Waldeyer es un conjunto de tejido linfoide que incluye:",
+      "opts": [
+        "Amígdalas faríngeas, tubáricas, palatinas y linguales",
+        "Ganglios hiliares y cervicales profundos",
+        "Únicamente las amígdalas palatinas",
+        "Solo las amígdalas faríngeas y palatinas"
+      ],
+      "ans": 0,
+      "just": "Forman un círculo de defensa alrededor de las aberturas digestiva y respiratoria.",
+      "hint": "Consiste en un anillo circufaríngeo protector."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La presión intrapleural en condiciones normales de reposo es:",
+      "opts": [
+        "Negativa respecto a la presión atmosférica",
+        "Siempre igual a la presión alveolar",
+        "Positiva durante toda la inspiración",
+        "Igual a cero en reposo"
+      ],
+      "ans": 0,
+      "just": "Esta presión negativa mantiene los pulmones expandidos contra la pared torácica.",
+      "hint": "Es el factor que evita el colapso del pulmón."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es la longitud aproximada de la faringe?",
+      "opts": [
+        "12 a 14 cm",
+        "5 a 7 cm",
+        "25 cm",
+        "8 a 10 cm"
+      ],
+      "ans": 0,
+      "just": "Es un tubo musculomembranoso con forma de cono invertido.",
+      "hint": "Resulta algo más larga que la palma de una mano."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La unidad funcional del pulmón donde ocurre el intercambio gaseoso se llama:",
+      "opts": [
+        "Alvéolo",
+        "Bronquio segmentario",
+        "Pleura visceral",
+        "Bronquiolo terminal"
+      ],
+      "ans": 0,
+      "just": "Son pequeños sacos de aire situados al final de los bronquiolos respiratorios.",
+      "hint": "Representa la parte más distal de la vía aérea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es el principal estímulo para la secreción de surfactante por los neumocitos tipo II?",
+      "opts": [
+        "El estiramiento de los alvéolos mediante inspiración profunda",
+        "La disminución de la temperatura corporal",
+        "El aumento de la presión arterial sistémica",
+        "La hipoxia alveolar"
+      ],
+      "ans": 0,
+      "just": "El ciclo vital incluye secreción seguida de reciclaje por los mismos neumocitos.",
+      "hint": "Ocurre durante la ventilación mecánica natural."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El Número de Reynolds se utiliza para predecir:",
+      "opts": [
+        "Si el flujo sanguíneo será laminar o turbulento",
+        "La velocidad de conducción del haz de His",
+        "La cantidad de oxígeno disuelto en plasma",
+        "La resistencia vascular pulmonar"
+      ],
+      "ans": 0,
+      "just": "Si es mayor a 2000, la probabilidad de flujo turbulento aumenta considerablemente.",
+      "hint": "Busca la relación con ruidos cardíacos o soplos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La principal característica del flujo laminar en los vasos sanguíneos es:",
+      "opts": [
+        "La velocidad es mayor en el centro del vaso y menor cerca de las paredes",
+        "Genera remolinos que producen ruidos audibles con el estetoscopio",
+        "Todas las partículas de sangre se mueven exactamente a la misma velocidad",
+        "Ocurre únicamente cuando hay una obstrucción parcial"
+      ],
+      "ans": 0,
+      "just": "Debido a la fricción con el endotelio, las capas externas se mueven más lento que el núcleo central del flujo.",
+      "hint": "Piensa en capas de fluido deslizándose unas sobre otras."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿En qué día aproximado comienza a latir el corazón en el desarrollo embrionario?",
+      "opts": [
+        "Día 22",
+        "Día 19",
+        "Día 28",
+        "Día 35"
+      ],
+      "ans": 0,
+      "just": "El latido rítmico se inicia cuando el miocardio rodea al tubo cardíaco.",
+      "hint": "Ocurre poco después de la fusión de los tubos endocárdicos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es el efecto inotrópico de los glucósidos cardíacos como la digoxina?",
+      "opts": [
+        "Positivo (aumenta contractilidad) al inhibir la bomba Na⁺/K⁺-ATPasa",
+        "Negativo (disminuye contractilidad) al bloquear canales de calcio",
+        "Neutro; solo afecta la frecuencia cardíaca",
+        "Positivo al activar receptores beta-1"
+      ],
+      "ans": 0,
+      "just": "Al inhibir la bomba, aumenta el sodio intracelular, lo cual secundariamente incrementa el calcio disponible para la contracción.",
+      "hint": "Proviene de la planta Digitalis purpurea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El retorno venoso al corazón aumenta durante la inspiración debido a:",
+      "opts": [
+        "La disminución de la presión intratorácica que succiona la sangre hacia el tórax",
+        "El aumento de la presión dentro de la aurícula derecha",
+        "La contracción de los ventrículos",
+        "La relajación de los músculos abdominales"
+      ],
+      "ans": 0,
+      "just": "La presión negativa en el tórax favorece la expansión de las venas cavas y la aurícula derecha.",
+      "hint": "Piensa en el efecto de vacío que se crea al expandir los pulmones."
+    },
+
+    {
+      "cat": "respiratorio",
+      "q": "[VERDADERO / FALSO] Las venas bronquiales profundas suelen drenar directamente en las venas pulmonares.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "Estas venas forman plexos que se comunican libremente con las venas pulmonares, creando un cortocircuito fisiológico.",
+      "hint": "Recuerda que la sangre venosa bronquial se mezcla con la oxigenada."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "[VERDADERO / FALSO] El epitelio de la mucosa olfatoria es pseudoestratificado cilíndrico ciliado.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "ans": 0,
+      "just": "Contiene neuronas receptoras, células sustentaculares y basales.",
+      "hint": "Se trata de un tipo de epitelio especializado que contiene neuronas."
+    },
+
+    {
+      "cat": "radiologia",
+      "q": "En una proyección PA (Posteroanterior) de tórax, ¿cuál es la posición de la escápula respecto a los campos pulmonares?",
+      "opts": [
+        "Alejada de los campos pulmonares",
+        "Superpuesta sobre los campos pulmonares",
+        "Por encima de los ápices pulmonares",
+        "No visible en esta proyección"
+      ],
+      "ans": 0,
+      "just": "En la posición PA el paciente está erecto y los brazos rotados, lo que aleja las escápulas de los campos pulmonares.",
+      "hint": "Compara con la proyección AP donde el paciente está en supino."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la proyección AP (Anteroposterior) de tórax, ¿cómo aparece el mediastino comparado con la proyección PA?",
+      "opts": [
+        "Con ensanchamiento moderado",
+        "Con ensanchamiento mínimo",
+        "Con tamaño idéntico al de la PA",
+        "Más estrecho que en la PA"
+      ],
+      "ans": 0,
+      "just": "En la AP el corazón se proyecta más lejos del detector, magnificando su sombra y generando ensanchamiento mediastínico moderado.",
+      "hint": "El corazón está más cerca de la fuente de rayos X en la AP."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En una proyección PA de tórax, ¿cuál es la posición del diafragma?",
+      "opts": [
+        "En su nivel más bajo",
+        "En su nivel más alto",
+        "A la misma altura que en la AP",
+        "Variable según el ciclo respiratorio únicamente"
+      ],
+      "ans": 0,
+      "just": "En bipedestación el diafragma desciende por acción de la gravedad y expansión pulmonar óptima.",
+      "hint": "El paciente está de pie en la proyección PA."
+    },
+    {
+      "cat": "radiologia",
+      "q": "En la proyección AP de tórax, la clavícula se proyecta:",
+      "opts": [
+        "Por encima de los ápices pulmonares",
+        "Sobre las zonas pulmonares medias",
+        "Alejada de los campos pulmonares",
+        "A nivel del segundo arco costal"
+      ],
+      "ans": 0,
+      "just": "Al estar el paciente en supino o semirecto, la clavícula asciende y se proyecta sobre los ápices.",
+      "hint": "Compara con la PA donde la clavícula cubre las zonas medias."
+    },
+    {
+      "cat": "radiologia",
+      "q": "¿Cuál de las siguientes estructuras se puede ver en la proyección PA de tórax pero NO en la AP?",
+      "opts": [
+        "Nivel de aire/líquido gástrico",
+        "Aire gástrico únicamente como burbuja",
+        "La silueta cardíaca completa",
+        "La tráquea mediastínica"
+      ],
+      "ans": 0,
+      "just": "En bipedestación el nivel hidroaéreo gástrico es visible; en supino (AP) solo se observa gas sin nivel definido.",
+      "hint": "El nivel líquido requiere que el paciente esté erecto."
+    },
+
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuánto líquido pericárdico contiene normalmente la cavidad pericárdica en adultos?",
+      "opts": [
+        "20 a 60 ml (promedio 15-35 ml)",
+        "100 a 150 ml",
+        "5 a 10 ml",
+        "200 ml o más"
+      ],
+      "ans": 0,
+      "just": "Este ultrafiltrado plasmático seroso lubrica las capas pericárdicas y reduce la fricción durante el ciclo cardíaco.",
+      "hint": "Es una cantidad pequeña que no supera los 60 ml en condiciones normales."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué gran vaso NO está cubierto por el pericardio fibroso?",
+      "opts": [
+        "Vena cava inferior (VCI)",
+        "Aorta ascendente",
+        "Vena cava superior (VCS)",
+        "Arterias pulmonares"
+      ],
+      "ans": 0,
+      "just": "La VCI no está cubierta porque atraviesa el tendón central del diafragma sin rodearse de pericardio fibroso.",
+      "hint": "Piensa en el vaso que atraviesa el diafragma."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál de las siguientes NO es una función del pericardio?",
+      "opts": [
+        "Producir células sanguíneas (hematopoyesis)",
+        "Reducir la fricción entre el corazón y estructuras mediastínicas",
+        "Limitar la distensión cardíaca",
+        "Facilitar el llenado auricular promoviendo presión pericárdica negativa en sístole"
+      ],
+      "ans": 0,
+      "just": "El pericardio cumple funciones mecánicas, protectoras y hemodinámicas, pero la hematopoyesis corresponde a la médula ósea.",
+      "hint": "Busca la función que pertenece a otro órgano."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la triada de Beck y qué indica?",
+      "opts": [
+        "Ingurgitación yugular, ruidos cardíacos reducidos e hipotensión → taponamiento cardíaco",
+        "Taquicardia, disnea y edema → insuficiencia cardíaca izquierda",
+        "Dolor torácico, diaforesis y elevación ST → infarto agudo",
+        "Fiebre, frote pericárdico y derrame → pericarditis aguda"
+      ],
+      "ans": 0,
+      "just": "Todo paciente con Triada de Beck tiene taponamiento cardíaco, aunque no todo paciente con taponamiento presenta la triada completa.",
+      "hint": "Son tres signos hemodinámicos producidos por compresión de la aurícula derecha."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "En la pericardiocentesis, ¿cuántos ml de sangre aspirados pueden aumentar significativamente el gasto cardíaco?",
+      "opts": [
+        "10 a 20 ml",
+        "100 a 200 ml",
+        "500 ml",
+        "50 ml"
+      ],
+      "ans": 0,
+      "just": "La pequeña cantidad aspirada alivia la compresión de la aurícula derecha, permitiendo que el retorno venoso se restaure con rapidez.",
+      "hint": "El volumen aspirado puede ser mínimo pero el impacto hemodinámico es inmediato."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El dolor de la capa VISCERAL del pericardio seroso se transmite principalmente a través de:",
+      "opts": [
+        "Nervios simpáticos de los ganglios cervical, torácico superior y estrellado",
+        "Nervios frénicos izquierdo y derecho",
+        "Fibras vagales del plexo esofágico",
+        "Nervios intercostales del 2° al 4° espacio"
+      ],
+      "ans": 0,
+      "just": "A diferencia de la capa parietal, cuyo dolor va por los nervios frénicos, la visceral se inerva por vías simpáticas de los ganglios cervicales y torácicos.",
+      "hint": "Recuerda que parietal = frénico; visceral = simpático."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La irrigación del pericardio depende en aproximadamente el 80% de:",
+      "opts": [
+        "Arterias pericardiacofrén icas (ramas de las torácicas internas)",
+        "Arterias intercostales",
+        "Ramas directas de la aorta torácica descendente",
+        "Arterias frénicas superiores"
+      ],
+      "ans": 0,
+      "just": "Las arterias pericardiaco frénicas, ramas de las torácicas internas derecha e izquierda, constituyen la fuente principal de riego pericárdico.",
+      "hint": "Estas arterias acompañan al nervio frénico en su trayecto."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué tipo de tejido forma el núcleo estructural del pericardio fibroso?",
+      "opts": [
+        "Tres capas de colágeno entrelazadas a 120° entre sí",
+        "Tejido elástico puro",
+        "Músculo liso vascular",
+        "Tejido adiposo con fibras reticulares"
+      ],
+      "ans": 0,
+      "just": "Esta arquitectura tridimensional le confiere resistencia al estiramiento en múltiples direcciones.",
+      "hint": "La angulación entre capas es clave para su resistencia omnidireccional."
+    },
+
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el peso promedio del corazón en un hombre de 70 kg?",
+      "opts": [
+        "300 g (0.45% del peso corporal)",
+        "500 g (0.7% del peso corporal)",
+        "150 g (0.2% del peso corporal)",
+        "450 g (0.65% del peso corporal)"
+      ],
+      "ans": 0,
+      "just": "En mujeres de 60 kg el promedio es 250 g (0.4% del peso corporal), siendo la masa cardíaca proporcional al peso corporal.",
+      "hint": "El porcentaje es menor al 0.5% del peso corporal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuáles son las dimensiones aproximadas del corazón adulto?",
+      "opts": [
+        "12 cm de largo, 8-9 cm de diámetro transverso y 6 cm AP",
+        "20 cm de largo, 15 cm de diámetro transverso y 10 cm AP",
+        "6 cm de largo, 4 cm de diámetro transverso y 3 cm AP",
+        "8 cm de largo, 5 cm y 4 cm AP"
+      ],
+      "ans": 0,
+      "just": "Estas dimensiones sitúan al corazón como una estructura de tamaño aproximado al puño del individuo.",
+      "hint": "12 cm de base a ápice es la dimensión longitudinal principal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué surco cardíaco separa las aurículas de los ventrículos y contiene las partes principales de las arterias coronarias?",
+      "opts": [
+        "Surco auriculoventricular (coronario)",
+        "Surco interventricular",
+        "Surco terminal",
+        "Surco interauricular de Waterston"
+      ],
+      "ans": 0,
+      "just": "El surco coronario circunda el corazón horizontalmente y es la referencia anatómica de la separación entre las cavidades superiores e inferiores.",
+      "hint": "También se le llama surco coronario porque alberga las coronarias principales."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál cámara cardíaca forma la mayor parte de la base anatómica (cara posterior) del corazón?",
+      "opts": [
+        "Aurícula izquierda",
+        "Aurícula derecha",
+        "Ventrículo izquierdo",
+        "Ventrículo derecho"
+      ],
+      "ans": 0,
+      "just": "La aurícula izquierda ocupa la mayor parte de la base porque en ella desembocan las cuatro venas pulmonares que llegan desde los pulmones.",
+      "hint": "La cara posterior es la que mira hacia el esófago."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El grosor promedio de la pared de la aurícula izquierda es de:",
+      "opts": [
+        "3 mm",
+        "8-12 mm",
+        "1 mm",
+        "5-6 mm"
+      ],
+      "ans": 0,
+      "just": "Aunque es ligeramente mayor que la aurícula derecha, ambas manejan presiones bajas; el grosor de 3 mm refleja esa baja demanda de presión.",
+      "hint": "Es más gruesa que la derecha pero mucho más delgada que los ventrículos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la relación de grosor de pared entre el ventrículo derecho y el izquierdo?",
+      "opts": [
+        "1:3 (VD 3-5 mm vs VI 8-12 mm)",
+        "1:1 (ambos tienen el mismo grosor)",
+        "2:1 (VD es el doble de grueso)",
+        "3:1 (VI es tres veces más delgado)"
+      ],
+      "ans": 0,
+      "just": "Esta diferencia refleja que el VI maneja la circulación sistémica de alta presión, mientras que el VD maneja la circulación pulmonar de baja presión.",
+      "hint": "El ventrículo que bombea contra mayor resistencia tiene paredes más gruesas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las valvas de la válvula aórtica son:",
+      "opts": [
+        "Coronaria derecha, coronaria izquierda y no adyacente (no coronariana)",
+        "Anterior, posterior y septal",
+        "Aórtica y mural",
+        "Anterosuperior, septal e inferior"
+      ],
+      "ans": 0,
+      "just": "Cada valva aórtica corresponde a un seno de Valsalva; de las cúspides coronaria derecha e izquierda emergen las arterias coronarias.",
+      "hint": "Dos de ellas dan origen a las arterias coronarias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las valvas de la válvula pulmonar son:",
+      "opts": [
+        "Anterior, derecha e izquierda",
+        "Coronaria derecha, izquierda y no adyacente",
+        "Anterosuperior, septal e inferior",
+        "Aórtica y mural"
+      ],
+      "ans": 0,
+      "just": "La válvula pulmonar tiene tres valvas semilunares de posición anterior, derecha e izquierda, sin arterias coronarias asociadas.",
+      "hint": "Son tres valvas pero ninguna da origen a arterias coronarias."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Según el Índice Cardiotorácico, un valor de 0.58 corresponde a:",
+      "opts": [
+        "Cardiomegalia Grado II",
+        "Normal",
+        "Cardiomegalia Grado I",
+        "Cardiomegalia Grado III"
+      ],
+      "ans": 0,
+      "just": "El rango 0.56-0.60 define Cardiomegalia Grado II en la clasificación estándar del ICT.",
+      "hint": "El rango 0.51-0.55 es Grado I; recuerda la escala progresiva."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la clasificación de Cardiomegalia Grado IV según el Índice Cardiotorácico?",
+      "opts": [
+        "ICT > 0.65",
+        "ICT 0.61-0.65",
+        "ICT 0.56-0.60",
+        "ICT 0.51-0.55"
+      ],
+      "ans": 0,
+      "just": "El Grado IV representa la cardiomegalia más severa, con más de dos tercios del diámetro torácico ocupado por la silueta cardíaca.",
+      "hint": "Es el grado más alto; el umbral supera 0.65."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La orejuela izquierda se describe anatómicamente como:",
+      "opts": [
+        "Más larga, estrecha y ganchuda que la derecha, propensa a trombos en FA",
+        "Ancha y triangular, similar a la derecha",
+        "Remanente del foramen oval fetal",
+        "La parte con mayor desarrollo de músculos pectíneos"
+      ],
+      "ans": 0,
+      "just": "Su morfología estrecha la predispone a la formación de trombos en la fibrilación auricular, siendo el sitio más frecuente de trombosis auricular izquierda.",
+      "hint": "Es el sitio de origen del 90% de los trombos en fibrilación auricular."
     }
   ]
 }
