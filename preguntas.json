@@ -2202,7 +2202,7 @@
       "ans": 0,
       "just": "Este triángulo es el punto de referencia quirúrgico más importante de la aurícula derecha; la cirugía valvular tricúspide requiere conocerlo para no dañar el nódulo AV.",
       "hint": "Tres estructuras anatómicas distintas forman sus lados."
-    }
+    },
     {
       "cat": "cardiaco",
       "q": "El tendón de Todaro es:",
@@ -2230,7 +2230,6 @@
       "hint": "El SA es el más rápido de todos los marcapasos."
     },
 
-    // ══════════ RED DE CHIARI Y VARIANTES ANATÓMICAS ══════════
     {
       "cat": "cardiaco",
       "q": "La red de Chiari es el resultado de:",
@@ -2271,7 +2270,7 @@
       "hint": "Reemplaza a la vena oblicua de la aurícula izquierda."
     },
 
-    // ══════════ FOSA OVAL Y TABIQUE INTERAURICULAR ══════════
+    
     {
       "cat": "cardiaco",
       "q": "El suelo de la fosa oval corresponde a:",
@@ -2312,7 +2311,6 @@
       "hint": "Es un repliegue del limbo de la fosa oval."
     },
 
-    // ══════════ VENTRÍCULO IZQUIERDO EN DETALLE ══════════
     {
       "cat": "cardiaco",
       "q": "La cavidad del ventrículo izquierdo tiene forma de:",
@@ -2339,8 +2337,6 @@
       "just": "El patrón trabecular fino del VI es su característica morfológica distintiva.",
       "hint": "Las del VI son más delicadas; las del VD son más gruesas."
     },
-
-    // ══════════ EMBRIOLOGÍA CARDÍACA ══════════
     {
       "cat": "cardiaco",
       "q": "¿En qué día aproximado comienza el corazón a latir rítmicamente durante el desarrollo embrionario?",
@@ -2406,8 +2402,8 @@
       "ans": 0,
       "just": "La corriente If es transportada principalmente por Na⁺ además de activarse al final de la repolarización.",
       "hint": "La 'f' viene de 'funny' porque tiene propiedades inusuales."
-    }
-    // ══════════ REGULACIÓN Y FISIOLOGÍA AVANZADA ══════════
+    },
+    
     {
       "cat": "cardiaco",
       "q": "¿Por qué la velocidad de conducción en el nódulo AV (0.01 a 0.05 m/s) es fisiológicamente necesaria?",
@@ -2447,8 +2443,6 @@
       "just": "En la insuficiencia cardíaca, la reducción de la poscarga con vasodilatadores representa una estrategia terapéutica clave para mejorar el volumen sistólico.",
       "hint": "Mayor resistencia implica mayor esfuerzo para vaciar el ventrículo."
     },
-
-    // ══════════ RUIDOS CARDÍACOS ACCESORIOS ══════════
     {
       "cat": "cardiaco",
       "q": "El tercer ruido cardíaco (R3) se produce durante:",
@@ -2476,7 +2470,7 @@
       "hint": "Ocurre al final de la diástole, justo antes del R1."
     },
 
-    // ══════════ EKG AVANZADO ══════════
+    
     {
       "cat": "ekg",
       "q": "El segmento ST en el EKG corresponde a:",
