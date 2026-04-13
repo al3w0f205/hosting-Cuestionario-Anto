@@ -2,7 +2,8 @@ backend:
   name: github
   repo: al3w0f205/hosting-Cuestionario-Anto
   branch: main
-  base_url: https://decap-oauth.kuworking.com
+  base_url: https://cms-proxy-uide.vercel.app # Usaremos este proxy temporal o el oficial
+  auth_endpoint: auth
 
 media_folder: "images"
 public_folder: "/images"

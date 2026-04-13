@@ -5,13 +5,32 @@ let currentFilter = 'all';
 let visibleQs = [];
 
 async function inicializarCuestionario() {
+  // Lista de archivos JSON por categoría dentro de la carpeta data/
+  const archivos = [
+    'data/cardiaco.json',
+    'data/respiratorio.json',
+    'data/calculo.json',
+    'data/radiologia.json',
+    'data/ekg.json'
+  ];
+
   try {
-    const respuesta = await fetch('preguntas.json');
-    const datos = await respuesta.json();
-    QUESTIONS = datos.lista_preguntas;
+    // Ejecutamos todas las descargas en paralelo para mayor eficiencia
+    const respuestas = await Promise.all(archivos.map(url => fetch(url)));
+    
+    // Validamos que todas las respuestas sean correctas antes de procesar
+    const datosFinales = await Promise.all(respuestas.map(res => {
+      if (!res.ok) throw new Error(`No se pudo cargar: ${res.url}`);
+      return res.json();
+    }));
+
+    // Fusionamos los arrays de "preguntas" de cada archivo en la variable global
+    // Se asume que cada JSON tiene una estructura: { "preguntas": [...] }
+    QUESTIONS = datosFinales.flatMap(datos => datos.preguntas);
+    
     renderAll();
   } catch (error) {
-    console.error("Error al cargar la base de preguntas:", error);
+    console.error("Error al cargar la base de preguntas fraccionada:", error);
   }
 }
 
