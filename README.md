@@ -1,28 +1,60 @@
-# Cuestionario Interactivo de Medicina
+<div align="center">
 
-[Acceder a la Aplicación en Vivo](https://al3w0f205.github.io/hosting-Cuestionario-Anto/)
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=540&lines=Cuestionario+Interactivo+%F0%9F%AA%BA;Medicina+%26+Educaci%C3%B3n;Despliegue+Est%C3%A1tico+Optimizado;Frontend+Vanilla+Architecture" alt="Typing SVG" />
+</a>
 
-El presente repositorio alberga el código fuente de una plataforma web interactiva diseñada específicamente para la gestión junto con la visualización de cuestionarios dinámicos. Este sistema se fundamenta en estándares modernos de desarrollo frontend; por lo tanto, garantiza una navegación fluida además de una arquitectura optimizada para el despliegue en infraestructuras de alojamiento estático.
+<br/>
 
-## Arquitectura del Sistema
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+  <tr>
+    <td><img src="assets/lol.jpeg" height="60" alt="Motivación" /></td>
+    <td>&nbsp;&nbsp;<strong>Medicina Interactiva</strong> &nbsp;·&nbsp;  <a href="https://al3w0f205.github.io/hosting-Cuestionario-Anto/">Acceder a la Aplicación en Vivo</a></td>
+  </tr>
+</table>
 
-La aplicación se rige por un principio de separación de responsabilidades, organizando la estructura semántica, la estética visual y la lógica funcional en componentes independientes. Esta modularidad favorece tanto el mantenimiento correctivo como la escalabilidad del proyecto.
+<br/>
 
-### Organización de Archivos
+[![GitHub stars](https://img.shields.io/github/stars/al3w0f205/hosting-Cuestionario-Anto?style=flat-square&color=58A6FF)](https://github.com/al3w0f205/hosting-Cuestionario-Anto)
+[![GitHub license](https://img.shields.io/github/license/al3w0f205/hosting-Cuestionario-Anto?style=flat-square&color=58A6FF)](https://github.com/al3w0f205/hosting-Cuestionario-Anto/blob/main/LICENSE)
+[![Profile views](https://komarev.com/ghpvc/?username=al3w0f205&style=flat-square&color=58A6FF&label=visitors)](https://github.com/al3w0f205)
 
-| Componente | Función Principal |
-| :--- | :--- |
-| **index.html** | Estructura semántica y jerarquía de contenidos del cuestionario. |
-| **style.css** | Capa estética con diseño cohesivo, adaptabilidad y selectores avanzados. |
-| **script.js** | Motor lógico encargado de la interactividad y manipulación del DOM. |
+</div>
+
+---
+
+El presente repositorio alberga el código fuente de una plataforma web interactiva diseñada específicamente para la gestión junto con la visualización de cuestionarios dinámicos. Este sistema se fundamenta en estándares modernos de desarrollo frontend, por lo tanto garantiza una navegación fluida además de una arquitectura optimizada para el despliegue en infraestructuras de alojamiento estático.
+
+La aplicación se rige por un principio de separación de responsabilidades ya que organiza la estructura semántica, la estética visual y la lógica funcional en componentes independientes. Esta modularidad favorece tanto el mantenimiento correctivo como la escalabilidad del proyecto educativo.
+
+---
 
 ## Stack Tecnológico
 
-La implementación se ha realizado íntegramente en el lado del cliente utilizando tecnologías nativas:
+La implementación se ha realizado íntegramente en el lado del cliente utilizando tecnologías nativas para maximizar el rendimiento:
 
-* **HTML5**: Definición de la estructura y accesibilidad de la información.
-* **CSS3**: Diseño visual responsivo mediante técnicas contemporáneas de estilización.
-* **JavaScript (Vanilla)**: Programación de la lógica de evaluación y reactividad de la interfaz.
+**Frontend Core**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Deployment & Tools**
+
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## Arquitectura del Sistema
+
+| Componente | Función Principal |
+| :--- | :--- |
+| **index.html** | Estructura semántica y jerarquía de contenidos del cuestionario |
+| **style.css** | Capa estética con diseño cohesivo, adaptabilidad y selectores avanzados |
+| **script.js** | Motor lógico encargado de la interactividad y manipulación del DOM |
+
+---
 
 ## Guía de Instalación y Uso Local
 
