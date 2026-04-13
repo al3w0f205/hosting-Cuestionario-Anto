@@ -5,11 +5,17 @@
 </a>
 
 <br/>
+<br/>
+
+<p align="center">
+  <img src="assets/lol.jpeg" alt="Motivación" width="70%">
+</p>
+
+<br/>
 
 <table border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
   <tr>
-    <td><img src="assets/lol.jpeg" height="60" alt="Motivación" /></td>
-    <td>&nbsp;&nbsp;<strong>Medicina Interactiva</strong> &nbsp;·&nbsp;  <a href="https://al3w0f205.github.io/hosting-Cuestionario-Anto/">Acceder a la Aplicación en Vivo</a></td>
+    <td>🚀 <strong><a href="https://al3w0f205.github.io/hosting-Cuestionario-Anto/">Acceder a la Aplicación en Vivo</a></strong></td>
   </tr>
 </table>
 
