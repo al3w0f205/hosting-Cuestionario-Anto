@@ -1567,6 +1567,782 @@
       "ans": 1,
       "just": "Es la suma de todos los volúmenes pulmonares combinados.",
       "hint": "Capacidad máxima del pulmón."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué nombre recibe el orificio posterior de las cavidades nasales que comunica con la nasofaringe?",
+      "opts": ["Narinas", "Coanas", "Vestíbulo", "Meatos"],
+      "ans": 1,
+      "just": "Las coanas representan la transición entre la cavidad nasal y la faringe; además, están delimitadas por el hueso vómer junto con las láminas del esfenoides.",
+      "hint": "Son las 'puertas de salida' traseras de la nariz."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El plexo de Kiesselbach, sitio común de epistaxis, se localiza específicamente en:",
+      "opts": ["Cornete superior", "Parte anterior del tabique nasal", "Techo del etmoides", "Meato inferior"],
+      "ans": 1,
+      "just": "En esta zona convergen ramas de las arterias etmoidales junto con la esfenopalatina; por consiguiente, es una región sumamente vascularizada y vulnerable.",
+      "hint": "Se sitúa en el área de Little."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué músculo es el encargado de elevar el velo del paladar durante la deglución para cerrar la nasofaringe?",
+      "opts": ["Constrictor superior", "Elevador del velo del paladar", "Palatofaringeo", "Salpingofaringeo"],
+      "ans": 1,
+      "just": "Este músculo evita que el bolo alimenticio ascienda hacia las cavidades nasales; asimismo, está inervado por el plexo faríngeo del nervio vago.",
+      "hint": "Músculo del paladar blando."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La amígdala faríngea (adenoides) se localiza en:",
+      "opts": ["El istmo de las fauces", "El techo de la nasofaringe", "La base de la lengua", "La laringofaringe"],
+      "ans": 1,
+      "just": "Forma parte del anillo de Waldeyer; por ende, constituye una barrera inmunológica crítica frente a patógenos inhalados.",
+      "hint": "Su hipertrofia puede causar respiración bucal."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es el único cartílago de la laringe que rodea completamente la vía aérea?",
+      "opts": ["Tiroides", "Cricoides", "Epiglotis", "Aritenoides"],
+      "ans": 1,
+      "just": "Posee forma de anillo de sello con una lámina posterior ancha; consecuentemente, sirve de soporte estructural para toda la laringe.",
+      "hint": "Se sitúa al nivel de C6."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Los cartílagos aritenoides se articulan directamente con:",
+      "opts": ["El cartílago tiroides", "La lámina del cartílago cricoides", "El hueso hioides", "La tráquea"],
+      "ans": 1,
+      "just": "Esta articulación de tipo sinovial permite movimientos de rotación además de deslizamiento; por lo tanto, es esencial para regular la tensión de las cuerdas vocales.",
+      "hint": "Se ubican en la parte posterosuperior del anillo basal."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué rama del nervio vago inerva la mucosa laríngea por encima de los pliegues vocales?",
+      "opts": ["Nervio laríngeo recurrente", "Nervio laríngeo interno", "Nervio laríngeo externo", "Nervio frénico"],
+      "ans": 1,
+      "just": "El nervio laríngeo interno atraviesa la membrana tirohioidea; asimismo, es el responsable del componente sensorial del reflejo de la tos.",
+      "hint": "Rama del nervio laríngeo superior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El ligamento que une el cartílago cricoides con el primer anillo traqueal se denomina:",
+      "opts": ["Membrana tirohioidea", "Ligamento cricotraqueal", "Ligamento vocal", "Cono elástico"],
+      "ans": 1,
+      "just": "Este ligamento marca la unión entre la laringe junto con el inicio de la tráquea; además, es una zona de transición anatómica firme.",
+      "hint": "Une el anillo completo con el primer anillo incompleto."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuántos segmentos broncopulmonares tiene habitualmente el pulmón izquierdo?",
+      "opts": ["Diez", "Ocho a nueve", "Doce", "Cinco"],
+      "ans": 1,
+      "just": "Debido a la fusión de ciertos bronquios segmentarios (apicoposterior además de anteromedial basal), el pulmón izquierdo tiene menos unidades que el derecho.",
+      "hint": "Tiene un número menor al pulmón derecho."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El pulmón derecho se divide en tres lóbulos gracias a las fisuras:",
+      "opts": ["Oblicua únicamente", "Oblicua y horizontal", "Sagital y transversal", "Dorsal"],
+      "ans": 1,
+      "just": "La fisura horizontal separa el lóbulo superior del medio; no obstante, la fisura oblicua delimita el lóbulo inferior.",
+      "hint": "Posee dos cortes profundos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué estructura cardiaca se sitúa inmediatamente anterior al bronquio principal izquierdo?",
+      "opts": ["Vena cava superior", "Arteria pulmonar izquierda", "Aurícula derecha", "Aorta ascendente"],
+      "ans": 1,
+      "just": "La arteria pulmonar izquierda cabalga sobre el bronquio principal izquierdo; por consiguiente, es la relación más superior y anterior del hilio izquierdo.",
+      "hint": "Relación hiliar en el lado de la incisura cardiaca."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El drenaje venoso de la pleura parietal costal se dirige principalmente hacia:",
+      "opts": ["Venas pulmonares", "Venas intercostales", "Venas bronquiales", "Seno coronario"],
+      "ans": 1,
+      "just": "Al ser una estructura de la pared torácica, su drenaje sigue el sistema de las venas sistémicas; asimismo, termina en el sistema ácigos.",
+      "hint": "Sigue el recorrido de las costillas."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es el hito que define el inicio de la etapa canalicular del desarrollo pulmonar?",
+      "opts": ["Formación de alvéolos", "Aparición de bronquiolos respiratorios y vascularización", "Cierre del paladar", "Formación de la tráquea"],
+      "ans": 1,
+      "just": "Ocurre entre las semanas 16 junto con la 26; por ende, se desarrollan los conductos alveolares primordiales junto con un aumento del lecho capilar.",
+      "hint": "Etapa previa a la producción de surfactante."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La ley de Dalton establece que la presión total de una mezcla de gases es:",
+      "opts": ["Igual al volumen", "La suma de las presiones parciales de cada gas", "Inversa a la temperatura", "Igual a la densidad"],
+      "ans": 1,
+      "just": "En el aire inspirado, la presión parcial de oxígeno depende de su fracción porcentual; asimismo, este concepto permite calcular la PO2 alveolar.",
+      "hint": "Suma de partes."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El factor 2,3-difosfoglicerato (2,3-DPG) producido en los eritrocitos tiene como función:",
+      "opts": ["Aumentar la afinidad por O2", "Disminuir la afinidad de la hemoglobina por el O2", "Transportar CO2", "Amortiguar el pH"],
+      "ans": 1,
+      "just": "Se une a la desoxihemoglobina estabilizándola; consecuentemente, facilita la liberación de oxígeno en tejidos con alta demanda metabólica.",
+      "hint": "Desplaza la curva a la derecha."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La ventilación del espacio muerto fisiológico ocurre cuando hay:",
+      "opts": ["Perfusión sin ventilación", "Ventilación sin perfusión sanguínea", "Ejercicio intenso", "Sueño profundo"],
+      "ans": 1,
+      "just": "Representa el volumen de aire que entra en alvéolos que no intercambian gases; por lo tanto, no contribuye a la oxigenación arterial.",
+      "hint": "Aire desperdiciado en los alvéolos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué cambio fisiológico produce la inmersión en agua fría sobre el patrón respiratorio?",
+      "opts": ["Apnea prolongada", "Hiperventilación inicial refleja", "Bradipnea", "No hay cambios"],
+      "ans": 1,
+      "just": "El choque térmico activa receptores cutáneos; consecuentemente, se produce un jadeo inspiratorio súbito mediado por el sistema autonómico.",
+      "hint": "Respuesta al frío intenso."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La zona 3 de West, situada en las bases pulmonares, se caracteriza porque:",
+      "opts": ["La presión alveolar es máxima", "La presión venosa es mayor a la alveolar", "No hay flujo sanguíneo", "Hay hipoxia constante"],
+      "ans": 1,
+      "just": "Debido a la gravedad, tanto la presión arterial como la venosa superan a la alveolar; asimismo, es la zona con mayor perfusión sanguínea.",
+      "hint": "Región de máximo flujo sanguíneo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El epitelio olfatorio se localiza específicamente en:",
+      "opts": ["Cornete inferior", "Techo de la cavidad nasal y cornete superior", "Vestíbulo nasal", "Nasofaringe"],
+      "ans": 1,
+      "just": "Contiene neuronas bipolares especializadas; además, estas células atraviesan la lámina cribosa para sinapsar en el bulbo olfatorio.",
+      "hint": "Zona sensorial de la nariz."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La membrana tirohioidea une el cartílago tiroides con:",
+      "opts": ["El cricoides", "El hueso hioides", "La mandíbula", "La epiglotis"],
+      "ans": 1,
+      "just": "Esta membrana es perforada por el nervio laríngeo interno junto con la arteria laríngea superior; por ende, es un punto de referencia quirúrgico.",
+      "hint": "Relación superior de la laringe."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué estructura anatómica divide al pulmón derecho en lóbulo superior y medio?",
+      "opts": ["Fisura oblicua", "Fisura horizontal", "Ligamento pulmonar", "Surco de la ácigos"],
+      "ans": 1,
+      "just": "Esta fisura es exclusiva del lado derecho; no obstante, la fisura oblicua separa a ambos del lóbulo inferior.",
+      "hint": "Fisura menor."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El volumen de aire que queda en el pulmón tras una espiración máxima se denomina:",
+      "opts": ["Capacidad vital", "Volumen residual", "Volumen corriente", "Reserva espiratoria"],
+      "ans": 1,
+      "just": "Este volumen asegura que el intercambio gaseoso continúe entre respiraciones; asimismo, no puede ser evaluado por espirometría convencional.",
+      "hint": "Evita el colapso pulmonar total."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Los quimiorreceptores periféricos se localizan en:",
+      "opts": ["Bulbo raquídeo", "Cuerpos carotídeos y aórticos", "Pared de los alvéolos", "Hipotálamo"],
+      "ans": 1,
+      "just": "Detectan principalmente la caída de la PO2 arterial; por consiguiente, envían señales al centro respiratorio para aumentar la ventilación.",
+      "hint": "Sensores externos de oxígeno."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria pulmonar izquierda cruza por encima del:",
+      "opts": ["Esófago", "Bronquio principal izquierdo", "Ventrículo derecho", "Vena cava superior"],
+      "ans": 1,
+      "just": "Es una de las relaciones hiliares más importantes en cirugía torácica; además, se sitúa posterior al tronco pulmonar.",
+      "hint": "Relación superior izquierda."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué etapa del desarrollo pulmonar se caracteriza por la aparición del surfactante?",
+      "opts": ["Etapa embrionaria", "Etapa sacular (semana 26 a nacimiento)", "Etapa pseudoglandular", "Etapa alveolar post-natal"],
+      "ans": 1,
+      "just": "Durante esta fase, los sáculos terminales se adelgazan junto con el inicio de la diferenciación de neumocitos tipo II.",
+      "hint": "Hacia el final del embarazo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La presión intrapleural se vuelve más negativa durante:",
+      "opts": ["La espiración", "La inspiración", "La apnea", "El reposo"],
+      "ans": 1,
+      "just": "La expansión de la caja torácica aumenta la tracción sobre la pleura visceral; por tanto, la presión cae facilitando el inflado alveolar.",
+      "hint": "Efecto de succión inspiratoria."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué músculo es el principal responsable de la fonación al tensar los pliegues vocales?",
+      "opts": ["Cricoaritenoideo posterior", "Cricotiroideo", "Tirohioideo", "Esternotiroideo"],
+      "ans": 1,
+      "just": "Este músculo inclina el cartílago tiroides hacia adelante; consecuentemente, alarga y tensa las cuerdas vocales para producir sonidos agudos.",
+      "hint": "Inervado por el laríngeo superior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El espacio pleural es un espacio virtual que contiene:",
+      "opts": ["Aire", "Una fina película de líquido seroso", "Sangre", "Tejido conectivo"],
+      "ans": 1,
+      "just": "Este líquido reduce la fricción entre las láminas parietal junto con la visceral; además, crea la tensión necesaria para que el pulmón siga al tórax.",
+      "hint": "Lubricante natural."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La carina traqueal se encuentra reforzada por un cartílago con forma de:",
+      "opts": ["C", "Y invertida o semiluna", "Anillo completo", "Hoja"],
+      "ans": 1,
+      "just": "Es el último cartílago traqueal y posee un relieve interno muy sensible; por consiguiente, su irritación causa tos paroxística.",
+      "hint": "Punto de bifurcación de la tráquea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El pulmón izquierdo es más pequeño que el derecho debido a:",
+      "opts": ["El hígado", "La presencia del corazón", "El bazo", "El estómago"],
+      "ans": 1,
+      "just": "La desviación del corazón hacia la izquierda reduce el espacio disponible en el hemitórax izquierdo; asimismo, esto genera la incisura cardíaca.",
+      "hint": "Asimetría por vecindad mediastínica."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es la función de los neumocitos tipo I?",
+      "opts": ["Secretar surfactante", "Intercambio gaseoso", "Fagocitar polvo", "Producir moco"],
+      "ans": 1,
+      "just": "Son células extremadamente delgadas que cubren el 95% de la superficie alveolar; por tanto, minimizan la distancia de difusión de los gases.",
+      "hint": "Células estructurales del alvéolo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La tráquea se desvía ligeramente hacia la derecha en su parte inferior por la presión de:",
+      "opts": ["El arco de la aorta", "El esófago", "La glándula tiroides", "El tronco braquiocefálico"],
+      "ans": 0,
+      "just": "El arco aórtico se sitúa a la izquierda de la tráquea; consecuentemente, desplaza el eje traqueal hacia el lado derecho.",
+      "hint": "Relación con el vaso más grande del tórax."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La capacidad pulmonar total (CPT) es igual a:",
+      "opts": ["CV + VR", "CRF + CI", "VC + VRI + VRE + VR", "Todas las anteriores"],
+      "ans": 3,
+      "just": "Representa todo el aire contenido en el sistema respiratorio tras una inspiración máxima; además, su valor promedio es de 6 litros.",
+      "hint": "Suma total de volúmenes."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué nervio inerva al músculo traqueal?",
+      "opts": ["Frénico", "Nervio vago (parasimpático)", "Nervios intercostales", "Nervio hipogloso"],
+      "ans": 1,
+      "just": "La estimulación vagal produce broncoconstricción además de contracción del músculo traqueal; por el contrario, el simpático causa relajación.",
+      "hint": "Control visceral de la vía aérea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El bronquio principal derecho es más propenso a recibir cuerpos extraños por ser:",
+      "opts": ["Más largo y estrecho", "Más corto, ancho y vertical", "Más horizontal", "Más elástico"],
+      "ans": 1,
+      "just": "Su anatomía facilita el paso directo desde la tráquea; por consiguiente, la mayoría de las aspiraciones se localizan en el pulmón derecho.",
+      "hint": "Sigue la línea recta de la tráquea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La pleura visceral recibe su irrigación de las arterias:",
+      "opts": ["Intercostales", "Bronquiales", "Mamarias internas", "Diafragmáticas"],
+      "ans": 1,
+      "just": "Al estar adherida al pulmón, comparte la circulación sistémica nutricia del parénquima; asimismo, drena hacia las venas pulmonares.",
+      "hint": "Irrigación compartida con los bronquios."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Durante el ejercicio intenso, el aumento de la ventilación se debe a:",
+      "opts": ["Solo caída de O2", "Aumento de la producción de CO2 y H+", "Disminución de la temperatura", "Baja de glucosa"],
+      "ans": 1,
+      "just": "El metabolismo muscular eleva la PCO2 junto con la acidez; consecuentemente, se estimulan los centros respiratorios para eliminar el exceso.",
+      "hint": "Estímulo por metabolitos ácidos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La língula del pulmón izquierdo es análoga al:",
+      "opts": ["Lóbulo superior derecho", "Lóbulo medio derecho", "Lóbulo inferior derecho", "Lóbulo superior izquierdo"],
+      "ans": 1,
+      "just": "Es una proyección del lóbulo superior que funcionalmente se comporta como el lóbulo medio del pulmón derecho.",
+      "hint": "Estructura en forma de lengua."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El espacio entre las cuerdas vocales se denomina:",
+      "opts": ["Ventrículo laríngeo", "Hendidura glótica", "Vestíbulo", "Saco laríngeo"],
+      "ans": 1,
+      "just": "Es la apertura que comunica la parte superior de la laringe con la tráquea; además, su tamaño varía durante el habla.",
+      "hint": "Parte más estrecha de la vía aérea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El moco producido por las células caliciformes tiene como función:",
+      "opts": ["Digerir bacterias", "Atrapar partículas inhaladas y humectar", "Aumentar la resistencia", "Secretar hormonas"],
+      "ans": 1,
+      "just": "Forma una capa viscosa que protege el epitelio; por consiguiente, los cilios pueden desplazar las impurezas hacia afuera.",
+      "hint": "Mecanismo de limpieza y protección."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria pulmonar derecha pasa por debajo de qué arco vascular:",
+      "opts": ["Arco de la aorta", "Arco de la vena ácigos", "Arco de la subclavia", "Arco braquiocefálico"],
+      "ans": 1,
+      "just": "La vena ácigos cabalga sobre el hilio derecho antes de entrar en la VCS; por lo tanto, es una relación anatómica constante.",
+      "hint": "Relación superior del hilio derecho."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué ocurre con la P50 de la hemoglobina en la hipertermia?",
+      "opts": ["Disminuye", "Aumenta", "No cambia", "Desaparece"],
+      "ans": 1,
+      "just": "El calor disminuye la afinidad del O2 por la hemoglobina; consecuentemente, se requiere más PO2 para saturarla al 50%.",
+      "hint": "Facilita la entrega de O2 en estados febriles."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El intercambio de gases entre el aire alveolar y la sangre capilar ocurre por:",
+      "opts": ["Transporte activo", "Difusión simple", "Ósmosis", "Pinocitosis"],
+      "ans": 1,
+      "just": "Los gases se mueven a favor de su gradiente de presión parcial; por tanto, no requiere consumo de energía metabólica directa.",
+      "hint": "Movimiento pasivo molecular."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La mayor parte del oxígeno inhalado se utiliza en la célula para:",
+      "opts": ["Producir CO2", "La cadena de transporte de electrones (respiración celular)", "Sintetizar proteínas", "Formar moco"],
+      "ans": 1,
+      "just": "El oxígeno es el aceptor final de electrones en las mitocondrias; asimismo, permite la generación eficiente de ATP.",
+      "hint": "Producción de energía mitocondrial."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El nervio laríngeo recurrente derecho rodea a la arteria:",
+      "opts": ["Aorta", "Subclavia derecha", "Carótida común", "Pulmonar"],
+      "ans": 1,
+      "just": "A diferencia del izquierdo que rodea la aorta, el derecho tiene un trayecto más corto alrededor de la subclavia.",
+      "hint": "Relación vascular en la raíz del cuello."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué estructura linfática se encuentra en el ángulo de la bifurcación traqueal?",
+      "opts": ["Ganglios paraesternales", "Ganglios traqueobronquiales inferiores (carinales)", "Ganglios axilares", "Ganglios frénicos"],
+      "ans": 1,
+      "just": "Reciben la linfa de ambos pulmones; por consiguiente, su aumento de tamaño puede ensanchar la carina en una radiografía.",
+      "hint": "Ubicados debajo de la división de la tráquea."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La compliance pulmonar es inversamente proporcional a:",
+      "opts": ["La elasticidad (recoil)", "El volumen", "La temperatura", "El flujo"],
+      "ans": 0,
+      "just": "Un pulmón con mucha fibra elástica es difícil de distender; por tanto, a mayor reculada elástica, menor es la compliance.",
+      "hint": "Rigidez versus facilidad de estiramiento."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El hiato esofágico del diafragma se encuentra a nivel de:",
+      "opts": ["T8", "T10", "T12", "L2"],
+      "ans": 1,
+      "just": "Es el orificio por donde el esófago junto con los nervios vagos pasan al abdomen; asimismo, es un sitio frecuente de hernias.",
+      "hint": "Nivel intermedio de los orificios diafragmáticos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La ley de Henry explica que la cantidad de gas disuelto en un líquido depende de:",
+      "opts": ["La temperatura únicamente", "La presión parcial del gas y su coeficiente de solubilidad", "La altitud", "El color del líquido"],
+      "ans": 1,
+      "just": "Esta ley fundamenta por qué el O2 se disuelve poco en plasma comparado con el CO2; además, justifica el uso de cámaras hiperbáricas.",
+      "hint": "Presión por solubilidad."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El volumen de aire que se mueve en un minuto de respiración tranquila es la:",
+      "opts": ["Ventilación alveolar", "Ventilación minuto", "Capacidad vital", "Frecuencia respiratoria"],
+      "ans": 1,
+      "just": "Se calcula como el producto del volumen corriente por la frecuencia respiratoria; no obstante, no descuenta el espacio muerto.",
+      "hint": "Volumen total inspirado por minuto."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La zona respiratoria posee una resistencia al flujo muy baja porque:",
+      "opts": ["El aire es menos denso", "El área de sección transversal total es enorme", "Los tubos son muy largos", "No hay moco"],
+      "ans": 1,
+      "just": "Millones de bronquiolos en paralelo ofrecen una vía de gran amplitud; por consiguiente, la velocidad del aire es casi nula facilitando la difusión.",
+      "hint": "Distribución en paralelo masiva."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El surfactante pulmonar reduce el riesgo de edema alveolar porque:",
+      "opts": ["Absorbe agua", "Reduce la presión hidrostática negativa que atrae líquido al alvéolo", "Cierra los capilares", "Aumenta la viscosidad"],
+      "ans": 1,
+      "just": "Al bajar la tensión superficial, disminuye la fuerza de succión hacia el interior del alvéolo; asimismo, mantiene la barrera seca.",
+      "hint": "Mecanismo anti-succión de líquido."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué ligamento une la epiglotis con el cartílago tiroides?",
+      "opts": ["Ligamento tiroepiglótico", "Ligamento hioepiglótico", "Ligamento vocal", "Membrana cricotiroidea"],
+      "ans": 0,
+      "just": "Este ligamento es estrecho y elástico; además, permite el movimiento oscilante de la epiglotis al tragar.",
+      "hint": "Une el 'tallo' de la hoja con el escudo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria bronquial derecha suele originarse de:",
+      "opts": ["La aorta directamente", "Una arteria intercostal posterior o tronco común con la izquierda", "La arteria subclavia", "La mamaria interna"],
+      "ans": 1,
+      "just": "Existe gran variabilidad; no obstante, es frecuente que nazca de la tercera arteria intercostal posterior derecha.",
+      "hint": "Variante común en la irrigación nutricia."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El principal amortiguador de protones (H+) dentro del eritrocito es:",
+      "opts": ["El bicarbonato", "La hemoglobina", "El fosfato", "El plasma"],
+      "ans": 1,
+      "just": "La hemoglobina desoxigenada tiene alta afinidad por los protones; por consiguiente, evita cambios bruscos de pH durante el transporte de CO2.",
+      "hint": "Proteína transportadora con alma de buffer."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El reflejo de insuflación de Hering-Breuer es mediado por fibras del nervio:",
+      "opts": ["Frénico", "Vago", "Glosofaríngeo", "Simpático"],
+      "ans": 1,
+      "just": "Los receptores de estiramiento pulmonar envían señales inhibidoras al bulbo; por ende, se detiene la inspiración para evitar roturas.",
+      "hint": "Vía sensorial vagal."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La presión parcial de CO2 en la sangre venosa mixta es de:",
+      "opts": ["40 mmHg", "46 mmHg", "100 mmHg", "0 mmHg"],
+      "ans": 1,
+      "just": "Refleja la acumulación de CO2 tras el metabolismo tisular; asimismo, crea el gradiente para que el CO2 difunda hacia el alvéolo.",
+      "hint": "6 mmHg superior a la arterial."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Cuál es la causa del 'shunt' o cortocircuito anatómico normal en el corazón?",
+      "opts": ["Venas de Tebesio y venas bronquiales", "Persistencia del foramen oval", "Conducto arterioso", "Válvula mitral"],
+      "ans": 0,
+      "just": "Estas venas vierten sangre desoxigenada directamente en el lado izquierdo del corazón; por tanto, reducen ligeramente la PaO2 sistémica.",
+      "hint": "Drenaje venoso que se salta los pulmones."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La hipoxia produce vasoconstricción en la circulación pulmonar para:",
+      "opts": ["Aumentar la presión sistémica", "Desviar la sangre a zonas mejor ventiladas", "Causar edema", "Ahorrar energía"],
+      "ans": 1,
+      "just": "Es un mecanismo de optimización V/Q; por consiguiente, evita que la sangre pase por alvéolos que no tienen oxígeno.",
+      "hint": "Reflejo de redistribución de flujo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El primer paso de la espiración normal es:",
+      "opts": ["Contracción de abdominales", "Relajación del diafragma", "Cierre de la glotis", "Apertura de la boca"],
+      "ans": 1,
+      "just": "Al cesar la señal nerviosa, el diafragma asciende por la presión abdominal; asimismo, el pulmón se retrae elásticamente.",
+      "hint": "Proceso pasivo inicial."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "¿Qué porción de la pleura parietal es la más propensa a lesionarse en heridas de cuello?",
+      "opts": ["Pleura costal", "Cúpula pleural", "Pleura diafragmática", "Hilio"],
+      "ans": 1,
+      "just": "El vértice pulmonar junto con su pleura sobresalen por encima de la primera costilla; por ende, están expuestos en la base cervical.",
+      "hint": "Parte más alta del saco pleural."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El volumen de reserva espiratoria (VRE) se mide pidiendo al paciente que:",
+      "opts": ["Inspire lo máximo posible", "Expulse todo el aire posible tras una espiración normal", "Aguante la respiración", "Tosa con fuerza"],
+      "ans": 1,
+      "just": "Representa el aire extra que podemos sacar activamente; no obstante, siempre quedará el volumen residual dentro.",
+      "hint": "Lo que puedes sacar 'de más'."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La acidosis respiratoria se compensa fisiológicamente mediante:",
+      "opts": ["Aumento de la frecuencia respiratoria", "Excreción renal de H+ y retención de bicarbonato", "Disminución de la presión arterial", "Sudoración"],
+      "ans": 1,
+      "just": "Si el pulmón falla en eliminar CO2, el riñón ajusta el equilibrio químico; por tanto, es una respuesta lenta pero efectiva.",
+      "hint": "Compensación metabólica (renal)."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El cartílago epiglótico se compone de:",
+      "opts": ["Cartílago hialino", "Cartílago elástico", "Fibrocartílago", "Hueso"],
+      "ans": 1,
+      "just": "A diferencia del tiroides, no suele osificarse con la edad; asimismo, su elasticidad es vital para plegarse sobre la laringe.",
+      "hint": "Tejido flexible que no se vuelve hueso."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La incisura cardíaca se localiza en el borde anterior del pulmón:",
+      "opts": ["Derecho", "Izquierdo", "Ambos", "En ninguno"],
+      "ans": 1,
+      "just": "Es un espacio cóncavo moldeado por el ventrículo izquierdo; consecuentemente, deja parte del pericardio en contacto con la pared torácica.",
+      "hint": "Lado del corazón."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Los bronquiolos terminales carecen de alvéolos en sus paredes.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Son la última división de la zona de conducción; por el contrario, los bronquiolos respiratorios sí poseen alvéolos.",
+      "hint": "Final del espacio muerto anatómico."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El centro apnéustico se localiza en la parte inferior del puente.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Su función es prolongar la inspiración; asimismo, es inhibido por el centro neumotáxico superior.",
+      "hint": "Estimulador de la inspiración profunda."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El surfactante aumenta el trabajo respiratorio.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Al reducir la tensión superficial, hace que los pulmones sean más fáciles de inflar; por consiguiente, disminuye el trabajo muscular.",
+      "hint": "Su ausencia cansa al paciente."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria pulmonar transporta sangre rica en dióxido de carbono.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la única arteria del adulto que lleva sangre desoxigenada hacia la unidad de intercambio.",
+      "hint": "Vaso eferente del ventrículo derecho."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La pleura parietal mediastínica forma el ligamento pulmonar en el hilio.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es un pliegue de reflexión que desciende hacia el diafragma; además, estabiliza la posición del lóbulo inferior.",
+      "hint": "Manguito pleural inferior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La faringe se extiende desde la base del cráneo hasta el cartílago cricoides.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Mide aproximadamente 12 cm y se continúa con el esófago; asimismo, es una vía común para aire junto con alimentos.",
+      "hint": "Conducto musculomembranoso superior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El bronquio segmentario apical del lóbulo superior derecho es el S1.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es el segmento más superior de todo el árbol bronquial derecho.",
+      "hint": "Código del primer segmento derecho."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La presión alveolar es mayor que la atmosférica durante la espiración.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Este gradiente de presión positiva empuja el aire hacia el exterior del cuerpo.",
+      "hint": "Fuerza de salida del aire."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La compliance pulmonar disminuye en el síndrome de dificultad respiratoria neonatal.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La falta de surfactante colapsa los alvéolos; por tanto, el pulmón se vuelve rígido además de difícil de ventilar.",
+      "hint": "Relacionado con la tensión superficial alta."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La orofaringe contiene la amígdala lingual en la base de la lengua.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se sitúa posterior al istmo de las fauces; además, contribuye a la defensa inmunitaria bucal.",
+      "hint": "Tejido linfoide lingual."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El nervio vago produce broncodilatación.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "El vago tiene un efecto colinérgico que causa bronconstricción; no obstante, el simpático causa dilatación.",
+      "hint": "Efecto del sistema parasimpático."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La tráquea se divide en bronquios principales a nivel de T4-T5.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Coincide con el plano transverso del tórax que separa el mediastino superior del inferior.",
+      "hint": "Localización de la carina."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "Los bronquios lobares del pulmón izquierdo son dos.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Uno para el lóbulo superior junto con otro para el inferior.",
+      "hint": "Sigue el número de lóbulos izquierdos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La hematosis es el proceso de intercambio de gases en los tejidos.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "La hematosis ocurre exclusivamente en los alvéolos pulmonares; por el contrario, el intercambio tisular se llama respiración interna.",
+      "hint": "Oxigenación de la sangre."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El diafragma es el principal músculo de la inspiración tranquila.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Su contracción aumenta el diámetro vertical del tórax; consecuentemente, genera la mayor parte del cambio de volumen.",
+      "hint": "Motor de la respiración."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La pleura parietal es insensible al dolor.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Posee inervación somática muy rica; por tanto, es la fuente del dolor punzante en la pleuritis.",
+      "hint": "Capa externa con nervios sensoriales."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria pulmonar derecha es más larga que la izquierda.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Debe cruzar el mediastino por detrás de la aorta ascendente para llegar al hilio derecho.",
+      "hint": "Trayecto horizontal largo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La capacidad vital es la suma del volumen corriente y los volúmenes de reserva.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Representa el máximo volumen movilizable voluntariamente.",
+      "hint": "Aire total exhalable tras esfuerzo máximo."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El seno maxilar drena en el meato medio.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se abre en el hiato semilunar de la pared lateral nasal.",
+      "hint": "Drenaje de los pómulos."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La língula se encuentra en el pulmón derecho.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Es exclusiva del lóbulo superior del pulmón izquierdo.",
+      "hint": "Asociada a la incisura cardiaca."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La barrera aire-sangre incluye el citoplasma de la célula endotelial.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Es la última capa que el oxígeno debe atravesar para entrar en la sangre.",
+      "hint": "Revestimiento del capilar."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El surfactante disminuye la estabilidad de los alvéolos pequeños.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Al contrario, el surfactante iguala presiones entre alvéolos de distinto tamaño; por consiguiente, evita que los pequeños se vacíen en los grandes.",
+      "hint": "Previene el colapso diferencial."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El volumen residual aumenta con la edad.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La pérdida de elasticidad pulmonar facilita el atrapamiento aéreo; por tanto, queda más aire atrapado al final de la espiración.",
+      "hint": "Consecuencia del envejecimiento pulmonar."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La espiración forzada es mediada por los músculos rectos del abdomen.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Aumentan la presión intraabdominal empujando el diafragma hacia arriba con fuerza.",
+      "hint": "Músculos de la exhalación activa."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La PCO2 alveolar es de 40 mmHg en condiciones normales.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Se equilibra casi instantáneamente con la PCO2 de la sangre arterial.",
+      "hint": "Valor estándar del gas alveolar."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El centro neumotáxico aumenta la profundidad de la respiración.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Su función es limitar la inspiración; por consiguiente, reduce la profundidad además de aumentar la frecuencia.",
+      "hint": "Interruptor de apagado inspiratorio."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La arteria laríngea superior es rama de la carótida externa.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Suele nacer de la arteria tiroidea superior junto con el nervio laríngeo interno.",
+      "hint": "Fuente sanguínea de la laringe superior."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La cavidad nasal está separada de la cavidad oral por el paladar.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Formado por los huesos maxilar y palatino junto con el velo muscular posterior.",
+      "hint": "Techo de la boca."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El pulmón derecho tiene dos venas pulmonares de salida.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Aunque hay tres lóbulos, las venas de los lóbulos superior junto con el medio suelen unirse antes del hilio.",
+      "hint": "Número estándar de venas hiliares."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "La compliance disminuye si se elimina el surfactante.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "La alta tensión superficial hace que el pulmón sea rígido además de difícil de inflar.",
+      "hint": "Relación surfactante-distensibilidad."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El espacio muerto anatómico incluye los bronquiolos respiratorios.",
+      "opts": ["Verdadero", "Falso"],
+      "ans": 1,
+      "just": "Los bronquiolos respiratorios ya realizan intercambio; por consiguiente, forman parte de la zona respiratoria.",
+      "hint": "Definición de zona de intercambio."
+    },
+    {
+      "cat": "respiratorio",
+      "q": "El principal estímulo para la respiración en reposo es el pH del LCR.",
+      "opts": ["Falso", "Verdadero"],
+      "ans": 1,
+      "just": "Refleja los niveles de CO2 arterial que difunden al cerebro; por lo tanto, controla el ritmo basal.",
+      "hint": "Control por quimiorreceptores centrales."
     }
   ]
 }
