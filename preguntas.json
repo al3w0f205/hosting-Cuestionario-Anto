@@ -1434,6 +1434,580 @@
       "ans": 0,
       "just": "Su morfología estrecha la predispone a la formación de trombos en la fibrilación auricular, siendo el sitio más frecuente de trombosis auricular izquierda.",
       "hint": "Es el sitio de origen del 90% de los trombos en fibrilación auricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿En qué porcentaje de corazones surge la rama conal derecha directamente del seno aórtico de forma independiente?",
+      "opts": [
+        "33%",
+        "10%",
+        "60%",
+        "50%"
+      ],
+      "ans": 0,
+      "just": "En el tercio restante surge como primera rama de la ACD. Esta variación tiene importancia quirúrgica durante la cirugía coronaria.",
+      "hint": "Es aproximadamente un tercio de los corazones."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria del nódulo sinoauricular proviene de la coronaria derecha en:",
+      "opts": [
+        "60% de los casos",
+        "100% de los casos",
+        "40% de los casos",
+        "50% de los casos"
+      ],
+      "ans": 0,
+      "just": "En el 40% restante, esta arteria proviene de la arteria circunfleja izquierda, lo que explica las variaciones en la presentación del infarto.",
+      "hint": "La mayoría proviene de la coronaria derecha, pero no es absoluto."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué arteria establece la dominancia coronaria derecha y en qué porcentaje de personas ocurre?",
+      "opts": [
+        "La arteria interventricular posterior (descendente posterior), en el 60%",
+        "La arteria circunfleja, en el 40%",
+        "La arteria marginal derecha, en el 75%",
+        "La arteria DA, en el 30%"
+      ],
+      "ans": 0,
+      "just": "Cuando la descendente posterior proviene de la ACD, se habla de dominancia derecha. Si proviene de la circunfleja, es dominancia izquierda.",
+      "hint": "La dominancia se define por el origen de la arteria que irriga la cara inferior del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La arteria interventricular anterior (DA) irriga:",
+      "opts": [
+        "Los 2/3 anteriores del tabique interventricular, pared anterior de ambos ventrículos y el haz de His",
+        "Solo la pared anterior del ventrículo izquierdo",
+        "El 1/3 posterior del tabique y la cara inferior",
+        "La aurícula izquierda y la pared lateral del VI"
+      ],
+      "ans": 0,
+      "just": "La DA es la coronaria más frecuentemente afectada en el infarto; su oclusión produce el llamado infarto anterior extenso.",
+      "hint": "Se la llama 'la arteria del widow maker' por su importancia clínica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué porcentaje de la aurícula izquierda está irrigado principalmente por la arteria coronaria izquierda?",
+      "opts": [
+        "62%",
+        "27%",
+        "50%",
+        "11%"
+      ],
+      "ans": 0,
+      "just": "El 27% restante proviene de la coronaria derecha; el 11% recibe irrigación casi equitativa de ambas.",
+      "hint": "La mayoría de la AI depende de la coronaria izquierda."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cómo se forma anatómicamente el seno coronario?",
+      "opts": [
+        "Por la unión de la gran vena cardíaca y la vena oblicua de la aurícula izquierda",
+        "Por la unión de la vena cardíaca media y la pequeña",
+        "Por la confluencia de todas las venas cardíacas anteriores",
+        "Por la apertura directa de las venas de Tebesio"
+      ],
+      "ans": 0,
+      "just": "Esta unión marca el inicio formal del seno coronario como estructura venosa colectora principal del corazón.",
+      "hint": "Involucra la vena cardíaca mayor y la vena oblicua."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué drena la vena cardíaca media?",
+      "opts": [
+        "La cara inferior del corazón y el tabique posterior",
+        "El tabique anterior y ambos ventrículos",
+        "La aurícula y el ventrículo derechos",
+        "La cara diafragmática del ventrículo izquierdo"
+      ],
+      "ans": 0,
+      "just": "Su correlación clínica es importante porque la cara inferior es el territorio irrigado principalmente por la coronaria derecha.",
+      "hint": "La cara inferior corresponde al territorio de la ACD."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las venas cardíacas mínimas (de Tebesio) tienen la particularidad de:",
+      "opts": [
+        "Drenar el miocardio subendocárdico directamente en las cuatro cámaras",
+        "Ser tributarias exclusivamente del seno coronario",
+        "Drenar solo en el ventrículo derecho",
+        "Comunicarse con el sistema venoso sistémico a través de la vena ácigos"
+      ],
+      "ans": 0,
+      "just": "Al drenar en las cuatro cámaras, crean un pequeño cortocircuito fisiológico que contribuye a la desaturación de la sangre arterial.",
+      "hint": "Son las venas más pequeñas; drenan en cualquier cámara."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Dónde se localiza el seno coronario dentro del corazón?",
+      "opts": [
+        "En el surco auriculoventricular posterior, entre la VCI y la válvula tricúspide",
+        "En el surco interventricular anterior",
+        "En el surco terminal de la aurícula derecha",
+        "En la pared libre del ventrículo izquierdo"
+      ],
+      "ans": 0,
+      "just": "Su localización posterior facilita su canulación en la cirugía cardíaca y es punto de referencia en el triángulo de Koch.",
+      "hint": "Está en la cara posterior, entre dos estructuras del lado derecho."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la distribución normal del volumen sanguíneo total entre los compartimentos?",
+      "opts": [
+        "85% circulación sistémica, 10% pulmonar, 5% cavidades cardíacas",
+        "50% sistémica, 40% pulmonar, 10% cardíacas",
+        "70% sistémica, 20% pulmonar, 10% cardíacas",
+        "90% sistémica, 5% pulmonar, 5% cardíacas"
+      ],
+      "ans": 0,
+      "just": "La mayor parte de la sangre está en la circulación sistémica, y de esa fracción, las tres cuartas partes se encuentran en las venas sistémicas.",
+      "hint": "El 85% es la cifra clave para la sistémica."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Por qué las venas sistémicas se consideran el principal reservorio de volumen sanguíneo?",
+      "opts": [
+        "Porque contienen el 75% del volumen sanguíneo sistémico, siendo altamente distensibles",
+        "Porque tienen la presión más alta del sistema",
+        "Porque sus paredes generan tensión activa constante",
+        "Porque contienen fibras elásticas más desarrolladas que las arterias"
+      ],
+      "ans": 0,
+      "just": "Su alta distensibilidad les permite almacenar grandes volúmenes con mínima variación de presión, siendo cruciales en situaciones de hipovolemia.",
+      "hint": "Busca la relación entre distensibilidad y reservorio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué tipo de capilar se encuentra en el hígado, el bazo y la médula ósea?",
+      "opts": [
+        "Sinusoides",
+        "Fenestrados",
+        "Continuos",
+        "Todos los tipos anteriores"
+      ],
+      "ans": 0,
+      "just": "Los sinusoides tienen lámina basal discontinua y grandes poros que permiten el paso de macromoléculas y células sanguíneas.",
+      "hint": "Son los más permeables de todos los tipos capilares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los capilares fenestrados se encuentran principalmente en:",
+      "opts": [
+        "Lámina propia del tubo digestivo, riñones y glándulas endocrinas",
+        "Tejido muscular y encéfalo",
+        "Hígado, bazo y médula ósea",
+        "Solo en el tejido pulmonar"
+      ],
+      "ans": 0,
+      "just": "Sus fenestraciones facilitan el intercambio de hormonas, nutrientes y filtrado en órganos con alta actividad secretora o filtradora.",
+      "hint": "Son frecuentes en órganos que requieren filtración activa."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Los receptores β2-adrenérgicos en las arteriolas del músculo esquelético producen:",
+      "opts": [
+        "Vasodilatación, disminuyendo la resistencia al flujo",
+        "Vasoconstricción, aumentando la resistencia",
+        "Ningún efecto sobre el diámetro arteriolar",
+        "El mismo efecto que los receptores α1"
+      ],
+      "ans": 0,
+      "just": "Durante el ejercicio, la activación de β2 en el músculo esquelético dirige el flujo hacia los tejidos con mayor demanda metabólica.",
+      "hint": "El efecto β2 es opuesto al α1."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El volumen de sangre contenido en las arterias se denomina:",
+      "opts": [
+        "Volumen a tensión",
+        "Volumen sin tensión",
+        "Volumen telediastólico",
+        "Volumen de reserva"
+      ],
+      "ans": 0,
+      "just": "A diferencia de las venas donde la sangre se almacena con baja presión, en las arterias la sangre genera tensión activa sobre sus paredes.",
+      "hint": "Contrasta con el volumen venoso, llamado 'sin tensión'."
+    },
+    {
+      "cat": "calculo",
+      "q": "La fórmula Q = ΔP/R se utiliza para calcular:",
+      "opts": [
+        "El flujo sanguíneo en función del gradiente de presión y la resistencia",
+        "La velocidad del flujo en función del área de sección transversal",
+        "La distensibilidad en función del volumen y la presión",
+        "La resistencia en función de la viscosidad y el radio"
+      ],
+      "ans": 0,
+      "just": "Esta relación es análoga a la Ley de Ohm eléctrica y es la base para entender la hemodinámica de cualquier segmento vascular.",
+      "hint": "Es la equivalencia hemodinámica de la Ley de Ohm."
+    },
+    {
+      "cat": "calculo",
+      "q": "Según la Ley de Poiseuille, la resistencia vascular es inversamente proporcional a:",
+      "opts": [
+        "La cuarta potencia del radio (r⁴)",
+        "El cuadrado del radio (r²)",
+        "El radio elevado a la primera potencia",
+        "La longitud del vaso"
+      ],
+      "ans": 0,
+      "just": "Esta relación explica por qué pequeñas variaciones en el calibro arteriolar tienen un impacto enorme sobre la resistencia vascular periférica.",
+      "hint": "La resistencia cambia de forma exponencial con el radio."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuándo el Número de Reynolds predice SIEMPRE flujo turbulento?",
+      "opts": [
+        "Cuando NR > 3000",
+        "Cuando NR > 2000",
+        "Cuando NR < 2000",
+        "Cuando NR está entre 1500 y 2000"
+      ],
+      "ans": 0,
+      "just": "Entre 2000 y 3000 aumenta la probabilidad de turbulencia, pero la certeza absoluta solo se alcanza por encima de 3000.",
+      "hint": "Recuerda los tres umbrales: <2000 laminar, >2000 probable turbulencia, >3000 turbulencia segura."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué tipo de vaso tiene la mayor distensibilidad (capacitancia) según la curva volumen-presión?",
+      "opts": [
+        "Venas",
+        "Arterias jóvenes",
+        "Arterias envejecidas",
+        "Arteriolas"
+      ],
+      "ans": 0,
+      "just": "La curva C-máxima corresponde a las venas; con el envejecimiento arterial la distensibilidad disminuye progresivamente por fibrosis de la pared.",
+      "hint": "La curva más pronunciada en el gráfico volumen-presión pertenece a las venas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Durante la Fase 0 del potencial de acción ventricular, el potencial de membrana alcanza aproximadamente:",
+      "opts": [
+        "+20 mV",
+        "−85 mV",
+        "0 mV",
+        "+65 mV"
+      ],
+      "ans": 0,
+      "just": "Aunque el potencial de equilibrio del Na⁺ es +65 mV, las puertas de inactivación se cierran antes de alcanzarlo, limitando el ascenso a +20 mV.",
+      "hint": "No llega al potencial de equilibrio del sodio porque las puertas de inactivación se cierran."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué son los canales de Ca²⁺ tipo L y cuál es su relevancia en la Fase 2?",
+      "opts": [
+        "Canales de calcio de lenta apertura que generan la meseta del PA; son inhibidos por nifedipino y verapamilo",
+        "Canales de sodio rápidos que inician la fase 0",
+        "Canales de potasio que causan la repolarización",
+        "Canales que se activan solo en el nódulo SA"
+      ],
+      "ans": 0,
+      "just": "Su apertura genera la corriente de entrada lenta de Ca²⁺, produciendo la meseta que distingue el PA cardíaco del muscular esquelético.",
+      "hint": "Los antagonistas del calcio como nifedipino y verapamilo los bloquean."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué ocurre durante la Fase 1 (repolarización inicial) del potencial de acción ventricular?",
+      "opts": [
+        "Los canales de Na⁺ se cierran y hay salida de K⁺ por gradiente electroquímico",
+        "Entra masivamente Ca²⁺ por canales tipo L",
+        "El potencial llega a su valor más negativo de reposo",
+        "Se activan los canales If de sodio"
+      ],
+      "ans": 0,
+      "just": "La salida de K⁺ aprovecha el gradiente electroquímico intenso para generar la corriente de salida neta que inicia la repolarización.",
+      "hint": "Es la transición entre la fase ascendente y la meseta."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La duración del potencial de acción en las fibras de Purkinje es:",
+      "opts": [
+        "300 ms",
+        "250 ms",
+        "150 ms",
+        "100 ms"
+      ],
+      "ans": 0,
+      "just": "Las fibras de Purkinje tienen el PA más largo de todo el corazón, lo que determina también el periodo refractario más prolongado.",
+      "hint": "Es el mayor de los tres tejidos: aurículas 150 ms, ventrículos 250 ms, Purkinje 300 ms."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué fases NO están presentes en el potencial de acción del nódulo sinoauricular?",
+      "opts": [
+        "Fases 1 y 2",
+        "Fases 0 y 3",
+        "Fases 3 y 4",
+        "Solo la Fase 4"
+      ],
+      "ans": 0,
+      "just": "Sin meseta ni repolarización inicial marcadas, el nódulo SA tiene un PA más simple: ascenso (0), repolarización (3) y despolarización espontánea (4).",
+      "hint": "El nódulo SA carece de la meseta y la repolarización inicial característica de las células ventriculares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El potencial diastólico máximo del nódulo sinoauricular es aproximadamente:",
+      "opts": [
+        "−65 mV",
+        "−85 mV",
+        "−100 mV",
+        "0 mV"
+      ],
+      "ans": 0,
+      "just": "Este valor menos negativo que el de los ventrículos (−85 mV) explica por qué el nódulo SA es más susceptible a las corrientes de entrada que inician la despolarización espontánea.",
+      "hint": "Es menos negativo que el potencial de reposo ventricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la velocidad de conducción en el nódulo auriculoventricular?",
+      "opts": [
+        "0.01 a 0.05 m/s",
+        "2 a 4 m/s",
+        "1 m/s",
+        "0.5 m/s"
+      ],
+      "ans": 0,
+      "just": "Esta lentitud es fisiológica: el retraso en el nódulo AV garantiza que las aurículas terminen de contraerse antes de que los ventrículos sean activados.",
+      "hint": "Es la más lenta de todo el sistema de conducción."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la frecuencia de descarga intrínseca del nódulo auriculoventricular?",
+      "opts": [
+        "40 a 60 impulsos/min",
+        "70 a 80 impulsos/min",
+        "15 a 20 impulsos/min",
+        "40 impulsos/min"
+      ],
+      "ans": 0,
+      "just": "Al ser inferior a la del nódulo SA (70-80), queda suprimida en condiciones normales; se activa como marcapasos ectópico en bloqueo SA.",
+      "hint": "Está entre la frecuencia del SA y la del haz de His."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la frecuencia intrínseca de las fibras de Purkinje?",
+      "opts": [
+        "15 a 20 impulsos/min",
+        "40 a 60 impulsos/min",
+        "70 a 80 impulsos/min",
+        "40 impulsos/min"
+      ],
+      "ans": 0,
+      "just": "Es la frecuencia más baja del sistema de conducción; si actúa como marcapasos ectópico produce una bradicardia severa denominada ritmo idioventricular.",
+      "hint": "Es el marcapasos de rescate más lento y distal."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La velocidad de conducción del potencial de acción cardíaco depende principalmente de:",
+      "opts": [
+        "La magnitud de la corriente de entrada durante la fase ascendente (dV/dT)",
+        "La duración del potencial de acción",
+        "La longitud del vaso coronario",
+        "La concentración de calcio extracelular"
+      ],
+      "ans": 0,
+      "just": "Un ascenso más rápido (mayor dV/dT) genera corrientes locales más intensas que despolaricen las células adyacentes con mayor rapidez.",
+      "hint": "La velocidad de conducción NO depende de la duración del PA."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la fase ascendente (Fase 0) del potencial de acción en el nódulo SA, a diferencia del ventrículo?",
+      "opts": [
+        "En el SA la depende de canales de Ca²⁺ tipo L y T; en el ventrículo depende de canales de Na⁺ rápidos",
+        "En el SA y el ventrículo la Fase 0 depende igualmente de Na⁺",
+        "En el SA la Fase 0 depende de K⁺; en el ventrículo de Ca²⁺",
+        "Ambos usan Ca²⁺ exclusivamente"
+      ],
+      "ans": 0,
+      "just": "Esta diferencia es la razón por la que los bloqueadores de canales de calcio afectan principalmente el nódulo SA, mientras que los anestésicos locales afectan más al ventrículo.",
+      "hint": "El nódulo SA carece de los canales de Na⁺ rápidos que tienen los ventrículos."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La secuencia completa del mecanismo simpático β1 sobre la contractilidad cardíaca es:",
+      "opts": [
+        "β1 → Gs → adenilil ciclasa → ↑AMPc → PKA → fosforila canales Ca²⁺ y fosfolambano → ↑Ca²⁺ intracelular",
+        "β1 → Gi → ↓AMPc → ↓PKA → ↓Ca²⁺",
+        "β1 → inhibición Na/K ATPasa → ↑Na⁺ → ↑Ca²⁺ vía NCX",
+        "β1 → apertura IK-ACh → hiperpolarización"
+      ],
+      "ans": 0,
+      "just": "La activación de PKA es el nodo central: fosforila los canales de Ca²⁺ sarcolémicos y el fosfolambano del retículo sarcoplásmico, amplificando el transiente de calcio.",
+      "hint": "La proteína G estimulante (Gs) es la clave que diferencia la vía simpática de la parasimpática."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es el efecto del sistema parasimpático sobre el potencial de acción a través de la corriente IK-ACh?",
+      "opts": [
+        "Abre canales de K⁺, acorta el PA y reduce la entrada de Ca²⁺ durante la meseta",
+        "Bloquea canales de Na⁺ rápidos, prolongando el PA",
+        "Activa adenilil ciclasa, aumentando el AMPc",
+        "Inhibe la Na/K ATPasa como la digoxina"
+      ],
+      "ans": 0,
+      "just": "La apertura de IK-ACh hiperpolariza la membrana y acorta el PA, reduciendo el tiempo de apertura de los canales de Ca²⁺ tipo L durante la meseta.",
+      "hint": "La corriente IK-ACh es específica de la estimulación muscarínica M2."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuál es la secuencia de pasos por la que la digoxina aumenta el calcio intracelular?",
+      "opts": [
+        "Inhibe Na/K ATPasa → ↑Na⁺ intracelular → ↓gradiente Na⁺ → ↓actividad NCX → ↓salida Ca²⁺ → ↑Ca²⁺",
+        "Bloquea canales Ca²⁺ tipo L → ↑Na⁺ → ↑Ca²⁺ vía NCX",
+        "Activa receptores β1 → ↑AMPc → ↑Ca²⁺",
+        "Inhibe la fosfodiesterasa → ↑AMPc → ↑Ca²⁺"
+      ],
+      "ans": 0,
+      "just": "El intercambiador Na⁺/Ca²⁺ (NCX) normalmente expulsa Ca²⁺ usando el gradiente de Na⁺; al perder ese gradiente, el Ca²⁺ se acumula en la célula.",
+      "hint": "La clave es el NCX: menos Na⁺ afuera significa menos Ca²⁺ exportado."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Mayor frecuencia cardíaca produce mayor contractilidad porque:",
+      "opts": [
+        "El inotropismo y el cronotropismo son directamente proporcionales (efecto escalera positivo)",
+        "El inotropismo y el cronotropismo son inversamente proporcionales",
+        "Una mayor FC genera menos Ca²⁺ intracelular",
+        "El efecto es neutro sobre la contractilidad"
+      ],
+      "ans": 0,
+      "just": "El efecto escalera de Bowditch (treppe) demuestra que con cada latido adicional se acumula más Ca²⁺ intracelular, aumentando progresivamente la fuerza.",
+      "hint": "Se denomina 'efecto escalera positivo' o fenómeno de Bowditch."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué evento ocurre durante la Eyección Ventricular Reducida (Fase D del ciclo)?",
+      "opts": [
+        "Los ventrículos expulsan sangre más lentamente; la presión aórtica empieza a declinar y el volumen ventricular alcanza su mínimo",
+        "Las aurículas se contraen; la presión ventricular aumenta bruscamente",
+        "Todas las válvulas están cerradas y el volumen ventricular no cambia",
+        "La válvula mitral se abre y el ventrículo se llena pasivamente"
+      ],
+      "ans": 0,
+      "just": "En esta fase se completa la eyección; la onda T del EKG coincide con este momento, señalando el inicio de la repolarización ventricular.",
+      "hint": "Es la fase posterior a la eyección rápida, justo antes del cierre de las válvulas semilunares."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El cuarto ruido cardíaco (R4) se asocia con:",
+      "opts": [
+        "La sístole auricular que ocurre contra un ventrículo rígido o poco distensible",
+        "El llenado ventricular rápido en personas jóvenes",
+        "El cierre de las válvulas semilunares",
+        "La apertura súbita de una válvula mitral estenótica"
+      ],
+      "ans": 0,
+      "just": "El R4 se produce cuando la aurícula se contrae enérgicamente para vencer la rigidez ventricular, como ocurre en la hipertrofia ventricular izquierda.",
+      "hint": "Ocurre al final de la diástole, justo antes de la sístole ventricular."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "Las presiones normales en el sistema circulatorio muestran que la presión media en las arteriolas es:",
+      "opts": [
+        "50 mmHg",
+        "100 mmHg",
+        "20 mmHg",
+        "4 mmHg"
+      ],
+      "ans": 0,
+      "just": "La caída de presión de 100 mmHg (aorta) a 20 mmHg (capilares) ocurre principalmente en las arteriolas, confirmando que son el principal sitio de resistencia.",
+      "hint": "El gradiente mayor de presión ocurre exactamente en las arteriolas."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "La presión en la aurícula izquierda en condiciones normales es:",
+      "opts": [
+        "2 a 5 mmHg",
+        "0 a 2 mmHg",
+        "8 mmHg",
+        "15 a 25 mmHg"
+      ],
+      "ans": 0,
+      "just": "Esta presión ligeramente mayor que la de la aurícula derecha (0-2 mmHg) refleja el mayor retorno de sangre oxigenada por las venas pulmonares.",
+      "hint": "Es mayor que la AD pero menor que en cualquier arteria."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Qué se entiende por precarga en fisiología cardíaca?",
+      "opts": [
+        "El retorno venoso; la sangre disponible en las cavidades al inicio de la diástole",
+        "La resistencia vascular periférica que el ventrículo debe vencer",
+        "La presión generada durante la contracción isovolumétrica",
+        "El volumen de sangre expulsado en cada sístole"
+      ],
+      "ans": 0,
+      "just": "La precarga determina el grado de estiramiento de las fibras miocárdicas antes de contraerse, siendo la variable de entrada principal de la relación Frank-Starling.",
+      "hint": "Viene del retorno venoso; es el 'relleno' del corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cómo describe la Ley de Laplace la tensión en la pared ventricular? (Formulación P = 2HT/r)",
+      "opts": [
+        "Presión = (2 × Grosor × Tensión) / Radio; a mayor radio o menor grosor, mayor tensión parietal",
+        "Presión = Radio / (2 × Grosor × Tensión)",
+        "Tensión = Presión × Grosor / Radio",
+        "Presión = Tensión / (Radio × Grosor)"
+      ],
+      "ans": 0,
+      "just": "Esta ley explica por qué la hipertrofia compensa la dilatación: al aumentar el grosor (H), la tensión disminuye, reduciendo el consumo de O₂.",
+      "hint": "Despeja Tensión de la ecuación P = 2HT/r para ver qué factores la aumentan."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "¿Cuáles son los principales factores que aumentan el consumo de oxígeno miocárdico?",
+      "opts": [
+        "Aumento de poscarga, mayor tamaño cardíaco (Laplace), mayor contractilidad y mayor FC",
+        "Solo la frecuencia cardíaca",
+        "Solo la precarga y la contractilidad",
+        "Disminución de la poscarga y aumento de la precarga"
+      ],
+      "ans": 0,
+      "just": "Todos estos factores incrementan el trabajo cardíaco y la demanda energética, siendo la poscarga (presión aórtica) la más determinante en condiciones basales.",
+      "hint": "Piensa en todo lo que hace trabajar más al corazón."
+    },
+    {
+      "cat": "cardiaco",
+      "q": "El trabajo cardíaco del ventrículo izquierdo se define como:",
+      "opts": [
+        "Volumen sistólico × Presión aórtica",
+        "Fracción de eyección × Frecuencia cardíaca",
+        "Gasto cardíaco / Resistencia vascular sistémica",
+        "Presión de pulso × Volumen telediastólico"
+      ],
+      "ans": 0,
+      "just": "Esta es la definición de trabajo externo o stroke work; su aumento implica mayor consumo energético miocárdico.",
+      "hint": "Multiplica la cantidad de sangre eyectada por la presión contra la que se eyecta."
+    },
+    {
+      "cat": "calculo",
+      "q": "Según el Principio de Fick, ¿cómo se calcula el gasto cardíaco?",
+      "opts": [
+        "GC = Consumo de O₂ / ([O₂]vena pulmonar − [O₂]arteria pulmonar)",
+        "GC = VS × FC solamente",
+        "GC = Presión aórtica / RVS",
+        "GC = [O₂]arterial × FC"
+      ],
+      "ans": 0,
+      "just": "El Principio de Fick asume que en estado estacionario el O₂ consumido por los tejidos es igual al O₂ entregado; la diferencia arteriovenosa de O₂ refleja la extracción tisular.",
+      "hint": "Relaciona el consumo de oxígeno con la diferencia arteriovenosa de contenido de O₂."
+    },
+    {
+      "cat": "calculo",
+      "q": "El gasto cardíaco normal en un hombre de 70 kg es aproximadamente:",
+      "opts": [
+        "5000 ml/min (VS 70 ml × FC 72 lpm)",
+        "2000 ml/min",
+        "8000 ml/min",
+        "3500 ml/min"
+      ],
+      "ans": 0,
+      "just": "Este valor de referencia se utiliza para calcular el índice cardíaco (GC / superficie corporal), cuyo valor normal es 2.5 a 4 L/min/m².",
+      "hint": "Multiplica el volumen sistólico normal por la frecuencia en reposo."
     }
+
+
   ]
 }
