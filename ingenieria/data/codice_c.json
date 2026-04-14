@@ -1,0 +1,19 @@
+{
+  "lecciones": [
+    {
+      "id": "intro_compilacion",
+      "titulo": "El Ciclo de Vida del Ejecutable",
+      "concepto": "Comprender la transformación del texto plano en instrucciones de máquina resulta fundamental para dominar el hardware. El proceso inicia con el preprocesador encargado de expandir macros además de incluir bibliotecas estándar. Posteriormente el compilador traduce esta estructura sintáctica hacia código ensamblador puro. Luego el ensamblador convierte las instrucciones mnemotécnicas en código objeto binario. Finalmente el enlazador une todos los módulos compilados junto con las bibliotecas externas para forjar un único archivo ejecutable. Controlar este flujo directamente desde una terminal otorga un poder absoluto sobre la optimización del software."
+    },
+    {
+      "id": "memoria_pila_monticulo",
+      "titulo": "Arquitectura de la Memoria",
+      "concepto": "La gestión de memoria constituye el núcleo del rendimiento óptimo. El sistema operativo divide el espacio asignado en dos regiones operativas. La pila administra las variables locales mediante un sistema estricto de último en entrar primero en salir garantizando una asignación extremadamente rápida controlada por el propio alcance de las funciones. Por el contrario el montículo provee un área expansiva para la memoria dinámica reservada explícitamente durante la ejecución. Dominar esta dualidad permite construir infraestructuras robustas evitando fugas catastróficas."
+    },
+    {
+      "id": "anatomia_punteros",
+      "titulo": "Coordenadas Físicas Punteros",
+      "concepto": "Los punteros actúan como coordenadas directas hacia la memoria física permitiendo manipular estructuras complejas sin la penalización de duplicar información en cada llamada. Al almacenar la dirección hexadecimal exacta de una variable un puntero habilita la mutación de datos desde cualquier contexto del programa. Esta mecánica resulta imperativa para transitar arreglos interactuar con el sistema operativo además de construir arquitecturas de datos dinámicas desde cero."
+    }
+  ]
+}

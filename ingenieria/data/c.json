@@ -1,0 +1,404 @@
+{
+  "preguntas": [
+    {
+      "q": "¿Cuál es la directiva del preprocesador utilizada para incluir la biblioteca estándar de entrada salida en un programa C?",
+      "opts": ["#include <stdio.h>", "#include \"stdio.h\"", "#import <stdio.h>", "import stdio", "#define stdio.h"],
+      "ans": 0,
+      "cat": "sintaxis",
+      "hint": "Es la biblioteca fundamental para usar printf.",
+      "just": "La directiva #include seguida de corchetes angulares indica al compilador que busque el archivo de cabecera en los directorios estándar del sistema."
+    },
+    {
+      "q": "¿Qué operador se emplea para obtener la dirección de memoria de una variable?",
+      "opts": ["*", "&", "->", ".", "@"],
+      "ans": 1,
+      "cat": "punteros",
+      "hint": "Se conoce comúnmente como ampersand.",
+      "just": "El operador & extrae la dirección física de la variable en la memoria RAM."
+    },
+    {
+      "q": "¿Cuál es el tamaño mínimo garantizado por el estándar de C para el tipo de dato int?",
+      "opts": ["8 bits", "16 bits", "32 bits", "64 bits", "Depende completamente del compilador"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Históricamente estaba ligado a las arquitecturas de 16 bits.",
+      "just": "El estándar ISO C especifica que un int debe tener al menos 16 bits, aunque en sistemas modernos suele ser de 32 bits."
+    },
+    {
+      "q": "¿Qué función de la biblioteca estándar se utiliza para asignar un bloque de memoria inicializado con ceros?",
+      "opts": ["malloc", "calloc", "realloc", "free", "alloc"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Su nombre hace referencia a asignación contigua.",
+      "just": "A diferencia de malloc, calloc inicializa todos los bits del bloque de memoria asignado a cero."
+    },
+    {
+      "q": "¿Qué indica el operador de indirección asterisco aplicado a un puntero?",
+      "opts": ["Multiplica el valor del puntero", "Declara una variable global", "Accede al valor almacenado en la dirección que guarda el puntero", "Libera la memoria del puntero", "Incrementa la dirección de memoria"],
+      "ans": 2,
+      "cat": "punteros",
+      "hint": "Permite ver el contenido real de la memoria.",
+      "just": "La desreferenciación permite leer o modificar el dato ubicado en la dirección de memoria apuntada."
+    },
+    {
+      "q": "¿Cómo se define correctamente una constante preprocesador que represente el número pi?",
+      "opts": ["const float PI = 3.1416;", "#define PI 3.1416", "define PI = 3.1416;", "constant PI 3.1416", "macro PI 3.1416"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "No requiere punto coma al final.",
+      "just": "La directiva #define realiza un reemplazo de texto antes de la compilación propiamente dicha."
+    },
+    {
+      "q": "¿Qué ocurre si se intenta acceder a un índice fuera de los límites de un arreglo en C?",
+      "opts": ["El compilador lanza un error de sintaxis", "El programa termina con una excepción de Java", "Comportamiento indefinido", "El arreglo se expande automáticamente", "Se retorna un valor nulo"],
+      "ans": 2,
+      "cat": "estructuras",
+      "hint": "C no realiza verificación de límites en tiempo de ejecución.",
+      "just": "El acceso fuera de límites provoca comportamiento indefinido, pudiendo causar fallos de segmentación o corrupción de datos."
+    },
+    {
+      "q": "¿Cuál es la función del operador sizeof?",
+      "opts": ["Retorna la longitud de una cadena de texto", "Calcula el tamaño en bytes de un tipo de dato variable", "Mide el tiempo de ejecución", "Cuenta los elementos de una lista enlazada", "Verifica la capacidad del disco duro"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Opera en tiempo de compilación para la mayoría de los tipos.",
+      "just": "Es un operador unario que evalúa el tamaño de almacenamiento requerido por su operando."
+    },
+    {
+      "q": "¿Qué significa la palabra reservada static cuando se aplica a una variable local dentro de una función?",
+      "opts": ["La variable no puede ser modificada", "La variable conserva su valor entre llamadas a la función", "La variable es accesible desde otros archivos", "La variable se almacena en registros de CPU", "La variable se elimina al salir de la función"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Cambia la duración del almacenamiento, no su alcance.",
+      "just": "Una variable estática local se inicializa una sola vez, manteniendo su estado a través de múltiples invocaciones de la función."
+    },
+    {
+      "q": "¿Qué operador se utiliza para acceder a los miembros de una estructura a través de un puntero a dicha estructura?",
+      "opts": [".", "::", "->", "&", "*"],
+      "ans": 2,
+      "cat": "estructuras",
+      "hint": "Es un atajo para la desreferenciación seguida del acceso a miembro.",
+      "just": "El operador de flecha es equivalente sintácticamente a (*puntero).miembro."
+    },
+    {
+      "q": "¿Cuál es la firma correcta de la función main para recibir argumentos por línea de comandos?",
+      "opts": ["int main(void)", "int main(int argc, char *argv[])", "void main(string args)", "int main(char argc, int argv)", "main(arguments)"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Requiere un contador de argumentos además de un arreglo de cadenas.",
+      "just": "argc representa la cantidad de argumentos, argv es un arreglo de punteros a caracteres que contiene dichos argumentos."
+    },
+    {
+      "q": "¿Qué especificador de formato se debe emplear en printf para imprimir un número entero sin signo?",
+      "opts": ["%d", "%f", "%u", "%c", "%s"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Proviene de la palabra inglesa unsigned.",
+      "just": "El especificador %u interpreta el dato binario como un entero positivo puro."
+    },
+    {
+      "q": "¿Qué valor retorna la función strcmp si dos cadenas de caracteres son exactamente iguales?",
+      "opts": ["1", "-1", "La longitud de la cadena", "0", "Un puntero nulo"],
+      "ans": 3,
+      "cat": "algoritmos",
+      "hint": "Representa la diferencia matemática entre ambas.",
+      "just": "Retorna 0 para indicar que no existen diferencias lexicográficas entre las cadenas comparadas."
+    },
+    {
+      "q": "¿Qué técnica de manejo de memoria es crucial para evitar fugas de memoria en aplicaciones de larga duración?",
+      "opts": ["Usar solo variables globales", "Llamar a la función free para cada bloque reservado con malloc", "Reiniciar el servidor frecuentemente", "Declarar todas las variables como const", "Evitar el uso de bucles while"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Todo lo que se asigna dinámicamente debe ser liberado explícitamente.",
+      "just": "La función free devuelve el bloque de memoria al montículo del sistema operativo para su reutilización."
+    },
+    {
+      "q": "¿Qué estructura de control es más adecuada para evaluar una variable entera contra múltiples valores constantes específicos?",
+      "opts": ["if else anidados", "while", "for", "switch", "do while"],
+      "ans": 3,
+      "cat": "algoritmos",
+      "hint": "Permite múltiples casos de evaluación directa.",
+      "just": "La estructura switch ofrece una sintaxis optimizada, además de que el compilador suele traducirla a tablas de salto eficientes."
+    },
+    {
+      "q": "¿Cuál es el propósito del calificador const en el parámetro de una función que recibe un puntero?",
+      "opts": ["Evitar que el puntero apunte a otra dirección", "Prevenir la modificación de los datos apuntados dentro de la función", "Hacer que la función se ejecute más rápido", "Permitir apuntar a variables globales", "Cifrar la información del puntero"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Garantiza seguridad de solo lectura.",
+      "just": "Indica al compilador que la función tiene un contrato de no modificar el valor al que apunta el parámetro, previniendo alteraciones accidentales."
+    },
+    {
+      "q": "¿Qué cabecera estándar proporciona funciones matemáticas avanzadas como sin, cos, pow?",
+      "opts": ["<stdlib.h>", "<string.h>", "<math.h>", "<ctype.h>", "<time.h>"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Su nombre indica su naturaleza matemática.",
+      "just": "Esta biblioteca contiene prototipos de funciones matemáticas requeridas para cálculos de punto flotante."
+    },
+    {
+      "q": "¿Cómo se declara correctamente un arreglo bidimensional de enteros de 3 filas además de 4 columnas?",
+      "opts": ["int matriz[4][3];", "int matriz[3,4];", "int matriz[3][4];", "array matriz[3][4] of int;", "int[3][4] matriz;"],
+      "ans": 2,
+      "cat": "estructuras",
+      "hint": "En C, las dimensiones se declaran en corchetes separados, primero filas.",
+      "just": "La sintaxis requiere que cada dimensión esté encerrada en su propio par de corchetes."
+    },
+    {
+      "q": "¿Qué macro se utiliza comúnmente para indicar un puntero que no apunta a ninguna dirección válida de memoria?",
+      "opts": ["VOID", "NONE", "NULL", "EMPTY", "ZERO"],
+      "ans": 2,
+      "cat": "punteros",
+      "hint": "Suele estar definida como 0 o (void*)0.",
+      "just": "NULL es el estándar en C para representar un puntero nulo, asegurando comparaciones seguras de inicialización."
+    },
+    {
+      "q": "¿Qué significa el término puntero salvaje?",
+      "opts": ["Un puntero que apunta a memoria de solo lectura", "Un puntero que no ha sido inicializado", "Un puntero a una función recursiva", "Un puntero utilizado para acceder al hardware", "Un puntero doble"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Apunta a basura en memoria.",
+      "just": "Los punteros no inicializados contienen direcciones arbitrarias, pudiendo causar fallos graves si son desreferenciados."
+    },
+    {
+      "q": "¿Qué sucede al aplicar el operador ++ a un puntero a entero en una arquitectura de 32 bits?",
+      "opts": ["Su dirección física se incrementa en 1 byte", "Su dirección física se incrementa en 4 bytes", "El valor almacenado aumenta en 1", "El puntero se vuelve nulo", "Causa un error de compilación"],
+      "ans": 1,
+      "cat": "punteros",
+      "hint": "La aritmética de punteros depende del tamaño del tipo de dato.",
+      "just": "Incrementar un puntero avanza la dirección de memoria en una cantidad igual a sizeof(tipo), que para un int de 32 bits corresponde a 4 bytes."
+    },
+    {
+      "q": "¿Qué palabra clave se usa para definir un nuevo nombre de tipo basado en uno existente?",
+      "opts": ["struct", "enum", "typedef", "alias", "union"],
+      "ans": 2,
+      "cat": "estructuras",
+      "hint": "Crea sinónimos para facilitar la lectura del código.",
+      "just": "El operador typedef permite abstraer tipos de datos complejos, haciendo el código más legible y mantenible."
+    },
+    {
+      "q": "¿Cuál es la principal diferencia entre una estructura struct y una unión union?",
+      "opts": ["Las uniones no pueden contener arreglos", "En una unión, todos sus miembros comparten el mismo espacio de memoria", "Las estructuras son más rápidas", "Las uniones solo admiten enteros", "Las estructuras requieren menos memoria"],
+      "ans": 1,
+      "cat": "estructuras",
+      "hint": "En una, el tamaño es la suma de sus partes; en la otra, es el tamaño del miembro más grande.",
+      "just": "Una union asigna suficiente memoria para contener únicamente a su miembro de mayor tamaño, sobreescribiendo datos si se accede a miembros distintos secuencialmente."
+    },
+    {
+      "q": "¿Qué tipo de retorno debe tener una función para indicar explícitamente que no devuelve ningún valor?",
+      "opts": ["int", "null", "empty", "void", "none"],
+      "ans": 3,
+      "cat": "sintaxis",
+      "hint": "Significa vacío.",
+      "just": "El tipo void instruye al compilador a descartar cualquier valor de retorno, asegurando que el llamador no intente utilizarlo."
+    },
+    {
+      "q": "¿Qué ocurre si una función declarada en C no especifica un tipo de retorno explícito en compiladores antiguos?",
+      "opts": ["Se asume retorno void", "Genera un error fatal", "Se asume retorno int por defecto", "Retorna un puntero nulo", "Se asume retorno float"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Esta característica fue eliminada en el estándar C99.",
+      "just": "Las versiones originales del lenguaje adoptaban int como tipo de retorno implícito para simplificar la escritura, práctica hoy desaconsejada."
+    },
+    {
+      "q": "¿Cuál es la función principal de la directiva condicional #ifndef?",
+      "opts": ["Incluir bibliotecas dinámicas", "Evitar inclusiones múltiples de un mismo archivo de cabecera", "Optimizar bucles for", "Declarar constantes globales", "Definir macros complejas"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Es parte vital de los guardias de inclusión.",
+      "just": "Verifica si una macro no ha sido definida previamente, permitiendo que el preprocesador omita el código duplicado durante la fase de compilación."
+    },
+    {
+      "q": "¿Qué operador condicional ternario sustituye una evaluación sencilla if else?",
+      "opts": ["? :", "& |", "== !=", ":: ->", "=> :="],
+      "ans": 0,
+      "cat": "algoritmos",
+      "hint": "Evalúa una expresión, devuelve un valor si es verdadera, otro si es falsa.",
+      "just": "El operador ternario proporciona una sintaxis compacta para asignaciones condicionales directas."
+    },
+    {
+      "q": "¿Qué función convierte una cadena de caracteres que representa números a su equivalente en tipo entero?",
+      "opts": ["itoa", "stringToInt", "atoi", "strparse", "parseint"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Perteneciente a stdlib.h, su nombre es un acrónimo de ASCII to integer.",
+      "just": "atoi analiza la cadena proporcionada, descartando espacios iniciales, transformando los dígitos subsiguientes en un valor numérico."
+    },
+    {
+      "q": "¿Qué estructura de datos subyacente implementa el modelo de pila de llamadas a funciones en un programa en ejecución?",
+      "opts": ["Cola", "Heap", "Stack", "Árbol binario", "Grafo"],
+      "ans": 2,
+      "cat": "memoria",
+      "hint": "Opera bajo el principio LIFO (Last In, First Out).",
+      "just": "El stack del sistema administra las variables locales, parámetros de función y direcciones de retorno de forma automática."
+    },
+    {
+      "q": "¿Qué modo de apertura de archivo en fopen permite añadir datos al final del archivo sin borrar el contenido existente?",
+      "opts": ["r", "w", "a", "x", "r+"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Viene de la palabra append.",
+      "just": "El modo a posiciona el puntero de escritura en el final del archivo, garantizando la preservación de los datos anteriores."
+    },
+    {
+      "q": "¿Qué indica el modificador volatile al declarar una variable?",
+      "opts": ["La variable será almacenada en la caché L1", "La variable puede ser modificada por factores externos al programa", "La variable es constante", "La variable es temporal y se borra rápido", "La variable solo existe dentro de un hilo"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Previene optimizaciones agresivas del compilador.",
+      "just": "Informa al compilador que no debe optimizar las lecturas de esa variable, forzando una consulta directa a la memoria cada vez que se requiera su valor."
+    },
+    {
+      "q": "¿Cuál es la complejidad temporal promedio de acceso a un elemento de un arreglo unidimensional usando su índice?",
+      "opts": ["O(log n)", "O(n)", "O(n^2)", "O(1)", "O(n log n)"],
+      "ans": 3,
+      "cat": "algoritmos",
+      "hint": "Es un acceso aritmético directo.",
+      "just": "Dado que las direcciones de memoria son contiguas, el compilador calcula la ubicación exacta instantáneamente mediante la base más el desplazamiento."
+    },
+    {
+      "q": "¿Qué función de la biblioteca string.h se usa para copiar el contenido de una cadena hacia otra?",
+      "opts": ["memcpy", "strcpy", "strcat", "strdup", "copystr"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Requiere que el destino tenga suficiente espacio reservado.",
+      "just": "strcpy copia secuencialmente los caracteres hasta encontrar el terminador nulo, deteniendo ahí la transferencia."
+    },
+    {
+      "q": "¿Qué símbolo representa el terminador de cadena en C?",
+      "opts": ["\\n", "\\t", "\\0", "EOF", "NULL"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Es el carácter nulo del código ASCII.",
+      "just": "Las funciones de manejo de cadenas dependen exclusivamente de este byte nulo para identificar el final del texto válido."
+    },
+    {
+      "q": "¿Qué problema grave de seguridad se produce al usar gets en lugar de fgets para leer cadenas desde consola?",
+      "opts": ["Fuga de memoria", "Desbordamiento de búfer", "Condición de carrera", "Error de segmentación asegurado", "Puntero colgante"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "El problema ocurre cuando la entrada excede el tamaño del arreglo destino.",
+      "just": "gets no verifica límites, permitiendo que la entrada sobrescriba sectores críticos de la memoria adyacente, facilitando vulnerabilidades."
+    },
+    {
+      "q": "¿Cómo se define un puntero genérico que puede almacenar la dirección de cualquier tipo de dato?",
+      "opts": ["generic *p;", "any *p;", "void *p;", "auto *p;", "object *p;"],
+      "ans": 2,
+      "cat": "punteros",
+      "hint": "Requiere un casting explícito antes de ser desreferenciado.",
+      "just": "El puntero void proporciona flexibilidad extrema, siendo el estándar para funciones que manipulan bloques crudos de memoria como malloc."
+    },
+    {
+      "q": "¿Qué técnica de diseño permite que una función se llame a sí misma repetidamente para resolver un problema divisivo?",
+      "opts": ["Iteración", "Encapsulamiento", "Recursividad", "Polimorfismo", "Abstracción"],
+      "ans": 2,
+      "cat": "algoritmos",
+      "hint": "Requiere obligatoriamente un caso base para evitar bucles infinitos.",
+      "just": "La recursividad fragmenta un problema complejo en subproblemas idénticos más pequeños, apilando ejecuciones hasta alcanzar una condición de parada."
+    },
+    {
+      "q": "¿Qué operador lógico bit a bit se emplea para establecer un bit en 1 sin alterar los demás (operación set)?",
+      "opts": ["& (AND)", "^ (XOR)", "~ (NOT)", "| (OR)", "<< (Shift left)"],
+      "ans": 3,
+      "cat": "sintaxis",
+      "hint": "Combina el valor original con una máscara donde el bit deseado es 1.",
+      "just": "El operador OR lógico garantiza que cualquier bit que sea 1 en la máscara se convierta en 1 en el resultado, dejando intactos los ceros."
+    },
+    {
+      "q": "¿Cuál es la función del registro de memoria heap (montículo)?",
+      "opts": ["Almacenar el código fuente compilado", "Gestionar variables globales", "Proveer espacio para asignación dinámica durante la ejecución", "Guardar el contexto de los hilos", "Almacenar constantes"],
+      "ans": 2,
+      "cat": "memoria",
+      "hint": "Es administrado por el programador mediante funciones del sistema.",
+      "just": "El heap es la zona de memoria libre que el sistema operativo cede al programa bajo demanda, requiriendo gestión manual para evitar fugas."
+    },
+    {
+      "q": "¿Qué indica el comando continue dentro de un bucle for?",
+      "opts": ["Termina el programa completo", "Sale del bucle for inmediatamente", "Pausa la ejecución por unos milisegundos", "Detiene la iteración actual, evaluando la siguiente condición", "Vuelve a ejecutar la misma iteración"],
+      "ans": 3,
+      "cat": "algoritmos",
+      "hint": "No interrumpe el ciclo general, solo omite el código restante de esa vuelta.",
+      "just": "Permite saltar casos específicos dentro de un procesamiento masivo, optimizando la lógica sin necesidad de anidar múltiples condicionales."
+    },
+    {
+      "q": "¿Qué ocurre si no se inicializa una variable local automática en C?",
+      "opts": ["Contiene automáticamente cero", "Contiene basura de memoria previa", "Causa un error sintáctico", "Se convierte en constante", "Toma valor nulo absoluto"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "C prefiere rendimiento antes que limpieza automática.",
+      "just": "Para ahorrar ciclos de CPU, el compilador simplemente asigna la dirección de memoria sin borrar su contenido anterior, dejando valores impredecibles."
+    },
+    {
+      "q": "¿Qué cabecera incluye definiciones de tipos enteros con anchos garantizados exactos como int32_t?",
+      "opts": ["<stdlib.h>", "<limits.h>", "<stdint.h>", "<stddef.h>", "<float.h>"],
+      "ans": 2,
+      "cat": "sintaxis",
+      "hint": "Garantiza portabilidad entre diferentes arquitecturas de hardware.",
+      "just": "Esta biblioteca proporciona identificadores unívocos para evitar problemas de compatibilidad causados por tamaños de int variables entre sistemas."
+    },
+    {
+      "q": "¿Qué estructura iterativa garantiza la ejecución de su bloque de código al menos una vez sin importar la condición?",
+      "opts": ["while", "for", "switch", "do while", "if recursivo"],
+      "ans": 3,
+      "cat": "algoritmos",
+      "hint": "La evaluación condicional ocurre al final del ciclo.",
+      "just": "El paradigma do while ejecuta la lógica de negocio primero, evaluando posteriormente si debe repetir el proceso."
+    },
+    {
+      "q": "¿Qué término describe un puntero que retiene la dirección de una variable que ya ha sido liberada o destruida?",
+      "opts": ["Puntero nulo", "Puntero colgante (dangling pointer)", "Puntero inteligente", "Puntero salvaje", "Puntero constante"],
+      "ans": 1,
+      "cat": "memoria",
+      "hint": "Puede causar corrupción severa de datos si se vuelve a escribir en él.",
+      "just": "Este estado peligroso se soluciona estableciendo explícitamente el puntero a NULL inmediatamente después de aplicar la función free."
+    },
+    {
+      "q": "¿Cuál es la sintaxis correcta para declarar un puntero a una función que toma un int y devuelve un float?",
+      "opts": ["float *func(int);", "float (*func)(int);", "float func*(int);", "pointer float func(int);", "func(int) -> float;"],
+      "ans": 1,
+      "cat": "punteros",
+      "hint": "Los paréntesis son críticos para cambiar la precedencia natural del compilador.",
+      "just": "Sin los paréntesis alrededor del identificador, el compilador interpretaría la instrucción como el prototipo de una función que devuelve un puntero a float."
+    },
+    {
+      "q": "¿Qué operación realiza el comando fread() en C?",
+      "opts": ["Lee texto plano formateado", "Lee un bloque binario completo desde un archivo a la memoria", "Lee una sola línea hasta el salto de línea", "Abre un archivo de lectura", "Verifica el tamaño total del archivo"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Opera junto con fwrite para manejo eficiente de grandes estructuras de datos.",
+      "just": "A diferencia de las funciones de texto, fread transfiere bytes crudos, siendo ideal para cargar structs completos o arreglos de manera rápida."
+    },
+    {
+      "q": "¿En qué etapa del proceso de compilación se reemplazan las macros definidas con #define?",
+      "opts": ["Análisis léxico", "Generación de código objeto", "Enlazado (Linking)", "Preprocesamiento", "Optimización final"],
+      "ans": 3,
+      "cat": "sintaxis",
+      "hint": "Ocurre antes de que el código llegue al compilador real.",
+      "just": "El preprocesador de C actúa como un procesador de texto, ejecutando sustituciones literales sin entender de tipos ni lógica."
+    },
+    {
+      "q": "¿Qué función detiene la ejecución de un programa prematuramente, devolviendo el control al sistema operativo?",
+      "opts": ["return 0;", "break;", "exit();", "abort();", "halt();"],
+      "ans": 2,
+      "cat": "algoritmos",
+      "hint": "Se encuentra en stdlib.h y acepta un código de estado entero.",
+      "just": "A diferencia de un simple return en main, exit() puede invocarse desde cualquier profundidad de la pila de llamadas, cerrando archivos de forma segura antes de terminar."
+    },
+    {
+      "q": "¿Qué representa la variable global errno suministrada por errno.h?",
+      "opts": ["Un contador de bucles infinitos", "Un código entero que detalla la naturaleza del último error en llamadas al sistema", "Un puntero al último archivo abierto", "Un indicador de batería restante", "El identificador del proceso en el sistema operativo"],
+      "ans": 1,
+      "cat": "sintaxis",
+      "hint": "Funciones como perror la utilizan para imprimir mensajes inteligibles.",
+      "just": "Cuando funciones estándar fallan devolviendo NULL o -1, setean errno internamente permitiendo al programador diagnosticar el fallo específico."
+    },
+    {
+      "q": "¿Cómo se evita la modificación de un argumento pasado por referencia a una función?",
+      "opts": ["Declarando el parámetro como una macro", "Usando el calificador const antes del tipo de puntero", "Pasando un doble puntero", "Usando la palabra clave static", "No se puede evitar"],
+      "ans": 1,
+      "cat": "punteros",
+      "hint": "Combina eficiencia en paso de datos con seguridad de inmutabilidad.",
+      "just": "Declarar un parámetro como const tipo *puntero permite a la función leer directamente la memoria sin sobrecarga de copias, pero el compilador bloqueará cualquier intento de escritura."
+    }
+  ]
+}

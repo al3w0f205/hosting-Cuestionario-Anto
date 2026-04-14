@@ -159,8 +159,8 @@ details[open].panel-section > summary .toggle-icon { transform: rotate(180deg); 
 input:checked + .slider { background: var(--accent); }
 input:checked + .slider:before { transform: translateX(16px); }
 .tool-label { font-size: 13px; color: var(--text); }
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
-input[type=number] { -moz-appearance: textfield; }
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; appearance: textfield; }
 .action-btn { background: rgba(255,255,255,0.02); border: 1px solid var(--border); color: var(--text); padding: 14px 18px; border-radius: 14px; cursor: pointer; text-align: left; font-size: 14px; transition: all 0.2s; }
 .action-btn i { margin-right: 10px; font-style: normal; }
 .action-btn:hover { background: var(--surface); border-color: var(--accent); }
@@ -282,29 +282,123 @@ input[type=number] { -moz-appearance: textfield; }
 .code-block-wrapper pre { margin: 0; background: transparent !important; }
 .code-block-wrapper pre code.hljs { font-family: 'DM Mono', monospace; font-size: 13px; line-height: 1.75; background: transparent !important; padding: 28px !important; tab-size: 4; }
 
-/* ─── RESPONSIVE ─── */
+/* ─── CODEX AREA ─── */
+.codex-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.codex-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(34, 211, 238, 0.3);
+}
+
+.codex-card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.codex-module-badge {
+    background: rgba(34, 211, 238, 0.08);
+    color: var(--accent2);
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    font-family: 'DM Mono', monospace;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.codex-card-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.codex-card-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    font-weight: 400;
+}
+
+/* ─── OPTIMIZACIÓN RESPONSIVA MEJORADA ─── */
 @media (max-width: 1200px) {
-    .content-wrapper { grid-template-columns: 1fr; grid-template-areas: "sidebar" "main"; padding: 30px; gap: 30px; }
+    .content-wrapper { 
+        grid-template-columns: 1fr; 
+        grid-template-areas: "sidebar" "main"; 
+        padding: 30px; 
+        gap: 30px; 
+    }
     .nav-container { padding: 0 25px; }
     .nav-progress { display: none; }
-    .control-panel { position: relative; top: 0; max-height: none; padding-right: 0; }
+    .control-panel { 
+        position: relative; 
+        top: 0; 
+        max-height: none; 
+        padding-right: 0; 
+        margin-bottom: 20px; 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+        gap: 20px; 
+        background: var(--surface); 
+        padding: 25px; 
+        border-radius: 20px; 
+        border: 1px solid var(--border); 
+    }
+    .panel-section { margin-bottom: 0; }
 }
+
 @media (max-width: 768px) {
-    .navbar { height: auto; padding: 15px 0; }
-    .nav-container { flex-wrap: wrap; gap: 12px; align-items: center; padding: 15px 20px; justify-content: center; }
-    .nav-brand { flex: 1; }
-    .back-btn { order: -1; }
-    .content-wrapper { padding: 16px; gap: 24px; }
-    .q-card { padding: 20px; border-radius: 16px; }
-    .q-text { font-size: 16px; }
-    .option-btn { padding: 13px 16px; font-size: 14px; }
-    .summary { padding: 30px 20px; border-radius: 24px; }
-    .summary-grid { grid-template-columns: 1fr; gap: 12px; }
-    .btn-primary, .btn-secondary { width: 100%; margin: 6px 0 0 0; padding: 16px; }
-    .filter-grid { grid-template-columns: repeat(3,1fr); }
+    .navbar { height: auto; padding: 12px 0; }
+    .nav-container { flex-direction: column; gap: 12px; align-items: stretch; padding: 0 15px; }
+    .nav-brand { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+    .back-btn { order: 0; padding: 8px 12px; }
     .mode-tabs { width: 100%; justify-content: center; }
+    .nav-stats { gap: 10px; width: 100%; justify-content: center; flex-wrap: wrap; margin-top: 5px; }
+    
+    .content-wrapper { padding: 15px; gap: 20px; }
+    .control-panel { grid-template-columns: 1fr; padding: 20px; }
+    
+    .filter-grid { display: flex; overflow-x: auto; padding-bottom: 10px; gap: 8px; }
+    .filter-btn { flex: 0 0 auto; white-space: nowrap; padding: 10px 16px; }
+    .filter-grid::-webkit-scrollbar { height: 4px; }
+    .filter-grid::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    
+    .repo-input-group { flex-direction: row; align-items: stretch; }
+    .repo-load-btn { width: auto; padding: 0 20px; }
+    
+    .q-card { padding: 20px; border-radius: 18px; margin-bottom: 20px; }
+    .q-text { font-size: 16px; }
+    .option-btn { padding: 14px 16px; font-size: 14px; align-items: center; }
+    
+    .summary { padding: 30px 20px; border-radius: 24px; margin-top: 20px; }
+    .summary-grid { grid-template-columns: 1fr; gap: 12px; margin: 30px 0; }
+    .summary-actions { display: flex; flex-direction: column; gap: 10px; }
+    .btn-primary, .btn-secondary { width: 100%; margin: 0; padding: 18px; }
+    
+    .code-file-header { flex-direction: column; align-items: flex-start; gap: 15px; }
+    .code-actions { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .code-action-btn { justify-content: center; padding: 12px; }
+    
+    .codex-card { padding: 25px; border-radius: 20px; }
+    .codex-card-title { font-size: 20px; }
+    .codex-card-content { font-size: 15px; }
 }
+
 @media (max-width: 480px) {
-    .filter-grid { grid-template-columns: repeat(2,1fr); }
-    .q-header { flex-direction: column; gap: 8px; }
+    .q-header { flex-direction: column; gap: 10px; margin-bottom: 20px; }
+    .repo-input-group { flex-direction: column; }
+    .repo-load-btn { padding: 12px; }
+    .codex-card-header { flex-direction: column; align-items: flex-start; gap: 10px; }
 }

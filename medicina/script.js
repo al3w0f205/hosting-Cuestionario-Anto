@@ -171,6 +171,14 @@ function answer(idx, chosen) {
     }
 
     answered++;
+    setTimeout(() => {
+        const nextCard = document.querySelector('.q-card:not([data-done="1"])');
+        if (nextCard) {
+            const offset = 120; // Espacio para el navbar fijo
+            const top = nextCard.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+    }, 4000);
     document.getElementById('scoreDisplay').textContent = correct;
     actualizarBotonRepaso();
     updateProgress();

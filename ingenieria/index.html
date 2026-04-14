@@ -25,6 +25,7 @@
         <div class="mode-tabs">
             <button class="mode-tab active" id="tabQuiz" onclick="switchMode('quiz')">📚 QUIZ</button>
             <button class="mode-tab" id="tabCode" onclick="switchMode('code')">⌨️ CÓDIGO</button>
+            <button class="mode-tab" id="tabCodex" onclick="switchMode('codex')">📖 CÓDICE</button>
         </div>
 
         <div class="nav-stats" id="navStats">
@@ -45,12 +46,18 @@
 
 <main class="content-wrapper">
 
-    <!-- SIDEBAR: QUIZ MODE -->
     <aside class="control-panel quiz-sidebar" id="sidebar">
+        
+        <div class="panel-section">
+            <h3 class="section-title">BUSCADOR RÁPIDO</h3>
+            <input type="text" id="searchInput" placeholder="Buscar concepto o pregunta..." class="repo-input" oninput="searchQuestions(this.value)">
+        </div>
+
         <div class="panel-section">
             <h3 class="section-title">DOMINIO POR ÁREA</h3>
             <div id="masteryIndex" class="mastery-container"></div>
         </div>
+        
         <details class="panel-section" open>
             <summary class="section-title">CATEGORÍAS <span class="toggle-icon">▼</span></summary>
             <div class="filter-grid" style="margin-top:15px;">
@@ -60,16 +67,28 @@
                 <button class="filter-btn" onclick="filterCat('redes',this)">Redes</button>
                 <button class="filter-btn" onclick="filterCat('bd',this)">BD</button>
                 <button class="filter-btn" onclick="filterCat('patrones',this)">Patrones</button>
+                <button class="filter-btn" onclick="filterCat('sintaxis',this)">Sintaxis C</button>
+                <button class="filter-btn" onclick="filterCat('punteros',this)">Punteros</button>
+                <button class="filter-btn" onclick="filterCat('memoria',this)">Memoria</button>
             </div>
         </details>
+        
         <details class="panel-section" open>
             <summary class="section-title">HERRAMIENTAS <span class="toggle-icon">▼</span></summary>
             <div class="action-list" style="margin-top:15px;">
+                
                 <label class="tool-switch">
                     <input type="checkbox" id="examModeToggle" onchange="toggleExamMode()">
                     <span class="slider"></span>
                     <span class="tool-label">Modo Simulacro</span>
                 </label>
+                
+                <label class="tool-switch">
+                    <input type="checkbox" id="cheatSheetToggle" onchange="toggleCheatSheet()">
+                    <span class="slider"></span>
+                    <span class="tool-label">Modo Lectura Rápida</span>
+                </label>
+
                 <div style="display:flex;flex-direction:column;gap:8px;">
                     <label class="tool-switch">
                         <input type="checkbox" id="timerToggle" onchange="toggleTimerMode()">
@@ -81,6 +100,11 @@
                         <input type="number" id="customTimeInput" value="45" min="5" max="300" style="width:100%;background:rgba(255,255,255,0.02);border:1px solid var(--border);color:var(--text);padding:10px;border-radius:10px;font-family:'DM Mono',monospace;font-size:13px;" onchange="updateTimerValue();restart();">
                     </div>
                 </div>
+                
+                <button class="action-btn" onclick="startAdaptiveExam()" style="border-color: var(--accent2); color: var(--accent2); background: rgba(34, 211, 238, 0.05);">
+                    <i>🧠</i> Generar Examen Adaptativo
+                </button>
+
                 <button class="action-btn" onclick="toggleFocusMode()"><i>👁️</i> Modo Enfoque (Zen)</button>
                 <button class="action-btn" onclick="manualShuffle()"><i>🔀</i> Mezclar Todo</button>
                 <button class="action-btn review" id="reviewBtn" onclick="reviewErrors(this)" style="display:none;">
@@ -90,13 +114,11 @@
         </details>
     </aside>
 
-    <!-- SIDEBAR: CODE MODE -->
-    <aside class="control-panel code-sidebar" id="codeSidebar">
+    <aside class="control-panel code-sidebar" id="codeSidebar" style="display:none;">
         <div class="panel-section">
             <h3 class="section-title">REPOSITORIO</h3>
             <div class="repo-input-group">
-                <input type="text" id="repoInput" placeholder="usuario/repositorio" class="repo-input"
-                    onkeydown="if(event.key==='Enter')loadRepo()">
+                <input type="text" id="repoInput" placeholder="usuario/repositorio" class="repo-input" onkeydown="if(event.key==='Enter')loadRepo()">
                 <button class="repo-load-btn" onclick="loadRepo()">CARGAR</button>
             </div>
             <div id="repoStatus" class="repo-status"></div>
@@ -111,7 +133,6 @@
         </div>
     </aside>
 
-    <!-- MAIN: QUIZ MODE -->
     <section class="quiz-area quiz-main">
         <div id="questionsContainer"></div>
         <button id="finishBtn" class="btn-primary" onclick="showSummary()" style="display:none;margin:40px auto;width:100%;">FINALIZAR SESIÓN</button>
@@ -133,8 +154,7 @@
         </div>
     </section>
 
-    <!-- MAIN: CODE MODE -->
-    <section class="code-main" id="codeMain">
+    <section class="code-main" id="codeMain" style="display:none;">
         <div class="code-viewer-empty" id="codeEmpty">
             <div class="empty-icon">{ }</div>
             <p class="empty-title">Ningún archivo abierto</p>
@@ -152,6 +172,14 @@
                 <pre><code id="codeBlock"></code></pre>
             </div>
         </div>
+    </section>
+
+    <section class="codex-main" id="codexMain" style="display:none; width: 100%; max-width: 900px; margin: 0 auto; grid-area: main;">
+        <div class="codex-header" style="margin-bottom: 40px; text-align: center;">
+            <h2 style="font-family: 'Syne', sans-serif; font-size: 32px; color: var(--accent2);">FUNDAMENTOS DE C</h2>
+            <p style="color: var(--muted); margin-top: 10px; font-size: 14px;">Inmersión teórica estructurada</p>
+        </div>
+        <div id="codexContainer" style="display: flex; flex-direction: column; gap: 25px;"></div>
     </section>
 
 </main>

@@ -3,7 +3,6 @@
    Quiz engine y GitHub Code Viewer
 ═══════════════════════════════════════════ */
 
-// ESTADO DEL QUIZ
 let QUESTIONS = [];
 let failedQuestions = [];
 let answered = 0;
@@ -17,15 +16,13 @@ let timerValue = 45;
 let globalTimerInterval = null;
 let categoryStats = {};
 
-// ESTADO DE GITHUB
 let ghOwner = '';
 let ghRepo = '';
 let fileCache = {};
 let recentFiles = [];
 
-// INICIALIZACION
 async function init() {
-    const archivos = ['data/algoritmos.json', 'data/estructuras.json', 'data/redes.json', 'data/bd.json', 'data/patrones.json'];
+    const archivos = ['data/algoritmos.json', 'data/estructuras.json', 'data/redes.json', 'data/bd.json', 'data/patrones.json', 'data/c.json'];
     try {
         const promesas = archivos.map(url => fetch(url).then(async res => res.ok ? await res.json() : null).catch(() => null));
         const resultados = await Promise.all(promesas);
@@ -40,20 +37,69 @@ async function init() {
     } catch (error) { console.error("Error crítico:", error); }
 }
 
-// MODE SWITCHING
 function switchMode(mode) {
     document.body.dataset.mode = mode;
     document.getElementById('tabQuiz').classList.toggle('active', mode === 'quiz');
     document.getElementById('tabCode').classList.toggle('active', mode === 'code');
+    
+    const tabCodex = document.getElementById('tabCodex');
+    if(tabCodex) tabCodex.classList.toggle('active', mode === 'codex');
+
+    document.querySelectorAll('.quiz-main, .quiz-sidebar, .code-main, .code-sidebar, .codex-main').forEach(el => {
+        if(el) el.style.display = 'none';
+    });
+
+    if (mode === 'quiz') {
+        document.querySelector('.quiz-main').style.display = 'block';
+        document.querySelector('.quiz-sidebar').style.display = 'block';
+        document.getElementById('navStats').style.display = 'flex';
+    } else if (mode === 'code') {
+        document.getElementById('codeMain').style.display = 'flex';
+        document.getElementById('codeSidebar').style.display = 'block';
+        document.getElementById('navStats').style.display = 'none';
+    } else if (mode === 'codex') {
+        document.getElementById('codexMain').style.display = 'block';
+        document.getElementById('navStats').style.display = 'none';
+        cargarCodice();
+    }
 }
 
-// MASTERY UI
+async function cargarCodice() {
+    const container = document.getElementById('codexContainer');
+    if (container.innerHTML !== '') return; 
+
+    try {
+        const res = await fetch('data/codice_c.json');
+        if (!res.ok) throw new Error('Archivo no encontrado');
+        const data = await res.json();
+
+        data.lecciones.forEach((leccion, index) => {
+            const card = document.createElement('div');
+            card.className = 'codex-card';
+
+            const titulo = leccion.titulo || 'Módulo de Lectura';
+            const concepto = leccion.concepto || leccion.texto || 'Contenido no disponible. Verifica tu codice_c.json';
+
+            card.innerHTML = `
+                <div class="codex-card-header">
+                    <span class="codex-module-badge">MÓDULO ${index + 1}</span>
+                    <h3 class="codex-card-title">${titulo}</h3>
+                </div>
+                <p class="codex-card-content">${concepto}</p>
+            `;
+            container.appendChild(card);
+        });
+    } catch (e) {
+        container.innerHTML = `<p style="color: var(--warn); text-align: center;">Error al cargar el códice verifica la ruta del archivo JSON o su estructura.</p>`;
+    }
+}
+
 function updateMasteryUI() {
     const container = document.getElementById('masteryIndex');
     if (!container) return;
     container.innerHTML = '';
-    const labels = { algoritmos: 'Algoritmos', estructuras: 'Estructuras', redes: 'Redes', bd: 'BD', patrones: 'Patrones' };
-    const colors = { algoritmos: 'var(--accent)', estructuras: 'var(--accent2)', redes: '#f472b6', bd: '#fb923c', patrones: '#4ade80' };
+    const labels = { algoritmos: 'Algoritmos', estructuras: 'Estructuras', redes: 'Redes', bd: 'BD', patrones: 'Patrones', sintaxis: 'Sintaxis C', punteros: 'Punteros', memoria: 'Memoria' };
+    const colors = { algoritmos: 'var(--accent)', estructuras: 'var(--accent2)', redes: '#f472b6', bd: '#fb923c', patrones: '#4ade80', sintaxis: '#eab308', punteros: '#a855f7', memoria: '#ef4444' };
     Object.keys(categoryStats).forEach(cat => {
         const s = categoryStats[cat];
         const pct = s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0;
@@ -65,7 +111,102 @@ function updateMasteryUI() {
     });
 }
 
-// QUIZ FUNCTIONS
+function searchQuestions(term) {
+    const lower = term.toLowerCase();
+    document.querySelectorAll('.q-card').forEach(card => {
+        const textContent = card.textContent.toLowerCase();
+        if (textContent.includes(lower)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+
+function startAdaptiveExam() {
+    let hasHistory = Object.values(categoryStats).some(s => s.total > 0);
+    if (!hasHistory) {
+        alert("Responde algunas preguntas primero para que el tutor analice tus debilidades estructurales.");
+        return;
+    }
+
+    let weights = {};
+    let totalWeight = 0;
+    Object.keys(categoryStats).forEach(cat => {
+        const s = categoryStats[cat];
+        const errorRate = s.total > 0 ? (s.total - s.correct) / s.total : 0.5;
+        weights[cat] = errorRate + 0.1; 
+        totalWeight += weights[cat];
+    });
+
+    let pool = [...QUESTIONS];
+    let adaptiveQs = [];
+    
+    for(let i = 0; i < 20 && pool.length > 0; i++) {
+        let r = Math.random() * totalWeight;
+        let cumulative = 0;
+        let selectedCat = Object.keys(weights)[0];
+        
+        for (let cat of Object.keys(weights)) {
+            cumulative += weights[cat];
+            if (r <= cumulative) {
+                selectedCat = cat;
+                break;
+            }
+        }
+        
+        let catQuestions = pool.filter(q => q.cat === selectedCat);
+        if(catQuestions.length === 0) {
+            let randIndex = Math.floor(Math.random() * pool.length);
+            adaptiveQs.push(pool.splice(randIndex, 1)[0]);
+        } else {
+            let randIndex = Math.floor(Math.random() * catQuestions.length);
+            let q = catQuestions[randIndex];
+            adaptiveQs.push(q);
+            pool = pool.filter(pq => pq.q !== q.q);
+        }
+    }
+
+    isReviewMode = false;
+    currentFilter = 'all';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    const allBtn = document.querySelector('.filter-btn[onclick*="all"]');
+    if(allBtn) allBtn.classList.add('active');
+
+    visibleQs = adaptiveQs.map(q => {
+        const opts = q.opts.map((text, i) => ({ text, isCorrect: i === q.ans }));
+        shuffle(opts);
+        return { ...q, currentOpts: opts.map(o => o.text), currentAns: opts.findIndex(o => o.isCorrect) };
+    });
+
+    answered = 0; 
+    correct = 0;
+    clearInterval(globalTimerInterval);
+    document.getElementById('summary').style.display = 'none';
+    renderAll();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function toggleCheatSheet() {
+    const isCheat = document.getElementById('cheatSheetToggle').checked;
+    if(isCheat) {
+        document.querySelectorAll('.q-card').forEach((card, idx) => {
+            if(card.dataset.done) return;
+            const q = visibleQs[idx];
+            const opts = card.querySelectorAll('.option-btn');
+            opts.forEach((opt, oIdx) => {
+                if(oIdx !== q.currentAns) {
+                    opt.style.display = 'none';
+                } else {
+                    opt.classList.add('correct');
+                }
+            });
+        });
+    } else {
+        restart();
+    }
+}
+
 function toggleExamMode() { isExamMode = document.getElementById('examModeToggle').checked; restart(); }
 
 function updateTimerValue() {
@@ -110,6 +251,10 @@ function renderAll() {
         visibleQs.forEach((q, i) => container.appendChild(buildCard(q, i)));
         startGlobalTimer();
         document.getElementById('finishBtn').style.display = 'block';
+        
+        if (document.getElementById('cheatSheetToggle').checked) {
+            toggleCheatSheet();
+        }
     } else {
         document.getElementById('finishBtn').style.display = 'none';
         showSummary();
@@ -125,9 +270,13 @@ function buildCard(q, idx) {
         <button class="option-btn" onclick="answer(${idx},${i})" id="opt-${idx}-${i}">
             <span class="option-key">${['A','B','C','D','E'][i]}</span><span>${o}</span>
         </button>`).join('');
+    
+    // Validar si tiene categoria, para no lanzar error
+    const catText = q.cat ? q.cat.toUpperCase() : 'GENERAL';
+    
     card.innerHTML = `
         <div class="q-header">
-            <span class="q-num">CASO · ${q.cat.toUpperCase()}</span>
+            <span class="q-num">CASO · ${catText}</span>
             <span class="q-text">${q.q}</span>
         </div>
         <div class="options">${optsHTML}</div>
@@ -145,8 +294,12 @@ function answer(idx, chosen) {
     if (!card || card.dataset.done) return;
     card.dataset.done = '1';
     const isCorrect = chosen === q.currentAns;
-    categoryStats[q.cat].total++;
-    if (isCorrect) categoryStats[q.cat].correct++;
+    
+    if (q.cat && categoryStats[q.cat]) {
+        categoryStats[q.cat].total++;
+        if (isCorrect) categoryStats[q.cat].correct++;
+    }
+
     updateMasteryUI();
     if (!isExamMode) {
         const fb = document.getElementById(`fb-${idx}`);
@@ -191,7 +344,7 @@ function showSummary() {
     if (finishBtn) finishBtn.style.display = 'none';
     summary.style.display = 'block';
     report.innerHTML = '';
-    const labels = { algoritmos: 'Algoritmos', estructuras: 'Estructuras', redes: 'Redes', bd: 'Bases de Datos', patrones: 'Patrones' };
+    const labels = { algoritmos: 'Algoritmos', estructuras: 'Estructuras', redes: 'Redes', bd: 'Bases de Datos', patrones: 'Patrones', sintaxis: 'Sintaxis C', punteros: 'Punteros', memoria: 'Memoria' };
     Object.keys(categoryStats).forEach(cat => {
         const s = categoryStats[cat];
         if (s.total === 0) return;
@@ -250,6 +403,7 @@ function restart() {
     document.getElementById('summary').style.display = 'none';
     Object.keys(categoryStats).forEach(c => categoryStats[c] = { correct: 0, total: 0 });
     updateMasteryUI();
+    document.getElementById('searchInput').value = '';
     prepareVisibleQuestions();
     renderAll();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -274,7 +428,6 @@ function toggleHint(idx) {
 
 function reviewErrors() { isReviewMode = true; restart(); }
 
-// GITHUB CODE VIEWER
 async function loadRepo() {
     const input = document.getElementById('repoInput').value.trim();
     if (!input.includes('/')) {
@@ -426,8 +579,29 @@ function setRepoStatus(type, msg) {
     el.textContent = msg; el.className = `repo-status ${type}`;
 }
 
-// CLEANUP
-window.addEventListener('beforeunload', () => clearInterval(globalTimerInterval));
+// Atajos de teclado 
+document.addEventListener('keydown', (e) => {
+    if (document.body.dataset.mode !== 'quiz' || (isReviewMode && answered === visibleQs.length)) return;
+    
+    const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3, '5': 4, 'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4 };
+    const key = e.key.toLowerCase();
+    
+    if (keyMap[key] !== undefined) {
+        const activeCard = document.querySelector('.q-card:not([data-done="1"])');
+        if (activeCard) {
+            const cardId = activeCard.id.split('-')[1];
+            const btn = document.getElementById(`opt-${cardId}-${keyMap[key]}`);
+            if (btn) btn.click();
+        }
+    }
+});
 
-// START
+window.addEventListener('beforeunload', (e) => {
+    clearInterval(globalTimerInterval);
+    if (answered > 0 && answered < visibleQs.length && document.body.dataset.mode === 'quiz') {
+        e.preventDefault();
+        e.returnValue = '';
+    }
+});
+
 init();
